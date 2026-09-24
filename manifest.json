@@ -1,0 +1,45 @@
+{
+  "name": "نور - تحفيظ القرآن الكريم",
+  "short_name": "نور",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#073822",
+  "theme_color": "#0D5C3A",
+  "description": "تطبيق نور لتحفيظ ومراجعة القرآن الكريم وجزء عمّ مع الاستماع والترديد الذكي والتفسير وأسباب النزول.",
+  "orientation": "any",
+  "dir": "rtl",
+  "lang": "ar",
+  "categories": [
+    "education",
+    "books",
+    "lifestyle"
+  ],
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "icons/Icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/Icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/Icon-maskable-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icons/Icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
