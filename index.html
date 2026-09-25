@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <base href="/">
+  <script>
+    // Universal Base Href Resolver for GitHub Pages & Cloudflare Pages
+    (function () {
+      var base = document.querySelector('base');
+      if (base) {
+        var path = window.location.pathname;
+        var dir = path.substring(0, path.lastIndexOf('/') + 1) || '/';
+        base.setAttribute('href', dir);
+      }
+    })();
+  </script>
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+
+  <!-- SEO & Description -->
+  <title>نور - تطبيق تحفيظ القرآن الكريم</title>
+  <meta name="description" content="تطبيق نور لتحفيظ ومراجعة القرآن الكريم وجزء عمّ، مع الترديد الذكي، تفسير الآيات، معاني الكلمات، وأسباب النزول.">
+  <meta name="keywords" content="قرآن, تحفيظ القرآن, جزء عم, نور, مصحف, تجويد, تفسير, استماع القرآن">
+  <meta name="author" content="خالد النويصري">
+
+  <!-- Social OpenGraph & Twitter -->
+  <meta property="og:title" content="نور - تطبيق تحفيظ القرآن الكريم">
+  <meta property="og:description" content="تطبيق نور المتميز لحفظ ومراجعة القرآن الكريم وجزء عمّ مع الاستماع والترديد والتفسير.">
+  <meta property="og:image" content="icons/Icon-512.png">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="نور - تطبيق تحفيظ القرآن الكريم">
+  <meta name="twitter:description" content="تطبيق نور لتحفيظ ومراجعة القرآن الكريم.">
+  <meta name="twitter:image" content="icons/Icon-512.png">
+
+  <!-- PWA & Mobile Web App Meta -->
+  <meta name="theme-color" content="#0D5C3A">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="نور">
+
+  <!-- Apple Touch Icons & Favicons -->
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+  <link rel="apple-touch-icon" sizes="512x512" href="icons/Icon-512.png">
+  <link rel="icon" type="image/png" sizes="64x64" href="favicon.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="icons/Icon-192.png">
+
+  <!-- Manifest -->
+  <link rel="manifest" href="manifest.json">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      -webkit-tap-highlight-color: transparent;
+    }
+    html, body {
+      width: 100%;
+      height: 100%;
+      background-color: #073822;
+      overflow: hidden;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Cairo", sans-serif;
+      user-select: none;
+      -webkit-user-select: none;
+    }
+    #splash-loading {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background: radial-gradient(circle at center, #0F633E 0%, #073822 100%);
+      z-index: 999999;
+      transition: opacity 0.4s ease-out, visibility 0.4s ease-out;
+    }
+    #splash-loading.fade-out {
+      opacity: 0;
+      visibility: hidden;
+      pointer-events: none;
+    }
+    .logo-container {
+      position: relative;
+      width: 120px;
+      height: 120px;
+      margin-bottom: 24px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .logo-glow {
+      position: absolute;
+      width: 140px;
+      height: 140px;
+      border-radius: 36px;
+      background: rgba(229, 185, 78, 0.25);
+      filter: blur(14px);
+      animation: pulse-glow 2.5s infinite ease-in-out;
+    }
+    .logo-img {
+      position: relative;
+      width: 110px;
+      height: 110px;
+      border-radius: 28px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+      object-fit: cover;
+    }
+    .app-title {
+      color: #E6B952;
+      font-size: 32px;
+      font-weight: 800;
+      letter-spacing: 0.5px;
+      margin-bottom: 6px;
+      text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    }
+    .app-subtitle {
+      color: #C5DACF;
+      font-size: 15px;
+      font-weight: 500;
+      margin-bottom: 32px;
+      opacity: 0.9;
+    }
+    .spinner-ring {
+      width: 36px;
+      height: 36px;
+      border: 3.5px solid rgba(230, 185, 82, 0.2);
+      border-top-color: #E6B952;
+      border-radius: 50%;
+      animation: spin 1s infinite linear;
+    }
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+    @keyframes pulse-glow {
+      0%, 100% { transform: scale(0.95); opacity: 0.4; }
+      50% { transform: scale(1.08); opacity: 0.8; }
+    }
+  </style>
+</head>
+<body>
+  <div id="splash-loading">
+    <div class="logo-container">
+      <div class="logo-glow"></div>
+      <img src="icons/Icon-192.png" alt="نور" class="logo-img">
+    </div>
+    <div class="app-title">نُــور</div>
+    <div class="app-subtitle">تطبيق تحفيظ القرآن الكريم</div>
+    <div class="spinner-ring"></div>
+  </div>
+
+  <script>
+    // PWA Install prompt handling
+    let deferredPrompt = null;
+    window.addEventListener('beforeinstallprompt', (e) => {
+      e.preventDefault();
+      deferredPrompt = e;
+      window.deferredPwaPrompt = e;
+      console.log('PWA install prompt ready');
+    });
+
+    window.triggerPwaInstall = async () => {
+      if (deferredPrompt) {
+        deferredPrompt.prompt();
+        const { outcome } = await deferredPrompt.userChoice;
+        console.log(`User response to install prompt: ${outcome}`);
+        deferredPrompt = null;
+        window.deferredPwaPrompt = null;
+      }
+    };
+
+    // Smoothly remove splash once Flutter first frame renders
+    function removeSplash() {
+      const splash = document.getElementById('splash-loading');
+      if (splash && !splash.classList.contains('fade-out')) {
+        splash.classList.add('fade-out');
+        setTimeout(() => splash.remove(), 450);
+      }
+    }
+
+    window.addEventListener('flutter-first-frame', removeSplash);
+    // Fallback safety timeout if event doesn't fire
+    setTimeout(removeSplash, 7000);
+  </script>
+
+  <script src="flutter_bootstrap.js" async></script>
+</body>
+</html>
