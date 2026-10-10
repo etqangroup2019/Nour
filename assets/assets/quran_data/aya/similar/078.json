@@ -1,0 +1,147 @@
+{
+  "license": {
+    "source": "https://quranpedia.net",
+    "version": "2026-09-26",
+    "en": "Ownership: the classical works in this data (Quran text, canonical qira'at, classical tafsirs) are the shared heritage of the Muslim ummah. The digitization, structuring, verification, diacritical correction (dabt), linking, and metadata are the work of the Quranpedia.net team, compiled and continuously corrected over years; translations and contemporary works remain the property of their authors and publishers. License: free to use inside apps, websites, and research tools with no attribution required (a link is appreciated). Republishing this data — in full or in part — as a downloadable database/dataset requires crediting Quranpedia.net with a link and stating this dump's version. Content is continuously corrected: keep copies current via /api/v1/changes?since=<version>. Provided as-is, without warranty.",
+    "ar": "الملكية: النصوص التراثية المضمَّنة في هذه البيانات — من نصِّ القرآن الكريم بقراءاته المتواترة، وكتبِ التفسير — تراثٌ مشترك للأمة لا يدَّعي أحدٌ ملكيته، أما الرقمنة والهيكلة والتدقيق وضبط النص وربط البيانات وبياناتها الوصفية فهي عمل فريق «الموسوعة القرآنية»، جُمعت وصُحِّحت على مدى سنوات، وما تزال تُصحَّح باستمرار؛ وتبقى الترجمات والأعمال المعاصرة ملكًا لأصحابها وناشريها. الرخصة: يجوز استعمال البيانات داخل التطبيقات والمواقع والأدوات البحثية مجانًا من غير اشتراط ذكر المصدر (وذكرُه محلُّ تقدير)، أما نشرها نفسِها — كاملةً أو بعضَها — في صورة قاعدة بيانات قابلة للتنزيل فيلزم فيه ذكرُ «الموسوعة القرآنية quranpedia.net» مصدرًا، مع رابط الموقع وبيان تاريخ هذه النسخة. والمحتوى يخضع لتصحيح مستمر؛ فمَن نشر نسخةً، فعليه تحديثها عبر ‎/v1/changes، والعهدة في نشر نصٍّ قديم على ناشره. وتُقدَّم البيانات كما هي من غير ضمان، والتثبُّت واجبُ المستفيد.",
+    "sources": [
+      {
+        "fields": "word morphology — part of speech, root, lemma, case, mood, verb form",
+        "source": "Quranic Arabic Corpus, version 0.4 — Dr. Kais Dukes (may Allah have mercy on him), University of Leeds",
+        "url": "https://corpus.quran.com",
+        "license": "GNU General Public License",
+        "requires": "Any use must clearly indicate the Quranic Arabic Corpus as the source, with a link to https://corpus.quran.com."
+      },
+      {
+        "fields": "i'rab syntax — dependency relations, heads, constituents",
+        "source": "The Quranic Treebank (NoorBayan), building on the Quranic Arabic Corpus of Dr. Kais Dukes (may Allah have mercy on him)",
+        "url": "https://github.com/NoorBayan/Quranic",
+        "license": "MIT",
+        "requires": "The MIT copyright notice must accompany redistribution."
+      }
+    ],
+    "contact": "quranpedia.help@gmail.com",
+    "usage_policy": "https://quranpedia.net/api-docs#usage-policy",
+    "resync": "https://quranpedia.net/api/v1/changes?since=2026-09-26"
+  },
+  "schema": "/v1/ayah/{surah}/{ayah}/similar",
+  "surah": 78,
+  "data": [
+    {
+      "surah": 78,
+      "ayah": 31,
+      "similar": [
+        {
+          "notes": "ضبط الآية:  إن للمتقين",
+          "images": [],
+          "youtube": [
+            {
+              "id": 20775,
+              "name": null,
+              "file_name": "https://www.youtube.com/embed/8Z3s6Yrfvvw?start=0",
+              "part": null,
+              "attachment_type_id": 4,
+              "attachmentable_id": 401,
+              "attachmentable_type": "App\\Models\\Note",
+              "downloads": 0,
+              "status": null,
+              "created_at": "2020-06-15T12:40:27.000000Z",
+              "updated_at": "2020-06-15T12:40:27.000000Z",
+              "deleted_at": null
+            }
+          ],
+          "ayahs": [
+            {
+              "info": {
+                "id": 4019,
+                "number": 49,
+                "text": "﻿هَٰذَا ذِكْرٌ ۚ وَإِنَّ لِلْمُتَّقِينَ لَحُسْنَ مَآبٍ",
+                "font": "page_456",
+                "surah_id": 38,
+                "surah": {
+                  "id": 38,
+                  "name": "سورة ص",
+                  "coded_name": "ﯓ",
+                  "translated_name": "{\"ar\":\"\\u0635\\r\\n\",\"en\":\"Sad \",\"bn\":\"\\u09b8\\u09a6\",\"bs\":\"Sad\",\"zh\":\"\\u8428\\u5fb7\\u7ae0\\r\\n\",\"de\":\"\\u015e\\u0101d\\r\\n\",\"es\":\"Sad\\r\\n\",\"fa\":\"\\u0635\",\"fr\":\"S\\u00e2d\",\"ha\":\"Sad\",\"id\":\"Surah Saad\",\"ml\":\"\\u0d38\\u0d4d\\u0d35\\u0d3e\\u0d26\\u0d4d\",\"pt\":\"A Letra Sad \",\"ru\":\"\\u0421\\u0430\\u0434\\r\\n\",\"sw\":\"Sad\",\"tg\":\"\\u0421\\u041e\\u0414\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e28\\u0e2d\\u0e14\",\"tl\":\"Sad\",\"tr\":\"Sad  Suresi\\r\\n\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u0633\\u0627\\u062f\",\"ur\":\"\\u0635 \\n\"}",
+                  "number_of_ayahs": 88,
+                  "revelation_type": "meccan",
+                  "first_page": 453,
+                  "last_page": 458,
+                  "first_juz": 23
+                },
+                "juz": 23,
+                "hizb": 182,
+                "page_number": 456,
+                "marker": "ﮓ"
+              },
+              "text": "هَٰذَا ذِكۡرٞۚ وَإِنَّ لِلۡمُتَّقِينَ لَحُسۡنَ مَـَٔابٖ  <span>ﰰ</span>  ",
+              "ayah_ids": [
+                4019
+              ],
+              "ayah_to_number": null
+            },
+            {
+              "info": {
+                "id": 5305,
+                "number": 34,
+                "text": "﻿إِنَّ لِلْمُتَّقِينَ عِنْدَ رَبِّهِمْ جَنَّاتِ النَّعِيمِ",
+                "font": "page_565",
+                "surah_id": 68,
+                "surah": {
+                  "id": 68,
+                  "name": "سورة القلم",
+                  "coded_name": "ﯱ",
+                  "translated_name": "{\"ar\":\"\\u0627\\u0644\\u0642\\u0644\\u0645\\r\\n\",\"en\":\"Al-Qalam \",\"bn\":\"\\u0986\\u09b2-\\u0995\\u09cd\\u09ac\\u09be\\u09b2\\u09be\\u09ae\",\"bs\":\"El-Kalem\",\"zh\":\"\\u7b14\\u7ae0\\r\\n\",\"de\":\"Al-Qalam - Das Schreibrohr\\r\\n\",\"es\":\"El C\\u00e1lamo\\r\\n\",\"fa\":\"\\u0642\\u0644\\u0645\",\"fr\":\"La plume\",\"ha\":\"Al-Kalam\",\"id\":\"Surah Al-Qalam\\u00a0(Pena \\/ Kalam)\",\"ml\":\"\\u0d16\\u0d32\\u0d02\",\"pt\":\"O C\\u00e1lamo\",\"ru\":\"\\u041f\\u0438\\u0441\\u044c\\u043c\\u0435\\u043d\\u043d\\u0430\\u044f \\u0422\\u0440\\u043e\\u0441\\u0442\\u044c (\\u0410\\u043b-\\u041a\\u0430\\u043b\\u0430\\u043c)\\r\\n\",\"sw\":\"Al-Kalam\",\"tg\":\"\\u049a\\u0410\\u041b\\u0410\\u041c\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e31\\u0e25-\\u0e40\\u0e01\\u0e32\\u0e30\\u0e25\\u0e31\\u0e21\",\"tl\":\"Ang Panulat\",\"tr\":\"Kalem Suresi\\r\\n\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u0642\\u06d5\\u0644\\u06d5\\u0645\",\"ur\":\"\\u0642\\u0644\\u0645\\n\"}",
+                  "number_of_ayahs": 52,
+                  "revelation_type": "meccan",
+                  "first_page": 564,
+                  "last_page": 566,
+                  "first_juz": 29
+                },
+                "juz": 29,
+                "hizb": 226,
+                "page_number": 565,
+                "marker": "ﯧ"
+              },
+              "text": "إِنَّ لِلۡمُتَّقِينَ عِندَ رَبِّهِمۡ جَنَّٰتِ ٱلنَّعِيمِ  <span>ﰡ</span>  ",
+              "ayah_ids": [
+                5305
+              ],
+              "ayah_to_number": null
+            },
+            {
+              "info": {
+                "id": 5703,
+                "number": 31,
+                "text": "﻿إِنَّ لِلْمُتَّقِينَ مَفَازًا",
+                "font": "page_583",
+                "surah_id": 78,
+                "surah": {
+                  "id": 78,
+                  "name": "سورة النبأ",
+                  "coded_name": "ﯻ",
+                  "translated_name": "{\"ar\":\"\\u0627\\u0644\\u0646\\u0628\\u0623\\r\\n\",\"en\":\"An-Naba' \",\"bn\":\"\\u0986\\u09a8-\\u09a8\\u09be\\u09ac\\u09be\",\"bs\":\"En-Nebe'\",\"zh\":\"\\u6d88\\u606f\\u7ae0\\r\\n\",\"de\":\"An-Naba - Die Kunde\\r\\n\",\"es\":\"La Noticia\\r\\n\",\"fa\":\"\\u0646\\u0628\\u0623\",\"fr\":\"La nouvelle\",\"ha\":\"An-Naba'i\",\"id\":\"Surah An-Naba\\u2019\\u00a0(Berita Besar)\",\"ml\":\"\\u0d28\\u0d2c\\u0d05\\u0d4d\",\"pt\":\"A Not\\u00edcia\",\"ru\":\"\\u0412\\u0435\\u0441\\u0442\\u044c(\\u0410\\u043d-\\u041d\\u0430\\u0431\\u0430' )\",\"sw\":\"An-Naba'i\",\"tg\":\"\\u041d\\u0410\\u0411\\u0410\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e31\\u0e19-\\u0e19\\u0e30\\u0e1a\\u0e30\\u0e2d\\u0e4c\",\"tl\":\"Ang mga Balita\",\"tr\":\"Nebe Suresi\\r\\n\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u0646\\u06d5\\u0628\\u06d5\\u0626\",\"ur\":\"\\u0646\\u0628\\u0627\\n\"}",
+                  "number_of_ayahs": 40,
+                  "revelation_type": "meccan",
+                  "first_page": 582,
+                  "last_page": 583,
+                  "first_juz": 30
+                },
+                "juz": 30,
+                "hizb": 233,
+                "page_number": 583,
+                "marker": "ﭔ"
+              },
+              "text": "إِنَّ لِلۡمُتَّقِينَ مَفَازًا  <span>ﰞ</span>  ",
+              "ayah_ids": [
+                5703
+              ],
+              "ayah_to_number": null
+            }
+          ],
+          "websites": []
+        }
+      ]
+    }
+  ]
+}

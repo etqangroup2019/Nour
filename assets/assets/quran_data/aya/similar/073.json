@@ -1,0 +1,373 @@
+{
+  "license": {
+    "source": "https://quranpedia.net",
+    "version": "2026-09-26",
+    "en": "Ownership: the classical works in this data (Quran text, canonical qira'at, classical tafsirs) are the shared heritage of the Muslim ummah. The digitization, structuring, verification, diacritical correction (dabt), linking, and metadata are the work of the Quranpedia.net team, compiled and continuously corrected over years; translations and contemporary works remain the property of their authors and publishers. License: free to use inside apps, websites, and research tools with no attribution required (a link is appreciated). Republishing this data — in full or in part — as a downloadable database/dataset requires crediting Quranpedia.net with a link and stating this dump's version. Content is continuously corrected: keep copies current via /api/v1/changes?since=<version>. Provided as-is, without warranty.",
+    "ar": "الملكية: النصوص التراثية المضمَّنة في هذه البيانات — من نصِّ القرآن الكريم بقراءاته المتواترة، وكتبِ التفسير — تراثٌ مشترك للأمة لا يدَّعي أحدٌ ملكيته، أما الرقمنة والهيكلة والتدقيق وضبط النص وربط البيانات وبياناتها الوصفية فهي عمل فريق «الموسوعة القرآنية»، جُمعت وصُحِّحت على مدى سنوات، وما تزال تُصحَّح باستمرار؛ وتبقى الترجمات والأعمال المعاصرة ملكًا لأصحابها وناشريها. الرخصة: يجوز استعمال البيانات داخل التطبيقات والمواقع والأدوات البحثية مجانًا من غير اشتراط ذكر المصدر (وذكرُه محلُّ تقدير)، أما نشرها نفسِها — كاملةً أو بعضَها — في صورة قاعدة بيانات قابلة للتنزيل فيلزم فيه ذكرُ «الموسوعة القرآنية quranpedia.net» مصدرًا، مع رابط الموقع وبيان تاريخ هذه النسخة. والمحتوى يخضع لتصحيح مستمر؛ فمَن نشر نسخةً، فعليه تحديثها عبر ‎/v1/changes، والعهدة في نشر نصٍّ قديم على ناشره. وتُقدَّم البيانات كما هي من غير ضمان، والتثبُّت واجبُ المستفيد.",
+    "sources": [
+      {
+        "fields": "word morphology — part of speech, root, lemma, case, mood, verb form",
+        "source": "Quranic Arabic Corpus, version 0.4 — Dr. Kais Dukes (may Allah have mercy on him), University of Leeds",
+        "url": "https://corpus.quran.com",
+        "license": "GNU General Public License",
+        "requires": "Any use must clearly indicate the Quranic Arabic Corpus as the source, with a link to https://corpus.quran.com."
+      },
+      {
+        "fields": "i'rab syntax — dependency relations, heads, constituents",
+        "source": "The Quranic Treebank (NoorBayan), building on the Quranic Arabic Corpus of Dr. Kais Dukes (may Allah have mercy on him)",
+        "url": "https://github.com/NoorBayan/Quranic",
+        "license": "MIT",
+        "requires": "The MIT copyright notice must accompany redistribution."
+      }
+    ],
+    "contact": "quranpedia.help@gmail.com",
+    "usage_policy": "https://quranpedia.net/api-docs#usage-policy",
+    "resync": "https://quranpedia.net/api/v1/changes?since=2026-09-26"
+  },
+  "schema": "/v1/ayah/{surah}/{ayah}/similar",
+  "surah": 73,
+  "data": [
+    {
+      "surah": 73,
+      "ayah": 19,
+      "similar": [
+        {
+          "notes": "ضبط الآية ( إن هذه تذكرة )",
+          "images": [],
+          "youtube": [
+            {
+              "id": 20772,
+              "name": null,
+              "file_name": "https://www.youtube.com/embed/ykcdLePRy8Q?start=0",
+              "part": null,
+              "attachment_type_id": 4,
+              "attachmentable_id": 398,
+              "attachmentable_type": "App\\Models\\Note",
+              "downloads": 0,
+              "status": null,
+              "created_at": "2020-06-15T12:40:20.000000Z",
+              "updated_at": "2020-06-15T12:40:20.000000Z",
+              "deleted_at": null
+            }
+          ],
+          "ayahs": [
+            {
+              "info": {
+                "id": 5494,
+                "number": 19,
+                "text": "﻿إِنَّ هَٰذِهِ تَذْكِرَةٌ ۖ فَمَنْ شَاءَ اتَّخَذَ إِلَىٰ رَبِّهِ سَبِيلًا",
+                "font": "page_574",
+                "surah_id": 73,
+                "surah": {
+                  "id": 73,
+                  "name": "سورة المزمل",
+                  "coded_name": "ﯶ",
+                  "translated_name": "{\"ar\":\"\\u0627\\u0644\\u0645\\u0632\\u0651\\u0645\\u0651\\u0644\\r\\n\",\"en\":\"Al-Muzzammil \",\"bn\":\"\\u0986\\u09b2-\\u09ae\\u09c1\\u09af\\u09af\\u09be\\u09ae\\u09cd\\u09ae\\u09bf\\u09b2\",\"bs\":\"El-Muzemmil\",\"zh\":\"\\u62ab\\u8863\\u7684\\u4eba\\u7ae0\\r\\n\",\"de\":\"Al-Muzzammil - Der Eingeh\\u00fcllte\",\"es\":\"El Cobijado\\r\\n\",\"fa\":\"\\u0645\\u0632\\u0645\\u0644\",\"fr\":\"L'envelopp\\u00e9\",\"ha\":\"Al-Muzzammil\",\"id\":\"Surah Al-Muzammil\\u00a0(Yang Berselimut)\",\"ml\":\"\\u0d2e\\u0d41\\u0d38\\u0d4d\\u0d38\\u0d2e\\u0d4d\\u0d2e\\u0d3f\\u0d32\\u0d4d\",\"pt\":\"O Acobertado\",\"ru\":\"\\u0417\\u0430\\u043a\\u0443\\u0442\\u0430\\u0432\\u0448\\u0438\\u0439\\u0441\\u044f (\\u0410\\u043b-\\u041c\\u0443\\u0437\\u0437\\u0430\\u043c\\u043c\\u0438\\u043b)\\r\\n\",\"sw\":\"Al-Muzzammil\",\"tg\":\"\\u041c\\u0423\\u0417\\u0417\\u0410\\u041c\\u041c\\u0418\\u041b\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e31\\u0e25-\\u0e21\\u0e38\\u0e0b\\u0e0b\\u0e31\\u0e21\\u0e21\\u0e34\\u0e25\",\"tl\":\"Ang Nakabalabal sa Damit\",\"tr\":\"M\\u00fczemmil Suresi\\r\\n\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u0645\\u06c7\\u0632\\u0632\\u06d5\\u0645\\u0645\\u0649\\u0644\",\"ur\":\"\\u0645\\u0632\\u0645\\u0651\\u0644\\n\"}",
+                  "number_of_ayahs": 20,
+                  "revelation_type": "meccan",
+                  "first_page": 574,
+                  "last_page": 575,
+                  "first_juz": 29
+                },
+                "juz": 29,
+                "hizb": 229,
+                "page_number": 574,
+                "marker": "ﯿ"
+              },
+              "text": "إِنَّ هَٰذِهِۦ تَذۡكِرَةٞۖ فَمَن شَآءَ ٱتَّخَذَ إِلَىٰ رَبِّهِۦ سَبِيلًا  <span>ﰒ</span>  ",
+              "ayah_ids": [
+                5494
+              ],
+              "ayah_to_number": null
+            },
+            {
+              "info": {
+                "id": 5620,
+                "number": 29,
+                "text": "﻿إِنَّ هَٰذِهِ تَذْكِرَةٌ ۖ فَمَنْ شَاءَ اتَّخَذَ إِلَىٰ رَبِّهِ سَبِيلًا",
+                "font": "page_580",
+                "surah_id": 76,
+                "surah": {
+                  "id": 76,
+                  "name": "سورة الإنسان",
+                  "coded_name": "ﯹ",
+                  "translated_name": "{\"ar\":\"\\u0627\\u0644\\u0625\\u0646\\u0633\\u0627\\u0646\\r\\n\",\"en\":\"Al-Insan \",\"bn\":\"\\u0986\\u09b2-\\u0987\\u09a8\\u09b8\\u09be\\u09a8\",\"bs\":\"El-Insan\",\"zh\":\"\\u4eba\\u7ae0\\r\\n\",\"de\":\"Al-Ins\\u0101n - Der Mensch\\r\\n\",\"es\":\"El Hombre\\r\\n\",\"fa\":\"\\u0625\\u0646\\u0633\\u0627\\u0646\",\"fr\":\"L'homme\",\"ha\":\"Al-Insan\",\"id\":\"Surah Al-Insaan\\u00a0(Manusia)\",\"ml\":\"\\u0d07\\u0d28\\u0d4d\\u0d38\\u0d3e\\u0d28\\u0d4d\",\"pt\":\"O Homem\",\"ru\":\"\\u0427\\u0435\\u043b\\u043e\\u0432\\u0435\\u043a (\\u0410\\u043b-\\u0418\\u043d\\u0441\\u0430\\u043d)\\r\\n\",\"sw\":\"Al-Insan\",\"tg\":\"\\u0418\\u041d\\u0421\\u041e\\u041d\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e31\\u0e25-\\u0e2d\\u0e34\\u0e19\\u0e0b\\u0e32\\u0e19\",\"tl\":\"Ang Tao\",\"tr\":\"Insan Suresi\\r\\n\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u0626\\u0649\\u0646\\u0633\\u0627\\u0646\",\"ur\":\"\\u0627\\u0646\\u0633\\u0627\\u0646 (\\u062f\\u06c1\\u0631)\\n\"}",
+                  "number_of_ayahs": 31,
+                  "revelation_type": "medinan",
+                  "first_page": 578,
+                  "last_page": 580,
+                  "first_juz": 29
+                },
+                "juz": 29,
+                "hizb": 232,
+                "page_number": 580,
+                "marker": "ﭷ"
+              },
+              "text": "إِنَّ هَٰذِهِۦ تَذۡكِرَةٞۖ فَمَن شَآءَ ٱتَّخَذَ إِلَىٰ رَبِّهِۦ سَبِيلٗا  <span>ﰜ</span>  ",
+              "ayah_ids": [
+                5620
+              ],
+              "ayah_to_number": null
+            }
+          ],
+          "websites": []
+        }
+      ]
+    },
+    {
+      "surah": 73,
+      "ayah": 20,
+      "similar": [
+        {
+          "notes": "\"  وَمَا تُقَدِّمُوا لِأَنفُسِكُم مِّنْ خَيْرٍ تَجِدُوهُ عِندَ اللَّهِ  \"",
+          "images": [],
+          "youtube": [
+            {
+              "id": 20873,
+              "name": null,
+              "file_name": "https://www.youtube.com/embed/yR0xON1ptsY?start=333&end=361",
+              "part": null,
+              "attachment_type_id": 4,
+              "attachmentable_id": 499,
+              "attachmentable_type": "App\\Models\\Note",
+              "downloads": 0,
+              "status": null,
+              "created_at": "2020-06-15T12:41:32.000000Z",
+              "updated_at": "2020-06-15T12:41:32.000000Z",
+              "deleted_at": null
+            }
+          ],
+          "ayahs": [
+            {
+              "info": {
+                "id": 117,
+                "number": 110,
+                "text": "﻿وَأَقِيمُوا الصَّلَاةَ وَآتُوا الزَّكَاةَ ۚ وَمَا تُقَدِّمُوا لِأَنْفُسِكُمْ مِنْ خَيْرٍ تَجِدُوهُ عِنْدَ اللَّهِ ۗ إِنَّ اللَّهَ بِمَا تَعْمَلُونَ بَصِيرٌ",
+                "font": "page_17",
+                "surah_id": 2,
+                "surah": {
+                  "id": 2,
+                  "name": "سورة البقرة",
+                  "coded_name": "ﮎ",
+                  "translated_name": "{\"ar\":\"\\u0627\\u0644\\u0628\\u0642\\u0631\\u0629\\r\\n\",\"en\":\"Al-Baqarah \",\"bn\":\"\\u0986\\u09b2-\\u09ac\\u09be\\u0995\\u09cd\\u09ac\\u09be\\u09b0\\u09be\\u09b9\\u09cd\",\"bs\":\"El-Bekara\",\"zh\":\"\\u9ec4\\u725b\\u7ae0\\r\\n\",\"de\":\"Al-Baqara - Die Kuh\\r\\n\",\"es\":\"La Vaca\\r\\n\",\"fa\":\"\\u0628\\u0642\\u0631\\u0647\",\"fr\":\"La g\\u00e9nisse\",\"ha\":\"Al-Bakarah\",\"id\":\"Surah Al-Baqarah\\u00a0(Lembu Betina)\",\"ml\":\"\\u0d2c\\u0d16\\u0d31\",\"pt\":\"A Vaca\",\"ru\":\"\\u041a\\u043e\\u0440\\u043e\\u0432\\u0430 (\\u0410\\u043b-\\u0411\\u0430\\u043a\\u0430\\u0440\\u0430)\\r\\n\",\"sw\":\"Al-Bakarah\",\"tg\":\"\\u0411\\u0410\\u049a\\u0410\\u0420\\u0410\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e31\\u0e25-\\u0e1a\\u0e30\\u0e40\\u0e01\\u0e32\\u0e30\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\",\"tl\":\"Ang Baka\",\"tr\":\"Bakara Suresi\\r\\n\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u0628\\u06d5\\u0642\\u06d5\\u0631\\u06d5 \",\"ur\":\"\\u0628\\u0642\\u0631\\u06c1\\n\"}",
+                  "number_of_ayahs": 286,
+                  "revelation_type": "medinan",
+                  "first_page": 2,
+                  "last_page": 49,
+                  "first_juz": 1
+                },
+                "juz": 1,
+                "hizb": 7,
+                "page_number": 17,
+                "marker": "ﯦ"
+              },
+              "text": "وَأَقِيمُواْ ٱلصَّلَوٰةَ وَءَاتُواْ ٱلزَّكَوٰةَۚ وَمَا تُقَدِّمُواْ لِأَنفُسِكُم مِّنۡ خَيۡرٖ تَجِدُوهُ عِندَ ٱللَّهِۗ إِنَّ ٱللَّهَ بِمَا تَعۡمَلُونَ بَصِيرٞ  <span>ﱭ</span>  ",
+              "ayah_ids": [
+                117
+              ],
+              "ayah_to_number": null
+            },
+            {
+              "info": {
+                "id": 5495,
+                "number": 20,
+                "text": "﻿۞ إِنَّ رَبَّكَ يَعْلَمُ أَنَّكَ تَقُومُ أَدْنَىٰ مِنْ ثُلُثَيِ اللَّيْلِ وَنِصْفَهُ وَثُلُثَهُ وَطَائِفَةٌ مِنَ الَّذِينَ مَعَكَ ۚ وَاللَّهُ يُقَدِّرُ اللَّيْلَ وَالنَّهَارَ ۚ عَلِمَ أَنْ لَنْ تُحْصُوهُ فَتَابَ عَلَيْكُمْ ۖ فَاقْرَءُوا مَا تَيَسَّرَ مِنَ الْقُرْآنِ ۚ عَلِمَ أَنْ سَيَكُونُ مِنْكُمْ مَرْضَىٰ ۙ وَآخَرُونَ يَضْرِبُونَ فِي الْأَرْضِ يَبْتَغُونَ مِنْ فَضْلِ اللَّهِ ۙ وَآخَرُونَ يُقَاتِلُونَ فِي سَبِيلِ اللَّهِ ۖ فَاقْرَءُوا مَا تَيَسَّرَ مِنْهُ ۚ وَأَقِيمُوا الصَّلَاةَ وَآتُوا الزَّكَاةَ وَأَقْرِضُوا اللَّهَ قَرْضًا حَسَنًا ۚ وَمَا تُقَدِّمُوا لِأَنْفُسِكُمْ مِنْ خَيْرٍ تَجِدُوهُ عِنْدَ اللَّهِ هُوَ خَيْرًا وَأَعْظَمَ أَجْرًا ۚ وَاسْتَغْفِرُوا اللَّهَ ۖ إِنَّ اللَّهَ غَفُورٌ رَحِيمٌ",
+                "font": "page_575",
+                "surah_id": 73,
+                "surah": {
+                  "id": 73,
+                  "name": "سورة المزمل",
+                  "coded_name": "ﯶ",
+                  "translated_name": "{\"ar\":\"\\u0627\\u0644\\u0645\\u0632\\u0651\\u0645\\u0651\\u0644\\r\\n\",\"en\":\"Al-Muzzammil \",\"bn\":\"\\u0986\\u09b2-\\u09ae\\u09c1\\u09af\\u09af\\u09be\\u09ae\\u09cd\\u09ae\\u09bf\\u09b2\",\"bs\":\"El-Muzemmil\",\"zh\":\"\\u62ab\\u8863\\u7684\\u4eba\\u7ae0\\r\\n\",\"de\":\"Al-Muzzammil - Der Eingeh\\u00fcllte\",\"es\":\"El Cobijado\\r\\n\",\"fa\":\"\\u0645\\u0632\\u0645\\u0644\",\"fr\":\"L'envelopp\\u00e9\",\"ha\":\"Al-Muzzammil\",\"id\":\"Surah Al-Muzammil\\u00a0(Yang Berselimut)\",\"ml\":\"\\u0d2e\\u0d41\\u0d38\\u0d4d\\u0d38\\u0d2e\\u0d4d\\u0d2e\\u0d3f\\u0d32\\u0d4d\",\"pt\":\"O Acobertado\",\"ru\":\"\\u0417\\u0430\\u043a\\u0443\\u0442\\u0430\\u0432\\u0448\\u0438\\u0439\\u0441\\u044f (\\u0410\\u043b-\\u041c\\u0443\\u0437\\u0437\\u0430\\u043c\\u043c\\u0438\\u043b)\\r\\n\",\"sw\":\"Al-Muzzammil\",\"tg\":\"\\u041c\\u0423\\u0417\\u0417\\u0410\\u041c\\u041c\\u0418\\u041b\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e31\\u0e25-\\u0e21\\u0e38\\u0e0b\\u0e0b\\u0e31\\u0e21\\u0e21\\u0e34\\u0e25\",\"tl\":\"Ang Nakabalabal sa Damit\",\"tr\":\"M\\u00fczemmil Suresi\\r\\n\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u0645\\u06c7\\u0632\\u0632\\u06d5\\u0645\\u0645\\u0649\\u0644\",\"ur\":\"\\u0645\\u0632\\u0645\\u0651\\u0644\\n\"}",
+                  "number_of_ayahs": 20,
+                  "revelation_type": "meccan",
+                  "first_page": 574,
+                  "last_page": 575,
+                  "first_juz": 29
+                },
+                "juz": 29,
+                "hizb": 230,
+                "page_number": 575,
+                "marker": "ﮩ"
+              },
+              "text": "۞ إِنَّ رَبَّكَ يَعۡلَمُ أَنَّكَ تَقُومُ أَدۡنَىٰ مِن ثُلُثَيِ ٱلَّيۡلِ وَنِصۡفَهُۥ وَثُلُثَهُۥ وَطَآئِفَةٞ مِّنَ ٱلَّذِينَ مَعَكَۚ وَٱللَّهُ يُقَدِّرُ ٱلَّيۡلَ وَٱلنَّهَارَۚ عَلِمَ أَن لَّن تُحۡصُوهُ فَتَابَ عَلَيۡكُمۡۖ فَٱقۡرَءُواْ مَا تَيَسَّرَ مِنَ ٱلۡقُرۡءَانِۚ عَلِمَ أَن سَيَكُونُ مِنكُم مَّرۡضَىٰ وَءَاخَرُونَ يَضۡرِبُونَ فِي ٱلۡأَرۡضِ يَبۡتَغُونَ مِن فَضۡلِ ٱللَّهِ وَءَاخَرُونَ يُقَٰتِلُونَ فِي سَبِيلِ ٱللَّهِۖ فَٱقۡرَءُواْ مَا تَيَسَّرَ مِنۡهُۚ وَأَقِيمُواْ ٱلصَّلَوٰةَ وَءَاتُواْ ٱلزَّكَوٰةَ وَأَقۡرِضُواْ ٱللَّهَ قَرۡضًا حَسَنٗاۚ وَمَا تُقَدِّمُواْ لِأَنفُسِكُم مِّنۡ خَيۡرٖ تَجِدُوهُ عِندَ ٱللَّهِ هُوَ خَيۡرٗا وَأَعۡظَمَ أَجۡرٗاۚ وَٱسۡتَغۡفِرُواْ ٱللَّهَۖ إِنَّ ٱللَّهَ غَفُورٞ رَّحِيمُۢ  <span>ﰓ</span>  ",
+              "ayah_ids": [
+                5495
+              ],
+              "ayah_to_number": null
+            }
+          ],
+          "websites": []
+        },
+        {
+          "notes": "( من خير)",
+          "images": [],
+          "youtube": [
+            {
+              "id": 20915,
+              "name": null,
+              "file_name": "https://www.youtube.com/embed/AwV5nU-xArU?start=565&end=582",
+              "part": null,
+              "attachment_type_id": 4,
+              "attachmentable_id": 540,
+              "attachmentable_type": "App\\Models\\Note",
+              "downloads": 0,
+              "status": null,
+              "created_at": "2020-06-15T12:41:59.000000Z",
+              "updated_at": "2020-06-15T12:41:59.000000Z",
+              "deleted_at": null
+            }
+          ],
+          "ayahs": [
+            {
+              "info": {
+                "id": 112,
+                "number": 105,
+                "text": "﻿مَا يَوَدُّ الَّذِينَ كَفَرُوا مِنْ أَهْلِ الْكِتَابِ وَلَا الْمُشْرِكِينَ أَنْ يُنَزَّلَ عَلَيْكُمْ مِنْ خَيْرٍ مِنْ رَبِّكُمْ ۗ وَاللَّهُ يَخْتَصُّ بِرَحْمَتِهِ مَنْ يَشَاءُ ۚ وَاللَّهُ ذُو الْفَضْلِ الْعَظِيمِ",
+                "font": "page_16",
+                "surah_id": 2,
+                "surah": {
+                  "id": 2,
+                  "name": "سورة البقرة",
+                  "coded_name": "ﮎ",
+                  "translated_name": "{\"ar\":\"\\u0627\\u0644\\u0628\\u0642\\u0631\\u0629\\r\\n\",\"en\":\"Al-Baqarah \",\"bn\":\"\\u0986\\u09b2-\\u09ac\\u09be\\u0995\\u09cd\\u09ac\\u09be\\u09b0\\u09be\\u09b9\\u09cd\",\"bs\":\"El-Bekara\",\"zh\":\"\\u9ec4\\u725b\\u7ae0\\r\\n\",\"de\":\"Al-Baqara - Die Kuh\\r\\n\",\"es\":\"La Vaca\\r\\n\",\"fa\":\"\\u0628\\u0642\\u0631\\u0647\",\"fr\":\"La g\\u00e9nisse\",\"ha\":\"Al-Bakarah\",\"id\":\"Surah Al-Baqarah\\u00a0(Lembu Betina)\",\"ml\":\"\\u0d2c\\u0d16\\u0d31\",\"pt\":\"A Vaca\",\"ru\":\"\\u041a\\u043e\\u0440\\u043e\\u0432\\u0430 (\\u0410\\u043b-\\u0411\\u0430\\u043a\\u0430\\u0440\\u0430)\\r\\n\",\"sw\":\"Al-Bakarah\",\"tg\":\"\\u0411\\u0410\\u049a\\u0410\\u0420\\u0410\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e31\\u0e25-\\u0e1a\\u0e30\\u0e40\\u0e01\\u0e32\\u0e30\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\",\"tl\":\"Ang Baka\",\"tr\":\"Bakara Suresi\\r\\n\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u0628\\u06d5\\u0642\\u06d5\\u0631\\u06d5 \",\"ur\":\"\\u0628\\u0642\\u0631\\u06c1\\n\"}",
+                  "number_of_ayahs": 286,
+                  "revelation_type": "medinan",
+                  "first_page": 2,
+                  "last_page": 49,
+                  "first_juz": 1
+                },
+                "juz": 1,
+                "hizb": 6,
+                "page_number": 16,
+                "marker": "ﯼ"
+              },
+              "text": "مَّا يَوَدُّ ٱلَّذِينَ كَفَرُواْ مِنۡ أَهۡلِ ٱلۡكِتَٰبِ وَلَا ٱلۡمُشۡرِكِينَ أَن يُنَزَّلَ عَلَيۡكُم مِّنۡ خَيۡرٖ مِّن رَّبِّكُمۡۚ وَٱللَّهُ يَخۡتَصُّ بِرَحۡمَتِهِۦ مَن يَشَآءُۚ وَٱللَّهُ ذُو ٱلۡفَضۡلِ ٱلۡعَظِيمِ  <span>ﱨ</span>  ",
+              "ayah_ids": [
+                112
+              ],
+              "ayah_to_number": null
+            },
+            {
+              "info": {
+                "id": 408,
+                "number": 115,
+                "text": "﻿وَمَا يَفْعَلُوا مِنْ خَيْرٍ فَلَنْ يُكْفَرُوهُ ۗ وَاللَّهُ عَلِيمٌ بِالْمُتَّقِينَ",
+                "font": "page_64",
+                "surah_id": 3,
+                "surah": {
+                  "id": 3,
+                  "name": "سورة آل عمران",
+                  "coded_name": "ﮏ",
+                  "translated_name": "{\"ar\":\"\\u0622\\u0644 \\u0639\\u0645\\u0631\\u0627\\u0646\\r\\n\",\"en\":\"Al-Imran \",\"bn\":\"\\u0986\\u09b2\\u09c7 \\u0987\\u09ae\\u09b0\\u09be\\u09a8\",\"bs\":\"Al Imran\",\"zh\":\"\\u4eea\\u59c6\\u5170\\u7684\\u5bb6\\u5c5e\\u7ae0\\r\\n\",\"de\":\"\\u0100l-i-'Imr\\u0101n - Die Sippe 'Imr\\u0101n\",\"es\":\"La Familia de Imran\\r\\n\",\"fa\":\"\\u0622\\u0644 \\u0639\\u0645\\u0631\\u0627\\u0646\",\"fr\":\"La famille d'Imran\",\"ha\":\"Al-Imaran\",\"id\":\"Surah Ali \\u2018Imran\\u00a0(Keluarga Imran)\",\"ml\":\"\\u0d06\\u0d32\\u0d41\\u0d07\\u0d02\\u0d31\\u0d3e\\u0d28\\u0d4d\",\"pt\":\"A Fam\\u00edlia de Imran\",\"ru\":\"\\u0421\\u0435\\u043c\\u0435\\u0439\\u0441\\u0442\\u0432\\u043e \\u0418\\u043c\\u0440\\u0430\\u043d\\u0430 (\\u0410\\u043b-\\u0418\\u043c\\u0440\\u0430\\u043d)\\r\\n\",\"sw\":\"Al-Imaran\",\"tg\":\"\\u041e\\u041b\\u0418 \\u0418\\u041c\\u0420\\u041e\\u041d\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e32\\u0e25 \\u0e2d\\u0e34\\u0e21\\u0e23\\u0e2d\\u0e19\",\"tl\":\"Ang Pamilya ni Imran\",\"tr\":\"\\u00c2l-i Imran Suresi\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u0626\\u0627\\u0644 \\u0626\\u0649\\u0645\\u0631\\u0627\\u0646 \",\"ur\":\"\\u0622\\u0644 \\u0639\\u0645\\u0631\\u0627\\u0646\\n\"}",
+                  "number_of_ayahs": 200,
+                  "revelation_type": "medinan",
+                  "first_page": 50,
+                  "last_page": 76,
+                  "first_juz": 3
+                },
+                "juz": 4,
+                "hizb": 26,
+                "page_number": 64,
+                "marker": "ﯸ"
+              },
+              "text": "وَمَا يَفۡعَلُواْ مِنۡ خَيۡرٖ فَلَن يُكۡفَرُوهُۗ وَٱللَّهُ عَلِيمُۢ بِٱلۡمُتَّقِينَ  <span>ﱲ</span>  ",
+              "ayah_ids": [
+                408
+              ],
+              "ayah_to_number": null
+            },
+            {
+              "info": {
+                "id": 518,
+                "number": 25,
+                "text": "﻿وَمَنْ لَمْ يَسْتَطِعْ مِنْكُمْ طَوْلًا أَنْ يَنْكِحَ الْمُحْصَنَاتِ الْمُؤْمِنَاتِ فَمِنْ مَا مَلَكَتْ أَيْمَانُكُمْ مِنْ فَتَيَاتِكُمُ الْمُؤْمِنَاتِ ۚ وَاللَّهُ أَعْلَمُ بِإِيمَانِكُمْ ۚ بَعْضُكُمْ مِنْ بَعْضٍ ۚ فَانْكِحُوهُنَّ بِإِذْنِ أَهْلِهِنَّ وَآتُوهُنَّ أُجُورَهُنَّ بِالْمَعْرُوفِ مُحْصَنَاتٍ غَيْرَ مُسَافِحَاتٍ وَلَا مُتَّخِذَاتِ أَخْدَانٍ ۚ فَإِذَا أُحْصِنَّ فَإِنْ أَتَيْنَ بِفَاحِشَةٍ فَعَلَيْهِنَّ نِصْفُ مَا عَلَى الْمُحْصَنَاتِ مِنَ الْعَذَابِ ۚ ذَٰلِكَ لِمَنْ خَشِيَ الْعَنَتَ مِنْكُمْ ۚ وَأَنْ تَصْبِرُوا خَيْرٌ لَكُمْ ۗ وَاللَّهُ غَفُورٌ رَحِيمٌ",
+                "font": "page_82",
+                "surah_id": 4,
+                "surah": {
+                  "id": 4,
+                  "name": "سورة النساء",
+                  "coded_name": "ﮐ",
+                  "translated_name": "{\"ar\":\"\\u0627\\u0644\\u0646\\u0633\\u0627\\u0621\\r\\n\",\"en\":\"An-Nisa' \",\"bn\":\"\\u0986\\u09a8-\\u09a8\\u09bf\\u09b8\\u09be\",\"bs\":\"En-Nisa\",\"zh\":\"\\u5987\\u5973\\u7ae0\\r\\n\",\"de\":\"An-Nis\\u0101 - Die Frauen\\r\\n\",\"es\":\"Las Mujeres\\r\\n\",\"fa\":\"\\u0646\\u0633\\u0627\\u0621\",\"fr\":\"Les femmes\",\"ha\":\"An-Nisa'i\",\"id\":\"Surah An-Nisaa\\u2019\\u00a0(Wanita)\",\"ml\":\"\\u0d28\\u0d3f\\u0d38\\u0d3e\\u0d05\\u0d4d\",\"pt\":\"As Mulheres\",\"ru\":\"\\u0416\\u0435\\u043d\\u0449\\u0438\\u043d\\u044b (\\u0410\\u043d-\\u041d\\u0438\\u0441\\u0430)\\r\\n\",\"sw\":\"An-Nisa'i\",\"tg\":\"\\u041d\\u0418\\u0421\\u041e\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e31\\u0e19-\\u0e19\\u0e34\\u0e2a\\u0e32\\u0e2d\\u0e4c\",\"tl\":\"Ang Kababaihan\",\"tr\":\"Nisa Suresi\\r\\n\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u0646\\u0649\\u0633\\u0627 \",\"ur\":\"\\u0646\\u0633\\u0627\\u0621\\n\"}",
+                  "number_of_ayahs": 176,
+                  "revelation_type": "medinan",
+                  "first_page": 77,
+                  "last_page": 106,
+                  "first_juz": 4
+                },
+                "juz": 5,
+                "hizb": 33,
+                "page_number": 82,
+                "marker": "ﯤ"
+              },
+              "text": "وَمَن لَّمۡ يَسۡتَطِعۡ مِنكُمۡ طَوۡلًا أَن يَنكِحَ ٱلۡمُحۡصَنَٰتِ ٱلۡمُؤۡمِنَٰتِ فَمِن مَّا مَلَكَتۡ أَيۡمَٰنُكُم مِّن فَتَيَٰتِكُمُ ٱلۡمُؤۡمِنَٰتِۚ وَٱللَّهُ أَعۡلَمُ بِإِيمَٰنِكُمۚ بَعۡضُكُم مِّنۢ بَعۡضٖۚ فَٱنكِحُوهُنَّ بِإِذۡنِ أَهۡلِهِنَّ وَءَاتُوهُنَّ أُجُورَهُنَّ بِٱلۡمَعۡرُوفِ مُحۡصَنَٰتٍ غَيۡرَ مُسَٰفِحَٰتٖ وَلَا مُتَّخِذَٰتِ أَخۡدَانٖۚ فَإِذَآ أُحۡصِنَّ فَإِنۡ أَتَيۡنَ بِفَٰحِشَةٖ فَعَلَيۡهِنَّ نِصۡفُ مَا عَلَى ٱلۡمُحۡصَنَٰتِ مِنَ ٱلۡعَذَابِۚ ذَٰلِكَ لِمَنۡ خَشِيَ ٱلۡعَنَتَ مِنكُمۡۚ وَأَن تَصۡبِرُواْ خَيۡرٞ لَّكُمۡۗ وَٱللَّهُ غَفُورٞ رَّحِيمٞ  <span>ﰘ</span>  ",
+              "ayah_ids": [
+                518
+              ],
+              "ayah_to_number": null
+            },
+            {
+              "info": {
+                "id": 3276,
+                "number": 24,
+                "text": "﻿فَسَقَىٰ لَهُمَا ثُمَّ تَوَلَّىٰ إِلَى الظِّلِّ فَقَالَ رَبِّ إِنِّي لِمَا أَنْزَلْتَ إِلَيَّ مِنْ خَيْرٍ فَقِيرٌ",
+                "font": "page_388",
+                "surah_id": 28,
+                "surah": {
+                  "id": 28,
+                  "name": "سورة القصص",
+                  "coded_name": "ﮨ",
+                  "translated_name": "{\"ar\":\"\\u0627\\u0644\\u0642\\u0635\\u0635\\r\\n\",\"en\":\"Al-Qasas \",\"bn\":\"\\u0986\\u09b2-\\u0995\\u09cd\\u09ac\\u09be\\u09b8\\u09be\\u09b8\",\"bs\":\"El-Kasas\",\"zh\":\"\\u6545\\u4e8b\\u7ae0\\r\\n\",\"de\":\"Al-Qasas - Die Geschichten\\r\\n\",\"es\":\"El Relato\\r\\n\",\"fa\":\"\\u0642\\u0635\\u0635\",\"fr\":\"Le r\\u00e8cit\",\"ha\":\"Al-Kasas\",\"id\":\"Surah Al-Qasas\\u00a0(Cerita-cerita)\",\"ml\":\"\\u0d16\\u0d38\\u0d38\\u0d4d\\u200c\",\"pt\":\"As Narrativas \",\"ru\":\"\\u0420\\u0430\\u0441\\u0441\\u043a\\u0430\\u0437 (\\u0410\\u043b-\\u041a\\u0430\\u0441\\u0430\\u0441)\\r\\n\",\"sw\":\"Al-Kasas\",\"tg\":\"\\u049a\\u0410\\u0421\\u0410\\u0421\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e31\\u0e25-\\u0e40\\u0e01\\u0e32\\u0e30\\u0e28\\u0e47\\u0e2d\\u0e28\",\"tl\":\"Ang Salaysay\",\"tr\":\"Kasas  Suresi\\r\\n\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u0642\\u06d5\\u0633\\u06d5\\u0633\",\"ur\":\"\\u0642\\u0635\\u0635\\n\"}",
+                  "number_of_ayahs": 88,
+                  "revelation_type": "meccan",
+                  "first_page": 385,
+                  "last_page": 396,
+                  "first_juz": 20
+                },
+                "juz": 20,
+                "hizb": 155,
+                "page_number": 388,
+                "marker": "ﮋ"
+              },
+              "text": "فَسَقَىٰ لَهُمَا ثُمَّ تَوَلَّىٰٓ إِلَى ٱلظِّلِّ فَقَالَ رَبِّ إِنِّي لِمَآ أَنزَلۡتَ إِلَيَّ مِنۡ خَيۡرٖ فَقِيرٞ  <span>ﰗ</span>  ",
+              "ayah_ids": [
+                3276
+              ],
+              "ayah_to_number": null
+            },
+            {
+              "info": {
+                "id": 5495,
+                "number": 20,
+                "text": "﻿۞ إِنَّ رَبَّكَ يَعْلَمُ أَنَّكَ تَقُومُ أَدْنَىٰ مِنْ ثُلُثَيِ اللَّيْلِ وَنِصْفَهُ وَثُلُثَهُ وَطَائِفَةٌ مِنَ الَّذِينَ مَعَكَ ۚ وَاللَّهُ يُقَدِّرُ اللَّيْلَ وَالنَّهَارَ ۚ عَلِمَ أَنْ لَنْ تُحْصُوهُ فَتَابَ عَلَيْكُمْ ۖ فَاقْرَءُوا مَا تَيَسَّرَ مِنَ الْقُرْآنِ ۚ عَلِمَ أَنْ سَيَكُونُ مِنْكُمْ مَرْضَىٰ ۙ وَآخَرُونَ يَضْرِبُونَ فِي الْأَرْضِ يَبْتَغُونَ مِنْ فَضْلِ اللَّهِ ۙ وَآخَرُونَ يُقَاتِلُونَ فِي سَبِيلِ اللَّهِ ۖ فَاقْرَءُوا مَا تَيَسَّرَ مِنْهُ ۚ وَأَقِيمُوا الصَّلَاةَ وَآتُوا الزَّكَاةَ وَأَقْرِضُوا اللَّهَ قَرْضًا حَسَنًا ۚ وَمَا تُقَدِّمُوا لِأَنْفُسِكُمْ مِنْ خَيْرٍ تَجِدُوهُ عِنْدَ اللَّهِ هُوَ خَيْرًا وَأَعْظَمَ أَجْرًا ۚ وَاسْتَغْفِرُوا اللَّهَ ۖ إِنَّ اللَّهَ غَفُورٌ رَحِيمٌ",
+                "font": "page_575",
+                "surah_id": 73,
+                "surah": {
+                  "id": 73,
+                  "name": "سورة المزمل",
+                  "coded_name": "ﯶ",
+                  "translated_name": "{\"ar\":\"\\u0627\\u0644\\u0645\\u0632\\u0651\\u0645\\u0651\\u0644\\r\\n\",\"en\":\"Al-Muzzammil \",\"bn\":\"\\u0986\\u09b2-\\u09ae\\u09c1\\u09af\\u09af\\u09be\\u09ae\\u09cd\\u09ae\\u09bf\\u09b2\",\"bs\":\"El-Muzemmil\",\"zh\":\"\\u62ab\\u8863\\u7684\\u4eba\\u7ae0\\r\\n\",\"de\":\"Al-Muzzammil - Der Eingeh\\u00fcllte\",\"es\":\"El Cobijado\\r\\n\",\"fa\":\"\\u0645\\u0632\\u0645\\u0644\",\"fr\":\"L'envelopp\\u00e9\",\"ha\":\"Al-Muzzammil\",\"id\":\"Surah Al-Muzammil\\u00a0(Yang Berselimut)\",\"ml\":\"\\u0d2e\\u0d41\\u0d38\\u0d4d\\u0d38\\u0d2e\\u0d4d\\u0d2e\\u0d3f\\u0d32\\u0d4d\",\"pt\":\"O Acobertado\",\"ru\":\"\\u0417\\u0430\\u043a\\u0443\\u0442\\u0430\\u0432\\u0448\\u0438\\u0439\\u0441\\u044f (\\u0410\\u043b-\\u041c\\u0443\\u0437\\u0437\\u0430\\u043c\\u043c\\u0438\\u043b)\\r\\n\",\"sw\":\"Al-Muzzammil\",\"tg\":\"\\u041c\\u0423\\u0417\\u0417\\u0410\\u041c\\u041c\\u0418\\u041b\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e31\\u0e25-\\u0e21\\u0e38\\u0e0b\\u0e0b\\u0e31\\u0e21\\u0e21\\u0e34\\u0e25\",\"tl\":\"Ang Nakabalabal sa Damit\",\"tr\":\"M\\u00fczemmil Suresi\\r\\n\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u0645\\u06c7\\u0632\\u0632\\u06d5\\u0645\\u0645\\u0649\\u0644\",\"ur\":\"\\u0645\\u0632\\u0645\\u0651\\u0644\\n\"}",
+                  "number_of_ayahs": 20,
+                  "revelation_type": "meccan",
+                  "first_page": 574,
+                  "last_page": 575,
+                  "first_juz": 29
+                },
+                "juz": 29,
+                "hizb": 230,
+                "page_number": 575,
+                "marker": "ﮩ"
+              },
+              "text": "۞ إِنَّ رَبَّكَ يَعۡلَمُ أَنَّكَ تَقُومُ أَدۡنَىٰ مِن ثُلُثَيِ ٱلَّيۡلِ وَنِصۡفَهُۥ وَثُلُثَهُۥ وَطَآئِفَةٞ مِّنَ ٱلَّذِينَ مَعَكَۚ وَٱللَّهُ يُقَدِّرُ ٱلَّيۡلَ وَٱلنَّهَارَۚ عَلِمَ أَن لَّن تُحۡصُوهُ فَتَابَ عَلَيۡكُمۡۖ فَٱقۡرَءُواْ مَا تَيَسَّرَ مِنَ ٱلۡقُرۡءَانِۚ عَلِمَ أَن سَيَكُونُ مِنكُم مَّرۡضَىٰ وَءَاخَرُونَ يَضۡرِبُونَ فِي ٱلۡأَرۡضِ يَبۡتَغُونَ مِن فَضۡلِ ٱللَّهِ وَءَاخَرُونَ يُقَٰتِلُونَ فِي سَبِيلِ ٱللَّهِۖ فَٱقۡرَءُواْ مَا تَيَسَّرَ مِنۡهُۚ وَأَقِيمُواْ ٱلصَّلَوٰةَ وَءَاتُواْ ٱلزَّكَوٰةَ وَأَقۡرِضُواْ ٱللَّهَ قَرۡضًا حَسَنٗاۚ وَمَا تُقَدِّمُواْ لِأَنفُسِكُم مِّنۡ خَيۡرٖ تَجِدُوهُ عِندَ ٱللَّهِ هُوَ خَيۡرٗا وَأَعۡظَمَ أَجۡرٗاۚ وَٱسۡتَغۡفِرُواْ ٱللَّهَۖ إِنَّ ٱللَّهَ غَفُورٞ رَّحِيمُۢ  <span>ﰓ</span>  ",
+              "ayah_ids": [
+                5495
+              ],
+              "ayah_to_number": null
+            }
+          ],
+          "websites": []
+        }
+      ]
+    }
+  ]
+}

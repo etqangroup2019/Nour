@@ -1,0 +1,176 @@
+{
+  "license": {
+    "source": "https://quranpedia.net",
+    "version": "2026-09-26",
+    "en": "Ownership: the classical works in this data (Quran text, canonical qira'at, classical tafsirs) are the shared heritage of the Muslim ummah. The digitization, structuring, verification, diacritical correction (dabt), linking, and metadata are the work of the Quranpedia.net team, compiled and continuously corrected over years; translations and contemporary works remain the property of their authors and publishers. License: free to use inside apps, websites, and research tools with no attribution required (a link is appreciated). Republishing this data — in full or in part — as a downloadable database/dataset requires crediting Quranpedia.net with a link and stating this dump's version. Content is continuously corrected: keep copies current via /api/v1/changes?since=<version>. Provided as-is, without warranty.",
+    "ar": "الملكية: النصوص التراثية المضمَّنة في هذه البيانات — من نصِّ القرآن الكريم بقراءاته المتواترة، وكتبِ التفسير — تراثٌ مشترك للأمة لا يدَّعي أحدٌ ملكيته، أما الرقمنة والهيكلة والتدقيق وضبط النص وربط البيانات وبياناتها الوصفية فهي عمل فريق «الموسوعة القرآنية»، جُمعت وصُحِّحت على مدى سنوات، وما تزال تُصحَّح باستمرار؛ وتبقى الترجمات والأعمال المعاصرة ملكًا لأصحابها وناشريها. الرخصة: يجوز استعمال البيانات داخل التطبيقات والمواقع والأدوات البحثية مجانًا من غير اشتراط ذكر المصدر (وذكرُه محلُّ تقدير)، أما نشرها نفسِها — كاملةً أو بعضَها — في صورة قاعدة بيانات قابلة للتنزيل فيلزم فيه ذكرُ «الموسوعة القرآنية quranpedia.net» مصدرًا، مع رابط الموقع وبيان تاريخ هذه النسخة. والمحتوى يخضع لتصحيح مستمر؛ فمَن نشر نسخةً، فعليه تحديثها عبر ‎/v1/changes، والعهدة في نشر نصٍّ قديم على ناشره. وتُقدَّم البيانات كما هي من غير ضمان، والتثبُّت واجبُ المستفيد.",
+    "sources": [
+      {
+        "fields": "word morphology — part of speech, root, lemma, case, mood, verb form",
+        "source": "Quranic Arabic Corpus, version 0.4 — Dr. Kais Dukes (may Allah have mercy on him), University of Leeds",
+        "url": "https://corpus.quran.com",
+        "license": "GNU General Public License",
+        "requires": "Any use must clearly indicate the Quranic Arabic Corpus as the source, with a link to https://corpus.quran.com."
+      },
+      {
+        "fields": "i'rab syntax — dependency relations, heads, constituents",
+        "source": "The Quranic Treebank (NoorBayan), building on the Quranic Arabic Corpus of Dr. Kais Dukes (may Allah have mercy on him)",
+        "url": "https://github.com/NoorBayan/Quranic",
+        "license": "MIT",
+        "requires": "The MIT copyright notice must accompany redistribution."
+      }
+    ],
+    "contact": "quranpedia.help@gmail.com",
+    "usage_policy": "https://quranpedia.net/api-docs#usage-policy",
+    "resync": "https://quranpedia.net/api/v1/changes?since=2026-09-26"
+  },
+  "schema": "/v1/ayah/{surah}/{ayah}/similar",
+  "surah": 86,
+  "data": [
+    {
+      "surah": 86,
+      "ayah": 10,
+      "similar": [
+        {
+          "notes": "جُملة من الأضداد والمترادفات",
+          "images": [],
+          "youtube": [
+            {
+              "id": 20919,
+              "name": null,
+              "file_name": "https://www.youtube.com/embed/zfrj4B0hN28?start=2602&end=2721",
+              "part": null,
+              "attachment_type_id": 4,
+              "attachmentable_id": 544,
+              "attachmentable_type": "App\\Models\\Note",
+              "downloads": 0,
+              "status": null,
+              "created_at": "2020-06-15T12:41:59.000000Z",
+              "updated_at": "2020-06-15T12:41:59.000000Z",
+              "deleted_at": null
+            }
+          ],
+          "ayahs": [
+            {
+              "info": {
+                "id": 5941,
+                "number": 10,
+                "text": "﻿فَمَا لَهُ مِنْ قُوَّةٍ وَلَا نَاصِرٍ",
+                "font": "page_591",
+                "surah_id": 86,
+                "surah": {
+                  "id": 86,
+                  "name": "سورة الطارق",
+                  "coded_name": "ﰃ",
+                  "translated_name": "{\"ar\":\"\\u0627\\u0644\\u0637\\u0627\\u0631\\u0642\\r\\n\",\"en\":\"At-Tariq \",\"bn\":\"\\u0986\\u09a4-\\u09a4\\u09cd\\u09ac\\u09be\\u09b0\\u09c7\\u0995\",\"bs\":\"Et-Tarik\",\"zh\":\"\\u542f\\u660e\\u661f\\u7ae0\\r\\n\",\"de\":\"At-T\\u0101riq - Der Pochende\\r\\n\",\"es\":\"Los Astros Nocturnos\\r\\n\",\"fa\":\"\\u0637\\u0627\\u0631\\u0642\",\"fr\":\"L'astre nocturne\",\"ha\":\"At-Tarik\",\"id\":\"Surah At-Taariq\\u00a0(Pengunjung Malam)\",\"ml\":\"\\u0d24\\u0d4d\\u0d35\\u0d3e\\u0d30\\u0d3f\\u0d16\\u0d4d\",\"pt\":\"O Visitante Noturno\",\"ru\":\"\\u0418\\u0434\\u0443\\u0449\\u0438\\u0439 \\u041d\\u043e\\u0447\\u044c\\u044e(\\u0410\\u0442-\\u0422\\u0430\\u0440\\u0438\\u043a)\\r\\n\",\"sw\":\"At-Tarik\",\"tg\":\"\\u0422\\u041e\\u0420\\u0418\\u049a\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e31\\u0e0f-\\u0e0f\\u0e2d\\u0e23\\u0e34\\u0e01\",\"tl\":\"Ang Panggabing Panauhin\",\"tr\":\"Tar\\u0131k Suresi\\r\\n\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u062a\\u0627\\u0631\\u0649\\u0642\",\"ur\":\"\\u0637\\u0627\\u0631\\u0642\\n\"}",
+                  "number_of_ayahs": 17,
+                  "revelation_type": "meccan",
+                  "first_page": 591,
+                  "last_page": 591,
+                  "first_juz": 30
+                },
+                "juz": 30,
+                "hizb": 236,
+                "page_number": 591,
+                "marker": "ﮂ"
+              },
+              "text": "فَمَا لَهُۥ مِن قُوَّةٖ وَلَا نَاصِرٖ  <span>ﰉ</span>  ",
+              "ayah_ids": [
+                5941
+              ],
+              "ayah_to_number": null
+            },
+            {
+              "info": {
+                "id": 4801,
+                "number": 17,
+                "text": "﻿مَا زَاغَ الْبَصَرُ وَمَا طَغَىٰ",
+                "font": "page_526",
+                "surah_id": 53,
+                "surah": {
+                  "id": 53,
+                  "name": "سورة النجم",
+                  "coded_name": "ﯢ",
+                  "translated_name": "{\"ar\":\"\\u0627\\u0644\\u0646\\u062c\\u0645\\r\\n\",\"en\":\"An-Najm \",\"bn\":\"\\u0986\\u09a8-\\u09a8\\u09be\\u099c\\u09ae\",\"bs\":\"En-Ned\\u017em\",\"zh\":\"\\u661f\\u5bbf\\u7ae0\\r\\n\",\"de\":\"An-Na\\u011fm - Der Stern\\r\\n\",\"es\":\"La Estrella\\r\\n\",\"fa\":\"\\u0646\\u062c\\u0645\",\"fr\":\"L'\\u00e9toile\",\"ha\":\"An-Najm\",\"id\":\"Surah An-Najm\\u00a0(Bintang)\",\"ml\":\"\\u0d28\\u0d1c\\u0d4d\\u0d2e\\u0d4d\",\"pt\":\"A Estrela\",\"ru\":\"\\u0417\\u0432\\u0435\\u0437\\u0434\\u0430 (\\u0410\\u043d-\\u041d\\u0430\\u0436\\u043c)\\r\\n\",\"sw\":\"An-Najm\",\"tg\":\"\\u041d\\u0410\\u04b6\\u041c\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e31\\u0e19-\\u0e19\\u0e31\\u0e08\\u0e0d\\u0e4c\\u0e21\\u0e3a\",\"tl\":\"Ang Bituin\",\"tr\":\"Necm Suresi\\r\\n\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u0646\\u06d5\\u062c\\u0645\",\"ur\":\"\\u0646\\u062c\\u0645\\n\"}",
+                  "number_of_ayahs": 62,
+                  "revelation_type": "meccan",
+                  "first_page": 526,
+                  "last_page": 528,
+                  "first_juz": 27
+                },
+                "juz": 27,
+                "hizb": 210,
+                "page_number": 526,
+                "marker": "ﮥ"
+              },
+              "text": "مَا زَاغَ ٱلۡبَصَرُ وَمَا طَغَىٰ  <span>ﰐ</span>  ",
+              "ayah_ids": [
+                4801
+              ],
+              "ayah_to_number": null
+            },
+            {
+              "info": {
+                "id": 1483,
+                "number": 10,
+                "text": "﻿وَلَئِنْ أَذَقْنَاهُ نَعْمَاءَ بَعْدَ ضَرَّاءَ مَسَّتْهُ لَيَقُولَنَّ ذَهَبَ السَّيِّئَاتُ عَنِّي ۚ إِنَّهُ لَفَرِحٌ فَخُورٌ",
+                "font": "page_222",
+                "surah_id": 11,
+                "surah": {
+                  "id": 11,
+                  "name": "سورة هود",
+                  "coded_name": "ﮗ",
+                  "translated_name": "{\"ar\":\"\\u0647\\u0648\\u062f\\r\\n\",\"en\":\"Hood \",\"bn\":\"\\u09b9\\u09c2\\u09a6\",\"bs\":\"Hud\",\"zh\":\"\\u547c\\u5fb7\\u7ae0\\r\\n\",\"de\":\"H\\u016bd\\r\\n\",\"es\":\"Hud\\r\\n\",\"fa\":\"\\u0647\\u0648\\u062f\",\"fr\":\"Hud\",\"ha\":\"Hud\",\"id\":\"Surah Hud\\u00a0(Nabi Hud a.s.)\",\"ml\":\"\\u0d39\\u0d42\\u0d26\\u0d4d\",\"pt\":\"Hud\",\"ru\":\"\\u0425\\u0443\\u0434\\r\\n\",\"sw\":\"Hud\",\"tg\":\"\\u04b2\\u0423\\u0414\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2e\\u0e39\\u0e14\",\"tl\":\"Si Propeta Hud\",\"tr\":\"Hud Suresi\\r\\n\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u06be\\u06c7\\u062f\",\"ur\":\"\\u06c1\\u0648\\u062f\\n\"}",
+                  "number_of_ayahs": 123,
+                  "revelation_type": "meccan",
+                  "first_page": 221,
+                  "last_page": 235,
+                  "first_juz": 11
+                },
+                "juz": 12,
+                "hizb": 89,
+                "page_number": 222,
+                "marker": "ﯘ"
+              },
+              "text": "وَلَئِنۡ أَذَقۡنَٰهُ نَعۡمَآءَ بَعۡدَ ضَرَّآءَ مَسَّتۡهُ لَيَقُولَنَّ ذَهَبَ ٱلسَّيِّـَٔاتُ عَنِّيٓۚ إِنَّهُۥ لَفَرِحٞ فَخُورٌ  <span>ﰉ</span>  ",
+              "ayah_ids": [
+                1483
+              ],
+              "ayah_to_number": null
+            },
+            {
+              "info": {
+                "id": 4581,
+                "number": 36,
+                "text": "﻿إِنَّمَا الْحَيَاةُ الدُّنْيَا لَعِبٌ وَلَهْوٌ ۚ وَإِنْ تُؤْمِنُوا وَتَتَّقُوا يُؤْتِكُمْ أُجُورَكُمْ وَلَا يَسْأَلْكُمْ أَمْوَالَكُمْ",
+                "font": "page_510",
+                "surah_id": 47,
+                "surah": {
+                  "id": 47,
+                  "name": "سورة محمد",
+                  "coded_name": "ﯜ",
+                  "translated_name": "{\"ar\":\"\\u0645\\u062d\\u0645\\u062f\\r\\n\",\"en\":\"Muhammad \",\"bn\":\"\\u09ae\\u09c1\\u09b9\\u09be\\u09ae\\u09cd\\u09ae\\u09be\\u09a6\",\"bs\":\"Muhammed\",\"zh\":\"\\u7a46\\u7f55\\u9ed8\\u5fb7\\u7ae0\\r\\n\",\"de\":\"Muhammad\\r\\n\",\"es\":\"Muhammad\\r\\n\",\"fa\":\"\\u0645\\u062d\\u0645\\u062f\",\"fr\":\"Mohammed \",\"ha\":\"Muhammad\",\"id\":\"Surah Muhammad\\u00a0(Nabi Muhammad SAW)\",\"ml\":\"\\u0d2e\\u0d41\\u0d39\\u0d2e\\u0d4d\\u0d2e\\u0d26\\u0d4d\",\"pt\":\"Mohammad\",\"ru\":\"\\u041c\\u0443xa\\u043c\\u043ca\\u0434\\r\\n\",\"sw\":\"Muhammad\",\"tg\":\"\\u041c\\u0423\\u04b2\\u0410\\u041c\\u041c\\u0410\\u0414\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e21\\u0e38\\u0e2b\\u0e31\\u0e21\\u0e21\\u0e31\\u0e14\",\"tl\":\"Ang Pakikipaglaban\",\"tr\":\"Muhammed Suresi\\r\\n\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u0645\\u06c7\\u06be\\u06d5\\u0645\\u0645\\u06d5\\u062f\",\"ur\":\"\\u0645\\u062d\\u0645\\u062f\\n\"}",
+                  "number_of_ayahs": 38,
+                  "revelation_type": "medinan",
+                  "first_page": 507,
+                  "last_page": 510,
+                  "first_juz": 26
+                },
+                "juz": 26,
+                "hizb": 204,
+                "page_number": 510,
+                "marker": "ﯗ"
+              },
+              "text": "إِنَّمَا ٱلۡحَيَوٰةُ ٱلدُّنۡيَا لَعِبٞ وَلَهۡوٞۚ وَإِن تُؤۡمِنُواْ وَتَتَّقُواْ يُؤۡتِكُمۡ أُجُورَكُمۡ وَلَا يَسۡـَٔلۡكُمۡ أَمۡوَٰلَكُمۡ  <span>ﰣ</span>  ",
+              "ayah_ids": [
+                4581
+              ],
+              "ayah_to_number": null
+            }
+          ],
+          "websites": []
+        }
+      ]
+    }
+  ]
+}
