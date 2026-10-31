@@ -1,0 +1,2211 @@
+{
+  "license": {
+    "source": "https://quranpedia.net",
+    "version": "2026-09-26",
+    "en": "Ownership: the classical works in this data (Quran text, canonical qira'at, classical tafsirs) are the shared heritage of the Muslim ummah. The digitization, structuring, verification, diacritical correction (dabt), linking, and metadata are the work of the Quranpedia.net team, compiled and continuously corrected over years; translations and contemporary works remain the property of their authors and publishers. License: free to use inside apps, websites, and research tools with no attribution required (a link is appreciated). Republishing this data — in full or in part — as a downloadable database/dataset requires crediting Quranpedia.net with a link and stating this dump's version. Content is continuously corrected: keep copies current via /api/v1/changes?since=<version>. Provided as-is, without warranty.",
+    "ar": "الملكية: النصوص التراثية المضمَّنة في هذه البيانات — من نصِّ القرآن الكريم بقراءاته المتواترة، وكتبِ التفسير — تراثٌ مشترك للأمة لا يدَّعي أحدٌ ملكيته، أما الرقمنة والهيكلة والتدقيق وضبط النص وربط البيانات وبياناتها الوصفية فهي عمل فريق «الموسوعة القرآنية»، جُمعت وصُحِّحت على مدى سنوات، وما تزال تُصحَّح باستمرار؛ وتبقى الترجمات والأعمال المعاصرة ملكًا لأصحابها وناشريها. الرخصة: يجوز استعمال البيانات داخل التطبيقات والمواقع والأدوات البحثية مجانًا من غير اشتراط ذكر المصدر (وذكرُه محلُّ تقدير)، أما نشرها نفسِها — كاملةً أو بعضَها — في صورة قاعدة بيانات قابلة للتنزيل فيلزم فيه ذكرُ «الموسوعة القرآنية quranpedia.net» مصدرًا، مع رابط الموقع وبيان تاريخ هذه النسخة. والمحتوى يخضع لتصحيح مستمر؛ فمَن نشر نسخةً، فعليه تحديثها عبر ‎/v1/changes، والعهدة في نشر نصٍّ قديم على ناشره. وتُقدَّم البيانات كما هي من غير ضمان، والتثبُّت واجبُ المستفيد.",
+    "sources": [
+      {
+        "fields": "word morphology — part of speech, root, lemma, case, mood, verb form",
+        "source": "Quranic Arabic Corpus, version 0.4 — Dr. Kais Dukes (may Allah have mercy on him), University of Leeds",
+        "url": "https://corpus.quran.com",
+        "license": "GNU General Public License",
+        "requires": "Any use must clearly indicate the Quranic Arabic Corpus as the source, with a link to https://corpus.quran.com."
+      },
+      {
+        "fields": "i'rab syntax — dependency relations, heads, constituents",
+        "source": "The Quranic Treebank (NoorBayan), building on the Quranic Arabic Corpus of Dr. Kais Dukes (may Allah have mercy on him)",
+        "url": "https://github.com/NoorBayan/Quranic",
+        "license": "MIT",
+        "requires": "The MIT copyright notice must accompany redistribution."
+      }
+    ],
+    "contact": "quranpedia.help@gmail.com",
+    "usage_policy": "https://quranpedia.net/api-docs#usage-policy",
+    "resync": "https://quranpedia.net/api/v1/changes?since=2026-09-26"
+  },
+  "schema": "/v1/ayah/{surah}/{ayah}/similar",
+  "surah": 98,
+  "data": [
+    {
+      "surah": 98,
+      "ayah": 1,
+      "similar": [
+        {
+          "notes": "\"  من أهل الكتاب  \"",
+          "images": [],
+          "youtube": [
+            {
+              "id": 20863,
+              "name": null,
+              "file_name": "https://www.youtube.com/embed/yR0xON1ptsY?start=236&end=255",
+              "part": null,
+              "attachment_type_id": 4,
+              "attachmentable_id": 489,
+              "attachmentable_type": "App\\Models\\Note",
+              "downloads": 0,
+              "status": null,
+              "created_at": "2020-06-15T12:41:25.000000Z",
+              "updated_at": "2020-06-15T12:41:25.000000Z",
+              "deleted_at": null
+            }
+          ],
+          "ayahs": [
+            {
+              "info": {
+                "id": 116,
+                "number": 109,
+                "text": "﻿وَدَّ كَثِيرٌ مِنْ أَهْلِ الْكِتَابِ لَوْ يَرُدُّونَكُمْ مِنْ بَعْدِ إِيمَانِكُمْ كُفَّارًا حَسَدًا مِنْ عِنْدِ أَنْفُسِهِمْ مِنْ بَعْدِ مَا تَبَيَّنَ لَهُمُ الْحَقُّ ۖ فَاعْفُوا وَاصْفَحُوا حَتَّىٰ يَأْتِيَ اللَّهُ بِأَمْرِهِ ۗ إِنَّ اللَّهَ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ",
+                "font": "page_17",
+                "surah_id": 2,
+                "surah": {
+                  "id": 2,
+                  "name": "سورة البقرة",
+                  "coded_name": "ﮎ",
+                  "translated_name": "{\"ar\":\"\\u0627\\u0644\\u0628\\u0642\\u0631\\u0629\\r\\n\",\"en\":\"Al-Baqarah \",\"bn\":\"\\u0986\\u09b2-\\u09ac\\u09be\\u0995\\u09cd\\u09ac\\u09be\\u09b0\\u09be\\u09b9\\u09cd\",\"bs\":\"El-Bekara\",\"zh\":\"\\u9ec4\\u725b\\u7ae0\\r\\n\",\"de\":\"Al-Baqara - Die Kuh\\r\\n\",\"es\":\"La Vaca\\r\\n\",\"fa\":\"\\u0628\\u0642\\u0631\\u0647\",\"fr\":\"La g\\u00e9nisse\",\"ha\":\"Al-Bakarah\",\"id\":\"Surah Al-Baqarah\\u00a0(Lembu Betina)\",\"ml\":\"\\u0d2c\\u0d16\\u0d31\",\"pt\":\"A Vaca\",\"ru\":\"\\u041a\\u043e\\u0440\\u043e\\u0432\\u0430 (\\u0410\\u043b-\\u0411\\u0430\\u043a\\u0430\\u0440\\u0430)\\r\\n\",\"sw\":\"Al-Bakarah\",\"tg\":\"\\u0411\\u0410\\u049a\\u0410\\u0420\\u0410\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e31\\u0e25-\\u0e1a\\u0e30\\u0e40\\u0e01\\u0e32\\u0e30\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\",\"tl\":\"Ang Baka\",\"tr\":\"Bakara Suresi\\r\\n\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u0628\\u06d5\\u0642\\u06d5\\u0631\\u06d5 \",\"ur\":\"\\u0628\\u0642\\u0631\\u06c1\\n\"}",
+                  "number_of_ayahs": 286,
+                  "revelation_type": "medinan",
+                  "first_page": 2,
+                  "last_page": 49,
+                  "first_juz": 1
+                },
+                "juz": 1,
+                "hizb": 7,
+                "page_number": 17,
+                "marker": "ﮱ"
+              },
+              "text": "وَدَّ كَثِيرٞ مِّنۡ أَهۡلِ ٱلۡكِتَٰبِ لَوۡ يَرُدُّونَكُم مِّنۢ بَعۡدِ إِيمَٰنِكُمۡ كُفَّارًا حَسَدٗا مِّنۡ عِندِ أَنفُسِهِم مِّنۢ بَعۡدِ مَا تَبَيَّنَ لَهُمُ ٱلۡحَقُّۖ فَٱعۡفُواْ وَٱصۡفَحُواْ حَتَّىٰ يَأۡتِيَ ٱللَّهُ بِأَمۡرِهِۦٓۗ إِنَّ ٱللَّهَ عَلَىٰ كُلِّ شَيۡءٖ قَدِيرٞ  <span>ﱬ</span>  ",
+              "ayah_ids": [
+                116
+              ],
+              "ayah_to_number": null
+            },
+            {
+              "info": {
+                "id": 362,
+                "number": 69,
+                "text": "﻿وَدَّتْ طَائِفَةٌ مِنْ أَهْلِ الْكِتَابِ لَوْ يُضِلُّونَكُمْ وَمَا يُضِلُّونَ إِلَّا أَنْفُسَهُمْ وَمَا يَشْعُرُونَ",
+                "font": "page_58",
+                "surah_id": 3,
+                "surah": {
+                  "id": 3,
+                  "name": "سورة آل عمران",
+                  "coded_name": "ﮏ",
+                  "translated_name": "{\"ar\":\"\\u0622\\u0644 \\u0639\\u0645\\u0631\\u0627\\u0646\\r\\n\",\"en\":\"Al-Imran \",\"bn\":\"\\u0986\\u09b2\\u09c7 \\u0987\\u09ae\\u09b0\\u09be\\u09a8\",\"bs\":\"Al Imran\",\"zh\":\"\\u4eea\\u59c6\\u5170\\u7684\\u5bb6\\u5c5e\\u7ae0\\r\\n\",\"de\":\"\\u0100l-i-'Imr\\u0101n - Die Sippe 'Imr\\u0101n\",\"es\":\"La Familia de Imran\\r\\n\",\"fa\":\"\\u0622\\u0644 \\u0639\\u0645\\u0631\\u0627\\u0646\",\"fr\":\"La famille d'Imran\",\"ha\":\"Al-Imaran\",\"id\":\"Surah Ali \\u2018Imran\\u00a0(Keluarga Imran)\",\"ml\":\"\\u0d06\\u0d32\\u0d41\\u0d07\\u0d02\\u0d31\\u0d3e\\u0d28\\u0d4d\",\"pt\":\"A Fam\\u00edlia de Imran\",\"ru\":\"\\u0421\\u0435\\u043c\\u0435\\u0439\\u0441\\u0442\\u0432\\u043e \\u0418\\u043c\\u0440\\u0430\\u043d\\u0430 (\\u0410\\u043b-\\u0418\\u043c\\u0440\\u0430\\u043d)\\r\\n\",\"sw\":\"Al-Imaran\",\"tg\":\"\\u041e\\u041b\\u0418 \\u0418\\u041c\\u0420\\u041e\\u041d\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e32\\u0e25 \\u0e2d\\u0e34\\u0e21\\u0e23\\u0e2d\\u0e19\",\"tl\":\"Ang Pamilya ni Imran\",\"tr\":\"\\u00c2l-i Imran Suresi\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u0626\\u0627\\u0644 \\u0626\\u0649\\u0645\\u0631\\u0627\\u0646 \",\"ur\":\"\\u0622\\u0644 \\u0639\\u0645\\u0631\\u0627\\u0646\\n\"}",
+                  "number_of_ayahs": 200,
+                  "revelation_type": "medinan",
+                  "first_page": 50,
+                  "last_page": 76,
+                  "first_juz": 3
+                },
+                "juz": 3,
+                "hizb": 23,
+                "page_number": 58,
+                "marker": "ﯽ"
+              },
+              "text": "وَدَّت طَّآئِفَةٞ مِّنۡ أَهۡلِ ٱلۡكِتَٰبِ لَوۡ يُضِلُّونَكُمۡ وَمَا يُضِلُّونَ إِلَّآ أَنفُسَهُمۡ وَمَا يَشۡعُرُونَ  <span>ﱄ</span>  ",
+              "ayah_ids": [
+                362
+              ],
+              "ayah_to_number": null
+            },
+            {
+              "info": {
+                "id": 368,
+                "number": 75,
+                "text": "﻿۞ وَمِنْ أَهْلِ الْكِتَابِ مَنْ إِنْ تَأْمَنْهُ بِقِنْطَارٍ يُؤَدِّهِ إِلَيْكَ وَمِنْهُمْ مَنْ إِنْ تَأْمَنْهُ بِدِينَارٍ لَا يُؤَدِّهِ إِلَيْكَ إِلَّا مَا دُمْتَ عَلَيْهِ قَائِمًا ۗ ذَٰلِكَ بِأَنَّهُمْ قَالُوا لَيْسَ عَلَيْنَا فِي الْأُمِّيِّينَ سَبِيلٌ وَيَقُولُونَ عَلَى اللَّهِ الْكَذِبَ وَهُمْ يَعْلَمُونَ",
+                "font": "page_59",
+                "surah_id": 3,
+                "surah": {
+                  "id": 3,
+                  "name": "سورة آل عمران",
+                  "coded_name": "ﮏ",
+                  "translated_name": "{\"ar\":\"\\u0622\\u0644 \\u0639\\u0645\\u0631\\u0627\\u0646\\r\\n\",\"en\":\"Al-Imran \",\"bn\":\"\\u0986\\u09b2\\u09c7 \\u0987\\u09ae\\u09b0\\u09be\\u09a8\",\"bs\":\"Al Imran\",\"zh\":\"\\u4eea\\u59c6\\u5170\\u7684\\u5bb6\\u5c5e\\u7ae0\\r\\n\",\"de\":\"\\u0100l-i-'Imr\\u0101n - Die Sippe 'Imr\\u0101n\",\"es\":\"La Familia de Imran\\r\\n\",\"fa\":\"\\u0622\\u0644 \\u0639\\u0645\\u0631\\u0627\\u0646\",\"fr\":\"La famille d'Imran\",\"ha\":\"Al-Imaran\",\"id\":\"Surah Ali \\u2018Imran\\u00a0(Keluarga Imran)\",\"ml\":\"\\u0d06\\u0d32\\u0d41\\u0d07\\u0d02\\u0d31\\u0d3e\\u0d28\\u0d4d\",\"pt\":\"A Fam\\u00edlia de Imran\",\"ru\":\"\\u0421\\u0435\\u043c\\u0435\\u0439\\u0441\\u0442\\u0432\\u043e \\u0418\\u043c\\u0440\\u0430\\u043d\\u0430 (\\u0410\\u043b-\\u0418\\u043c\\u0440\\u0430\\u043d)\\r\\n\",\"sw\":\"Al-Imaran\",\"tg\":\"\\u041e\\u041b\\u0418 \\u0418\\u041c\\u0420\\u041e\\u041d\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e32\\u0e25 \\u0e2d\\u0e34\\u0e21\\u0e23\\u0e2d\\u0e19\",\"tl\":\"Ang Pamilya ni Imran\",\"tr\":\"\\u00c2l-i Imran Suresi\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u0626\\u0627\\u0644 \\u0626\\u0649\\u0645\\u0631\\u0627\\u0646 \",\"ur\":\"\\u0622\\u0644 \\u0639\\u0645\\u0631\\u0627\\u0646\\n\"}",
+                  "number_of_ayahs": 200,
+                  "revelation_type": "medinan",
+                  "first_page": 50,
+                  "last_page": 76,
+                  "first_juz": 3
+                },
+                "juz": 3,
+                "hizb": 24,
+                "page_number": 59,
+                "marker": "ﯢ"
+              },
+              "text": "۞ وَمِنۡ أَهۡلِ ٱلۡكِتَٰبِ مَنۡ إِن تَأۡمَنۡهُ بِقِنطَارٖ يُؤَدِّهِۦٓ إِلَيۡكَ وَمِنۡهُم مَّنۡ إِن تَأۡمَنۡهُ بِدِينَارٖ لَّا يُؤَدِّهِۦٓ إِلَيۡكَ إِلَّا مَا دُمۡتَ عَلَيۡهِ قَآئِمٗاۗ ذَٰلِكَ بِأَنَّهُمۡ قَالُواْ لَيۡسَ عَلَيۡنَا فِي ٱلۡأُمِّيِّـۧنَ سَبِيلٞ وَيَقُولُونَ عَلَى ٱللَّهِ ٱلۡكَذِبَ وَهُمۡ يَعۡلَمُونَ  <span>ﱊ</span>  ",
+              "ayah_ids": [
+                368
+              ],
+              "ayah_to_number": null
+            },
+            {
+              "info": {
+                "id": 492,
+                "number": 199,
+                "text": "﻿وَإِنَّ مِنْ أَهْلِ الْكِتَابِ لَمَنْ يُؤْمِنُ بِاللَّهِ وَمَا أُنْزِلَ إِلَيْكُمْ وَمَا أُنْزِلَ إِلَيْهِمْ خَاشِعِينَ لِلَّهِ لَا يَشْتَرُونَ بِآيَاتِ اللَّهِ ثَمَنًا قَلِيلًا ۗ أُولَٰئِكَ لَهُمْ أَجْرُهُمْ عِنْدَ رَبِّهِمْ ۗ إِنَّ اللَّهَ سَرِيعُ الْحِسَابِ",
+                "font": "page_76",
+                "surah_id": 3,
+                "surah": {
+                  "id": 3,
+                  "name": "سورة آل عمران",
+                  "coded_name": "ﮏ",
+                  "translated_name": "{\"ar\":\"\\u0622\\u0644 \\u0639\\u0645\\u0631\\u0627\\u0646\\r\\n\",\"en\":\"Al-Imran \",\"bn\":\"\\u0986\\u09b2\\u09c7 \\u0987\\u09ae\\u09b0\\u09be\\u09a8\",\"bs\":\"Al Imran\",\"zh\":\"\\u4eea\\u59c6\\u5170\\u7684\\u5bb6\\u5c5e\\u7ae0\\r\\n\",\"de\":\"\\u0100l-i-'Imr\\u0101n - Die Sippe 'Imr\\u0101n\",\"es\":\"La Familia de Imran\\r\\n\",\"fa\":\"\\u0622\\u0644 \\u0639\\u0645\\u0631\\u0627\\u0646\",\"fr\":\"La famille d'Imran\",\"ha\":\"Al-Imaran\",\"id\":\"Surah Ali \\u2018Imran\\u00a0(Keluarga Imran)\",\"ml\":\"\\u0d06\\u0d32\\u0d41\\u0d07\\u0d02\\u0d31\\u0d3e\\u0d28\\u0d4d\",\"pt\":\"A Fam\\u00edlia de Imran\",\"ru\":\"\\u0421\\u0435\\u043c\\u0435\\u0439\\u0441\\u0442\\u0432\\u043e \\u0418\\u043c\\u0440\\u0430\\u043d\\u0430 (\\u0410\\u043b-\\u0418\\u043c\\u0440\\u0430\\u043d)\\r\\n\",\"sw\":\"Al-Imaran\",\"tg\":\"\\u041e\\u041b\\u0418 \\u0418\\u041c\\u0420\\u041e\\u041d\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e32\\u0e25 \\u0e2d\\u0e34\\u0e21\\u0e23\\u0e2d\\u0e19\",\"tl\":\"Ang Pamilya ni Imran\",\"tr\":\"\\u00c2l-i Imran Suresi\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u0626\\u0627\\u0644 \\u0626\\u0649\\u0645\\u0631\\u0627\\u0646 \",\"ur\":\"\\u0622\\u0644 \\u0639\\u0645\\u0631\\u0627\\u0646\\n\"}",
+                  "number_of_ayahs": 200,
+                  "revelation_type": "medinan",
+                  "first_page": 50,
+                  "last_page": 76,
+                  "first_juz": 3
+                },
+                "juz": 4,
+                "hizb": 30,
+                "page_number": 76,
+                "marker": "ﯩ"
+              },
+              "text": "وَإِنَّ مِنۡ أَهۡلِ ٱلۡكِتَٰبِ لَمَن يُؤۡمِنُ بِٱللَّهِ وَمَآ أُنزِلَ إِلَيۡكُمۡ وَمَآ أُنزِلَ إِلَيۡهِمۡ خَٰشِعِينَ لِلَّهِ لَا يَشۡتَرُونَ بِـَٔايَٰتِ ٱللَّهِ ثَمَنٗا قَلِيلًاۚ أُوْلَٰٓئِكَ لَهُمۡ أَجۡرُهُمۡ عِندَ رَبِّهِمۡۗ إِنَّ ٱللَّهَ سَرِيعُ ٱلۡحِسَابِ  <span>ﳆ</span>  ",
+              "ayah_ids": [
+                492
+              ],
+              "ayah_to_number": null
+            },
+            {
+              "info": {
+                "id": 652,
+                "number": 159,
+                "text": "﻿وَإِنْ مِنْ أَهْلِ الْكِتَابِ إِلَّا لَيُؤْمِنَنَّ بِهِ قَبْلَ مَوْتِهِ ۖ وَيَوْمَ الْقِيَامَةِ يَكُونُ عَلَيْهِمْ شَهِيدًا",
+                "font": "page_103",
+                "surah_id": 4,
+                "surah": {
+                  "id": 4,
+                  "name": "سورة النساء",
+                  "coded_name": "ﮐ",
+                  "translated_name": "{\"ar\":\"\\u0627\\u0644\\u0646\\u0633\\u0627\\u0621\\r\\n\",\"en\":\"An-Nisa' \",\"bn\":\"\\u0986\\u09a8-\\u09a8\\u09bf\\u09b8\\u09be\",\"bs\":\"En-Nisa\",\"zh\":\"\\u5987\\u5973\\u7ae0\\r\\n\",\"de\":\"An-Nis\\u0101 - Die Frauen\\r\\n\",\"es\":\"Las Mujeres\\r\\n\",\"fa\":\"\\u0646\\u0633\\u0627\\u0621\",\"fr\":\"Les femmes\",\"ha\":\"An-Nisa'i\",\"id\":\"Surah An-Nisaa\\u2019\\u00a0(Wanita)\",\"ml\":\"\\u0d28\\u0d3f\\u0d38\\u0d3e\\u0d05\\u0d4d\",\"pt\":\"As Mulheres\",\"ru\":\"\\u0416\\u0435\\u043d\\u0449\\u0438\\u043d\\u044b (\\u0410\\u043d-\\u041d\\u0438\\u0441\\u0430)\\r\\n\",\"sw\":\"An-Nisa'i\",\"tg\":\"\\u041d\\u0418\\u0421\\u041e\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e31\\u0e19-\\u0e19\\u0e34\\u0e2a\\u0e32\\u0e2d\\u0e4c\",\"tl\":\"Ang Kababaihan\",\"tr\":\"Nisa Suresi\\r\\n\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u0646\\u0649\\u0633\\u0627 \",\"ur\":\"\\u0646\\u0633\\u0627\\u0621\\n\"}",
+                  "number_of_ayahs": 176,
+                  "revelation_type": "medinan",
+                  "first_page": 77,
+                  "last_page": 106,
+                  "first_juz": 4
+                },
+                "juz": 6,
+                "hizb": 41,
+                "page_number": 103,
+                "marker": "ﮯ"
+              },
+              "text": "وَإِن مِّنۡ أَهۡلِ ٱلۡكِتَٰبِ إِلَّا لَيُؤۡمِنَنَّ بِهِۦ قَبۡلَ مَوۡتِهِۦۖ وَيَوۡمَ ٱلۡقِيَٰمَةِ يَكُونُ عَلَيۡهِمۡ شَهِيدٗا  <span>ﲞ</span>  ",
+              "ayah_ids": [
+                652
+              ],
+              "ayah_to_number": null
+            },
+            {
+              "info": {
+                "id": 3559,
+                "number": 26,
+                "text": "﻿وَأَنْزَلَ الَّذِينَ ظَاهَرُوهُمْ مِنْ أَهْلِ الْكِتَابِ مِنْ صَيَاصِيهِمْ وَقَذَفَ فِي قُلُوبِهِمُ الرُّعْبَ فَرِيقًا تَقْتُلُونَ وَتَأْسِرُونَ فَرِيقًا",
+                "font": "page_421",
+                "surah_id": 33,
+                "surah": {
+                  "id": 33,
+                  "name": "سورة الأحزاب",
+                  "coded_name": "ﮭ",
+                  "translated_name": "{\"ar\":\"\\u0627\\u0644\\u0623\\u062d\\u0632\\u0627\\u0628\\r\\n\",\"en\":\"Al\\u00adAhzab \",\"bn\":\"\\u0986\\u09b2-\\u0986\\u09b9\\u09af\\u09be\\u09ac\",\"bs\":\"El-Ahzab\",\"zh\":\"\\u540c\\u76df\\u519b\\u7ae0\\r\\n\",\"de\":\"Al-Ahz\\u0101b - Die Gruppierungen\\r\\n\",\"es\":\"Los Aliados\\r\\n\",\"fa\":\"\\u0623\\u062d\\u0632\\u0627\\u0628\",\"fr\":\"Les coalis\\u00e9s\",\"ha\":\"Al-Ahzab\",\"id\":\"Surah Al-Ahzab\\u00a0(Golongan yang Bersekutu)\",\"ml\":\"\\u0d05\\u0d39\\u0d4d\\u0d38\\u0d3e\\u0d2c\\u0d4d\\u200c\",\"pt\":\"Os Partidos \",\"ru\":\"\\u0421\\u043e\\u043d\\u043c\\u044b (\\u0410\\u043b-\\u0410\\u0445\\u0437\\u0430\\u0431)\\r\\n\",\"sw\":\"Al-Ahzab\",\"tg\":\" \\u0410\\u04b2\\u0417\\u041e\\u0411\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e31\\u0e25-\\u0e2d\\u0e30\\u0e2b\\u0e4c\\u0e0b\\u0e32\\u0e1a\",\"tl\":\"Ang mga Magkakaanib\",\"tr\":\"Ahzab Suresi\\r\\n\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u0626\\u06d5\\u06be\\u0632\\u0627\\u0628\",\"ur\":\"\\u0627\\u062d\\u0632\\u0627\\u0628\\n\"}",
+                  "number_of_ayahs": 73,
+                  "revelation_type": "medinan",
+                  "first_page": 418,
+                  "last_page": 427,
+                  "first_juz": 21
+                },
+                "juz": 21,
+                "hizb": 168,
+                "page_number": 421,
+                "marker": "ﮛ"
+              },
+              "text": "وَأَنزَلَ ٱلَّذِينَ ظَٰهَرُوهُم مِّنۡ أَهۡلِ ٱلۡكِتَٰبِ مِن صَيَاصِيهِمۡ وَقَذَفَ فِي قُلُوبِهِمُ ٱلرُّعۡبَ فَرِيقٗا تَقۡتُلُونَ وَتَأۡسِرُونَ فَرِيقٗا  <span>ﰙ</span>  ",
+              "ayah_ids": [
+                3559
+              ],
+              "ayah_to_number": null
+            },
+            {
+              "info": {
+                "id": 5128,
+                "number": 2,
+                "text": "﻿هُوَ الَّذِي أَخْرَجَ الَّذِينَ كَفَرُوا مِنْ أَهْلِ الْكِتَابِ مِنْ دِيَارِهِمْ لِأَوَّلِ الْحَشْرِ ۚ مَا ظَنَنْتُمْ أَنْ يَخْرُجُوا ۖ وَظَنُّوا أَنَّهُمْ مَانِعَتُهُمْ حُصُونُهُمْ مِنَ اللَّهِ فَأَتَاهُمُ اللَّهُ مِنْ حَيْثُ لَمْ يَحْتَسِبُوا ۖ وَقَذَفَ فِي قُلُوبِهِمُ الرُّعْبَ ۚ يُخْرِبُونَ بُيُوتَهُمْ بِأَيْدِيهِمْ وَأَيْدِي الْمُؤْمِنِينَ فَاعْتَبِرُوا يَا أُولِي الْأَبْصَارِ",
+                "font": "page_545",
+                "surah_id": 59,
+                "surah": {
+                  "id": 59,
+                  "name": "سورة الحشر",
+                  "coded_name": "ﯨ",
+                  "translated_name": "{\"ar\":\"\\u0627\\u0644\\u062d\\u0634\\u0631\\r\\n\",\"en\":\"Al-Hashr \",\"bn\":\"\\u0986\\u09b2-\\u09b9\\u09be\\u09b6\\u09b0\",\"bs\":\"El-Ha\\u0161r\",\"zh\":\"\\u653e\\u9010\\u7ae0\\r\\n\",\"de\":\"Al-Ha\\u0161r - Die Versammlung\\r\\n\",\"es\":\"El Destierro\\r\\n\",\"fa\":\"\\u062d\\u0634\\u0631\",\"fr\":\"L'exode\",\"ha\":\"Al-Hashr\",\"id\":\"Surah Al-Hasyr\\u00a0(Pengusiran)\",\"ml\":\"\\u0d39\\u0d37\\u0d4d\\u0d31\\u0d4d\",\"pt\":\"O Desterro\",\"ru\":\"\\u0421\\u043e\\u0431\\u0440\\u0430\\u043d\\u0438\\u0435(\\u0410\\u043b-\\u0425\\u0430\\u0448\\u0440)\\r\\n\",\"sw\":\"Al-Hashr\",\"tg\":\"\\u04b2\\u0410\\u0428\\u0420\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e31\\u0e25-\\u0e2b\\u0e31\\u0e0a\\u0e23\\u0e4c\",\"tl\":\"Ang Pagtitipun-tipon\",\"tr\":\"Hasr Suresi\\r\\n\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u06be\\u06d5\\u0634\\u0649\\u0631\",\"ur\":\"\\u062d\\u0634\\u0631\\n\"}",
+                  "number_of_ayahs": 24,
+                  "revelation_type": "medinan",
+                  "first_page": 545,
+                  "last_page": 548,
+                  "first_juz": 28
+                },
+                "juz": 28,
+                "hizb": 218,
+                "page_number": 545,
+                "marker": "ﯤ"
+              },
+              "text": "هُوَ ٱلَّذِيٓ أَخۡرَجَ ٱلَّذِينَ كَفَرُواْ مِنۡ أَهۡلِ ٱلۡكِتَٰبِ مِن دِيَٰرِهِمۡ لِأَوَّلِ ٱلۡحَشۡرِۚ مَا ظَنَنتُمۡ أَن يَخۡرُجُواْۖ وَظَنُّوٓاْ أَنَّهُم مَّانِعَتُهُمۡ حُصُونُهُم مِّنَ ٱللَّهِ فَأَتَىٰهُمُ ٱللَّهُ مِنۡ حَيۡثُ لَمۡ يَحۡتَسِبُواْۖ وَقَذَفَ فِي قُلُوبِهِمُ ٱلرُّعۡبَۚ يُخۡرِبُونَ بُيُوتَهُم بِأَيۡدِيهِمۡ وَأَيۡدِي ٱلۡمُؤۡمِنِينَ فَٱعۡتَبِرُواْ يَٰٓأُوْلِي ٱلۡأَبۡصَٰرِ  <span>ﰁ</span>  ",
+              "ayah_ids": [
+                5128
+              ],
+              "ayah_to_number": null
+            },
+            {
+              "info": {
+                "id": 6131,
+                "number": 1,
+                "text": "لَمْ يَكُنِ الَّذِينَ كَفَرُوا مِنْ أَهْلِ الْكِتَابِ وَالْمُشْرِكِينَ مُنْفَكِّينَ حَتَّىٰ تَأْتِيَهُمُ الْبَيِّنَةُ",
+                "font": "page_598",
+                "surah_id": 98,
+                "surah": {
+                  "id": 98,
+                  "name": "سورة البينة",
+                  "coded_name": "ﰏ",
+                  "translated_name": "{\"ar\":\"\\u0627\\u0644\\u0628\\u064a\\u0646\\u0629\\r\\n\",\"en\":\"Al-Baiyinah \",\"bn\":\"\\u0986\\u09b2-\\u09ac\\u09be\\u09df\\u09cd\\u09af\\u09bf\\u09a8\\u09be\\u09b9\\u09cd\",\"bs\":\"El-Bejjine\",\"zh\":\"\\u660e\\u8bc1\\u7ae0\\r\\n\",\"de\":\"Al-Bayyina - Der klare Beweis\\r\",\"es\":\"La Evidencia\\r\\n\",\"fa\":\"\\u0628\\u06cc\\u0646\\u0647\",\"fr\":\"La preuve\",\"ha\":\"Al-Bayyinah\",\"id\":\"Surah Al-Baiyinah\\u00a0(Bukti yang Nyata)\",\"ml\":\"\\u0d2c\\u0d2f\\u0d4d\\u0d2f\\u0d3f\\u0d28\",\"pt\":\"A Evid\\u00eancia\",\"ru\":\"\\u042f\\u0441\\u043d\\u043e\\u0435 \\u0417\\u043d\\u0430\\u043c\\u0435\\u043d\\u0438\\u0435(\\u0410\\u043b-\\u0411\\u0430\\u044f\\u0438\\u043d\\u0430)\\r\\n\",\"sw\":\"Al-Bayyinah\",\"tg\":\"\\u0411\\u0410\\u0419\\u0419\\u0418\\u041d\\u0410\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e31\\u0e25-\\u0e1a\\u0e31\\u0e22\\u0e22\\u0e34\\u0e19\\u0e30\\u0e2e\\u0e3a\",\"tl\":\"Ang Maliwanag na Katibayan\",\"tr\":\"Beyyine Suresi\\r\\n\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u0628\\u06d5\\u064a\\u064a\\u0649\\u0646\\u06d5\",\"ur\":\"\\u0628\\u06cc\\u0646\\u06c1\\n\"}",
+                  "number_of_ayahs": 8,
+                  "revelation_type": "medinan",
+                  "first_page": 598,
+                  "last_page": 599,
+                  "first_juz": 30
+                },
+                "juz": 30,
+                "hizb": 239,
+                "page_number": 598,
+                "marker": "ﮣ"
+              },
+              "text": "لَمۡ يَكُنِ ٱلَّذِينَ كَفَرُواْ مِنۡ أَهۡلِ ٱلۡكِتَٰبِ وَٱلۡمُشۡرِكِينَ مُنفَكِّينَ حَتَّىٰ تَأۡتِيَهُمُ ٱلۡبَيِّنَةُ  <span>ﰀ</span>  ",
+              "ayah_ids": [
+                6131
+              ],
+              "ayah_to_number": null
+            },
+            {
+              "info": {
+                "id": 6136,
+                "number": 6,
+                "text": "﻿إِنَّ الَّذِينَ كَفَرُوا مِنْ أَهْلِ الْكِتَابِ وَالْمُشْرِكِينَ فِي نَارِ جَهَنَّمَ خَالِدِينَ فِيهَا ۚ أُولَٰئِكَ هُمْ شَرُّ الْبَرِيَّةِ",
+                "font": "page_599",
+                "surah_id": 98,
+                "surah": {
+                  "id": 98,
+                  "name": "سورة البينة",
+                  "coded_name": "ﰏ",
+                  "translated_name": "{\"ar\":\"\\u0627\\u0644\\u0628\\u064a\\u0646\\u0629\\r\\n\",\"en\":\"Al-Baiyinah \",\"bn\":\"\\u0986\\u09b2-\\u09ac\\u09be\\u09df\\u09cd\\u09af\\u09bf\\u09a8\\u09be\\u09b9\\u09cd\",\"bs\":\"El-Bejjine\",\"zh\":\"\\u660e\\u8bc1\\u7ae0\\r\\n\",\"de\":\"Al-Bayyina - Der klare Beweis\\r\",\"es\":\"La Evidencia\\r\\n\",\"fa\":\"\\u0628\\u06cc\\u0646\\u0647\",\"fr\":\"La preuve\",\"ha\":\"Al-Bayyinah\",\"id\":\"Surah Al-Baiyinah\\u00a0(Bukti yang Nyata)\",\"ml\":\"\\u0d2c\\u0d2f\\u0d4d\\u0d2f\\u0d3f\\u0d28\",\"pt\":\"A Evid\\u00eancia\",\"ru\":\"\\u042f\\u0441\\u043d\\u043e\\u0435 \\u0417\\u043d\\u0430\\u043c\\u0435\\u043d\\u0438\\u0435(\\u0410\\u043b-\\u0411\\u0430\\u044f\\u0438\\u043d\\u0430)\\r\\n\",\"sw\":\"Al-Bayyinah\",\"tg\":\"\\u0411\\u0410\\u0419\\u0419\\u0418\\u041d\\u0410\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e31\\u0e25-\\u0e1a\\u0e31\\u0e22\\u0e22\\u0e34\\u0e19\\u0e30\\u0e2e\\u0e3a\",\"tl\":\"Ang Maliwanag na Katibayan\",\"tr\":\"Beyyine Suresi\\r\\n\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u0628\\u06d5\\u064a\\u064a\\u0649\\u0646\\u06d5\",\"ur\":\"\\u0628\\u06cc\\u0646\\u06c1\\n\"}",
+                  "number_of_ayahs": 8,
+                  "revelation_type": "medinan",
+                  "first_page": 598,
+                  "last_page": 599,
+                  "first_juz": 30
+                },
+                "juz": 30,
+                "hizb": 239,
+                "page_number": 599,
+                "marker": "ﭢ"
+              },
+              "text": "إِنَّ ٱلَّذِينَ كَفَرُواْ مِنۡ أَهۡلِ ٱلۡكِتَٰبِ وَٱلۡمُشۡرِكِينَ فِي نَارِ جَهَنَّمَ خَٰلِدِينَ فِيهَآۚ أُوْلَٰٓئِكَ هُمۡ شَرُّ ٱلۡبَرِيَّةِ  <span>ﰅ</span>  ",
+              "ayah_ids": [
+                6136
+              ],
+              "ayah_to_number": null
+            }
+          ],
+          "websites": []
+        },
+        {
+          "notes": "ضبط مواضع ( من أهل الكتاب )",
+          "images": [],
+          "youtube": [
+            {
+              "id": 20889,
+              "name": null,
+              "file_name": "https://www.youtube.com/embed/I51Pt--v6ys?start=0",
+              "part": null,
+              "attachment_type_id": 4,
+              "attachmentable_id": 515,
+              "attachmentable_type": "App\\Models\\Note",
+              "downloads": 0,
+              "status": null,
+              "created_at": "2020-06-15T12:41:43.000000Z",
+              "updated_at": "2020-06-15T12:41:43.000000Z",
+              "deleted_at": null
+            }
+          ],
+          "ayahs": [
+            {
+              "info": {
+                "id": 112,
+                "number": 105,
+                "text": "﻿مَا يَوَدُّ الَّذِينَ كَفَرُوا مِنْ أَهْلِ الْكِتَابِ وَلَا الْمُشْرِكِينَ أَنْ يُنَزَّلَ عَلَيْكُمْ مِنْ خَيْرٍ مِنْ رَبِّكُمْ ۗ وَاللَّهُ يَخْتَصُّ بِرَحْمَتِهِ مَنْ يَشَاءُ ۚ وَاللَّهُ ذُو الْفَضْلِ الْعَظِيمِ",
+                "font": "page_16",
+                "surah_id": 2,
+                "surah": {
+                  "id": 2,
+                  "name": "سورة البقرة",
+                  "coded_name": "ﮎ",
+                  "translated_name": "{\"ar\":\"\\u0627\\u0644\\u0628\\u0642\\u0631\\u0629\\r\\n\",\"en\":\"Al-Baqarah \",\"bn\":\"\\u0986\\u09b2-\\u09ac\\u09be\\u0995\\u09cd\\u09ac\\u09be\\u09b0\\u09be\\u09b9\\u09cd\",\"bs\":\"El-Bekara\",\"zh\":\"\\u9ec4\\u725b\\u7ae0\\r\\n\",\"de\":\"Al-Baqara - Die Kuh\\r\\n\",\"es\":\"La Vaca\\r\\n\",\"fa\":\"\\u0628\\u0642\\u0631\\u0647\",\"fr\":\"La g\\u00e9nisse\",\"ha\":\"Al-Bakarah\",\"id\":\"Surah Al-Baqarah\\u00a0(Lembu Betina)\",\"ml\":\"\\u0d2c\\u0d16\\u0d31\",\"pt\":\"A Vaca\",\"ru\":\"\\u041a\\u043e\\u0440\\u043e\\u0432\\u0430 (\\u0410\\u043b-\\u0411\\u0430\\u043a\\u0430\\u0440\\u0430)\\r\\n\",\"sw\":\"Al-Bakarah\",\"tg\":\"\\u0411\\u0410\\u049a\\u0410\\u0420\\u0410\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e31\\u0e25-\\u0e1a\\u0e30\\u0e40\\u0e01\\u0e32\\u0e30\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\",\"tl\":\"Ang Baka\",\"tr\":\"Bakara Suresi\\r\\n\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u0628\\u06d5\\u0642\\u06d5\\u0631\\u06d5 \",\"ur\":\"\\u0628\\u0642\\u0631\\u06c1\\n\"}",
+                  "number_of_ayahs": 286,
+                  "revelation_type": "medinan",
+                  "first_page": 2,
+                  "last_page": 49,
+                  "first_juz": 1
+                },
+                "juz": 1,
+                "hizb": 6,
+                "page_number": 16,
+                "marker": "ﯼ"
+              },
+              "text": "مَّا يَوَدُّ ٱلَّذِينَ كَفَرُواْ مِنۡ أَهۡلِ ٱلۡكِتَٰبِ وَلَا ٱلۡمُشۡرِكِينَ أَن يُنَزَّلَ عَلَيۡكُم مِّنۡ خَيۡرٖ مِّن رَّبِّكُمۡۚ وَٱللَّهُ يَخۡتَصُّ بِرَحۡمَتِهِۦ مَن يَشَآءُۚ وَٱللَّهُ ذُو ٱلۡفَضۡلِ ٱلۡعَظِيمِ  <span>ﱨ</span>  ",
+              "ayah_ids": [
+                112
+              ],
+              "ayah_to_number": null
+            },
+            {
+              "info": {
+                "id": 116,
+                "number": 109,
+                "text": "﻿وَدَّ كَثِيرٌ مِنْ أَهْلِ الْكِتَابِ لَوْ يَرُدُّونَكُمْ مِنْ بَعْدِ إِيمَانِكُمْ كُفَّارًا حَسَدًا مِنْ عِنْدِ أَنْفُسِهِمْ مِنْ بَعْدِ مَا تَبَيَّنَ لَهُمُ الْحَقُّ ۖ فَاعْفُوا وَاصْفَحُوا حَتَّىٰ يَأْتِيَ اللَّهُ بِأَمْرِهِ ۗ إِنَّ اللَّهَ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ",
+                "font": "page_17",
+                "surah_id": 2,
+                "surah": {
+                  "id": 2,
+                  "name": "سورة البقرة",
+                  "coded_name": "ﮎ",
+                  "translated_name": "{\"ar\":\"\\u0627\\u0644\\u0628\\u0642\\u0631\\u0629\\r\\n\",\"en\":\"Al-Baqarah \",\"bn\":\"\\u0986\\u09b2-\\u09ac\\u09be\\u0995\\u09cd\\u09ac\\u09be\\u09b0\\u09be\\u09b9\\u09cd\",\"bs\":\"El-Bekara\",\"zh\":\"\\u9ec4\\u725b\\u7ae0\\r\\n\",\"de\":\"Al-Baqara - Die Kuh\\r\\n\",\"es\":\"La Vaca\\r\\n\",\"fa\":\"\\u0628\\u0642\\u0631\\u0647\",\"fr\":\"La g\\u00e9nisse\",\"ha\":\"Al-Bakarah\",\"id\":\"Surah Al-Baqarah\\u00a0(Lembu Betina)\",\"ml\":\"\\u0d2c\\u0d16\\u0d31\",\"pt\":\"A Vaca\",\"ru\":\"\\u041a\\u043e\\u0440\\u043e\\u0432\\u0430 (\\u0410\\u043b-\\u0411\\u0430\\u043a\\u0430\\u0440\\u0430)\\r\\n\",\"sw\":\"Al-Bakarah\",\"tg\":\"\\u0411\\u0410\\u049a\\u0410\\u0420\\u0410\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e31\\u0e25-\\u0e1a\\u0e30\\u0e40\\u0e01\\u0e32\\u0e30\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\",\"tl\":\"Ang Baka\",\"tr\":\"Bakara Suresi\\r\\n\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u0628\\u06d5\\u0642\\u06d5\\u0631\\u06d5 \",\"ur\":\"\\u0628\\u0642\\u0631\\u06c1\\n\"}",
+                  "number_of_ayahs": 286,
+                  "revelation_type": "medinan",
+                  "first_page": 2,
+                  "last_page": 49,
+                  "first_juz": 1
+                },
+                "juz": 1,
+                "hizb": 7,
+                "page_number": 17,
+                "marker": "ﮱ"
+              },
+              "text": "وَدَّ كَثِيرٞ مِّنۡ أَهۡلِ ٱلۡكِتَٰبِ لَوۡ يَرُدُّونَكُم مِّنۢ بَعۡدِ إِيمَٰنِكُمۡ كُفَّارًا حَسَدٗا مِّنۡ عِندِ أَنفُسِهِم مِّنۢ بَعۡدِ مَا تَبَيَّنَ لَهُمُ ٱلۡحَقُّۖ فَٱعۡفُواْ وَٱصۡفَحُواْ حَتَّىٰ يَأۡتِيَ ٱللَّهُ بِأَمۡرِهِۦٓۗ إِنَّ ٱللَّهَ عَلَىٰ كُلِّ شَيۡءٖ قَدِيرٞ  <span>ﱬ</span>  ",
+              "ayah_ids": [
+                116
+              ],
+              "ayah_to_number": null
+            },
+            {
+              "info": {
+                "id": 362,
+                "number": 69,
+                "text": "﻿وَدَّتْ طَائِفَةٌ مِنْ أَهْلِ الْكِتَابِ لَوْ يُضِلُّونَكُمْ وَمَا يُضِلُّونَ إِلَّا أَنْفُسَهُمْ وَمَا يَشْعُرُونَ",
+                "font": "page_58",
+                "surah_id": 3,
+                "surah": {
+                  "id": 3,
+                  "name": "سورة آل عمران",
+                  "coded_name": "ﮏ",
+                  "translated_name": "{\"ar\":\"\\u0622\\u0644 \\u0639\\u0645\\u0631\\u0627\\u0646\\r\\n\",\"en\":\"Al-Imran \",\"bn\":\"\\u0986\\u09b2\\u09c7 \\u0987\\u09ae\\u09b0\\u09be\\u09a8\",\"bs\":\"Al Imran\",\"zh\":\"\\u4eea\\u59c6\\u5170\\u7684\\u5bb6\\u5c5e\\u7ae0\\r\\n\",\"de\":\"\\u0100l-i-'Imr\\u0101n - Die Sippe 'Imr\\u0101n\",\"es\":\"La Familia de Imran\\r\\n\",\"fa\":\"\\u0622\\u0644 \\u0639\\u0645\\u0631\\u0627\\u0646\",\"fr\":\"La famille d'Imran\",\"ha\":\"Al-Imaran\",\"id\":\"Surah Ali \\u2018Imran\\u00a0(Keluarga Imran)\",\"ml\":\"\\u0d06\\u0d32\\u0d41\\u0d07\\u0d02\\u0d31\\u0d3e\\u0d28\\u0d4d\",\"pt\":\"A Fam\\u00edlia de Imran\",\"ru\":\"\\u0421\\u0435\\u043c\\u0435\\u0439\\u0441\\u0442\\u0432\\u043e \\u0418\\u043c\\u0440\\u0430\\u043d\\u0430 (\\u0410\\u043b-\\u0418\\u043c\\u0440\\u0430\\u043d)\\r\\n\",\"sw\":\"Al-Imaran\",\"tg\":\"\\u041e\\u041b\\u0418 \\u0418\\u041c\\u0420\\u041e\\u041d\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e32\\u0e25 \\u0e2d\\u0e34\\u0e21\\u0e23\\u0e2d\\u0e19\",\"tl\":\"Ang Pamilya ni Imran\",\"tr\":\"\\u00c2l-i Imran Suresi\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u0626\\u0627\\u0644 \\u0626\\u0649\\u0645\\u0631\\u0627\\u0646 \",\"ur\":\"\\u0622\\u0644 \\u0639\\u0645\\u0631\\u0627\\u0646\\n\"}",
+                  "number_of_ayahs": 200,
+                  "revelation_type": "medinan",
+                  "first_page": 50,
+                  "last_page": 76,
+                  "first_juz": 3
+                },
+                "juz": 3,
+                "hizb": 23,
+                "page_number": 58,
+                "marker": "ﯽ"
+              },
+              "text": "وَدَّت طَّآئِفَةٞ مِّنۡ أَهۡلِ ٱلۡكِتَٰبِ لَوۡ يُضِلُّونَكُمۡ وَمَا يُضِلُّونَ إِلَّآ أَنفُسَهُمۡ وَمَا يَشۡعُرُونَ  <span>ﱄ</span>  ",
+              "ayah_ids": [
+                362
+              ],
+              "ayah_to_number": null
+            },
+            {
+              "info": {
+                "id": 365,
+                "number": 72,
+                "text": "﻿وَقَالَتْ طَائِفَةٌ مِنْ أَهْلِ الْكِتَابِ آمِنُوا بِالَّذِي أُنْزِلَ عَلَى الَّذِينَ آمَنُوا وَجْهَ النَّهَارِ وَاكْفُرُوا آخِرَهُ لَعَلَّهُمْ يَرْجِعُونَ",
+                "font": "page_59",
+                "surah_id": 3,
+                "surah": {
+                  "id": 3,
+                  "name": "سورة آل عمران",
+                  "coded_name": "ﮏ",
+                  "translated_name": "{\"ar\":\"\\u0622\\u0644 \\u0639\\u0645\\u0631\\u0627\\u0646\\r\\n\",\"en\":\"Al-Imran \",\"bn\":\"\\u0986\\u09b2\\u09c7 \\u0987\\u09ae\\u09b0\\u09be\\u09a8\",\"bs\":\"Al Imran\",\"zh\":\"\\u4eea\\u59c6\\u5170\\u7684\\u5bb6\\u5c5e\\u7ae0\\r\\n\",\"de\":\"\\u0100l-i-'Imr\\u0101n - Die Sippe 'Imr\\u0101n\",\"es\":\"La Familia de Imran\\r\\n\",\"fa\":\"\\u0622\\u0644 \\u0639\\u0645\\u0631\\u0627\\u0646\",\"fr\":\"La famille d'Imran\",\"ha\":\"Al-Imaran\",\"id\":\"Surah Ali \\u2018Imran\\u00a0(Keluarga Imran)\",\"ml\":\"\\u0d06\\u0d32\\u0d41\\u0d07\\u0d02\\u0d31\\u0d3e\\u0d28\\u0d4d\",\"pt\":\"A Fam\\u00edlia de Imran\",\"ru\":\"\\u0421\\u0435\\u043c\\u0435\\u0439\\u0441\\u0442\\u0432\\u043e \\u0418\\u043c\\u0440\\u0430\\u043d\\u0430 (\\u0410\\u043b-\\u0418\\u043c\\u0440\\u0430\\u043d)\\r\\n\",\"sw\":\"Al-Imaran\",\"tg\":\"\\u041e\\u041b\\u0418 \\u0418\\u041c\\u0420\\u041e\\u041d\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e32\\u0e25 \\u0e2d\\u0e34\\u0e21\\u0e23\\u0e2d\\u0e19\",\"tl\":\"Ang Pamilya ni Imran\",\"tr\":\"\\u00c2l-i Imran Suresi\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u0626\\u0627\\u0644 \\u0626\\u0649\\u0645\\u0631\\u0627\\u0646 \",\"ur\":\"\\u0622\\u0644 \\u0639\\u0645\\u0631\\u0627\\u0646\\n\"}",
+                  "number_of_ayahs": 200,
+                  "revelation_type": "medinan",
+                  "first_page": 50,
+                  "last_page": 76,
+                  "first_juz": 3
+                },
+                "juz": 3,
+                "hizb": 23,
+                "page_number": 59,
+                "marker": "ﭭ"
+              },
+              "text": "وَقَالَت طَّآئِفَةٞ مِّنۡ أَهۡلِ ٱلۡكِتَٰبِ ءَامِنُواْ بِٱلَّذِيٓ أُنزِلَ عَلَى ٱلَّذِينَ ءَامَنُواْ وَجۡهَ ٱلنَّهَارِ وَٱكۡفُرُوٓاْ ءَاخِرَهُۥ لَعَلَّهُمۡ يَرۡجِعُونَ  <span>ﱇ</span>  ",
+              "ayah_ids": [
+                365
+              ],
+              "ayah_to_number": null
+            },
+            {
+              "info": {
+                "id": 368,
+                "number": 75,
+                "text": "﻿۞ وَمِنْ أَهْلِ الْكِتَابِ مَنْ إِنْ تَأْمَنْهُ بِقِنْطَارٍ يُؤَدِّهِ إِلَيْكَ وَمِنْهُمْ مَنْ إِنْ تَأْمَنْهُ بِدِينَارٍ لَا يُؤَدِّهِ إِلَيْكَ إِلَّا مَا دُمْتَ عَلَيْهِ قَائِمًا ۗ ذَٰلِكَ بِأَنَّهُمْ قَالُوا لَيْسَ عَلَيْنَا فِي الْأُمِّيِّينَ سَبِيلٌ وَيَقُولُونَ عَلَى اللَّهِ الْكَذِبَ وَهُمْ يَعْلَمُونَ",
+                "font": "page_59",
+                "surah_id": 3,
+                "surah": {
+                  "id": 3,
+                  "name": "سورة آل عمران",
+                  "coded_name": "ﮏ",
+                  "translated_name": "{\"ar\":\"\\u0622\\u0644 \\u0639\\u0645\\u0631\\u0627\\u0646\\r\\n\",\"en\":\"Al-Imran \",\"bn\":\"\\u0986\\u09b2\\u09c7 \\u0987\\u09ae\\u09b0\\u09be\\u09a8\",\"bs\":\"Al Imran\",\"zh\":\"\\u4eea\\u59c6\\u5170\\u7684\\u5bb6\\u5c5e\\u7ae0\\r\\n\",\"de\":\"\\u0100l-i-'Imr\\u0101n - Die Sippe 'Imr\\u0101n\",\"es\":\"La Familia de Imran\\r\\n\",\"fa\":\"\\u0622\\u0644 \\u0639\\u0645\\u0631\\u0627\\u0646\",\"fr\":\"La famille d'Imran\",\"ha\":\"Al-Imaran\",\"id\":\"Surah Ali \\u2018Imran\\u00a0(Keluarga Imran)\",\"ml\":\"\\u0d06\\u0d32\\u0d41\\u0d07\\u0d02\\u0d31\\u0d3e\\u0d28\\u0d4d\",\"pt\":\"A Fam\\u00edlia de Imran\",\"ru\":\"\\u0421\\u0435\\u043c\\u0435\\u0439\\u0441\\u0442\\u0432\\u043e \\u0418\\u043c\\u0440\\u0430\\u043d\\u0430 (\\u0410\\u043b-\\u0418\\u043c\\u0440\\u0430\\u043d)\\r\\n\",\"sw\":\"Al-Imaran\",\"tg\":\"\\u041e\\u041b\\u0418 \\u0418\\u041c\\u0420\\u041e\\u041d\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e32\\u0e25 \\u0e2d\\u0e34\\u0e21\\u0e23\\u0e2d\\u0e19\",\"tl\":\"Ang Pamilya ni Imran\",\"tr\":\"\\u00c2l-i Imran Suresi\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u0626\\u0627\\u0644 \\u0626\\u0649\\u0645\\u0631\\u0627\\u0646 \",\"ur\":\"\\u0622\\u0644 \\u0639\\u0645\\u0631\\u0627\\u0646\\n\"}",
+                  "number_of_ayahs": 200,
+                  "revelation_type": "medinan",
+                  "first_page": 50,
+                  "last_page": 76,
+                  "first_juz": 3
+                },
+                "juz": 3,
+                "hizb": 24,
+                "page_number": 59,
+                "marker": "ﯢ"
+              },
+              "text": "۞ وَمِنۡ أَهۡلِ ٱلۡكِتَٰبِ مَنۡ إِن تَأۡمَنۡهُ بِقِنطَارٖ يُؤَدِّهِۦٓ إِلَيۡكَ وَمِنۡهُم مَّنۡ إِن تَأۡمَنۡهُ بِدِينَارٖ لَّا يُؤَدِّهِۦٓ إِلَيۡكَ إِلَّا مَا دُمۡتَ عَلَيۡهِ قَآئِمٗاۗ ذَٰلِكَ بِأَنَّهُمۡ قَالُواْ لَيۡسَ عَلَيۡنَا فِي ٱلۡأُمِّيِّـۧنَ سَبِيلٞ وَيَقُولُونَ عَلَى ٱللَّهِ ٱلۡكَذِبَ وَهُمۡ يَعۡلَمُونَ  <span>ﱊ</span>  ",
+              "ayah_ids": [
+                368
+              ],
+              "ayah_to_number": null
+            },
+            {
+              "info": {
+                "id": 406,
+                "number": 113,
+                "text": "﻿۞ لَيْسُوا سَوَاءً ۗ مِنْ أَهْلِ الْكِتَابِ أُمَّةٌ قَائِمَةٌ يَتْلُونَ آيَاتِ اللَّهِ آنَاءَ اللَّيْلِ وَهُمْ يَسْجُدُونَ",
+                "font": "page_64",
+                "surah_id": 3,
+                "surah": {
+                  "id": 3,
+                  "name": "سورة آل عمران",
+                  "coded_name": "ﮏ",
+                  "translated_name": "{\"ar\":\"\\u0622\\u0644 \\u0639\\u0645\\u0631\\u0627\\u0646\\r\\n\",\"en\":\"Al-Imran \",\"bn\":\"\\u0986\\u09b2\\u09c7 \\u0987\\u09ae\\u09b0\\u09be\\u09a8\",\"bs\":\"Al Imran\",\"zh\":\"\\u4eea\\u59c6\\u5170\\u7684\\u5bb6\\u5c5e\\u7ae0\\r\\n\",\"de\":\"\\u0100l-i-'Imr\\u0101n - Die Sippe 'Imr\\u0101n\",\"es\":\"La Familia de Imran\\r\\n\",\"fa\":\"\\u0622\\u0644 \\u0639\\u0645\\u0631\\u0627\\u0646\",\"fr\":\"La famille d'Imran\",\"ha\":\"Al-Imaran\",\"id\":\"Surah Ali \\u2018Imran\\u00a0(Keluarga Imran)\",\"ml\":\"\\u0d06\\u0d32\\u0d41\\u0d07\\u0d02\\u0d31\\u0d3e\\u0d28\\u0d4d\",\"pt\":\"A Fam\\u00edlia de Imran\",\"ru\":\"\\u0421\\u0435\\u043c\\u0435\\u0439\\u0441\\u0442\\u0432\\u043e \\u0418\\u043c\\u0440\\u0430\\u043d\\u0430 (\\u0410\\u043b-\\u0418\\u043c\\u0440\\u0430\\u043d)\\r\\n\",\"sw\":\"Al-Imaran\",\"tg\":\"\\u041e\\u041b\\u0418 \\u0418\\u041c\\u0420\\u041e\\u041d\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e32\\u0e25 \\u0e2d\\u0e34\\u0e21\\u0e23\\u0e2d\\u0e19\",\"tl\":\"Ang Pamilya ni Imran\",\"tr\":\"\\u00c2l-i Imran Suresi\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u0626\\u0627\\u0644 \\u0626\\u0649\\u0645\\u0631\\u0627\\u0646 \",\"ur\":\"\\u0622\\u0644 \\u0639\\u0645\\u0631\\u0627\\u0646\\n\"}",
+                  "number_of_ayahs": 200,
+                  "revelation_type": "medinan",
+                  "first_page": 50,
+                  "last_page": 76,
+                  "first_juz": 3
+                },
+                "juz": 4,
+                "hizb": 26,
+                "page_number": 64,
+                "marker": "ﯜ"
+              },
+              "text": "۞ لَيۡسُواْ سَوَآءٗۗ مِّنۡ أَهۡلِ ٱلۡكِتَٰبِ أُمَّةٞ قَآئِمَةٞ يَتۡلُونَ ءَايَٰتِ ٱللَّهِ ءَانَآءَ ٱلَّيۡلِ وَهُمۡ يَسۡجُدُونَ  <span>ﱰ</span>  ",
+              "ayah_ids": [
+                406
+              ],
+              "ayah_to_number": null
+            },
+            {
+              "info": {
+                "id": 492,
+                "number": 199,
+                "text": "﻿وَإِنَّ مِنْ أَهْلِ الْكِتَابِ لَمَنْ يُؤْمِنُ بِاللَّهِ وَمَا أُنْزِلَ إِلَيْكُمْ وَمَا أُنْزِلَ إِلَيْهِمْ خَاشِعِينَ لِلَّهِ لَا يَشْتَرُونَ بِآيَاتِ اللَّهِ ثَمَنًا قَلِيلًا ۗ أُولَٰئِكَ لَهُمْ أَجْرُهُمْ عِنْدَ رَبِّهِمْ ۗ إِنَّ اللَّهَ سَرِيعُ الْحِسَابِ",
+                "font": "page_76",
+                "surah_id": 3,
+                "surah": {
+                  "id": 3,
+                  "name": "سورة آل عمران",
+                  "coded_name": "ﮏ",
+                  "translated_name": "{\"ar\":\"\\u0622\\u0644 \\u0639\\u0645\\u0631\\u0627\\u0646\\r\\n\",\"en\":\"Al-Imran \",\"bn\":\"\\u0986\\u09b2\\u09c7 \\u0987\\u09ae\\u09b0\\u09be\\u09a8\",\"bs\":\"Al Imran\",\"zh\":\"\\u4eea\\u59c6\\u5170\\u7684\\u5bb6\\u5c5e\\u7ae0\\r\\n\",\"de\":\"\\u0100l-i-'Imr\\u0101n - Die Sippe 'Imr\\u0101n\",\"es\":\"La Familia de Imran\\r\\n\",\"fa\":\"\\u0622\\u0644 \\u0639\\u0645\\u0631\\u0627\\u0646\",\"fr\":\"La famille d'Imran\",\"ha\":\"Al-Imaran\",\"id\":\"Surah Ali \\u2018Imran\\u00a0(Keluarga Imran)\",\"ml\":\"\\u0d06\\u0d32\\u0d41\\u0d07\\u0d02\\u0d31\\u0d3e\\u0d28\\u0d4d\",\"pt\":\"A Fam\\u00edlia de Imran\",\"ru\":\"\\u0421\\u0435\\u043c\\u0435\\u0439\\u0441\\u0442\\u0432\\u043e \\u0418\\u043c\\u0440\\u0430\\u043d\\u0430 (\\u0410\\u043b-\\u0418\\u043c\\u0440\\u0430\\u043d)\\r\\n\",\"sw\":\"Al-Imaran\",\"tg\":\"\\u041e\\u041b\\u0418 \\u0418\\u041c\\u0420\\u041e\\u041d\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e32\\u0e25 \\u0e2d\\u0e34\\u0e21\\u0e23\\u0e2d\\u0e19\",\"tl\":\"Ang Pamilya ni Imran\",\"tr\":\"\\u00c2l-i Imran Suresi\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u0626\\u0627\\u0644 \\u0626\\u0649\\u0645\\u0631\\u0627\\u0646 \",\"ur\":\"\\u0622\\u0644 \\u0639\\u0645\\u0631\\u0627\\u0646\\n\"}",
+                  "number_of_ayahs": 200,
+                  "revelation_type": "medinan",
+                  "first_page": 50,
+                  "last_page": 76,
+                  "first_juz": 3
+                },
+                "juz": 4,
+                "hizb": 30,
+                "page_number": 76,
+                "marker": "ﯩ"
+              },
+              "text": "وَإِنَّ مِنۡ أَهۡلِ ٱلۡكِتَٰبِ لَمَن يُؤۡمِنُ بِٱللَّهِ وَمَآ أُنزِلَ إِلَيۡكُمۡ وَمَآ أُنزِلَ إِلَيۡهِمۡ خَٰشِعِينَ لِلَّهِ لَا يَشۡتَرُونَ بِـَٔايَٰتِ ٱللَّهِ ثَمَنٗا قَلِيلًاۚ أُوْلَٰٓئِكَ لَهُمۡ أَجۡرُهُمۡ عِندَ رَبِّهِمۡۗ إِنَّ ٱللَّهَ سَرِيعُ ٱلۡحِسَابِ  <span>ﳆ</span>  ",
+              "ayah_ids": [
+                492
+              ],
+              "ayah_to_number": null
+            },
+            {
+              "info": {
+                "id": 652,
+                "number": 159,
+                "text": "﻿وَإِنْ مِنْ أَهْلِ الْكِتَابِ إِلَّا لَيُؤْمِنَنَّ بِهِ قَبْلَ مَوْتِهِ ۖ وَيَوْمَ الْقِيَامَةِ يَكُونُ عَلَيْهِمْ شَهِيدًا",
+                "font": "page_103",
+                "surah_id": 4,
+                "surah": {
+                  "id": 4,
+                  "name": "سورة النساء",
+                  "coded_name": "ﮐ",
+                  "translated_name": "{\"ar\":\"\\u0627\\u0644\\u0646\\u0633\\u0627\\u0621\\r\\n\",\"en\":\"An-Nisa' \",\"bn\":\"\\u0986\\u09a8-\\u09a8\\u09bf\\u09b8\\u09be\",\"bs\":\"En-Nisa\",\"zh\":\"\\u5987\\u5973\\u7ae0\\r\\n\",\"de\":\"An-Nis\\u0101 - Die Frauen\\r\\n\",\"es\":\"Las Mujeres\\r\\n\",\"fa\":\"\\u0646\\u0633\\u0627\\u0621\",\"fr\":\"Les femmes\",\"ha\":\"An-Nisa'i\",\"id\":\"Surah An-Nisaa\\u2019\\u00a0(Wanita)\",\"ml\":\"\\u0d28\\u0d3f\\u0d38\\u0d3e\\u0d05\\u0d4d\",\"pt\":\"As Mulheres\",\"ru\":\"\\u0416\\u0435\\u043d\\u0449\\u0438\\u043d\\u044b (\\u0410\\u043d-\\u041d\\u0438\\u0441\\u0430)\\r\\n\",\"sw\":\"An-Nisa'i\",\"tg\":\"\\u041d\\u0418\\u0421\\u041e\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e31\\u0e19-\\u0e19\\u0e34\\u0e2a\\u0e32\\u0e2d\\u0e4c\",\"tl\":\"Ang Kababaihan\",\"tr\":\"Nisa Suresi\\r\\n\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u0646\\u0649\\u0633\\u0627 \",\"ur\":\"\\u0646\\u0633\\u0627\\u0621\\n\"}",
+                  "number_of_ayahs": 176,
+                  "revelation_type": "medinan",
+                  "first_page": 77,
+                  "last_page": 106,
+                  "first_juz": 4
+                },
+                "juz": 6,
+                "hizb": 41,
+                "page_number": 103,
+                "marker": "ﮯ"
+              },
+              "text": "وَإِن مِّنۡ أَهۡلِ ٱلۡكِتَٰبِ إِلَّا لَيُؤۡمِنَنَّ بِهِۦ قَبۡلَ مَوۡتِهِۦۖ وَيَوۡمَ ٱلۡقِيَٰمَةِ يَكُونُ عَلَيۡهِمۡ شَهِيدٗا  <span>ﲞ</span>  ",
+              "ayah_ids": [
+                652
+              ],
+              "ayah_to_number": null
+            },
+            {
+              "info": {
+                "id": 3559,
+                "number": 26,
+                "text": "﻿وَأَنْزَلَ الَّذِينَ ظَاهَرُوهُمْ مِنْ أَهْلِ الْكِتَابِ مِنْ صَيَاصِيهِمْ وَقَذَفَ فِي قُلُوبِهِمُ الرُّعْبَ فَرِيقًا تَقْتُلُونَ وَتَأْسِرُونَ فَرِيقًا",
+                "font": "page_421",
+                "surah_id": 33,
+                "surah": {
+                  "id": 33,
+                  "name": "سورة الأحزاب",
+                  "coded_name": "ﮭ",
+                  "translated_name": "{\"ar\":\"\\u0627\\u0644\\u0623\\u062d\\u0632\\u0627\\u0628\\r\\n\",\"en\":\"Al\\u00adAhzab \",\"bn\":\"\\u0986\\u09b2-\\u0986\\u09b9\\u09af\\u09be\\u09ac\",\"bs\":\"El-Ahzab\",\"zh\":\"\\u540c\\u76df\\u519b\\u7ae0\\r\\n\",\"de\":\"Al-Ahz\\u0101b - Die Gruppierungen\\r\\n\",\"es\":\"Los Aliados\\r\\n\",\"fa\":\"\\u0623\\u062d\\u0632\\u0627\\u0628\",\"fr\":\"Les coalis\\u00e9s\",\"ha\":\"Al-Ahzab\",\"id\":\"Surah Al-Ahzab\\u00a0(Golongan yang Bersekutu)\",\"ml\":\"\\u0d05\\u0d39\\u0d4d\\u0d38\\u0d3e\\u0d2c\\u0d4d\\u200c\",\"pt\":\"Os Partidos \",\"ru\":\"\\u0421\\u043e\\u043d\\u043c\\u044b (\\u0410\\u043b-\\u0410\\u0445\\u0437\\u0430\\u0431)\\r\\n\",\"sw\":\"Al-Ahzab\",\"tg\":\" \\u0410\\u04b2\\u0417\\u041e\\u0411\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e31\\u0e25-\\u0e2d\\u0e30\\u0e2b\\u0e4c\\u0e0b\\u0e32\\u0e1a\",\"tl\":\"Ang mga Magkakaanib\",\"tr\":\"Ahzab Suresi\\r\\n\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u0626\\u06d5\\u06be\\u0632\\u0627\\u0628\",\"ur\":\"\\u0627\\u062d\\u0632\\u0627\\u0628\\n\"}",
+                  "number_of_ayahs": 73,
+                  "revelation_type": "medinan",
+                  "first_page": 418,
+                  "last_page": 427,
+                  "first_juz": 21
+                },
+                "juz": 21,
+                "hizb": 168,
+                "page_number": 421,
+                "marker": "ﮛ"
+              },
+              "text": "وَأَنزَلَ ٱلَّذِينَ ظَٰهَرُوهُم مِّنۡ أَهۡلِ ٱلۡكِتَٰبِ مِن صَيَاصِيهِمۡ وَقَذَفَ فِي قُلُوبِهِمُ ٱلرُّعۡبَ فَرِيقٗا تَقۡتُلُونَ وَتَأۡسِرُونَ فَرِيقٗا  <span>ﰙ</span>  ",
+              "ayah_ids": [
+                3559
+              ],
+              "ayah_to_number": null
+            },
+            {
+              "info": {
+                "id": 5128,
+                "number": 2,
+                "text": "﻿هُوَ الَّذِي أَخْرَجَ الَّذِينَ كَفَرُوا مِنْ أَهْلِ الْكِتَابِ مِنْ دِيَارِهِمْ لِأَوَّلِ الْحَشْرِ ۚ مَا ظَنَنْتُمْ أَنْ يَخْرُجُوا ۖ وَظَنُّوا أَنَّهُمْ مَانِعَتُهُمْ حُصُونُهُمْ مِنَ اللَّهِ فَأَتَاهُمُ اللَّهُ مِنْ حَيْثُ لَمْ يَحْتَسِبُوا ۖ وَقَذَفَ فِي قُلُوبِهِمُ الرُّعْبَ ۚ يُخْرِبُونَ بُيُوتَهُمْ بِأَيْدِيهِمْ وَأَيْدِي الْمُؤْمِنِينَ فَاعْتَبِرُوا يَا أُولِي الْأَبْصَارِ",
+                "font": "page_545",
+                "surah_id": 59,
+                "surah": {
+                  "id": 59,
+                  "name": "سورة الحشر",
+                  "coded_name": "ﯨ",
+                  "translated_name": "{\"ar\":\"\\u0627\\u0644\\u062d\\u0634\\u0631\\r\\n\",\"en\":\"Al-Hashr \",\"bn\":\"\\u0986\\u09b2-\\u09b9\\u09be\\u09b6\\u09b0\",\"bs\":\"El-Ha\\u0161r\",\"zh\":\"\\u653e\\u9010\\u7ae0\\r\\n\",\"de\":\"Al-Ha\\u0161r - Die Versammlung\\r\\n\",\"es\":\"El Destierro\\r\\n\",\"fa\":\"\\u062d\\u0634\\u0631\",\"fr\":\"L'exode\",\"ha\":\"Al-Hashr\",\"id\":\"Surah Al-Hasyr\\u00a0(Pengusiran)\",\"ml\":\"\\u0d39\\u0d37\\u0d4d\\u0d31\\u0d4d\",\"pt\":\"O Desterro\",\"ru\":\"\\u0421\\u043e\\u0431\\u0440\\u0430\\u043d\\u0438\\u0435(\\u0410\\u043b-\\u0425\\u0430\\u0448\\u0440)\\r\\n\",\"sw\":\"Al-Hashr\",\"tg\":\"\\u04b2\\u0410\\u0428\\u0420\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e31\\u0e25-\\u0e2b\\u0e31\\u0e0a\\u0e23\\u0e4c\",\"tl\":\"Ang Pagtitipun-tipon\",\"tr\":\"Hasr Suresi\\r\\n\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u06be\\u06d5\\u0634\\u0649\\u0631\",\"ur\":\"\\u062d\\u0634\\u0631\\n\"}",
+                  "number_of_ayahs": 24,
+                  "revelation_type": "medinan",
+                  "first_page": 545,
+                  "last_page": 548,
+                  "first_juz": 28
+                },
+                "juz": 28,
+                "hizb": 218,
+                "page_number": 545,
+                "marker": "ﯤ"
+              },
+              "text": "هُوَ ٱلَّذِيٓ أَخۡرَجَ ٱلَّذِينَ كَفَرُواْ مِنۡ أَهۡلِ ٱلۡكِتَٰبِ مِن دِيَٰرِهِمۡ لِأَوَّلِ ٱلۡحَشۡرِۚ مَا ظَنَنتُمۡ أَن يَخۡرُجُواْۖ وَظَنُّوٓاْ أَنَّهُم مَّانِعَتُهُمۡ حُصُونُهُم مِّنَ ٱللَّهِ فَأَتَىٰهُمُ ٱللَّهُ مِنۡ حَيۡثُ لَمۡ يَحۡتَسِبُواْۖ وَقَذَفَ فِي قُلُوبِهِمُ ٱلرُّعۡبَۚ يُخۡرِبُونَ بُيُوتَهُم بِأَيۡدِيهِمۡ وَأَيۡدِي ٱلۡمُؤۡمِنِينَ فَٱعۡتَبِرُواْ يَٰٓأُوْلِي ٱلۡأَبۡصَٰرِ  <span>ﰁ</span>  ",
+              "ayah_ids": [
+                5128
+              ],
+              "ayah_to_number": null
+            },
+            {
+              "info": {
+                "id": 6131,
+                "number": 1,
+                "text": "لَمْ يَكُنِ الَّذِينَ كَفَرُوا مِنْ أَهْلِ الْكِتَابِ وَالْمُشْرِكِينَ مُنْفَكِّينَ حَتَّىٰ تَأْتِيَهُمُ الْبَيِّنَةُ",
+                "font": "page_598",
+                "surah_id": 98,
+                "surah": {
+                  "id": 98,
+                  "name": "سورة البينة",
+                  "coded_name": "ﰏ",
+                  "translated_name": "{\"ar\":\"\\u0627\\u0644\\u0628\\u064a\\u0646\\u0629\\r\\n\",\"en\":\"Al-Baiyinah \",\"bn\":\"\\u0986\\u09b2-\\u09ac\\u09be\\u09df\\u09cd\\u09af\\u09bf\\u09a8\\u09be\\u09b9\\u09cd\",\"bs\":\"El-Bejjine\",\"zh\":\"\\u660e\\u8bc1\\u7ae0\\r\\n\",\"de\":\"Al-Bayyina - Der klare Beweis\\r\",\"es\":\"La Evidencia\\r\\n\",\"fa\":\"\\u0628\\u06cc\\u0646\\u0647\",\"fr\":\"La preuve\",\"ha\":\"Al-Bayyinah\",\"id\":\"Surah Al-Baiyinah\\u00a0(Bukti yang Nyata)\",\"ml\":\"\\u0d2c\\u0d2f\\u0d4d\\u0d2f\\u0d3f\\u0d28\",\"pt\":\"A Evid\\u00eancia\",\"ru\":\"\\u042f\\u0441\\u043d\\u043e\\u0435 \\u0417\\u043d\\u0430\\u043c\\u0435\\u043d\\u0438\\u0435(\\u0410\\u043b-\\u0411\\u0430\\u044f\\u0438\\u043d\\u0430)\\r\\n\",\"sw\":\"Al-Bayyinah\",\"tg\":\"\\u0411\\u0410\\u0419\\u0419\\u0418\\u041d\\u0410\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e31\\u0e25-\\u0e1a\\u0e31\\u0e22\\u0e22\\u0e34\\u0e19\\u0e30\\u0e2e\\u0e3a\",\"tl\":\"Ang Maliwanag na Katibayan\",\"tr\":\"Beyyine Suresi\\r\\n\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u0628\\u06d5\\u064a\\u064a\\u0649\\u0646\\u06d5\",\"ur\":\"\\u0628\\u06cc\\u0646\\u06c1\\n\"}",
+                  "number_of_ayahs": 8,
+                  "revelation_type": "medinan",
+                  "first_page": 598,
+                  "last_page": 599,
+                  "first_juz": 30
+                },
+                "juz": 30,
+                "hizb": 239,
+                "page_number": 598,
+                "marker": "ﮣ"
+              },
+              "text": "لَمۡ يَكُنِ ٱلَّذِينَ كَفَرُواْ مِنۡ أَهۡلِ ٱلۡكِتَٰبِ وَٱلۡمُشۡرِكِينَ مُنفَكِّينَ حَتَّىٰ تَأۡتِيَهُمُ ٱلۡبَيِّنَةُ  <span>ﰀ</span>  ",
+              "ayah_ids": [
+                6131
+              ],
+              "ayah_to_number": null
+            },
+            {
+              "info": {
+                "id": 5137,
+                "number": 11,
+                "text": "﻿۞ أَلَمْ تَرَ إِلَى الَّذِينَ نَافَقُوا يَقُولُونَ لِإِخْوَانِهِمُ الَّذِينَ كَفَرُوا مِنْ أَهْلِ الْكِتَابِ لَئِنْ أُخْرِجْتُمْ لَنَخْرُجَنَّ مَعَكُمْ وَلَا نُطِيعُ فِيكُمْ أَحَدًا أَبَدًا وَإِنْ قُوتِلْتُمْ لَنَنْصُرَنَّكُمْ وَاللَّهُ يَشْهَدُ إِنَّهُمْ لَكَاذِبُونَ",
+                "font": "page_547",
+                "surah_id": 59,
+                "surah": {
+                  "id": 59,
+                  "name": "سورة الحشر",
+                  "coded_name": "ﯨ",
+                  "translated_name": "{\"ar\":\"\\u0627\\u0644\\u062d\\u0634\\u0631\\r\\n\",\"en\":\"Al-Hashr \",\"bn\":\"\\u0986\\u09b2-\\u09b9\\u09be\\u09b6\\u09b0\",\"bs\":\"El-Ha\\u0161r\",\"zh\":\"\\u653e\\u9010\\u7ae0\\r\\n\",\"de\":\"Al-Ha\\u0161r - Die Versammlung\\r\\n\",\"es\":\"El Destierro\\r\\n\",\"fa\":\"\\u062d\\u0634\\u0631\",\"fr\":\"L'exode\",\"ha\":\"Al-Hashr\",\"id\":\"Surah Al-Hasyr\\u00a0(Pengusiran)\",\"ml\":\"\\u0d39\\u0d37\\u0d4d\\u0d31\\u0d4d\",\"pt\":\"O Desterro\",\"ru\":\"\\u0421\\u043e\\u0431\\u0440\\u0430\\u043d\\u0438\\u0435(\\u0410\\u043b-\\u0425\\u0430\\u0448\\u0440)\\r\\n\",\"sw\":\"Al-Hashr\",\"tg\":\"\\u04b2\\u0410\\u0428\\u0420\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e31\\u0e25-\\u0e2b\\u0e31\\u0e0a\\u0e23\\u0e4c\",\"tl\":\"Ang Pagtitipun-tipon\",\"tr\":\"Hasr Suresi\\r\\n\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u06be\\u06d5\\u0634\\u0649\\u0631\",\"ur\":\"\\u062d\\u0634\\u0631\\n\"}",
+                  "number_of_ayahs": 24,
+                  "revelation_type": "medinan",
+                  "first_page": 545,
+                  "last_page": 548,
+                  "first_juz": 28
+                },
+                "juz": 28,
+                "hizb": 219,
+                "page_number": 547,
+                "marker": "ﮆ"
+              },
+              "text": "۞ أَلَمۡ تَرَ إِلَى ٱلَّذِينَ نَافَقُواْ يَقُولُونَ لِإِخۡوَٰنِهِمُ ٱلَّذِينَ كَفَرُواْ مِنۡ أَهۡلِ ٱلۡكِتَٰبِ لَئِنۡ أُخۡرِجۡتُمۡ لَنَخۡرُجَنَّ مَعَكُمۡ وَلَا نُطِيعُ فِيكُمۡ أَحَدًا أَبَدٗا وَإِن قُوتِلۡتُمۡ لَنَنصُرَنَّكُمۡ وَٱللَّهُ يَشۡهَدُ إِنَّهُمۡ لَكَٰذِبُونَ  <span>ﰊ</span>  ",
+              "ayah_ids": [
+                5137
+              ],
+              "ayah_to_number": null
+            },
+            {
+              "info": {
+                "id": 6136,
+                "number": 6,
+                "text": "﻿إِنَّ الَّذِينَ كَفَرُوا مِنْ أَهْلِ الْكِتَابِ وَالْمُشْرِكِينَ فِي نَارِ جَهَنَّمَ خَالِدِينَ فِيهَا ۚ أُولَٰئِكَ هُمْ شَرُّ الْبَرِيَّةِ",
+                "font": "page_599",
+                "surah_id": 98,
+                "surah": {
+                  "id": 98,
+                  "name": "سورة البينة",
+                  "coded_name": "ﰏ",
+                  "translated_name": "{\"ar\":\"\\u0627\\u0644\\u0628\\u064a\\u0646\\u0629\\r\\n\",\"en\":\"Al-Baiyinah \",\"bn\":\"\\u0986\\u09b2-\\u09ac\\u09be\\u09df\\u09cd\\u09af\\u09bf\\u09a8\\u09be\\u09b9\\u09cd\",\"bs\":\"El-Bejjine\",\"zh\":\"\\u660e\\u8bc1\\u7ae0\\r\\n\",\"de\":\"Al-Bayyina - Der klare Beweis\\r\",\"es\":\"La Evidencia\\r\\n\",\"fa\":\"\\u0628\\u06cc\\u0646\\u0647\",\"fr\":\"La preuve\",\"ha\":\"Al-Bayyinah\",\"id\":\"Surah Al-Baiyinah\\u00a0(Bukti yang Nyata)\",\"ml\":\"\\u0d2c\\u0d2f\\u0d4d\\u0d2f\\u0d3f\\u0d28\",\"pt\":\"A Evid\\u00eancia\",\"ru\":\"\\u042f\\u0441\\u043d\\u043e\\u0435 \\u0417\\u043d\\u0430\\u043c\\u0435\\u043d\\u0438\\u0435(\\u0410\\u043b-\\u0411\\u0430\\u044f\\u0438\\u043d\\u0430)\\r\\n\",\"sw\":\"Al-Bayyinah\",\"tg\":\"\\u0411\\u0410\\u0419\\u0419\\u0418\\u041d\\u0410\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e31\\u0e25-\\u0e1a\\u0e31\\u0e22\\u0e22\\u0e34\\u0e19\\u0e30\\u0e2e\\u0e3a\",\"tl\":\"Ang Maliwanag na Katibayan\",\"tr\":\"Beyyine Suresi\\r\\n\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u0628\\u06d5\\u064a\\u064a\\u0649\\u0646\\u06d5\",\"ur\":\"\\u0628\\u06cc\\u0646\\u06c1\\n\"}",
+                  "number_of_ayahs": 8,
+                  "revelation_type": "medinan",
+                  "first_page": 598,
+                  "last_page": 599,
+                  "first_juz": 30
+                },
+                "juz": 30,
+                "hizb": 239,
+                "page_number": 599,
+                "marker": "ﭢ"
+              },
+              "text": "إِنَّ ٱلَّذِينَ كَفَرُواْ مِنۡ أَهۡلِ ٱلۡكِتَٰبِ وَٱلۡمُشۡرِكِينَ فِي نَارِ جَهَنَّمَ خَٰلِدِينَ فِيهَآۚ أُوْلَٰٓئِكَ هُمۡ شَرُّ ٱلۡبَرِيَّةِ  <span>ﰅ</span>  ",
+              "ayah_ids": [
+                6136
+              ],
+              "ayah_to_number": null
+            }
+          ],
+          "websites": []
+        },
+        {
+          "notes": "( من أهل الكتاب)",
+          "images": [],
+          "youtube": [
+            {
+              "id": 20913,
+              "name": null,
+              "file_name": "https://www.youtube.com/embed/AwV5nU-xArU?start=523&end=551",
+              "part": null,
+              "attachment_type_id": 4,
+              "attachmentable_id": 538,
+              "attachmentable_type": "App\\Models\\Note",
+              "downloads": 0,
+              "status": null,
+              "created_at": "2020-06-15T12:41:57.000000Z",
+              "updated_at": "2020-06-15T12:41:57.000000Z",
+              "deleted_at": null
+            }
+          ],
+          "ayahs": [
+            {
+              "info": {
+                "id": 112,
+                "number": 105,
+                "text": "﻿مَا يَوَدُّ الَّذِينَ كَفَرُوا مِنْ أَهْلِ الْكِتَابِ وَلَا الْمُشْرِكِينَ أَنْ يُنَزَّلَ عَلَيْكُمْ مِنْ خَيْرٍ مِنْ رَبِّكُمْ ۗ وَاللَّهُ يَخْتَصُّ بِرَحْمَتِهِ مَنْ يَشَاءُ ۚ وَاللَّهُ ذُو الْفَضْلِ الْعَظِيمِ",
+                "font": "page_16",
+                "surah_id": 2,
+                "surah": {
+                  "id": 2,
+                  "name": "سورة البقرة",
+                  "coded_name": "ﮎ",
+                  "translated_name": "{\"ar\":\"\\u0627\\u0644\\u0628\\u0642\\u0631\\u0629\\r\\n\",\"en\":\"Al-Baqarah \",\"bn\":\"\\u0986\\u09b2-\\u09ac\\u09be\\u0995\\u09cd\\u09ac\\u09be\\u09b0\\u09be\\u09b9\\u09cd\",\"bs\":\"El-Bekara\",\"zh\":\"\\u9ec4\\u725b\\u7ae0\\r\\n\",\"de\":\"Al-Baqara - Die Kuh\\r\\n\",\"es\":\"La Vaca\\r\\n\",\"fa\":\"\\u0628\\u0642\\u0631\\u0647\",\"fr\":\"La g\\u00e9nisse\",\"ha\":\"Al-Bakarah\",\"id\":\"Surah Al-Baqarah\\u00a0(Lembu Betina)\",\"ml\":\"\\u0d2c\\u0d16\\u0d31\",\"pt\":\"A Vaca\",\"ru\":\"\\u041a\\u043e\\u0440\\u043e\\u0432\\u0430 (\\u0410\\u043b-\\u0411\\u0430\\u043a\\u0430\\u0440\\u0430)\\r\\n\",\"sw\":\"Al-Bakarah\",\"tg\":\"\\u0411\\u0410\\u049a\\u0410\\u0420\\u0410\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e31\\u0e25-\\u0e1a\\u0e30\\u0e40\\u0e01\\u0e32\\u0e30\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\",\"tl\":\"Ang Baka\",\"tr\":\"Bakara Suresi\\r\\n\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u0628\\u06d5\\u0642\\u06d5\\u0631\\u06d5 \",\"ur\":\"\\u0628\\u0642\\u0631\\u06c1\\n\"}",
+                  "number_of_ayahs": 286,
+                  "revelation_type": "medinan",
+                  "first_page": 2,
+                  "last_page": 49,
+                  "first_juz": 1
+                },
+                "juz": 1,
+                "hizb": 6,
+                "page_number": 16,
+                "marker": "ﯼ"
+              },
+              "text": "مَّا يَوَدُّ ٱلَّذِينَ كَفَرُواْ مِنۡ أَهۡلِ ٱلۡكِتَٰبِ وَلَا ٱلۡمُشۡرِكِينَ أَن يُنَزَّلَ عَلَيۡكُم مِّنۡ خَيۡرٖ مِّن رَّبِّكُمۡۚ وَٱللَّهُ يَخۡتَصُّ بِرَحۡمَتِهِۦ مَن يَشَآءُۚ وَٱللَّهُ ذُو ٱلۡفَضۡلِ ٱلۡعَظِيمِ  <span>ﱨ</span>  ",
+              "ayah_ids": [
+                112
+              ],
+              "ayah_to_number": null
+            },
+            {
+              "info": {
+                "id": 406,
+                "number": 113,
+                "text": "﻿۞ لَيْسُوا سَوَاءً ۗ مِنْ أَهْلِ الْكِتَابِ أُمَّةٌ قَائِمَةٌ يَتْلُونَ آيَاتِ اللَّهِ آنَاءَ اللَّيْلِ وَهُمْ يَسْجُدُونَ",
+                "font": "page_64",
+                "surah_id": 3,
+                "surah": {
+                  "id": 3,
+                  "name": "سورة آل عمران",
+                  "coded_name": "ﮏ",
+                  "translated_name": "{\"ar\":\"\\u0622\\u0644 \\u0639\\u0645\\u0631\\u0627\\u0646\\r\\n\",\"en\":\"Al-Imran \",\"bn\":\"\\u0986\\u09b2\\u09c7 \\u0987\\u09ae\\u09b0\\u09be\\u09a8\",\"bs\":\"Al Imran\",\"zh\":\"\\u4eea\\u59c6\\u5170\\u7684\\u5bb6\\u5c5e\\u7ae0\\r\\n\",\"de\":\"\\u0100l-i-'Imr\\u0101n - Die Sippe 'Imr\\u0101n\",\"es\":\"La Familia de Imran\\r\\n\",\"fa\":\"\\u0622\\u0644 \\u0639\\u0645\\u0631\\u0627\\u0646\",\"fr\":\"La famille d'Imran\",\"ha\":\"Al-Imaran\",\"id\":\"Surah Ali \\u2018Imran\\u00a0(Keluarga Imran)\",\"ml\":\"\\u0d06\\u0d32\\u0d41\\u0d07\\u0d02\\u0d31\\u0d3e\\u0d28\\u0d4d\",\"pt\":\"A Fam\\u00edlia de Imran\",\"ru\":\"\\u0421\\u0435\\u043c\\u0435\\u0439\\u0441\\u0442\\u0432\\u043e \\u0418\\u043c\\u0440\\u0430\\u043d\\u0430 (\\u0410\\u043b-\\u0418\\u043c\\u0440\\u0430\\u043d)\\r\\n\",\"sw\":\"Al-Imaran\",\"tg\":\"\\u041e\\u041b\\u0418 \\u0418\\u041c\\u0420\\u041e\\u041d\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e32\\u0e25 \\u0e2d\\u0e34\\u0e21\\u0e23\\u0e2d\\u0e19\",\"tl\":\"Ang Pamilya ni Imran\",\"tr\":\"\\u00c2l-i Imran Suresi\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u0626\\u0627\\u0644 \\u0626\\u0649\\u0645\\u0631\\u0627\\u0646 \",\"ur\":\"\\u0622\\u0644 \\u0639\\u0645\\u0631\\u0627\\u0646\\n\"}",
+                  "number_of_ayahs": 200,
+                  "revelation_type": "medinan",
+                  "first_page": 50,
+                  "last_page": 76,
+                  "first_juz": 3
+                },
+                "juz": 4,
+                "hizb": 26,
+                "page_number": 64,
+                "marker": "ﯜ"
+              },
+              "text": "۞ لَيۡسُواْ سَوَآءٗۗ مِّنۡ أَهۡلِ ٱلۡكِتَٰبِ أُمَّةٞ قَآئِمَةٞ يَتۡلُونَ ءَايَٰتِ ٱللَّهِ ءَانَآءَ ٱلَّيۡلِ وَهُمۡ يَسۡجُدُونَ  <span>ﱰ</span>  ",
+              "ayah_ids": [
+                406
+              ],
+              "ayah_to_number": null
+            },
+            {
+              "info": {
+                "id": 616,
+                "number": 123,
+                "text": "﻿لَيْسَ بِأَمَانِيِّكُمْ وَلَا أَمَانِيِّ أَهْلِ الْكِتَابِ ۗ مَنْ يَعْمَلْ سُوءًا يُجْزَ بِهِ وَلَا يَجِدْ لَهُ مِنْ دُونِ اللَّهِ وَلِيًّا وَلَا نَصِيرًا",
+                "font": "page_98",
+                "surah_id": 4,
+                "surah": {
+                  "id": 4,
+                  "name": "سورة النساء",
+                  "coded_name": "ﮐ",
+                  "translated_name": "{\"ar\":\"\\u0627\\u0644\\u0646\\u0633\\u0627\\u0621\\r\\n\",\"en\":\"An-Nisa' \",\"bn\":\"\\u0986\\u09a8-\\u09a8\\u09bf\\u09b8\\u09be\",\"bs\":\"En-Nisa\",\"zh\":\"\\u5987\\u5973\\u7ae0\\r\\n\",\"de\":\"An-Nis\\u0101 - Die Frauen\\r\\n\",\"es\":\"Las Mujeres\\r\\n\",\"fa\":\"\\u0646\\u0633\\u0627\\u0621\",\"fr\":\"Les femmes\",\"ha\":\"An-Nisa'i\",\"id\":\"Surah An-Nisaa\\u2019\\u00a0(Wanita)\",\"ml\":\"\\u0d28\\u0d3f\\u0d38\\u0d3e\\u0d05\\u0d4d\",\"pt\":\"As Mulheres\",\"ru\":\"\\u0416\\u0435\\u043d\\u0449\\u0438\\u043d\\u044b (\\u0410\\u043d-\\u041d\\u0438\\u0441\\u0430)\\r\\n\",\"sw\":\"An-Nisa'i\",\"tg\":\"\\u041d\\u0418\\u0421\\u041e\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e31\\u0e19-\\u0e19\\u0e34\\u0e2a\\u0e32\\u0e2d\\u0e4c\",\"tl\":\"Ang Kababaihan\",\"tr\":\"Nisa Suresi\\r\\n\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u0646\\u0649\\u0633\\u0627 \",\"ur\":\"\\u0646\\u0633\\u0627\\u0621\\n\"}",
+                  "number_of_ayahs": 176,
+                  "revelation_type": "medinan",
+                  "first_page": 77,
+                  "last_page": 106,
+                  "first_juz": 4
+                },
+                "juz": 5,
+                "hizb": 39,
+                "page_number": 98,
+                "marker": "ﭾ"
+              },
+              "text": "لَّيۡسَ بِأَمَانِيِّكُمۡ وَلَآ أَمَانِيِّ أَهۡلِ ٱلۡكِتَٰبِۗ مَن يَعۡمَلۡ سُوٓءٗا يُجۡزَ بِهِۦ وَلَا يَجِدۡ لَهُۥ مِن دُونِ ٱللَّهِ وَلِيّٗا وَلَا نَصِيرٗا  <span>ﱺ</span>  ",
+              "ayah_ids": [
+                616
+              ],
+              "ayah_to_number": null
+            },
+            {
+              "info": {
+                "id": 3559,
+                "number": 26,
+                "text": "﻿وَأَنْزَلَ الَّذِينَ ظَاهَرُوهُمْ مِنْ أَهْلِ الْكِتَابِ مِنْ صَيَاصِيهِمْ وَقَذَفَ فِي قُلُوبِهِمُ الرُّعْبَ فَرِيقًا تَقْتُلُونَ وَتَأْسِرُونَ فَرِيقًا",
+                "font": "page_421",
+                "surah_id": 33,
+                "surah": {
+                  "id": 33,
+                  "name": "سورة الأحزاب",
+                  "coded_name": "ﮭ",
+                  "translated_name": "{\"ar\":\"\\u0627\\u0644\\u0623\\u062d\\u0632\\u0627\\u0628\\r\\n\",\"en\":\"Al\\u00adAhzab \",\"bn\":\"\\u0986\\u09b2-\\u0986\\u09b9\\u09af\\u09be\\u09ac\",\"bs\":\"El-Ahzab\",\"zh\":\"\\u540c\\u76df\\u519b\\u7ae0\\r\\n\",\"de\":\"Al-Ahz\\u0101b - Die Gruppierungen\\r\\n\",\"es\":\"Los Aliados\\r\\n\",\"fa\":\"\\u0623\\u062d\\u0632\\u0627\\u0628\",\"fr\":\"Les coalis\\u00e9s\",\"ha\":\"Al-Ahzab\",\"id\":\"Surah Al-Ahzab\\u00a0(Golongan yang Bersekutu)\",\"ml\":\"\\u0d05\\u0d39\\u0d4d\\u0d38\\u0d3e\\u0d2c\\u0d4d\\u200c\",\"pt\":\"Os Partidos \",\"ru\":\"\\u0421\\u043e\\u043d\\u043c\\u044b (\\u0410\\u043b-\\u0410\\u0445\\u0437\\u0430\\u0431)\\r\\n\",\"sw\":\"Al-Ahzab\",\"tg\":\" \\u0410\\u04b2\\u0417\\u041e\\u0411\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e31\\u0e25-\\u0e2d\\u0e30\\u0e2b\\u0e4c\\u0e0b\\u0e32\\u0e1a\",\"tl\":\"Ang mga Magkakaanib\",\"tr\":\"Ahzab Suresi\\r\\n\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u0626\\u06d5\\u06be\\u0632\\u0627\\u0628\",\"ur\":\"\\u0627\\u062d\\u0632\\u0627\\u0628\\n\"}",
+                  "number_of_ayahs": 73,
+                  "revelation_type": "medinan",
+                  "first_page": 418,
+                  "last_page": 427,
+                  "first_juz": 21
+                },
+                "juz": 21,
+                "hizb": 168,
+                "page_number": 421,
+                "marker": "ﮛ"
+              },
+              "text": "وَأَنزَلَ ٱلَّذِينَ ظَٰهَرُوهُم مِّنۡ أَهۡلِ ٱلۡكِتَٰبِ مِن صَيَاصِيهِمۡ وَقَذَفَ فِي قُلُوبِهِمُ ٱلرُّعۡبَ فَرِيقٗا تَقۡتُلُونَ وَتَأۡسِرُونَ فَرِيقٗا  <span>ﰙ</span>  ",
+              "ayah_ids": [
+                3559
+              ],
+              "ayah_to_number": null
+            },
+            {
+              "info": {
+                "id": 5128,
+                "number": 2,
+                "text": "﻿هُوَ الَّذِي أَخْرَجَ الَّذِينَ كَفَرُوا مِنْ أَهْلِ الْكِتَابِ مِنْ دِيَارِهِمْ لِأَوَّلِ الْحَشْرِ ۚ مَا ظَنَنْتُمْ أَنْ يَخْرُجُوا ۖ وَظَنُّوا أَنَّهُمْ مَانِعَتُهُمْ حُصُونُهُمْ مِنَ اللَّهِ فَأَتَاهُمُ اللَّهُ مِنْ حَيْثُ لَمْ يَحْتَسِبُوا ۖ وَقَذَفَ فِي قُلُوبِهِمُ الرُّعْبَ ۚ يُخْرِبُونَ بُيُوتَهُمْ بِأَيْدِيهِمْ وَأَيْدِي الْمُؤْمِنِينَ فَاعْتَبِرُوا يَا أُولِي الْأَبْصَارِ",
+                "font": "page_545",
+                "surah_id": 59,
+                "surah": {
+                  "id": 59,
+                  "name": "سورة الحشر",
+                  "coded_name": "ﯨ",
+                  "translated_name": "{\"ar\":\"\\u0627\\u0644\\u062d\\u0634\\u0631\\r\\n\",\"en\":\"Al-Hashr \",\"bn\":\"\\u0986\\u09b2-\\u09b9\\u09be\\u09b6\\u09b0\",\"bs\":\"El-Ha\\u0161r\",\"zh\":\"\\u653e\\u9010\\u7ae0\\r\\n\",\"de\":\"Al-Ha\\u0161r - Die Versammlung\\r\\n\",\"es\":\"El Destierro\\r\\n\",\"fa\":\"\\u062d\\u0634\\u0631\",\"fr\":\"L'exode\",\"ha\":\"Al-Hashr\",\"id\":\"Surah Al-Hasyr\\u00a0(Pengusiran)\",\"ml\":\"\\u0d39\\u0d37\\u0d4d\\u0d31\\u0d4d\",\"pt\":\"O Desterro\",\"ru\":\"\\u0421\\u043e\\u0431\\u0440\\u0430\\u043d\\u0438\\u0435(\\u0410\\u043b-\\u0425\\u0430\\u0448\\u0440)\\r\\n\",\"sw\":\"Al-Hashr\",\"tg\":\"\\u04b2\\u0410\\u0428\\u0420\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e31\\u0e25-\\u0e2b\\u0e31\\u0e0a\\u0e23\\u0e4c\",\"tl\":\"Ang Pagtitipun-tipon\",\"tr\":\"Hasr Suresi\\r\\n\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u06be\\u06d5\\u0634\\u0649\\u0631\",\"ur\":\"\\u062d\\u0634\\u0631\\n\"}",
+                  "number_of_ayahs": 24,
+                  "revelation_type": "medinan",
+                  "first_page": 545,
+                  "last_page": 548,
+                  "first_juz": 28
+                },
+                "juz": 28,
+                "hizb": 218,
+                "page_number": 545,
+                "marker": "ﯤ"
+              },
+              "text": "هُوَ ٱلَّذِيٓ أَخۡرَجَ ٱلَّذِينَ كَفَرُواْ مِنۡ أَهۡلِ ٱلۡكِتَٰبِ مِن دِيَٰرِهِمۡ لِأَوَّلِ ٱلۡحَشۡرِۚ مَا ظَنَنتُمۡ أَن يَخۡرُجُواْۖ وَظَنُّوٓاْ أَنَّهُم مَّانِعَتُهُمۡ حُصُونُهُم مِّنَ ٱللَّهِ فَأَتَىٰهُمُ ٱللَّهُ مِنۡ حَيۡثُ لَمۡ يَحۡتَسِبُواْۖ وَقَذَفَ فِي قُلُوبِهِمُ ٱلرُّعۡبَۚ يُخۡرِبُونَ بُيُوتَهُم بِأَيۡدِيهِمۡ وَأَيۡدِي ٱلۡمُؤۡمِنِينَ فَٱعۡتَبِرُواْ يَٰٓأُوْلِي ٱلۡأَبۡصَٰرِ  <span>ﰁ</span>  ",
+              "ayah_ids": [
+                5128
+              ],
+              "ayah_to_number": null
+            },
+            {
+              "info": {
+                "id": 6131,
+                "number": 1,
+                "text": "لَمْ يَكُنِ الَّذِينَ كَفَرُوا مِنْ أَهْلِ الْكِتَابِ وَالْمُشْرِكِينَ مُنْفَكِّينَ حَتَّىٰ تَأْتِيَهُمُ الْبَيِّنَةُ",
+                "font": "page_598",
+                "surah_id": 98,
+                "surah": {
+                  "id": 98,
+                  "name": "سورة البينة",
+                  "coded_name": "ﰏ",
+                  "translated_name": "{\"ar\":\"\\u0627\\u0644\\u0628\\u064a\\u0646\\u0629\\r\\n\",\"en\":\"Al-Baiyinah \",\"bn\":\"\\u0986\\u09b2-\\u09ac\\u09be\\u09df\\u09cd\\u09af\\u09bf\\u09a8\\u09be\\u09b9\\u09cd\",\"bs\":\"El-Bejjine\",\"zh\":\"\\u660e\\u8bc1\\u7ae0\\r\\n\",\"de\":\"Al-Bayyina - Der klare Beweis\\r\",\"es\":\"La Evidencia\\r\\n\",\"fa\":\"\\u0628\\u06cc\\u0646\\u0647\",\"fr\":\"La preuve\",\"ha\":\"Al-Bayyinah\",\"id\":\"Surah Al-Baiyinah\\u00a0(Bukti yang Nyata)\",\"ml\":\"\\u0d2c\\u0d2f\\u0d4d\\u0d2f\\u0d3f\\u0d28\",\"pt\":\"A Evid\\u00eancia\",\"ru\":\"\\u042f\\u0441\\u043d\\u043e\\u0435 \\u0417\\u043d\\u0430\\u043c\\u0435\\u043d\\u0438\\u0435(\\u0410\\u043b-\\u0411\\u0430\\u044f\\u0438\\u043d\\u0430)\\r\\n\",\"sw\":\"Al-Bayyinah\",\"tg\":\"\\u0411\\u0410\\u0419\\u0419\\u0418\\u041d\\u0410\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e31\\u0e25-\\u0e1a\\u0e31\\u0e22\\u0e22\\u0e34\\u0e19\\u0e30\\u0e2e\\u0e3a\",\"tl\":\"Ang Maliwanag na Katibayan\",\"tr\":\"Beyyine Suresi\\r\\n\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u0628\\u06d5\\u064a\\u064a\\u0649\\u0646\\u06d5\",\"ur\":\"\\u0628\\u06cc\\u0646\\u06c1\\n\"}",
+                  "number_of_ayahs": 8,
+                  "revelation_type": "medinan",
+                  "first_page": 598,
+                  "last_page": 599,
+                  "first_juz": 30
+                },
+                "juz": 30,
+                "hizb": 239,
+                "page_number": 598,
+                "marker": "ﮣ"
+              },
+              "text": "لَمۡ يَكُنِ ٱلَّذِينَ كَفَرُواْ مِنۡ أَهۡلِ ٱلۡكِتَٰبِ وَٱلۡمُشۡرِكِينَ مُنفَكِّينَ حَتَّىٰ تَأۡتِيَهُمُ ٱلۡبَيِّنَةُ  <span>ﰀ</span>  ",
+              "ayah_ids": [
+                6131
+              ],
+              "ayah_to_number": null
+            }
+          ],
+          "websites": []
+        }
+      ]
+    },
+    {
+      "surah": 98,
+      "ayah": 6,
+      "similar": [
+        {
+          "notes": "\"  من أهل الكتاب  \"",
+          "images": [],
+          "youtube": [
+            {
+              "id": 20863,
+              "name": null,
+              "file_name": "https://www.youtube.com/embed/yR0xON1ptsY?start=236&end=255",
+              "part": null,
+              "attachment_type_id": 4,
+              "attachmentable_id": 489,
+              "attachmentable_type": "App\\Models\\Note",
+              "downloads": 0,
+              "status": null,
+              "created_at": "2020-06-15T12:41:25.000000Z",
+              "updated_at": "2020-06-15T12:41:25.000000Z",
+              "deleted_at": null
+            }
+          ],
+          "ayahs": [
+            {
+              "info": {
+                "id": 116,
+                "number": 109,
+                "text": "﻿وَدَّ كَثِيرٌ مِنْ أَهْلِ الْكِتَابِ لَوْ يَرُدُّونَكُمْ مِنْ بَعْدِ إِيمَانِكُمْ كُفَّارًا حَسَدًا مِنْ عِنْدِ أَنْفُسِهِمْ مِنْ بَعْدِ مَا تَبَيَّنَ لَهُمُ الْحَقُّ ۖ فَاعْفُوا وَاصْفَحُوا حَتَّىٰ يَأْتِيَ اللَّهُ بِأَمْرِهِ ۗ إِنَّ اللَّهَ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ",
+                "font": "page_17",
+                "surah_id": 2,
+                "surah": {
+                  "id": 2,
+                  "name": "سورة البقرة",
+                  "coded_name": "ﮎ",
+                  "translated_name": "{\"ar\":\"\\u0627\\u0644\\u0628\\u0642\\u0631\\u0629\\r\\n\",\"en\":\"Al-Baqarah \",\"bn\":\"\\u0986\\u09b2-\\u09ac\\u09be\\u0995\\u09cd\\u09ac\\u09be\\u09b0\\u09be\\u09b9\\u09cd\",\"bs\":\"El-Bekara\",\"zh\":\"\\u9ec4\\u725b\\u7ae0\\r\\n\",\"de\":\"Al-Baqara - Die Kuh\\r\\n\",\"es\":\"La Vaca\\r\\n\",\"fa\":\"\\u0628\\u0642\\u0631\\u0647\",\"fr\":\"La g\\u00e9nisse\",\"ha\":\"Al-Bakarah\",\"id\":\"Surah Al-Baqarah\\u00a0(Lembu Betina)\",\"ml\":\"\\u0d2c\\u0d16\\u0d31\",\"pt\":\"A Vaca\",\"ru\":\"\\u041a\\u043e\\u0440\\u043e\\u0432\\u0430 (\\u0410\\u043b-\\u0411\\u0430\\u043a\\u0430\\u0440\\u0430)\\r\\n\",\"sw\":\"Al-Bakarah\",\"tg\":\"\\u0411\\u0410\\u049a\\u0410\\u0420\\u0410\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e31\\u0e25-\\u0e1a\\u0e30\\u0e40\\u0e01\\u0e32\\u0e30\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\",\"tl\":\"Ang Baka\",\"tr\":\"Bakara Suresi\\r\\n\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u0628\\u06d5\\u0642\\u06d5\\u0631\\u06d5 \",\"ur\":\"\\u0628\\u0642\\u0631\\u06c1\\n\"}",
+                  "number_of_ayahs": 286,
+                  "revelation_type": "medinan",
+                  "first_page": 2,
+                  "last_page": 49,
+                  "first_juz": 1
+                },
+                "juz": 1,
+                "hizb": 7,
+                "page_number": 17,
+                "marker": "ﮱ"
+              },
+              "text": "وَدَّ كَثِيرٞ مِّنۡ أَهۡلِ ٱلۡكِتَٰبِ لَوۡ يَرُدُّونَكُم مِّنۢ بَعۡدِ إِيمَٰنِكُمۡ كُفَّارًا حَسَدٗا مِّنۡ عِندِ أَنفُسِهِم مِّنۢ بَعۡدِ مَا تَبَيَّنَ لَهُمُ ٱلۡحَقُّۖ فَٱعۡفُواْ وَٱصۡفَحُواْ حَتَّىٰ يَأۡتِيَ ٱللَّهُ بِأَمۡرِهِۦٓۗ إِنَّ ٱللَّهَ عَلَىٰ كُلِّ شَيۡءٖ قَدِيرٞ  <span>ﱬ</span>  ",
+              "ayah_ids": [
+                116
+              ],
+              "ayah_to_number": null
+            },
+            {
+              "info": {
+                "id": 362,
+                "number": 69,
+                "text": "﻿وَدَّتْ طَائِفَةٌ مِنْ أَهْلِ الْكِتَابِ لَوْ يُضِلُّونَكُمْ وَمَا يُضِلُّونَ إِلَّا أَنْفُسَهُمْ وَمَا يَشْعُرُونَ",
+                "font": "page_58",
+                "surah_id": 3,
+                "surah": {
+                  "id": 3,
+                  "name": "سورة آل عمران",
+                  "coded_name": "ﮏ",
+                  "translated_name": "{\"ar\":\"\\u0622\\u0644 \\u0639\\u0645\\u0631\\u0627\\u0646\\r\\n\",\"en\":\"Al-Imran \",\"bn\":\"\\u0986\\u09b2\\u09c7 \\u0987\\u09ae\\u09b0\\u09be\\u09a8\",\"bs\":\"Al Imran\",\"zh\":\"\\u4eea\\u59c6\\u5170\\u7684\\u5bb6\\u5c5e\\u7ae0\\r\\n\",\"de\":\"\\u0100l-i-'Imr\\u0101n - Die Sippe 'Imr\\u0101n\",\"es\":\"La Familia de Imran\\r\\n\",\"fa\":\"\\u0622\\u0644 \\u0639\\u0645\\u0631\\u0627\\u0646\",\"fr\":\"La famille d'Imran\",\"ha\":\"Al-Imaran\",\"id\":\"Surah Ali \\u2018Imran\\u00a0(Keluarga Imran)\",\"ml\":\"\\u0d06\\u0d32\\u0d41\\u0d07\\u0d02\\u0d31\\u0d3e\\u0d28\\u0d4d\",\"pt\":\"A Fam\\u00edlia de Imran\",\"ru\":\"\\u0421\\u0435\\u043c\\u0435\\u0439\\u0441\\u0442\\u0432\\u043e \\u0418\\u043c\\u0440\\u0430\\u043d\\u0430 (\\u0410\\u043b-\\u0418\\u043c\\u0440\\u0430\\u043d)\\r\\n\",\"sw\":\"Al-Imaran\",\"tg\":\"\\u041e\\u041b\\u0418 \\u0418\\u041c\\u0420\\u041e\\u041d\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e32\\u0e25 \\u0e2d\\u0e34\\u0e21\\u0e23\\u0e2d\\u0e19\",\"tl\":\"Ang Pamilya ni Imran\",\"tr\":\"\\u00c2l-i Imran Suresi\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u0626\\u0627\\u0644 \\u0626\\u0649\\u0645\\u0631\\u0627\\u0646 \",\"ur\":\"\\u0622\\u0644 \\u0639\\u0645\\u0631\\u0627\\u0646\\n\"}",
+                  "number_of_ayahs": 200,
+                  "revelation_type": "medinan",
+                  "first_page": 50,
+                  "last_page": 76,
+                  "first_juz": 3
+                },
+                "juz": 3,
+                "hizb": 23,
+                "page_number": 58,
+                "marker": "ﯽ"
+              },
+              "text": "وَدَّت طَّآئِفَةٞ مِّنۡ أَهۡلِ ٱلۡكِتَٰبِ لَوۡ يُضِلُّونَكُمۡ وَمَا يُضِلُّونَ إِلَّآ أَنفُسَهُمۡ وَمَا يَشۡعُرُونَ  <span>ﱄ</span>  ",
+              "ayah_ids": [
+                362
+              ],
+              "ayah_to_number": null
+            },
+            {
+              "info": {
+                "id": 368,
+                "number": 75,
+                "text": "﻿۞ وَمِنْ أَهْلِ الْكِتَابِ مَنْ إِنْ تَأْمَنْهُ بِقِنْطَارٍ يُؤَدِّهِ إِلَيْكَ وَمِنْهُمْ مَنْ إِنْ تَأْمَنْهُ بِدِينَارٍ لَا يُؤَدِّهِ إِلَيْكَ إِلَّا مَا دُمْتَ عَلَيْهِ قَائِمًا ۗ ذَٰلِكَ بِأَنَّهُمْ قَالُوا لَيْسَ عَلَيْنَا فِي الْأُمِّيِّينَ سَبِيلٌ وَيَقُولُونَ عَلَى اللَّهِ الْكَذِبَ وَهُمْ يَعْلَمُونَ",
+                "font": "page_59",
+                "surah_id": 3,
+                "surah": {
+                  "id": 3,
+                  "name": "سورة آل عمران",
+                  "coded_name": "ﮏ",
+                  "translated_name": "{\"ar\":\"\\u0622\\u0644 \\u0639\\u0645\\u0631\\u0627\\u0646\\r\\n\",\"en\":\"Al-Imran \",\"bn\":\"\\u0986\\u09b2\\u09c7 \\u0987\\u09ae\\u09b0\\u09be\\u09a8\",\"bs\":\"Al Imran\",\"zh\":\"\\u4eea\\u59c6\\u5170\\u7684\\u5bb6\\u5c5e\\u7ae0\\r\\n\",\"de\":\"\\u0100l-i-'Imr\\u0101n - Die Sippe 'Imr\\u0101n\",\"es\":\"La Familia de Imran\\r\\n\",\"fa\":\"\\u0622\\u0644 \\u0639\\u0645\\u0631\\u0627\\u0646\",\"fr\":\"La famille d'Imran\",\"ha\":\"Al-Imaran\",\"id\":\"Surah Ali \\u2018Imran\\u00a0(Keluarga Imran)\",\"ml\":\"\\u0d06\\u0d32\\u0d41\\u0d07\\u0d02\\u0d31\\u0d3e\\u0d28\\u0d4d\",\"pt\":\"A Fam\\u00edlia de Imran\",\"ru\":\"\\u0421\\u0435\\u043c\\u0435\\u0439\\u0441\\u0442\\u0432\\u043e \\u0418\\u043c\\u0440\\u0430\\u043d\\u0430 (\\u0410\\u043b-\\u0418\\u043c\\u0440\\u0430\\u043d)\\r\\n\",\"sw\":\"Al-Imaran\",\"tg\":\"\\u041e\\u041b\\u0418 \\u0418\\u041c\\u0420\\u041e\\u041d\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e32\\u0e25 \\u0e2d\\u0e34\\u0e21\\u0e23\\u0e2d\\u0e19\",\"tl\":\"Ang Pamilya ni Imran\",\"tr\":\"\\u00c2l-i Imran Suresi\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u0626\\u0627\\u0644 \\u0626\\u0649\\u0645\\u0631\\u0627\\u0646 \",\"ur\":\"\\u0622\\u0644 \\u0639\\u0645\\u0631\\u0627\\u0646\\n\"}",
+                  "number_of_ayahs": 200,
+                  "revelation_type": "medinan",
+                  "first_page": 50,
+                  "last_page": 76,
+                  "first_juz": 3
+                },
+                "juz": 3,
+                "hizb": 24,
+                "page_number": 59,
+                "marker": "ﯢ"
+              },
+              "text": "۞ وَمِنۡ أَهۡلِ ٱلۡكِتَٰبِ مَنۡ إِن تَأۡمَنۡهُ بِقِنطَارٖ يُؤَدِّهِۦٓ إِلَيۡكَ وَمِنۡهُم مَّنۡ إِن تَأۡمَنۡهُ بِدِينَارٖ لَّا يُؤَدِّهِۦٓ إِلَيۡكَ إِلَّا مَا دُمۡتَ عَلَيۡهِ قَآئِمٗاۗ ذَٰلِكَ بِأَنَّهُمۡ قَالُواْ لَيۡسَ عَلَيۡنَا فِي ٱلۡأُمِّيِّـۧنَ سَبِيلٞ وَيَقُولُونَ عَلَى ٱللَّهِ ٱلۡكَذِبَ وَهُمۡ يَعۡلَمُونَ  <span>ﱊ</span>  ",
+              "ayah_ids": [
+                368
+              ],
+              "ayah_to_number": null
+            },
+            {
+              "info": {
+                "id": 492,
+                "number": 199,
+                "text": "﻿وَإِنَّ مِنْ أَهْلِ الْكِتَابِ لَمَنْ يُؤْمِنُ بِاللَّهِ وَمَا أُنْزِلَ إِلَيْكُمْ وَمَا أُنْزِلَ إِلَيْهِمْ خَاشِعِينَ لِلَّهِ لَا يَشْتَرُونَ بِآيَاتِ اللَّهِ ثَمَنًا قَلِيلًا ۗ أُولَٰئِكَ لَهُمْ أَجْرُهُمْ عِنْدَ رَبِّهِمْ ۗ إِنَّ اللَّهَ سَرِيعُ الْحِسَابِ",
+                "font": "page_76",
+                "surah_id": 3,
+                "surah": {
+                  "id": 3,
+                  "name": "سورة آل عمران",
+                  "coded_name": "ﮏ",
+                  "translated_name": "{\"ar\":\"\\u0622\\u0644 \\u0639\\u0645\\u0631\\u0627\\u0646\\r\\n\",\"en\":\"Al-Imran \",\"bn\":\"\\u0986\\u09b2\\u09c7 \\u0987\\u09ae\\u09b0\\u09be\\u09a8\",\"bs\":\"Al Imran\",\"zh\":\"\\u4eea\\u59c6\\u5170\\u7684\\u5bb6\\u5c5e\\u7ae0\\r\\n\",\"de\":\"\\u0100l-i-'Imr\\u0101n - Die Sippe 'Imr\\u0101n\",\"es\":\"La Familia de Imran\\r\\n\",\"fa\":\"\\u0622\\u0644 \\u0639\\u0645\\u0631\\u0627\\u0646\",\"fr\":\"La famille d'Imran\",\"ha\":\"Al-Imaran\",\"id\":\"Surah Ali \\u2018Imran\\u00a0(Keluarga Imran)\",\"ml\":\"\\u0d06\\u0d32\\u0d41\\u0d07\\u0d02\\u0d31\\u0d3e\\u0d28\\u0d4d\",\"pt\":\"A Fam\\u00edlia de Imran\",\"ru\":\"\\u0421\\u0435\\u043c\\u0435\\u0439\\u0441\\u0442\\u0432\\u043e \\u0418\\u043c\\u0440\\u0430\\u043d\\u0430 (\\u0410\\u043b-\\u0418\\u043c\\u0440\\u0430\\u043d)\\r\\n\",\"sw\":\"Al-Imaran\",\"tg\":\"\\u041e\\u041b\\u0418 \\u0418\\u041c\\u0420\\u041e\\u041d\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e32\\u0e25 \\u0e2d\\u0e34\\u0e21\\u0e23\\u0e2d\\u0e19\",\"tl\":\"Ang Pamilya ni Imran\",\"tr\":\"\\u00c2l-i Imran Suresi\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u0626\\u0627\\u0644 \\u0626\\u0649\\u0645\\u0631\\u0627\\u0646 \",\"ur\":\"\\u0622\\u0644 \\u0639\\u0645\\u0631\\u0627\\u0646\\n\"}",
+                  "number_of_ayahs": 200,
+                  "revelation_type": "medinan",
+                  "first_page": 50,
+                  "last_page": 76,
+                  "first_juz": 3
+                },
+                "juz": 4,
+                "hizb": 30,
+                "page_number": 76,
+                "marker": "ﯩ"
+              },
+              "text": "وَإِنَّ مِنۡ أَهۡلِ ٱلۡكِتَٰبِ لَمَن يُؤۡمِنُ بِٱللَّهِ وَمَآ أُنزِلَ إِلَيۡكُمۡ وَمَآ أُنزِلَ إِلَيۡهِمۡ خَٰشِعِينَ لِلَّهِ لَا يَشۡتَرُونَ بِـَٔايَٰتِ ٱللَّهِ ثَمَنٗا قَلِيلًاۚ أُوْلَٰٓئِكَ لَهُمۡ أَجۡرُهُمۡ عِندَ رَبِّهِمۡۗ إِنَّ ٱللَّهَ سَرِيعُ ٱلۡحِسَابِ  <span>ﳆ</span>  ",
+              "ayah_ids": [
+                492
+              ],
+              "ayah_to_number": null
+            },
+            {
+              "info": {
+                "id": 652,
+                "number": 159,
+                "text": "﻿وَإِنْ مِنْ أَهْلِ الْكِتَابِ إِلَّا لَيُؤْمِنَنَّ بِهِ قَبْلَ مَوْتِهِ ۖ وَيَوْمَ الْقِيَامَةِ يَكُونُ عَلَيْهِمْ شَهِيدًا",
+                "font": "page_103",
+                "surah_id": 4,
+                "surah": {
+                  "id": 4,
+                  "name": "سورة النساء",
+                  "coded_name": "ﮐ",
+                  "translated_name": "{\"ar\":\"\\u0627\\u0644\\u0646\\u0633\\u0627\\u0621\\r\\n\",\"en\":\"An-Nisa' \",\"bn\":\"\\u0986\\u09a8-\\u09a8\\u09bf\\u09b8\\u09be\",\"bs\":\"En-Nisa\",\"zh\":\"\\u5987\\u5973\\u7ae0\\r\\n\",\"de\":\"An-Nis\\u0101 - Die Frauen\\r\\n\",\"es\":\"Las Mujeres\\r\\n\",\"fa\":\"\\u0646\\u0633\\u0627\\u0621\",\"fr\":\"Les femmes\",\"ha\":\"An-Nisa'i\",\"id\":\"Surah An-Nisaa\\u2019\\u00a0(Wanita)\",\"ml\":\"\\u0d28\\u0d3f\\u0d38\\u0d3e\\u0d05\\u0d4d\",\"pt\":\"As Mulheres\",\"ru\":\"\\u0416\\u0435\\u043d\\u0449\\u0438\\u043d\\u044b (\\u0410\\u043d-\\u041d\\u0438\\u0441\\u0430)\\r\\n\",\"sw\":\"An-Nisa'i\",\"tg\":\"\\u041d\\u0418\\u0421\\u041e\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e31\\u0e19-\\u0e19\\u0e34\\u0e2a\\u0e32\\u0e2d\\u0e4c\",\"tl\":\"Ang Kababaihan\",\"tr\":\"Nisa Suresi\\r\\n\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u0646\\u0649\\u0633\\u0627 \",\"ur\":\"\\u0646\\u0633\\u0627\\u0621\\n\"}",
+                  "number_of_ayahs": 176,
+                  "revelation_type": "medinan",
+                  "first_page": 77,
+                  "last_page": 106,
+                  "first_juz": 4
+                },
+                "juz": 6,
+                "hizb": 41,
+                "page_number": 103,
+                "marker": "ﮯ"
+              },
+              "text": "وَإِن مِّنۡ أَهۡلِ ٱلۡكِتَٰبِ إِلَّا لَيُؤۡمِنَنَّ بِهِۦ قَبۡلَ مَوۡتِهِۦۖ وَيَوۡمَ ٱلۡقِيَٰمَةِ يَكُونُ عَلَيۡهِمۡ شَهِيدٗا  <span>ﲞ</span>  ",
+              "ayah_ids": [
+                652
+              ],
+              "ayah_to_number": null
+            },
+            {
+              "info": {
+                "id": 3559,
+                "number": 26,
+                "text": "﻿وَأَنْزَلَ الَّذِينَ ظَاهَرُوهُمْ مِنْ أَهْلِ الْكِتَابِ مِنْ صَيَاصِيهِمْ وَقَذَفَ فِي قُلُوبِهِمُ الرُّعْبَ فَرِيقًا تَقْتُلُونَ وَتَأْسِرُونَ فَرِيقًا",
+                "font": "page_421",
+                "surah_id": 33,
+                "surah": {
+                  "id": 33,
+                  "name": "سورة الأحزاب",
+                  "coded_name": "ﮭ",
+                  "translated_name": "{\"ar\":\"\\u0627\\u0644\\u0623\\u062d\\u0632\\u0627\\u0628\\r\\n\",\"en\":\"Al\\u00adAhzab \",\"bn\":\"\\u0986\\u09b2-\\u0986\\u09b9\\u09af\\u09be\\u09ac\",\"bs\":\"El-Ahzab\",\"zh\":\"\\u540c\\u76df\\u519b\\u7ae0\\r\\n\",\"de\":\"Al-Ahz\\u0101b - Die Gruppierungen\\r\\n\",\"es\":\"Los Aliados\\r\\n\",\"fa\":\"\\u0623\\u062d\\u0632\\u0627\\u0628\",\"fr\":\"Les coalis\\u00e9s\",\"ha\":\"Al-Ahzab\",\"id\":\"Surah Al-Ahzab\\u00a0(Golongan yang Bersekutu)\",\"ml\":\"\\u0d05\\u0d39\\u0d4d\\u0d38\\u0d3e\\u0d2c\\u0d4d\\u200c\",\"pt\":\"Os Partidos \",\"ru\":\"\\u0421\\u043e\\u043d\\u043c\\u044b (\\u0410\\u043b-\\u0410\\u0445\\u0437\\u0430\\u0431)\\r\\n\",\"sw\":\"Al-Ahzab\",\"tg\":\" \\u0410\\u04b2\\u0417\\u041e\\u0411\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e31\\u0e25-\\u0e2d\\u0e30\\u0e2b\\u0e4c\\u0e0b\\u0e32\\u0e1a\",\"tl\":\"Ang mga Magkakaanib\",\"tr\":\"Ahzab Suresi\\r\\n\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u0626\\u06d5\\u06be\\u0632\\u0627\\u0628\",\"ur\":\"\\u0627\\u062d\\u0632\\u0627\\u0628\\n\"}",
+                  "number_of_ayahs": 73,
+                  "revelation_type": "medinan",
+                  "first_page": 418,
+                  "last_page": 427,
+                  "first_juz": 21
+                },
+                "juz": 21,
+                "hizb": 168,
+                "page_number": 421,
+                "marker": "ﮛ"
+              },
+              "text": "وَأَنزَلَ ٱلَّذِينَ ظَٰهَرُوهُم مِّنۡ أَهۡلِ ٱلۡكِتَٰبِ مِن صَيَاصِيهِمۡ وَقَذَفَ فِي قُلُوبِهِمُ ٱلرُّعۡبَ فَرِيقٗا تَقۡتُلُونَ وَتَأۡسِرُونَ فَرِيقٗا  <span>ﰙ</span>  ",
+              "ayah_ids": [
+                3559
+              ],
+              "ayah_to_number": null
+            },
+            {
+              "info": {
+                "id": 5128,
+                "number": 2,
+                "text": "﻿هُوَ الَّذِي أَخْرَجَ الَّذِينَ كَفَرُوا مِنْ أَهْلِ الْكِتَابِ مِنْ دِيَارِهِمْ لِأَوَّلِ الْحَشْرِ ۚ مَا ظَنَنْتُمْ أَنْ يَخْرُجُوا ۖ وَظَنُّوا أَنَّهُمْ مَانِعَتُهُمْ حُصُونُهُمْ مِنَ اللَّهِ فَأَتَاهُمُ اللَّهُ مِنْ حَيْثُ لَمْ يَحْتَسِبُوا ۖ وَقَذَفَ فِي قُلُوبِهِمُ الرُّعْبَ ۚ يُخْرِبُونَ بُيُوتَهُمْ بِأَيْدِيهِمْ وَأَيْدِي الْمُؤْمِنِينَ فَاعْتَبِرُوا يَا أُولِي الْأَبْصَارِ",
+                "font": "page_545",
+                "surah_id": 59,
+                "surah": {
+                  "id": 59,
+                  "name": "سورة الحشر",
+                  "coded_name": "ﯨ",
+                  "translated_name": "{\"ar\":\"\\u0627\\u0644\\u062d\\u0634\\u0631\\r\\n\",\"en\":\"Al-Hashr \",\"bn\":\"\\u0986\\u09b2-\\u09b9\\u09be\\u09b6\\u09b0\",\"bs\":\"El-Ha\\u0161r\",\"zh\":\"\\u653e\\u9010\\u7ae0\\r\\n\",\"de\":\"Al-Ha\\u0161r - Die Versammlung\\r\\n\",\"es\":\"El Destierro\\r\\n\",\"fa\":\"\\u062d\\u0634\\u0631\",\"fr\":\"L'exode\",\"ha\":\"Al-Hashr\",\"id\":\"Surah Al-Hasyr\\u00a0(Pengusiran)\",\"ml\":\"\\u0d39\\u0d37\\u0d4d\\u0d31\\u0d4d\",\"pt\":\"O Desterro\",\"ru\":\"\\u0421\\u043e\\u0431\\u0440\\u0430\\u043d\\u0438\\u0435(\\u0410\\u043b-\\u0425\\u0430\\u0448\\u0440)\\r\\n\",\"sw\":\"Al-Hashr\",\"tg\":\"\\u04b2\\u0410\\u0428\\u0420\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e31\\u0e25-\\u0e2b\\u0e31\\u0e0a\\u0e23\\u0e4c\",\"tl\":\"Ang Pagtitipun-tipon\",\"tr\":\"Hasr Suresi\\r\\n\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u06be\\u06d5\\u0634\\u0649\\u0631\",\"ur\":\"\\u062d\\u0634\\u0631\\n\"}",
+                  "number_of_ayahs": 24,
+                  "revelation_type": "medinan",
+                  "first_page": 545,
+                  "last_page": 548,
+                  "first_juz": 28
+                },
+                "juz": 28,
+                "hizb": 218,
+                "page_number": 545,
+                "marker": "ﯤ"
+              },
+              "text": "هُوَ ٱلَّذِيٓ أَخۡرَجَ ٱلَّذِينَ كَفَرُواْ مِنۡ أَهۡلِ ٱلۡكِتَٰبِ مِن دِيَٰرِهِمۡ لِأَوَّلِ ٱلۡحَشۡرِۚ مَا ظَنَنتُمۡ أَن يَخۡرُجُواْۖ وَظَنُّوٓاْ أَنَّهُم مَّانِعَتُهُمۡ حُصُونُهُم مِّنَ ٱللَّهِ فَأَتَىٰهُمُ ٱللَّهُ مِنۡ حَيۡثُ لَمۡ يَحۡتَسِبُواْۖ وَقَذَفَ فِي قُلُوبِهِمُ ٱلرُّعۡبَۚ يُخۡرِبُونَ بُيُوتَهُم بِأَيۡدِيهِمۡ وَأَيۡدِي ٱلۡمُؤۡمِنِينَ فَٱعۡتَبِرُواْ يَٰٓأُوْلِي ٱلۡأَبۡصَٰرِ  <span>ﰁ</span>  ",
+              "ayah_ids": [
+                5128
+              ],
+              "ayah_to_number": null
+            },
+            {
+              "info": {
+                "id": 6131,
+                "number": 1,
+                "text": "لَمْ يَكُنِ الَّذِينَ كَفَرُوا مِنْ أَهْلِ الْكِتَابِ وَالْمُشْرِكِينَ مُنْفَكِّينَ حَتَّىٰ تَأْتِيَهُمُ الْبَيِّنَةُ",
+                "font": "page_598",
+                "surah_id": 98,
+                "surah": {
+                  "id": 98,
+                  "name": "سورة البينة",
+                  "coded_name": "ﰏ",
+                  "translated_name": "{\"ar\":\"\\u0627\\u0644\\u0628\\u064a\\u0646\\u0629\\r\\n\",\"en\":\"Al-Baiyinah \",\"bn\":\"\\u0986\\u09b2-\\u09ac\\u09be\\u09df\\u09cd\\u09af\\u09bf\\u09a8\\u09be\\u09b9\\u09cd\",\"bs\":\"El-Bejjine\",\"zh\":\"\\u660e\\u8bc1\\u7ae0\\r\\n\",\"de\":\"Al-Bayyina - Der klare Beweis\\r\",\"es\":\"La Evidencia\\r\\n\",\"fa\":\"\\u0628\\u06cc\\u0646\\u0647\",\"fr\":\"La preuve\",\"ha\":\"Al-Bayyinah\",\"id\":\"Surah Al-Baiyinah\\u00a0(Bukti yang Nyata)\",\"ml\":\"\\u0d2c\\u0d2f\\u0d4d\\u0d2f\\u0d3f\\u0d28\",\"pt\":\"A Evid\\u00eancia\",\"ru\":\"\\u042f\\u0441\\u043d\\u043e\\u0435 \\u0417\\u043d\\u0430\\u043c\\u0435\\u043d\\u0438\\u0435(\\u0410\\u043b-\\u0411\\u0430\\u044f\\u0438\\u043d\\u0430)\\r\\n\",\"sw\":\"Al-Bayyinah\",\"tg\":\"\\u0411\\u0410\\u0419\\u0419\\u0418\\u041d\\u0410\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e31\\u0e25-\\u0e1a\\u0e31\\u0e22\\u0e22\\u0e34\\u0e19\\u0e30\\u0e2e\\u0e3a\",\"tl\":\"Ang Maliwanag na Katibayan\",\"tr\":\"Beyyine Suresi\\r\\n\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u0628\\u06d5\\u064a\\u064a\\u0649\\u0646\\u06d5\",\"ur\":\"\\u0628\\u06cc\\u0646\\u06c1\\n\"}",
+                  "number_of_ayahs": 8,
+                  "revelation_type": "medinan",
+                  "first_page": 598,
+                  "last_page": 599,
+                  "first_juz": 30
+                },
+                "juz": 30,
+                "hizb": 239,
+                "page_number": 598,
+                "marker": "ﮣ"
+              },
+              "text": "لَمۡ يَكُنِ ٱلَّذِينَ كَفَرُواْ مِنۡ أَهۡلِ ٱلۡكِتَٰبِ وَٱلۡمُشۡرِكِينَ مُنفَكِّينَ حَتَّىٰ تَأۡتِيَهُمُ ٱلۡبَيِّنَةُ  <span>ﰀ</span>  ",
+              "ayah_ids": [
+                6131
+              ],
+              "ayah_to_number": null
+            },
+            {
+              "info": {
+                "id": 6136,
+                "number": 6,
+                "text": "﻿إِنَّ الَّذِينَ كَفَرُوا مِنْ أَهْلِ الْكِتَابِ وَالْمُشْرِكِينَ فِي نَارِ جَهَنَّمَ خَالِدِينَ فِيهَا ۚ أُولَٰئِكَ هُمْ شَرُّ الْبَرِيَّةِ",
+                "font": "page_599",
+                "surah_id": 98,
+                "surah": {
+                  "id": 98,
+                  "name": "سورة البينة",
+                  "coded_name": "ﰏ",
+                  "translated_name": "{\"ar\":\"\\u0627\\u0644\\u0628\\u064a\\u0646\\u0629\\r\\n\",\"en\":\"Al-Baiyinah \",\"bn\":\"\\u0986\\u09b2-\\u09ac\\u09be\\u09df\\u09cd\\u09af\\u09bf\\u09a8\\u09be\\u09b9\\u09cd\",\"bs\":\"El-Bejjine\",\"zh\":\"\\u660e\\u8bc1\\u7ae0\\r\\n\",\"de\":\"Al-Bayyina - Der klare Beweis\\r\",\"es\":\"La Evidencia\\r\\n\",\"fa\":\"\\u0628\\u06cc\\u0646\\u0647\",\"fr\":\"La preuve\",\"ha\":\"Al-Bayyinah\",\"id\":\"Surah Al-Baiyinah\\u00a0(Bukti yang Nyata)\",\"ml\":\"\\u0d2c\\u0d2f\\u0d4d\\u0d2f\\u0d3f\\u0d28\",\"pt\":\"A Evid\\u00eancia\",\"ru\":\"\\u042f\\u0441\\u043d\\u043e\\u0435 \\u0417\\u043d\\u0430\\u043c\\u0435\\u043d\\u0438\\u0435(\\u0410\\u043b-\\u0411\\u0430\\u044f\\u0438\\u043d\\u0430)\\r\\n\",\"sw\":\"Al-Bayyinah\",\"tg\":\"\\u0411\\u0410\\u0419\\u0419\\u0418\\u041d\\u0410\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e31\\u0e25-\\u0e1a\\u0e31\\u0e22\\u0e22\\u0e34\\u0e19\\u0e30\\u0e2e\\u0e3a\",\"tl\":\"Ang Maliwanag na Katibayan\",\"tr\":\"Beyyine Suresi\\r\\n\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u0628\\u06d5\\u064a\\u064a\\u0649\\u0646\\u06d5\",\"ur\":\"\\u0628\\u06cc\\u0646\\u06c1\\n\"}",
+                  "number_of_ayahs": 8,
+                  "revelation_type": "medinan",
+                  "first_page": 598,
+                  "last_page": 599,
+                  "first_juz": 30
+                },
+                "juz": 30,
+                "hizb": 239,
+                "page_number": 599,
+                "marker": "ﭢ"
+              },
+              "text": "إِنَّ ٱلَّذِينَ كَفَرُواْ مِنۡ أَهۡلِ ٱلۡكِتَٰبِ وَٱلۡمُشۡرِكِينَ فِي نَارِ جَهَنَّمَ خَٰلِدِينَ فِيهَآۚ أُوْلَٰٓئِكَ هُمۡ شَرُّ ٱلۡبَرِيَّةِ  <span>ﰅ</span>  ",
+              "ayah_ids": [
+                6136
+              ],
+              "ayah_to_number": null
+            }
+          ],
+          "websites": []
+        },
+        {
+          "notes": "ضبط مواضع ( من أهل الكتاب )",
+          "images": [],
+          "youtube": [
+            {
+              "id": 20889,
+              "name": null,
+              "file_name": "https://www.youtube.com/embed/I51Pt--v6ys?start=0",
+              "part": null,
+              "attachment_type_id": 4,
+              "attachmentable_id": 515,
+              "attachmentable_type": "App\\Models\\Note",
+              "downloads": 0,
+              "status": null,
+              "created_at": "2020-06-15T12:41:43.000000Z",
+              "updated_at": "2020-06-15T12:41:43.000000Z",
+              "deleted_at": null
+            }
+          ],
+          "ayahs": [
+            {
+              "info": {
+                "id": 112,
+                "number": 105,
+                "text": "﻿مَا يَوَدُّ الَّذِينَ كَفَرُوا مِنْ أَهْلِ الْكِتَابِ وَلَا الْمُشْرِكِينَ أَنْ يُنَزَّلَ عَلَيْكُمْ مِنْ خَيْرٍ مِنْ رَبِّكُمْ ۗ وَاللَّهُ يَخْتَصُّ بِرَحْمَتِهِ مَنْ يَشَاءُ ۚ وَاللَّهُ ذُو الْفَضْلِ الْعَظِيمِ",
+                "font": "page_16",
+                "surah_id": 2,
+                "surah": {
+                  "id": 2,
+                  "name": "سورة البقرة",
+                  "coded_name": "ﮎ",
+                  "translated_name": "{\"ar\":\"\\u0627\\u0644\\u0628\\u0642\\u0631\\u0629\\r\\n\",\"en\":\"Al-Baqarah \",\"bn\":\"\\u0986\\u09b2-\\u09ac\\u09be\\u0995\\u09cd\\u09ac\\u09be\\u09b0\\u09be\\u09b9\\u09cd\",\"bs\":\"El-Bekara\",\"zh\":\"\\u9ec4\\u725b\\u7ae0\\r\\n\",\"de\":\"Al-Baqara - Die Kuh\\r\\n\",\"es\":\"La Vaca\\r\\n\",\"fa\":\"\\u0628\\u0642\\u0631\\u0647\",\"fr\":\"La g\\u00e9nisse\",\"ha\":\"Al-Bakarah\",\"id\":\"Surah Al-Baqarah\\u00a0(Lembu Betina)\",\"ml\":\"\\u0d2c\\u0d16\\u0d31\",\"pt\":\"A Vaca\",\"ru\":\"\\u041a\\u043e\\u0440\\u043e\\u0432\\u0430 (\\u0410\\u043b-\\u0411\\u0430\\u043a\\u0430\\u0440\\u0430)\\r\\n\",\"sw\":\"Al-Bakarah\",\"tg\":\"\\u0411\\u0410\\u049a\\u0410\\u0420\\u0410\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e31\\u0e25-\\u0e1a\\u0e30\\u0e40\\u0e01\\u0e32\\u0e30\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\",\"tl\":\"Ang Baka\",\"tr\":\"Bakara Suresi\\r\\n\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u0628\\u06d5\\u0642\\u06d5\\u0631\\u06d5 \",\"ur\":\"\\u0628\\u0642\\u0631\\u06c1\\n\"}",
+                  "number_of_ayahs": 286,
+                  "revelation_type": "medinan",
+                  "first_page": 2,
+                  "last_page": 49,
+                  "first_juz": 1
+                },
+                "juz": 1,
+                "hizb": 6,
+                "page_number": 16,
+                "marker": "ﯼ"
+              },
+              "text": "مَّا يَوَدُّ ٱلَّذِينَ كَفَرُواْ مِنۡ أَهۡلِ ٱلۡكِتَٰبِ وَلَا ٱلۡمُشۡرِكِينَ أَن يُنَزَّلَ عَلَيۡكُم مِّنۡ خَيۡرٖ مِّن رَّبِّكُمۡۚ وَٱللَّهُ يَخۡتَصُّ بِرَحۡمَتِهِۦ مَن يَشَآءُۚ وَٱللَّهُ ذُو ٱلۡفَضۡلِ ٱلۡعَظِيمِ  <span>ﱨ</span>  ",
+              "ayah_ids": [
+                112
+              ],
+              "ayah_to_number": null
+            },
+            {
+              "info": {
+                "id": 116,
+                "number": 109,
+                "text": "﻿وَدَّ كَثِيرٌ مِنْ أَهْلِ الْكِتَابِ لَوْ يَرُدُّونَكُمْ مِنْ بَعْدِ إِيمَانِكُمْ كُفَّارًا حَسَدًا مِنْ عِنْدِ أَنْفُسِهِمْ مِنْ بَعْدِ مَا تَبَيَّنَ لَهُمُ الْحَقُّ ۖ فَاعْفُوا وَاصْفَحُوا حَتَّىٰ يَأْتِيَ اللَّهُ بِأَمْرِهِ ۗ إِنَّ اللَّهَ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ",
+                "font": "page_17",
+                "surah_id": 2,
+                "surah": {
+                  "id": 2,
+                  "name": "سورة البقرة",
+                  "coded_name": "ﮎ",
+                  "translated_name": "{\"ar\":\"\\u0627\\u0644\\u0628\\u0642\\u0631\\u0629\\r\\n\",\"en\":\"Al-Baqarah \",\"bn\":\"\\u0986\\u09b2-\\u09ac\\u09be\\u0995\\u09cd\\u09ac\\u09be\\u09b0\\u09be\\u09b9\\u09cd\",\"bs\":\"El-Bekara\",\"zh\":\"\\u9ec4\\u725b\\u7ae0\\r\\n\",\"de\":\"Al-Baqara - Die Kuh\\r\\n\",\"es\":\"La Vaca\\r\\n\",\"fa\":\"\\u0628\\u0642\\u0631\\u0647\",\"fr\":\"La g\\u00e9nisse\",\"ha\":\"Al-Bakarah\",\"id\":\"Surah Al-Baqarah\\u00a0(Lembu Betina)\",\"ml\":\"\\u0d2c\\u0d16\\u0d31\",\"pt\":\"A Vaca\",\"ru\":\"\\u041a\\u043e\\u0440\\u043e\\u0432\\u0430 (\\u0410\\u043b-\\u0411\\u0430\\u043a\\u0430\\u0440\\u0430)\\r\\n\",\"sw\":\"Al-Bakarah\",\"tg\":\"\\u0411\\u0410\\u049a\\u0410\\u0420\\u0410\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e31\\u0e25-\\u0e1a\\u0e30\\u0e40\\u0e01\\u0e32\\u0e30\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\",\"tl\":\"Ang Baka\",\"tr\":\"Bakara Suresi\\r\\n\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u0628\\u06d5\\u0642\\u06d5\\u0631\\u06d5 \",\"ur\":\"\\u0628\\u0642\\u0631\\u06c1\\n\"}",
+                  "number_of_ayahs": 286,
+                  "revelation_type": "medinan",
+                  "first_page": 2,
+                  "last_page": 49,
+                  "first_juz": 1
+                },
+                "juz": 1,
+                "hizb": 7,
+                "page_number": 17,
+                "marker": "ﮱ"
+              },
+              "text": "وَدَّ كَثِيرٞ مِّنۡ أَهۡلِ ٱلۡكِتَٰبِ لَوۡ يَرُدُّونَكُم مِّنۢ بَعۡدِ إِيمَٰنِكُمۡ كُفَّارًا حَسَدٗا مِّنۡ عِندِ أَنفُسِهِم مِّنۢ بَعۡدِ مَا تَبَيَّنَ لَهُمُ ٱلۡحَقُّۖ فَٱعۡفُواْ وَٱصۡفَحُواْ حَتَّىٰ يَأۡتِيَ ٱللَّهُ بِأَمۡرِهِۦٓۗ إِنَّ ٱللَّهَ عَلَىٰ كُلِّ شَيۡءٖ قَدِيرٞ  <span>ﱬ</span>  ",
+              "ayah_ids": [
+                116
+              ],
+              "ayah_to_number": null
+            },
+            {
+              "info": {
+                "id": 362,
+                "number": 69,
+                "text": "﻿وَدَّتْ طَائِفَةٌ مِنْ أَهْلِ الْكِتَابِ لَوْ يُضِلُّونَكُمْ وَمَا يُضِلُّونَ إِلَّا أَنْفُسَهُمْ وَمَا يَشْعُرُونَ",
+                "font": "page_58",
+                "surah_id": 3,
+                "surah": {
+                  "id": 3,
+                  "name": "سورة آل عمران",
+                  "coded_name": "ﮏ",
+                  "translated_name": "{\"ar\":\"\\u0622\\u0644 \\u0639\\u0645\\u0631\\u0627\\u0646\\r\\n\",\"en\":\"Al-Imran \",\"bn\":\"\\u0986\\u09b2\\u09c7 \\u0987\\u09ae\\u09b0\\u09be\\u09a8\",\"bs\":\"Al Imran\",\"zh\":\"\\u4eea\\u59c6\\u5170\\u7684\\u5bb6\\u5c5e\\u7ae0\\r\\n\",\"de\":\"\\u0100l-i-'Imr\\u0101n - Die Sippe 'Imr\\u0101n\",\"es\":\"La Familia de Imran\\r\\n\",\"fa\":\"\\u0622\\u0644 \\u0639\\u0645\\u0631\\u0627\\u0646\",\"fr\":\"La famille d'Imran\",\"ha\":\"Al-Imaran\",\"id\":\"Surah Ali \\u2018Imran\\u00a0(Keluarga Imran)\",\"ml\":\"\\u0d06\\u0d32\\u0d41\\u0d07\\u0d02\\u0d31\\u0d3e\\u0d28\\u0d4d\",\"pt\":\"A Fam\\u00edlia de Imran\",\"ru\":\"\\u0421\\u0435\\u043c\\u0435\\u0439\\u0441\\u0442\\u0432\\u043e \\u0418\\u043c\\u0440\\u0430\\u043d\\u0430 (\\u0410\\u043b-\\u0418\\u043c\\u0440\\u0430\\u043d)\\r\\n\",\"sw\":\"Al-Imaran\",\"tg\":\"\\u041e\\u041b\\u0418 \\u0418\\u041c\\u0420\\u041e\\u041d\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e32\\u0e25 \\u0e2d\\u0e34\\u0e21\\u0e23\\u0e2d\\u0e19\",\"tl\":\"Ang Pamilya ni Imran\",\"tr\":\"\\u00c2l-i Imran Suresi\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u0626\\u0627\\u0644 \\u0626\\u0649\\u0645\\u0631\\u0627\\u0646 \",\"ur\":\"\\u0622\\u0644 \\u0639\\u0645\\u0631\\u0627\\u0646\\n\"}",
+                  "number_of_ayahs": 200,
+                  "revelation_type": "medinan",
+                  "first_page": 50,
+                  "last_page": 76,
+                  "first_juz": 3
+                },
+                "juz": 3,
+                "hizb": 23,
+                "page_number": 58,
+                "marker": "ﯽ"
+              },
+              "text": "وَدَّت طَّآئِفَةٞ مِّنۡ أَهۡلِ ٱلۡكِتَٰبِ لَوۡ يُضِلُّونَكُمۡ وَمَا يُضِلُّونَ إِلَّآ أَنفُسَهُمۡ وَمَا يَشۡعُرُونَ  <span>ﱄ</span>  ",
+              "ayah_ids": [
+                362
+              ],
+              "ayah_to_number": null
+            },
+            {
+              "info": {
+                "id": 365,
+                "number": 72,
+                "text": "﻿وَقَالَتْ طَائِفَةٌ مِنْ أَهْلِ الْكِتَابِ آمِنُوا بِالَّذِي أُنْزِلَ عَلَى الَّذِينَ آمَنُوا وَجْهَ النَّهَارِ وَاكْفُرُوا آخِرَهُ لَعَلَّهُمْ يَرْجِعُونَ",
+                "font": "page_59",
+                "surah_id": 3,
+                "surah": {
+                  "id": 3,
+                  "name": "سورة آل عمران",
+                  "coded_name": "ﮏ",
+                  "translated_name": "{\"ar\":\"\\u0622\\u0644 \\u0639\\u0645\\u0631\\u0627\\u0646\\r\\n\",\"en\":\"Al-Imran \",\"bn\":\"\\u0986\\u09b2\\u09c7 \\u0987\\u09ae\\u09b0\\u09be\\u09a8\",\"bs\":\"Al Imran\",\"zh\":\"\\u4eea\\u59c6\\u5170\\u7684\\u5bb6\\u5c5e\\u7ae0\\r\\n\",\"de\":\"\\u0100l-i-'Imr\\u0101n - Die Sippe 'Imr\\u0101n\",\"es\":\"La Familia de Imran\\r\\n\",\"fa\":\"\\u0622\\u0644 \\u0639\\u0645\\u0631\\u0627\\u0646\",\"fr\":\"La famille d'Imran\",\"ha\":\"Al-Imaran\",\"id\":\"Surah Ali \\u2018Imran\\u00a0(Keluarga Imran)\",\"ml\":\"\\u0d06\\u0d32\\u0d41\\u0d07\\u0d02\\u0d31\\u0d3e\\u0d28\\u0d4d\",\"pt\":\"A Fam\\u00edlia de Imran\",\"ru\":\"\\u0421\\u0435\\u043c\\u0435\\u0439\\u0441\\u0442\\u0432\\u043e \\u0418\\u043c\\u0440\\u0430\\u043d\\u0430 (\\u0410\\u043b-\\u0418\\u043c\\u0440\\u0430\\u043d)\\r\\n\",\"sw\":\"Al-Imaran\",\"tg\":\"\\u041e\\u041b\\u0418 \\u0418\\u041c\\u0420\\u041e\\u041d\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e32\\u0e25 \\u0e2d\\u0e34\\u0e21\\u0e23\\u0e2d\\u0e19\",\"tl\":\"Ang Pamilya ni Imran\",\"tr\":\"\\u00c2l-i Imran Suresi\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u0626\\u0627\\u0644 \\u0626\\u0649\\u0645\\u0631\\u0627\\u0646 \",\"ur\":\"\\u0622\\u0644 \\u0639\\u0645\\u0631\\u0627\\u0646\\n\"}",
+                  "number_of_ayahs": 200,
+                  "revelation_type": "medinan",
+                  "first_page": 50,
+                  "last_page": 76,
+                  "first_juz": 3
+                },
+                "juz": 3,
+                "hizb": 23,
+                "page_number": 59,
+                "marker": "ﭭ"
+              },
+              "text": "وَقَالَت طَّآئِفَةٞ مِّنۡ أَهۡلِ ٱلۡكِتَٰبِ ءَامِنُواْ بِٱلَّذِيٓ أُنزِلَ عَلَى ٱلَّذِينَ ءَامَنُواْ وَجۡهَ ٱلنَّهَارِ وَٱكۡفُرُوٓاْ ءَاخِرَهُۥ لَعَلَّهُمۡ يَرۡجِعُونَ  <span>ﱇ</span>  ",
+              "ayah_ids": [
+                365
+              ],
+              "ayah_to_number": null
+            },
+            {
+              "info": {
+                "id": 368,
+                "number": 75,
+                "text": "﻿۞ وَمِنْ أَهْلِ الْكِتَابِ مَنْ إِنْ تَأْمَنْهُ بِقِنْطَارٍ يُؤَدِّهِ إِلَيْكَ وَمِنْهُمْ مَنْ إِنْ تَأْمَنْهُ بِدِينَارٍ لَا يُؤَدِّهِ إِلَيْكَ إِلَّا مَا دُمْتَ عَلَيْهِ قَائِمًا ۗ ذَٰلِكَ بِأَنَّهُمْ قَالُوا لَيْسَ عَلَيْنَا فِي الْأُمِّيِّينَ سَبِيلٌ وَيَقُولُونَ عَلَى اللَّهِ الْكَذِبَ وَهُمْ يَعْلَمُونَ",
+                "font": "page_59",
+                "surah_id": 3,
+                "surah": {
+                  "id": 3,
+                  "name": "سورة آل عمران",
+                  "coded_name": "ﮏ",
+                  "translated_name": "{\"ar\":\"\\u0622\\u0644 \\u0639\\u0645\\u0631\\u0627\\u0646\\r\\n\",\"en\":\"Al-Imran \",\"bn\":\"\\u0986\\u09b2\\u09c7 \\u0987\\u09ae\\u09b0\\u09be\\u09a8\",\"bs\":\"Al Imran\",\"zh\":\"\\u4eea\\u59c6\\u5170\\u7684\\u5bb6\\u5c5e\\u7ae0\\r\\n\",\"de\":\"\\u0100l-i-'Imr\\u0101n - Die Sippe 'Imr\\u0101n\",\"es\":\"La Familia de Imran\\r\\n\",\"fa\":\"\\u0622\\u0644 \\u0639\\u0645\\u0631\\u0627\\u0646\",\"fr\":\"La famille d'Imran\",\"ha\":\"Al-Imaran\",\"id\":\"Surah Ali \\u2018Imran\\u00a0(Keluarga Imran)\",\"ml\":\"\\u0d06\\u0d32\\u0d41\\u0d07\\u0d02\\u0d31\\u0d3e\\u0d28\\u0d4d\",\"pt\":\"A Fam\\u00edlia de Imran\",\"ru\":\"\\u0421\\u0435\\u043c\\u0435\\u0439\\u0441\\u0442\\u0432\\u043e \\u0418\\u043c\\u0440\\u0430\\u043d\\u0430 (\\u0410\\u043b-\\u0418\\u043c\\u0440\\u0430\\u043d)\\r\\n\",\"sw\":\"Al-Imaran\",\"tg\":\"\\u041e\\u041b\\u0418 \\u0418\\u041c\\u0420\\u041e\\u041d\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e32\\u0e25 \\u0e2d\\u0e34\\u0e21\\u0e23\\u0e2d\\u0e19\",\"tl\":\"Ang Pamilya ni Imran\",\"tr\":\"\\u00c2l-i Imran Suresi\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u0626\\u0627\\u0644 \\u0626\\u0649\\u0645\\u0631\\u0627\\u0646 \",\"ur\":\"\\u0622\\u0644 \\u0639\\u0645\\u0631\\u0627\\u0646\\n\"}",
+                  "number_of_ayahs": 200,
+                  "revelation_type": "medinan",
+                  "first_page": 50,
+                  "last_page": 76,
+                  "first_juz": 3
+                },
+                "juz": 3,
+                "hizb": 24,
+                "page_number": 59,
+                "marker": "ﯢ"
+              },
+              "text": "۞ وَمِنۡ أَهۡلِ ٱلۡكِتَٰبِ مَنۡ إِن تَأۡمَنۡهُ بِقِنطَارٖ يُؤَدِّهِۦٓ إِلَيۡكَ وَمِنۡهُم مَّنۡ إِن تَأۡمَنۡهُ بِدِينَارٖ لَّا يُؤَدِّهِۦٓ إِلَيۡكَ إِلَّا مَا دُمۡتَ عَلَيۡهِ قَآئِمٗاۗ ذَٰلِكَ بِأَنَّهُمۡ قَالُواْ لَيۡسَ عَلَيۡنَا فِي ٱلۡأُمِّيِّـۧنَ سَبِيلٞ وَيَقُولُونَ عَلَى ٱللَّهِ ٱلۡكَذِبَ وَهُمۡ يَعۡلَمُونَ  <span>ﱊ</span>  ",
+              "ayah_ids": [
+                368
+              ],
+              "ayah_to_number": null
+            },
+            {
+              "info": {
+                "id": 406,
+                "number": 113,
+                "text": "﻿۞ لَيْسُوا سَوَاءً ۗ مِنْ أَهْلِ الْكِتَابِ أُمَّةٌ قَائِمَةٌ يَتْلُونَ آيَاتِ اللَّهِ آنَاءَ اللَّيْلِ وَهُمْ يَسْجُدُونَ",
+                "font": "page_64",
+                "surah_id": 3,
+                "surah": {
+                  "id": 3,
+                  "name": "سورة آل عمران",
+                  "coded_name": "ﮏ",
+                  "translated_name": "{\"ar\":\"\\u0622\\u0644 \\u0639\\u0645\\u0631\\u0627\\u0646\\r\\n\",\"en\":\"Al-Imran \",\"bn\":\"\\u0986\\u09b2\\u09c7 \\u0987\\u09ae\\u09b0\\u09be\\u09a8\",\"bs\":\"Al Imran\",\"zh\":\"\\u4eea\\u59c6\\u5170\\u7684\\u5bb6\\u5c5e\\u7ae0\\r\\n\",\"de\":\"\\u0100l-i-'Imr\\u0101n - Die Sippe 'Imr\\u0101n\",\"es\":\"La Familia de Imran\\r\\n\",\"fa\":\"\\u0622\\u0644 \\u0639\\u0645\\u0631\\u0627\\u0646\",\"fr\":\"La famille d'Imran\",\"ha\":\"Al-Imaran\",\"id\":\"Surah Ali \\u2018Imran\\u00a0(Keluarga Imran)\",\"ml\":\"\\u0d06\\u0d32\\u0d41\\u0d07\\u0d02\\u0d31\\u0d3e\\u0d28\\u0d4d\",\"pt\":\"A Fam\\u00edlia de Imran\",\"ru\":\"\\u0421\\u0435\\u043c\\u0435\\u0439\\u0441\\u0442\\u0432\\u043e \\u0418\\u043c\\u0440\\u0430\\u043d\\u0430 (\\u0410\\u043b-\\u0418\\u043c\\u0440\\u0430\\u043d)\\r\\n\",\"sw\":\"Al-Imaran\",\"tg\":\"\\u041e\\u041b\\u0418 \\u0418\\u041c\\u0420\\u041e\\u041d\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e32\\u0e25 \\u0e2d\\u0e34\\u0e21\\u0e23\\u0e2d\\u0e19\",\"tl\":\"Ang Pamilya ni Imran\",\"tr\":\"\\u00c2l-i Imran Suresi\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u0626\\u0627\\u0644 \\u0626\\u0649\\u0645\\u0631\\u0627\\u0646 \",\"ur\":\"\\u0622\\u0644 \\u0639\\u0645\\u0631\\u0627\\u0646\\n\"}",
+                  "number_of_ayahs": 200,
+                  "revelation_type": "medinan",
+                  "first_page": 50,
+                  "last_page": 76,
+                  "first_juz": 3
+                },
+                "juz": 4,
+                "hizb": 26,
+                "page_number": 64,
+                "marker": "ﯜ"
+              },
+              "text": "۞ لَيۡسُواْ سَوَآءٗۗ مِّنۡ أَهۡلِ ٱلۡكِتَٰبِ أُمَّةٞ قَآئِمَةٞ يَتۡلُونَ ءَايَٰتِ ٱللَّهِ ءَانَآءَ ٱلَّيۡلِ وَهُمۡ يَسۡجُدُونَ  <span>ﱰ</span>  ",
+              "ayah_ids": [
+                406
+              ],
+              "ayah_to_number": null
+            },
+            {
+              "info": {
+                "id": 492,
+                "number": 199,
+                "text": "﻿وَإِنَّ مِنْ أَهْلِ الْكِتَابِ لَمَنْ يُؤْمِنُ بِاللَّهِ وَمَا أُنْزِلَ إِلَيْكُمْ وَمَا أُنْزِلَ إِلَيْهِمْ خَاشِعِينَ لِلَّهِ لَا يَشْتَرُونَ بِآيَاتِ اللَّهِ ثَمَنًا قَلِيلًا ۗ أُولَٰئِكَ لَهُمْ أَجْرُهُمْ عِنْدَ رَبِّهِمْ ۗ إِنَّ اللَّهَ سَرِيعُ الْحِسَابِ",
+                "font": "page_76",
+                "surah_id": 3,
+                "surah": {
+                  "id": 3,
+                  "name": "سورة آل عمران",
+                  "coded_name": "ﮏ",
+                  "translated_name": "{\"ar\":\"\\u0622\\u0644 \\u0639\\u0645\\u0631\\u0627\\u0646\\r\\n\",\"en\":\"Al-Imran \",\"bn\":\"\\u0986\\u09b2\\u09c7 \\u0987\\u09ae\\u09b0\\u09be\\u09a8\",\"bs\":\"Al Imran\",\"zh\":\"\\u4eea\\u59c6\\u5170\\u7684\\u5bb6\\u5c5e\\u7ae0\\r\\n\",\"de\":\"\\u0100l-i-'Imr\\u0101n - Die Sippe 'Imr\\u0101n\",\"es\":\"La Familia de Imran\\r\\n\",\"fa\":\"\\u0622\\u0644 \\u0639\\u0645\\u0631\\u0627\\u0646\",\"fr\":\"La famille d'Imran\",\"ha\":\"Al-Imaran\",\"id\":\"Surah Ali \\u2018Imran\\u00a0(Keluarga Imran)\",\"ml\":\"\\u0d06\\u0d32\\u0d41\\u0d07\\u0d02\\u0d31\\u0d3e\\u0d28\\u0d4d\",\"pt\":\"A Fam\\u00edlia de Imran\",\"ru\":\"\\u0421\\u0435\\u043c\\u0435\\u0439\\u0441\\u0442\\u0432\\u043e \\u0418\\u043c\\u0440\\u0430\\u043d\\u0430 (\\u0410\\u043b-\\u0418\\u043c\\u0440\\u0430\\u043d)\\r\\n\",\"sw\":\"Al-Imaran\",\"tg\":\"\\u041e\\u041b\\u0418 \\u0418\\u041c\\u0420\\u041e\\u041d\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e32\\u0e25 \\u0e2d\\u0e34\\u0e21\\u0e23\\u0e2d\\u0e19\",\"tl\":\"Ang Pamilya ni Imran\",\"tr\":\"\\u00c2l-i Imran Suresi\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u0626\\u0627\\u0644 \\u0626\\u0649\\u0645\\u0631\\u0627\\u0646 \",\"ur\":\"\\u0622\\u0644 \\u0639\\u0645\\u0631\\u0627\\u0646\\n\"}",
+                  "number_of_ayahs": 200,
+                  "revelation_type": "medinan",
+                  "first_page": 50,
+                  "last_page": 76,
+                  "first_juz": 3
+                },
+                "juz": 4,
+                "hizb": 30,
+                "page_number": 76,
+                "marker": "ﯩ"
+              },
+              "text": "وَإِنَّ مِنۡ أَهۡلِ ٱلۡكِتَٰبِ لَمَن يُؤۡمِنُ بِٱللَّهِ وَمَآ أُنزِلَ إِلَيۡكُمۡ وَمَآ أُنزِلَ إِلَيۡهِمۡ خَٰشِعِينَ لِلَّهِ لَا يَشۡتَرُونَ بِـَٔايَٰتِ ٱللَّهِ ثَمَنٗا قَلِيلًاۚ أُوْلَٰٓئِكَ لَهُمۡ أَجۡرُهُمۡ عِندَ رَبِّهِمۡۗ إِنَّ ٱللَّهَ سَرِيعُ ٱلۡحِسَابِ  <span>ﳆ</span>  ",
+              "ayah_ids": [
+                492
+              ],
+              "ayah_to_number": null
+            },
+            {
+              "info": {
+                "id": 652,
+                "number": 159,
+                "text": "﻿وَإِنْ مِنْ أَهْلِ الْكِتَابِ إِلَّا لَيُؤْمِنَنَّ بِهِ قَبْلَ مَوْتِهِ ۖ وَيَوْمَ الْقِيَامَةِ يَكُونُ عَلَيْهِمْ شَهِيدًا",
+                "font": "page_103",
+                "surah_id": 4,
+                "surah": {
+                  "id": 4,
+                  "name": "سورة النساء",
+                  "coded_name": "ﮐ",
+                  "translated_name": "{\"ar\":\"\\u0627\\u0644\\u0646\\u0633\\u0627\\u0621\\r\\n\",\"en\":\"An-Nisa' \",\"bn\":\"\\u0986\\u09a8-\\u09a8\\u09bf\\u09b8\\u09be\",\"bs\":\"En-Nisa\",\"zh\":\"\\u5987\\u5973\\u7ae0\\r\\n\",\"de\":\"An-Nis\\u0101 - Die Frauen\\r\\n\",\"es\":\"Las Mujeres\\r\\n\",\"fa\":\"\\u0646\\u0633\\u0627\\u0621\",\"fr\":\"Les femmes\",\"ha\":\"An-Nisa'i\",\"id\":\"Surah An-Nisaa\\u2019\\u00a0(Wanita)\",\"ml\":\"\\u0d28\\u0d3f\\u0d38\\u0d3e\\u0d05\\u0d4d\",\"pt\":\"As Mulheres\",\"ru\":\"\\u0416\\u0435\\u043d\\u0449\\u0438\\u043d\\u044b (\\u0410\\u043d-\\u041d\\u0438\\u0441\\u0430)\\r\\n\",\"sw\":\"An-Nisa'i\",\"tg\":\"\\u041d\\u0418\\u0421\\u041e\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e31\\u0e19-\\u0e19\\u0e34\\u0e2a\\u0e32\\u0e2d\\u0e4c\",\"tl\":\"Ang Kababaihan\",\"tr\":\"Nisa Suresi\\r\\n\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u0646\\u0649\\u0633\\u0627 \",\"ur\":\"\\u0646\\u0633\\u0627\\u0621\\n\"}",
+                  "number_of_ayahs": 176,
+                  "revelation_type": "medinan",
+                  "first_page": 77,
+                  "last_page": 106,
+                  "first_juz": 4
+                },
+                "juz": 6,
+                "hizb": 41,
+                "page_number": 103,
+                "marker": "ﮯ"
+              },
+              "text": "وَإِن مِّنۡ أَهۡلِ ٱلۡكِتَٰبِ إِلَّا لَيُؤۡمِنَنَّ بِهِۦ قَبۡلَ مَوۡتِهِۦۖ وَيَوۡمَ ٱلۡقِيَٰمَةِ يَكُونُ عَلَيۡهِمۡ شَهِيدٗا  <span>ﲞ</span>  ",
+              "ayah_ids": [
+                652
+              ],
+              "ayah_to_number": null
+            },
+            {
+              "info": {
+                "id": 3559,
+                "number": 26,
+                "text": "﻿وَأَنْزَلَ الَّذِينَ ظَاهَرُوهُمْ مِنْ أَهْلِ الْكِتَابِ مِنْ صَيَاصِيهِمْ وَقَذَفَ فِي قُلُوبِهِمُ الرُّعْبَ فَرِيقًا تَقْتُلُونَ وَتَأْسِرُونَ فَرِيقًا",
+                "font": "page_421",
+                "surah_id": 33,
+                "surah": {
+                  "id": 33,
+                  "name": "سورة الأحزاب",
+                  "coded_name": "ﮭ",
+                  "translated_name": "{\"ar\":\"\\u0627\\u0644\\u0623\\u062d\\u0632\\u0627\\u0628\\r\\n\",\"en\":\"Al\\u00adAhzab \",\"bn\":\"\\u0986\\u09b2-\\u0986\\u09b9\\u09af\\u09be\\u09ac\",\"bs\":\"El-Ahzab\",\"zh\":\"\\u540c\\u76df\\u519b\\u7ae0\\r\\n\",\"de\":\"Al-Ahz\\u0101b - Die Gruppierungen\\r\\n\",\"es\":\"Los Aliados\\r\\n\",\"fa\":\"\\u0623\\u062d\\u0632\\u0627\\u0628\",\"fr\":\"Les coalis\\u00e9s\",\"ha\":\"Al-Ahzab\",\"id\":\"Surah Al-Ahzab\\u00a0(Golongan yang Bersekutu)\",\"ml\":\"\\u0d05\\u0d39\\u0d4d\\u0d38\\u0d3e\\u0d2c\\u0d4d\\u200c\",\"pt\":\"Os Partidos \",\"ru\":\"\\u0421\\u043e\\u043d\\u043c\\u044b (\\u0410\\u043b-\\u0410\\u0445\\u0437\\u0430\\u0431)\\r\\n\",\"sw\":\"Al-Ahzab\",\"tg\":\" \\u0410\\u04b2\\u0417\\u041e\\u0411\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e31\\u0e25-\\u0e2d\\u0e30\\u0e2b\\u0e4c\\u0e0b\\u0e32\\u0e1a\",\"tl\":\"Ang mga Magkakaanib\",\"tr\":\"Ahzab Suresi\\r\\n\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u0626\\u06d5\\u06be\\u0632\\u0627\\u0628\",\"ur\":\"\\u0627\\u062d\\u0632\\u0627\\u0628\\n\"}",
+                  "number_of_ayahs": 73,
+                  "revelation_type": "medinan",
+                  "first_page": 418,
+                  "last_page": 427,
+                  "first_juz": 21
+                },
+                "juz": 21,
+                "hizb": 168,
+                "page_number": 421,
+                "marker": "ﮛ"
+              },
+              "text": "وَأَنزَلَ ٱلَّذِينَ ظَٰهَرُوهُم مِّنۡ أَهۡلِ ٱلۡكِتَٰبِ مِن صَيَاصِيهِمۡ وَقَذَفَ فِي قُلُوبِهِمُ ٱلرُّعۡبَ فَرِيقٗا تَقۡتُلُونَ وَتَأۡسِرُونَ فَرِيقٗا  <span>ﰙ</span>  ",
+              "ayah_ids": [
+                3559
+              ],
+              "ayah_to_number": null
+            },
+            {
+              "info": {
+                "id": 5128,
+                "number": 2,
+                "text": "﻿هُوَ الَّذِي أَخْرَجَ الَّذِينَ كَفَرُوا مِنْ أَهْلِ الْكِتَابِ مِنْ دِيَارِهِمْ لِأَوَّلِ الْحَشْرِ ۚ مَا ظَنَنْتُمْ أَنْ يَخْرُجُوا ۖ وَظَنُّوا أَنَّهُمْ مَانِعَتُهُمْ حُصُونُهُمْ مِنَ اللَّهِ فَأَتَاهُمُ اللَّهُ مِنْ حَيْثُ لَمْ يَحْتَسِبُوا ۖ وَقَذَفَ فِي قُلُوبِهِمُ الرُّعْبَ ۚ يُخْرِبُونَ بُيُوتَهُمْ بِأَيْدِيهِمْ وَأَيْدِي الْمُؤْمِنِينَ فَاعْتَبِرُوا يَا أُولِي الْأَبْصَارِ",
+                "font": "page_545",
+                "surah_id": 59,
+                "surah": {
+                  "id": 59,
+                  "name": "سورة الحشر",
+                  "coded_name": "ﯨ",
+                  "translated_name": "{\"ar\":\"\\u0627\\u0644\\u062d\\u0634\\u0631\\r\\n\",\"en\":\"Al-Hashr \",\"bn\":\"\\u0986\\u09b2-\\u09b9\\u09be\\u09b6\\u09b0\",\"bs\":\"El-Ha\\u0161r\",\"zh\":\"\\u653e\\u9010\\u7ae0\\r\\n\",\"de\":\"Al-Ha\\u0161r - Die Versammlung\\r\\n\",\"es\":\"El Destierro\\r\\n\",\"fa\":\"\\u062d\\u0634\\u0631\",\"fr\":\"L'exode\",\"ha\":\"Al-Hashr\",\"id\":\"Surah Al-Hasyr\\u00a0(Pengusiran)\",\"ml\":\"\\u0d39\\u0d37\\u0d4d\\u0d31\\u0d4d\",\"pt\":\"O Desterro\",\"ru\":\"\\u0421\\u043e\\u0431\\u0440\\u0430\\u043d\\u0438\\u0435(\\u0410\\u043b-\\u0425\\u0430\\u0448\\u0440)\\r\\n\",\"sw\":\"Al-Hashr\",\"tg\":\"\\u04b2\\u0410\\u0428\\u0420\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e31\\u0e25-\\u0e2b\\u0e31\\u0e0a\\u0e23\\u0e4c\",\"tl\":\"Ang Pagtitipun-tipon\",\"tr\":\"Hasr Suresi\\r\\n\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u06be\\u06d5\\u0634\\u0649\\u0631\",\"ur\":\"\\u062d\\u0634\\u0631\\n\"}",
+                  "number_of_ayahs": 24,
+                  "revelation_type": "medinan",
+                  "first_page": 545,
+                  "last_page": 548,
+                  "first_juz": 28
+                },
+                "juz": 28,
+                "hizb": 218,
+                "page_number": 545,
+                "marker": "ﯤ"
+              },
+              "text": "هُوَ ٱلَّذِيٓ أَخۡرَجَ ٱلَّذِينَ كَفَرُواْ مِنۡ أَهۡلِ ٱلۡكِتَٰبِ مِن دِيَٰرِهِمۡ لِأَوَّلِ ٱلۡحَشۡرِۚ مَا ظَنَنتُمۡ أَن يَخۡرُجُواْۖ وَظَنُّوٓاْ أَنَّهُم مَّانِعَتُهُمۡ حُصُونُهُم مِّنَ ٱللَّهِ فَأَتَىٰهُمُ ٱللَّهُ مِنۡ حَيۡثُ لَمۡ يَحۡتَسِبُواْۖ وَقَذَفَ فِي قُلُوبِهِمُ ٱلرُّعۡبَۚ يُخۡرِبُونَ بُيُوتَهُم بِأَيۡدِيهِمۡ وَأَيۡدِي ٱلۡمُؤۡمِنِينَ فَٱعۡتَبِرُواْ يَٰٓأُوْلِي ٱلۡأَبۡصَٰرِ  <span>ﰁ</span>  ",
+              "ayah_ids": [
+                5128
+              ],
+              "ayah_to_number": null
+            },
+            {
+              "info": {
+                "id": 6131,
+                "number": 1,
+                "text": "لَمْ يَكُنِ الَّذِينَ كَفَرُوا مِنْ أَهْلِ الْكِتَابِ وَالْمُشْرِكِينَ مُنْفَكِّينَ حَتَّىٰ تَأْتِيَهُمُ الْبَيِّنَةُ",
+                "font": "page_598",
+                "surah_id": 98,
+                "surah": {
+                  "id": 98,
+                  "name": "سورة البينة",
+                  "coded_name": "ﰏ",
+                  "translated_name": "{\"ar\":\"\\u0627\\u0644\\u0628\\u064a\\u0646\\u0629\\r\\n\",\"en\":\"Al-Baiyinah \",\"bn\":\"\\u0986\\u09b2-\\u09ac\\u09be\\u09df\\u09cd\\u09af\\u09bf\\u09a8\\u09be\\u09b9\\u09cd\",\"bs\":\"El-Bejjine\",\"zh\":\"\\u660e\\u8bc1\\u7ae0\\r\\n\",\"de\":\"Al-Bayyina - Der klare Beweis\\r\",\"es\":\"La Evidencia\\r\\n\",\"fa\":\"\\u0628\\u06cc\\u0646\\u0647\",\"fr\":\"La preuve\",\"ha\":\"Al-Bayyinah\",\"id\":\"Surah Al-Baiyinah\\u00a0(Bukti yang Nyata)\",\"ml\":\"\\u0d2c\\u0d2f\\u0d4d\\u0d2f\\u0d3f\\u0d28\",\"pt\":\"A Evid\\u00eancia\",\"ru\":\"\\u042f\\u0441\\u043d\\u043e\\u0435 \\u0417\\u043d\\u0430\\u043c\\u0435\\u043d\\u0438\\u0435(\\u0410\\u043b-\\u0411\\u0430\\u044f\\u0438\\u043d\\u0430)\\r\\n\",\"sw\":\"Al-Bayyinah\",\"tg\":\"\\u0411\\u0410\\u0419\\u0419\\u0418\\u041d\\u0410\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e31\\u0e25-\\u0e1a\\u0e31\\u0e22\\u0e22\\u0e34\\u0e19\\u0e30\\u0e2e\\u0e3a\",\"tl\":\"Ang Maliwanag na Katibayan\",\"tr\":\"Beyyine Suresi\\r\\n\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u0628\\u06d5\\u064a\\u064a\\u0649\\u0646\\u06d5\",\"ur\":\"\\u0628\\u06cc\\u0646\\u06c1\\n\"}",
+                  "number_of_ayahs": 8,
+                  "revelation_type": "medinan",
+                  "first_page": 598,
+                  "last_page": 599,
+                  "first_juz": 30
+                },
+                "juz": 30,
+                "hizb": 239,
+                "page_number": 598,
+                "marker": "ﮣ"
+              },
+              "text": "لَمۡ يَكُنِ ٱلَّذِينَ كَفَرُواْ مِنۡ أَهۡلِ ٱلۡكِتَٰبِ وَٱلۡمُشۡرِكِينَ مُنفَكِّينَ حَتَّىٰ تَأۡتِيَهُمُ ٱلۡبَيِّنَةُ  <span>ﰀ</span>  ",
+              "ayah_ids": [
+                6131
+              ],
+              "ayah_to_number": null
+            },
+            {
+              "info": {
+                "id": 5137,
+                "number": 11,
+                "text": "﻿۞ أَلَمْ تَرَ إِلَى الَّذِينَ نَافَقُوا يَقُولُونَ لِإِخْوَانِهِمُ الَّذِينَ كَفَرُوا مِنْ أَهْلِ الْكِتَابِ لَئِنْ أُخْرِجْتُمْ لَنَخْرُجَنَّ مَعَكُمْ وَلَا نُطِيعُ فِيكُمْ أَحَدًا أَبَدًا وَإِنْ قُوتِلْتُمْ لَنَنْصُرَنَّكُمْ وَاللَّهُ يَشْهَدُ إِنَّهُمْ لَكَاذِبُونَ",
+                "font": "page_547",
+                "surah_id": 59,
+                "surah": {
+                  "id": 59,
+                  "name": "سورة الحشر",
+                  "coded_name": "ﯨ",
+                  "translated_name": "{\"ar\":\"\\u0627\\u0644\\u062d\\u0634\\u0631\\r\\n\",\"en\":\"Al-Hashr \",\"bn\":\"\\u0986\\u09b2-\\u09b9\\u09be\\u09b6\\u09b0\",\"bs\":\"El-Ha\\u0161r\",\"zh\":\"\\u653e\\u9010\\u7ae0\\r\\n\",\"de\":\"Al-Ha\\u0161r - Die Versammlung\\r\\n\",\"es\":\"El Destierro\\r\\n\",\"fa\":\"\\u062d\\u0634\\u0631\",\"fr\":\"L'exode\",\"ha\":\"Al-Hashr\",\"id\":\"Surah Al-Hasyr\\u00a0(Pengusiran)\",\"ml\":\"\\u0d39\\u0d37\\u0d4d\\u0d31\\u0d4d\",\"pt\":\"O Desterro\",\"ru\":\"\\u0421\\u043e\\u0431\\u0440\\u0430\\u043d\\u0438\\u0435(\\u0410\\u043b-\\u0425\\u0430\\u0448\\u0440)\\r\\n\",\"sw\":\"Al-Hashr\",\"tg\":\"\\u04b2\\u0410\\u0428\\u0420\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e31\\u0e25-\\u0e2b\\u0e31\\u0e0a\\u0e23\\u0e4c\",\"tl\":\"Ang Pagtitipun-tipon\",\"tr\":\"Hasr Suresi\\r\\n\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u06be\\u06d5\\u0634\\u0649\\u0631\",\"ur\":\"\\u062d\\u0634\\u0631\\n\"}",
+                  "number_of_ayahs": 24,
+                  "revelation_type": "medinan",
+                  "first_page": 545,
+                  "last_page": 548,
+                  "first_juz": 28
+                },
+                "juz": 28,
+                "hizb": 219,
+                "page_number": 547,
+                "marker": "ﮆ"
+              },
+              "text": "۞ أَلَمۡ تَرَ إِلَى ٱلَّذِينَ نَافَقُواْ يَقُولُونَ لِإِخۡوَٰنِهِمُ ٱلَّذِينَ كَفَرُواْ مِنۡ أَهۡلِ ٱلۡكِتَٰبِ لَئِنۡ أُخۡرِجۡتُمۡ لَنَخۡرُجَنَّ مَعَكُمۡ وَلَا نُطِيعُ فِيكُمۡ أَحَدًا أَبَدٗا وَإِن قُوتِلۡتُمۡ لَنَنصُرَنَّكُمۡ وَٱللَّهُ يَشۡهَدُ إِنَّهُمۡ لَكَٰذِبُونَ  <span>ﰊ</span>  ",
+              "ayah_ids": [
+                5137
+              ],
+              "ayah_to_number": null
+            },
+            {
+              "info": {
+                "id": 6136,
+                "number": 6,
+                "text": "﻿إِنَّ الَّذِينَ كَفَرُوا مِنْ أَهْلِ الْكِتَابِ وَالْمُشْرِكِينَ فِي نَارِ جَهَنَّمَ خَالِدِينَ فِيهَا ۚ أُولَٰئِكَ هُمْ شَرُّ الْبَرِيَّةِ",
+                "font": "page_599",
+                "surah_id": 98,
+                "surah": {
+                  "id": 98,
+                  "name": "سورة البينة",
+                  "coded_name": "ﰏ",
+                  "translated_name": "{\"ar\":\"\\u0627\\u0644\\u0628\\u064a\\u0646\\u0629\\r\\n\",\"en\":\"Al-Baiyinah \",\"bn\":\"\\u0986\\u09b2-\\u09ac\\u09be\\u09df\\u09cd\\u09af\\u09bf\\u09a8\\u09be\\u09b9\\u09cd\",\"bs\":\"El-Bejjine\",\"zh\":\"\\u660e\\u8bc1\\u7ae0\\r\\n\",\"de\":\"Al-Bayyina - Der klare Beweis\\r\",\"es\":\"La Evidencia\\r\\n\",\"fa\":\"\\u0628\\u06cc\\u0646\\u0647\",\"fr\":\"La preuve\",\"ha\":\"Al-Bayyinah\",\"id\":\"Surah Al-Baiyinah\\u00a0(Bukti yang Nyata)\",\"ml\":\"\\u0d2c\\u0d2f\\u0d4d\\u0d2f\\u0d3f\\u0d28\",\"pt\":\"A Evid\\u00eancia\",\"ru\":\"\\u042f\\u0441\\u043d\\u043e\\u0435 \\u0417\\u043d\\u0430\\u043c\\u0435\\u043d\\u0438\\u0435(\\u0410\\u043b-\\u0411\\u0430\\u044f\\u0438\\u043d\\u0430)\\r\\n\",\"sw\":\"Al-Bayyinah\",\"tg\":\"\\u0411\\u0410\\u0419\\u0419\\u0418\\u041d\\u0410\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e31\\u0e25-\\u0e1a\\u0e31\\u0e22\\u0e22\\u0e34\\u0e19\\u0e30\\u0e2e\\u0e3a\",\"tl\":\"Ang Maliwanag na Katibayan\",\"tr\":\"Beyyine Suresi\\r\\n\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u0628\\u06d5\\u064a\\u064a\\u0649\\u0646\\u06d5\",\"ur\":\"\\u0628\\u06cc\\u0646\\u06c1\\n\"}",
+                  "number_of_ayahs": 8,
+                  "revelation_type": "medinan",
+                  "first_page": 598,
+                  "last_page": 599,
+                  "first_juz": 30
+                },
+                "juz": 30,
+                "hizb": 239,
+                "page_number": 599,
+                "marker": "ﭢ"
+              },
+              "text": "إِنَّ ٱلَّذِينَ كَفَرُواْ مِنۡ أَهۡلِ ٱلۡكِتَٰبِ وَٱلۡمُشۡرِكِينَ فِي نَارِ جَهَنَّمَ خَٰلِدِينَ فِيهَآۚ أُوْلَٰٓئِكَ هُمۡ شَرُّ ٱلۡبَرِيَّةِ  <span>ﰅ</span>  ",
+              "ayah_ids": [
+                6136
+              ],
+              "ayah_to_number": null
+            }
+          ],
+          "websites": []
+        }
+      ]
+    },
+    {
+      "surah": 98,
+      "ayah": 8,
+      "similar": [
+        {
+          "notes": "ضبط الآية خالدين فيها ابدا مع الجنة",
+          "images": [],
+          "youtube": [
+            {
+              "id": 20789,
+              "name": null,
+              "file_name": "https://www.youtube.com/embed/mcp4E3UU_ms?start=0",
+              "part": null,
+              "attachment_type_id": 4,
+              "attachmentable_id": 415,
+              "attachmentable_type": "App\\Models\\Note",
+              "downloads": 0,
+              "status": null,
+              "created_at": "2020-06-15T12:40:37.000000Z",
+              "updated_at": "2020-06-15T12:40:37.000000Z",
+              "deleted_at": null
+            }
+          ],
+          "ayahs": [
+            {
+              "info": {
+                "id": 550,
+                "number": 57,
+                "text": "﻿وَالَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ سَنُدْخِلُهُمْ جَنَّاتٍ تَجْرِي مِنْ تَحْتِهَا الْأَنْهَارُ خَالِدِينَ فِيهَا أَبَدًا ۖ لَهُمْ فِيهَا أَزْوَاجٌ مُطَهَّرَةٌ ۖ وَنُدْخِلُهُمْ ظِلًّا ظَلِيلًا",
+                "font": "page_87",
+                "surah_id": 4,
+                "surah": {
+                  "id": 4,
+                  "name": "سورة النساء",
+                  "coded_name": "ﮐ",
+                  "translated_name": "{\"ar\":\"\\u0627\\u0644\\u0646\\u0633\\u0627\\u0621\\r\\n\",\"en\":\"An-Nisa' \",\"bn\":\"\\u0986\\u09a8-\\u09a8\\u09bf\\u09b8\\u09be\",\"bs\":\"En-Nisa\",\"zh\":\"\\u5987\\u5973\\u7ae0\\r\\n\",\"de\":\"An-Nis\\u0101 - Die Frauen\\r\\n\",\"es\":\"Las Mujeres\\r\\n\",\"fa\":\"\\u0646\\u0633\\u0627\\u0621\",\"fr\":\"Les femmes\",\"ha\":\"An-Nisa'i\",\"id\":\"Surah An-Nisaa\\u2019\\u00a0(Wanita)\",\"ml\":\"\\u0d28\\u0d3f\\u0d38\\u0d3e\\u0d05\\u0d4d\",\"pt\":\"As Mulheres\",\"ru\":\"\\u0416\\u0435\\u043d\\u0449\\u0438\\u043d\\u044b (\\u0410\\u043d-\\u041d\\u0438\\u0441\\u0430)\\r\\n\",\"sw\":\"An-Nisa'i\",\"tg\":\"\\u041d\\u0418\\u0421\\u041e\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e31\\u0e19-\\u0e19\\u0e34\\u0e2a\\u0e32\\u0e2d\\u0e4c\",\"tl\":\"Ang Kababaihan\",\"tr\":\"Nisa Suresi\\r\\n\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u0646\\u0649\\u0633\\u0627 \",\"ur\":\"\\u0646\\u0633\\u0627\\u0621\\n\"}",
+                  "number_of_ayahs": 176,
+                  "revelation_type": "medinan",
+                  "first_page": 77,
+                  "last_page": 106,
+                  "first_juz": 4
+                },
+                "juz": 5,
+                "hizb": 34,
+                "page_number": 87,
+                "marker": "ﯘ"
+              },
+              "text": "وَٱلَّذِينَ ءَامَنُواْ وَعَمِلُواْ ٱلصَّٰلِحَٰتِ سَنُدۡخِلُهُمۡ جَنَّٰتٖ تَجۡرِي مِن تَحۡتِهَا ٱلۡأَنۡهَٰرُ خَٰلِدِينَ فِيهَآ أَبَدٗاۖ لَّهُمۡ فِيهَآ أَزۡوَٰجٞ مُّطَهَّرَةٞۖ وَنُدۡخِلُهُمۡ ظِلّٗا ظَلِيلًا  <span>ﰸ</span>  ",
+              "ayah_ids": [
+                550
+              ],
+              "ayah_to_number": null
+            },
+            {
+              "info": {
+                "id": 615,
+                "number": 122,
+                "text": "﻿وَالَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ سَنُدْخِلُهُمْ جَنَّاتٍ تَجْرِي مِنْ تَحْتِهَا الْأَنْهَارُ خَالِدِينَ فِيهَا أَبَدًا ۖ وَعْدَ اللَّهِ حَقًّا ۚ وَمَنْ أَصْدَقُ مِنَ اللَّهِ قِيلًا",
+                "font": "page_98",
+                "surah_id": 4,
+                "surah": {
+                  "id": 4,
+                  "name": "سورة النساء",
+                  "coded_name": "ﮐ",
+                  "translated_name": "{\"ar\":\"\\u0627\\u0644\\u0646\\u0633\\u0627\\u0621\\r\\n\",\"en\":\"An-Nisa' \",\"bn\":\"\\u0986\\u09a8-\\u09a8\\u09bf\\u09b8\\u09be\",\"bs\":\"En-Nisa\",\"zh\":\"\\u5987\\u5973\\u7ae0\\r\\n\",\"de\":\"An-Nis\\u0101 - Die Frauen\\r\\n\",\"es\":\"Las Mujeres\\r\\n\",\"fa\":\"\\u0646\\u0633\\u0627\\u0621\",\"fr\":\"Les femmes\",\"ha\":\"An-Nisa'i\",\"id\":\"Surah An-Nisaa\\u2019\\u00a0(Wanita)\",\"ml\":\"\\u0d28\\u0d3f\\u0d38\\u0d3e\\u0d05\\u0d4d\",\"pt\":\"As Mulheres\",\"ru\":\"\\u0416\\u0435\\u043d\\u0449\\u0438\\u043d\\u044b (\\u0410\\u043d-\\u041d\\u0438\\u0441\\u0430)\\r\\n\",\"sw\":\"An-Nisa'i\",\"tg\":\"\\u041d\\u0418\\u0421\\u041e\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e31\\u0e19-\\u0e19\\u0e34\\u0e2a\\u0e32\\u0e2d\\u0e4c\",\"tl\":\"Ang Kababaihan\",\"tr\":\"Nisa Suresi\\r\\n\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u0646\\u0649\\u0633\\u0627 \",\"ur\":\"\\u0646\\u0633\\u0627\\u0621\\n\"}",
+                  "number_of_ayahs": 176,
+                  "revelation_type": "medinan",
+                  "first_page": 77,
+                  "last_page": 106,
+                  "first_juz": 4
+                },
+                "juz": 5,
+                "hizb": 39,
+                "page_number": 98,
+                "marker": "ﭨ"
+              },
+              "text": "وَٱلَّذِينَ ءَامَنُواْ وَعَمِلُواْ ٱلصَّٰلِحَٰتِ سَنُدۡخِلُهُمۡ جَنَّٰتٖ تَجۡرِي مِن تَحۡتِهَا ٱلۡأَنۡهَٰرُ خَٰلِدِينَ فِيهَآ أَبَدٗاۖ وَعۡدَ ٱللَّهِ حَقّٗاۚ وَمَنۡ أَصۡدَقُ مِنَ ٱللَّهِ قِيلٗا  <span>ﱹ</span>  ",
+              "ayah_ids": [
+                615
+              ],
+              "ayah_to_number": null
+            },
+            {
+              "info": {
+                "id": 788,
+                "number": 119,
+                "text": "﻿قَالَ اللَّهُ هَٰذَا يَوْمُ يَنْفَعُ الصَّادِقِينَ صِدْقُهُمْ ۚ لَهُمْ جَنَّاتٌ تَجْرِي مِنْ تَحْتِهَا الْأَنْهَارُ خَالِدِينَ فِيهَا أَبَدًا ۚ رَضِيَ اللَّهُ عَنْهُمْ وَرَضُوا عَنْهُ ۚ ذَٰلِكَ الْفَوْزُ الْعَظِيمُ",
+                "font": "page_127",
+                "surah_id": 5,
+                "surah": {
+                  "id": 5,
+                  "name": "سورة المائدة",
+                  "coded_name": "ﮑ",
+                  "translated_name": "{\"ar\":\"\\u0627\\u0644\\u0645\\u0627\\u0626\\u062f\\u0629\\r\\n\",\"en\":\"Al-Ma'idah \",\"bn\":\"\\u0986\\u09b2-\\u09ae\\u09be\\u09df\\u09c7\\u09a6\\u09be\\u09b9\\u09cd\",\"bs\":\"El-Maide\",\"zh\":\"\\u5bb4\\u5e2d\\u7ae0\\r\\n\",\"de\":\"Al-M\\u0101ida - Der Tisch\\r\\n\",\"es\":\"La Mesa Servida\\r\\n\",\"fa\":\"\\u0645\\u0627\\u0626\\u062f\\u0647\",\"fr\":\"La table servie\",\"ha\":\"Al-Ma'idah\",\"id\":\"Surah Al-Maa\\u2019idah\\u00a0(Hidangan)\",\"ml\":\"\\u0d2e\\u0d3e\\u0d07\\u0d26\",\"pt\":\"A Mesa Servida\",\"ru\":\"\\u0422\\u0440\\u0430\\u043f\\u0435\\u0437\\u0430 (\\u0410\\u043b-\\u041c\\u0430\\u0438\\u0434\\u0430)\\r\\n\",\"sw\":\"Al-Ma'idah\",\"tg\":\"\\u041c\\u041e\\u0418\\u0414\\u0410\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e31\\u0e25-\\u0e21\\u0e32\\u0e2d\\u0e34\\u0e14\\u0e30\\u0e2e\\u0e3a\",\"tl\":\"Ang Hapag na may Pagkain\",\"tr\":\"Maide Suresi\\r\\n\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u0645\\u0627\\u0626\\u0649\\u062f\\u06d5\",\"ur\":\"\\u0645\\u0627\\u0626\\u062f\\u06c1\\n\"}",
+                  "number_of_ayahs": 120,
+                  "revelation_type": "medinan",
+                  "first_page": 106,
+                  "last_page": 127,
+                  "first_juz": 6
+                },
+                "juz": 7,
+                "hizb": 51,
+                "page_number": 127,
+                "marker": "ﰗ"
+              },
+              "text": "قَالَ ٱللَّهُ هَٰذَا يَوۡمُ يَنفَعُ ٱلصَّٰدِقِينَ صِدۡقُهُمۡۚ لَهُمۡ جَنَّٰتٞ تَجۡرِي مِن تَحۡتِهَا ٱلۡأَنۡهَٰرُ خَٰلِدِينَ فِيهَآ أَبَدٗاۖ رَّضِيَ ٱللَّهُ عَنۡهُمۡ وَرَضُواْ عَنۡهُۚ ذَٰلِكَ ٱلۡفَوۡزُ ٱلۡعَظِيمُ  <span>ﱶ</span>  ",
+              "ayah_ids": [
+                788
+              ],
+              "ayah_to_number": null
+            },
+            {
+              "info": {
+                "id": 1257,
+                "number": 22,
+                "text": "﻿خَالِدِينَ فِيهَا أَبَدًا ۚ إِنَّ اللَّهَ عِنْدَهُ أَجْرٌ عَظِيمٌ",
+                "font": "page_190",
+                "surah_id": 9,
+                "surah": {
+                  "id": 9,
+                  "name": "سورة التوبة",
+                  "coded_name": "ﮕ",
+                  "translated_name": "{\"ar\":\"\\u0627\\u0644\\u062a\\u0648\\u0628\\u0629\\r\\n\",\"en\":\"At-Taubah \",\"bn\":\"\\u0986\\u09a4-\\u09a4\\u09be\\u0993\\u09ac\\u09be\\u09b9\\u09cd\",\"bs\":\"Et-Tevbe\",\"zh\":\"\\u5fcf\\u6094\\u7ae0\\r\\n\",\"de\":\"At-Tauba - Die Reue\\r\\n\",\"es\":\"El Arrepentimiento\\r\\n\",\"fa\":\"\\u062a\\u0648\\u0628\\u0647\",\"fr\":\"Le repentir\",\"ha\":\"At-Taubah\",\"id\":\"Surah At-Taubah\\u00a0(Pengampunan)\",\"ml\":\"\\u0d24\\u0d4c\\u0d2c\",\"pt\":\"O Arrependimento\",\"ru\":\"\\u041f\\u043e\\u043a\\u0430\\u044f\\u043d\\u0438\\u0435(\\u0410\\u0442-\\u0422\\u0430\\u0443\\u0431\\u0430)\\r\\n\",\"sw\":\"At-Taubah\",\"tg\":\"\\u0422\\u0410\\u0412\\u0411\\u0410\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e31\\u0e15-\\u0e40\\u0e15\\u0e32\\u0e1a\\u0e30\\u0e2e\\u0e3a\",\"tl\":\"Ang Pagsisisi\",\"tr\":\"Tevbe Suresi\\r\\n\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u062a\\u06d5\\u06cb\\u0628\\u06d5\",\"ur\":\"\\u062a\\u0648\\u0628\\u06c1\\n\"}",
+                  "number_of_ayahs": 129,
+                  "revelation_type": "medinan",
+                  "first_page": 187,
+                  "last_page": 207,
+                  "first_juz": 10
+                },
+                "juz": 10,
+                "hizb": 76,
+                "page_number": 190,
+                "marker": "ﭥ"
+              },
+              "text": "خَٰلِدِينَ فِيهَآ أَبَدًاۚ إِنَّ ٱللَّهَ عِندَهُۥٓ أَجۡرٌ عَظِيمٞ  <span>ﰕ</span>  ",
+              "ayah_ids": [
+                1257
+              ],
+              "ayah_to_number": null
+            },
+            {
+              "info": {
+                "id": 1335,
+                "number": 100,
+                "text": "﻿وَالسَّابِقُونَ الْأَوَّلُونَ مِنَ الْمُهَاجِرِينَ وَالْأَنْصَارِ وَالَّذِينَ اتَّبَعُوهُمْ بِإِحْسَانٍ رَضِيَ اللَّهُ عَنْهُمْ وَرَضُوا عَنْهُ وَأَعَدَّ لَهُمْ جَنَّاتٍ تَجْرِي تَحْتَهَا الْأَنْهَارُ خَالِدِينَ فِيهَا أَبَدًا ۚ ذَٰلِكَ الْفَوْزُ الْعَظِيمُ",
+                "font": "page_203",
+                "surah_id": 9,
+                "surah": {
+                  "id": 9,
+                  "name": "سورة التوبة",
+                  "coded_name": "ﮕ",
+                  "translated_name": "{\"ar\":\"\\u0627\\u0644\\u062a\\u0648\\u0628\\u0629\\r\\n\",\"en\":\"At-Taubah \",\"bn\":\"\\u0986\\u09a4-\\u09a4\\u09be\\u0993\\u09ac\\u09be\\u09b9\\u09cd\",\"bs\":\"Et-Tevbe\",\"zh\":\"\\u5fcf\\u6094\\u7ae0\\r\\n\",\"de\":\"At-Tauba - Die Reue\\r\\n\",\"es\":\"El Arrepentimiento\\r\\n\",\"fa\":\"\\u062a\\u0648\\u0628\\u0647\",\"fr\":\"Le repentir\",\"ha\":\"At-Taubah\",\"id\":\"Surah At-Taubah\\u00a0(Pengampunan)\",\"ml\":\"\\u0d24\\u0d4c\\u0d2c\",\"pt\":\"O Arrependimento\",\"ru\":\"\\u041f\\u043e\\u043a\\u0430\\u044f\\u043d\\u0438\\u0435(\\u0410\\u0442-\\u0422\\u0430\\u0443\\u0431\\u0430)\\r\\n\",\"sw\":\"At-Taubah\",\"tg\":\"\\u0422\\u0410\\u0412\\u0411\\u0410\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e31\\u0e15-\\u0e40\\u0e15\\u0e32\\u0e1a\\u0e30\\u0e2e\\u0e3a\",\"tl\":\"Ang Pagsisisi\",\"tr\":\"Tevbe Suresi\\r\\n\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u062a\\u06d5\\u06cb\\u0628\\u06d5\",\"ur\":\"\\u062a\\u0648\\u0628\\u06c1\\n\"}",
+                  "number_of_ayahs": 129,
+                  "revelation_type": "medinan",
+                  "first_page": 187,
+                  "last_page": 207,
+                  "first_juz": 10
+                },
+                "juz": 11,
+                "hizb": 81,
+                "page_number": 203,
+                "marker": "ﭫ"
+              },
+              "text": "وَٱلسَّٰبِقُونَ ٱلۡأَوَّلُونَ مِنَ ٱلۡمُهَٰجِرِينَ وَٱلۡأَنصَارِ وَٱلَّذِينَ ٱتَّبَعُوهُم بِإِحۡسَٰنٖ رَّضِيَ ٱللَّهُ عَنۡهُمۡ وَرَضُواْ عَنۡهُ وَأَعَدَّ لَهُمۡ جَنَّٰتٖ تَجۡرِي تَحۡتَهَا ٱلۡأَنۡهَٰرُ خَٰلِدِينَ فِيهَآ أَبَدٗاۚ ذَٰلِكَ ٱلۡفَوۡزُ ٱلۡعَظِيمُ  <span>ﱣ</span>  ",
+              "ayah_ids": [
+                1335
+              ],
+              "ayah_to_number": null
+            },
+            {
+              "info": {
+                "id": 5208,
+                "number": 9,
+                "text": "﻿يَوْمَ يَجْمَعُكُمْ لِيَوْمِ الْجَمْعِ ۖ ذَٰلِكَ يَوْمُ التَّغَابُنِ ۗ وَمَنْ يُؤْمِنْ بِاللَّهِ وَيَعْمَلْ صَالِحًا يُكَفِّرْ عَنْهُ سَيِّئَاتِهِ وَيُدْخِلْهُ جَنَّاتٍ تَجْرِي مِنْ تَحْتِهَا الْأَنْهَارُ خَالِدِينَ فِيهَا أَبَدًا ۚ ذَٰلِكَ الْفَوْزُ الْعَظِيمُ",
+                "font": "page_556",
+                "surah_id": 64,
+                "surah": {
+                  "id": 64,
+                  "name": "سورة التغابن",
+                  "coded_name": "ﯭ",
+                  "translated_name": "{\"ar\":\"\\u0627\\u0644\\u062a\\u063a\\u0627\\u0628\\u0646\\r\\n\",\"en\":\"At-Taghabun \",\"bn\":\"\\u0986\\u09a4-\\u09a4\\u09be\\u0997\\u09be\\u09ac\\u09c1\\u09a8\",\"bs\":\"Et-Tegabun\",\"zh\":\"\\u76f8\\u6b3a\\u7ae0\\r\\n\",\"de\":\"At-Ta\\u0121\\u0101bun - Die \\u00dcbervorteilun\",\"es\":\"El Desenga\\u00f1o\\r\\n\",\"fa\":\"\\u062a\\u063a\\u0627\\u0628\\u0646\",\"fr\":\"La grande perte\",\"ha\":\"At-Taghabun\",\"id\":\"Surah At-Taghabun\\u00a0(Dinampakkan Kesalahan)\",\"ml\":\"\\u0d24\\u0d17\\u0d3e\\u0d2c\\u0d41\\u0d28\\u0d4d\",\"pt\":\"As Defrauda\\u00e7\\u00f5es Rec\\u00edprocas\",\"ru\":\"\\u0412\\u0437\\u0430\\u0438\\u043c\\u043d\\u043e\\u0435 \\u041e\\u0431\\u043c\\u0430\\u043d\\u044b\\u0432\\u0430\\u043d\\u0438\\u0435 (\\u0410\\u0442-\\u0422\\u0430\\u0433\\u0430\\u0431\",\"sw\":\"At-Taghabun\",\"tg\":\"\\u0422\\u0410\\u0492\\u041e\\u0411\\u0423\\u041d\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e31\\u0e15-\\u0e15\\u0e30\\u0e06\\u0e2d\\u0e1a\\u0e38\\u0e19\",\"tl\":\"Ang Kapwa Pagkatalo at Pagkapa\",\"tr\":\"Tegabun Suresi\\r\\n\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u062a\\u06d5\\u063a\\u0627\\u0628\\u06c7\\u0646\",\"ur\":\"\\u062a\\u063a\\u0627\\u0628\\u0646\\n\"}",
+                  "number_of_ayahs": 18,
+                  "revelation_type": "medinan",
+                  "first_page": 556,
+                  "last_page": 557,
+                  "first_juz": 28
+                },
+                "juz": 28,
+                "hizb": 222,
+                "page_number": 556,
+                "marker": "ﰎ"
+              },
+              "text": "يَوۡمَ يَجۡمَعُكُمۡ لِيَوۡمِ ٱلۡجَمۡعِۖ ذَٰلِكَ يَوۡمُ ٱلتَّغَابُنِۗ وَمَن يُؤۡمِنۢ بِٱللَّهِ وَيَعۡمَلۡ صَٰلِحٗا يُكَفِّرۡ عَنۡهُ سَيِّـَٔاتِهِۦ وَيُدۡخِلۡهُ جَنَّٰتٖ تَجۡرِي مِن تَحۡتِهَا ٱلۡأَنۡهَٰرُ خَٰلِدِينَ فِيهَآ أَبَدٗاۚ ذَٰلِكَ ٱلۡفَوۡزُ ٱلۡعَظِيمُ  <span>ﰈ</span>  ",
+              "ayah_ids": [
+                5208
+              ],
+              "ayah_to_number": null
+            },
+            {
+              "info": {
+                "id": 5228,
+                "number": 11,
+                "text": "﻿رَسُولًا يَتْلُو عَلَيْكُمْ آيَاتِ اللَّهِ مُبَيِّنَاتٍ لِيُخْرِجَ الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ مِنَ الظُّلُمَاتِ إِلَى النُّورِ ۚ وَمَنْ يُؤْمِنْ بِاللَّهِ وَيَعْمَلْ صَالِحًا يُدْخِلْهُ جَنَّاتٍ تَجْرِي مِنْ تَحْتِهَا الْأَنْهَارُ خَالِدِينَ فِيهَا أَبَدًا ۖ قَدْ أَحْسَنَ اللَّهُ لَهُ رِزْقًا",
+                "font": "page_559",
+                "surah_id": 65,
+                "surah": {
+                  "id": 65,
+                  "name": "سورة الطلاق",
+                  "coded_name": "ﯮ",
+                  "translated_name": "{\"ar\":\"\\u0627\\u0644\\u0637\\u0644\\u0627\\u0642\\r\\n\",\"en\":\"At-Talaq \",\"bn\":\"\\u0986\\u09a4-\\u09a4\\u09cd\\u09ac\\u09be\\u09b2\\u09be\\u0995\",\"bs\":\"Et-Talak\",\"zh\":\"\\u79bb\\u5a5a\\u7ae0\\r\\n\",\"de\":\"At-Tal\\u0101q - Die Scheidung\\r\\n\",\"es\":\"El Divorcio\\r\\n\",\"fa\":\"\\u0637\\u0644\\u0627\\u0642\",\"fr\":\"Le divorce\",\"ha\":\"At-Talak\",\"id\":\"Surah At-Talaq\\u00a0(Cerai \\/ Talak)\",\"ml\":\"\\u0d24\\u0d4d\\u0d35\\u0d32\\u0d3e\\u0d16\\u0d4d\",\"pt\":\"O Div\\u00f3rcio\",\"ru\":\"\\u0420\\u0430\\u0437\\u0432\\u043e\\u0434(\\u0410\\u0442-\\u0422\\u0430\\u043b\\u0430\\u043a)\\r\\n\",\"sw\":\"At-Talak\",\"tg\":\"\\u0422\\u0410\\u041b\\u041e\\u049a\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e31\\u0e0f-\\u0e40\\u0e0f\\u0e32\\u0e30\\u0e25\\u0e32\\u0e01\",\"tl\":\"Ang Diborsiyo\",\"tr\":\"Talak Suresi\\r\\n\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u062a\\u0627\\u0644\\u0627\\u0642\",\"ur\":\"\\u0637\\u0644\\u0627\\u0642\\n\"}",
+                  "number_of_ayahs": 12,
+                  "revelation_type": "medinan",
+                  "first_page": 558,
+                  "last_page": 559,
+                  "first_juz": 28
+                },
+                "juz": 28,
+                "hizb": 223,
+                "page_number": 559,
+                "marker": "ﰁ"
+              },
+              "text": "رَّسُولٗا يَتۡلُواْ عَلَيۡكُمۡ ءَايَٰتِ ٱللَّهِ مُبَيِّنَٰتٖ لِّيُخۡرِجَ ٱلَّذِينَ ءَامَنُواْ وَعَمِلُواْ ٱلصَّٰلِحَٰتِ مِنَ ٱلظُّلُمَٰتِ إِلَى ٱلنُّورِۚ وَمَن يُؤۡمِنۢ بِٱللَّهِ وَيَعۡمَلۡ صَٰلِحٗا يُدۡخِلۡهُ جَنَّٰتٖ تَجۡرِي مِن تَحۡتِهَا ٱلۡأَنۡهَٰرُ خَٰلِدِينَ فِيهَآ أَبَدٗاۖ قَدۡ أَحۡسَنَ ٱللَّهُ لَهُۥ رِزۡقًا  <span>ﰊ</span>  ",
+              "ayah_ids": [
+                5228
+              ],
+              "ayah_to_number": null
+            },
+            {
+              "info": {
+                "id": 6138,
+                "number": 8,
+                "text": "﻿جَزَاؤُهُمْ عِنْدَ رَبِّهِمْ جَنَّاتُ عَدْنٍ تَجْرِي مِنْ تَحْتِهَا الْأَنْهَارُ خَالِدِينَ فِيهَا أَبَدًا ۖ رَضِيَ اللَّهُ عَنْهُمْ وَرَضُوا عَنْهُ ۚ ذَٰلِكَ لِمَنْ خَشِيَ رَبَّهُ",
+                "font": "page_599",
+                "surah_id": 98,
+                "surah": {
+                  "id": 98,
+                  "name": "سورة البينة",
+                  "coded_name": "ﰏ",
+                  "translated_name": "{\"ar\":\"\\u0627\\u0644\\u0628\\u064a\\u0646\\u0629\\r\\n\",\"en\":\"Al-Baiyinah \",\"bn\":\"\\u0986\\u09b2-\\u09ac\\u09be\\u09df\\u09cd\\u09af\\u09bf\\u09a8\\u09be\\u09b9\\u09cd\",\"bs\":\"El-Bejjine\",\"zh\":\"\\u660e\\u8bc1\\u7ae0\\r\\n\",\"de\":\"Al-Bayyina - Der klare Beweis\\r\",\"es\":\"La Evidencia\\r\\n\",\"fa\":\"\\u0628\\u06cc\\u0646\\u0647\",\"fr\":\"La preuve\",\"ha\":\"Al-Bayyinah\",\"id\":\"Surah Al-Baiyinah\\u00a0(Bukti yang Nyata)\",\"ml\":\"\\u0d2c\\u0d2f\\u0d4d\\u0d2f\\u0d3f\\u0d28\",\"pt\":\"A Evid\\u00eancia\",\"ru\":\"\\u042f\\u0441\\u043d\\u043e\\u0435 \\u0417\\u043d\\u0430\\u043c\\u0435\\u043d\\u0438\\u0435(\\u0410\\u043b-\\u0411\\u0430\\u044f\\u0438\\u043d\\u0430)\\r\\n\",\"sw\":\"Al-Bayyinah\",\"tg\":\"\\u0411\\u0410\\u0419\\u0419\\u0418\\u041d\\u0410\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e31\\u0e25-\\u0e1a\\u0e31\\u0e22\\u0e22\\u0e34\\u0e19\\u0e30\\u0e2e\\u0e3a\",\"tl\":\"Ang Maliwanag na Katibayan\",\"tr\":\"Beyyine Suresi\\r\\n\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u0628\\u06d5\\u064a\\u064a\\u0649\\u0646\\u06d5\",\"ur\":\"\\u0628\\u06cc\\u0646\\u06c1\\n\"}",
+                  "number_of_ayahs": 8,
+                  "revelation_type": "medinan",
+                  "first_page": 598,
+                  "last_page": 599,
+                  "first_juz": 30
+                },
+                "juz": 30,
+                "hizb": 239,
+                "page_number": 599,
+                "marker": "ﮄ"
+              },
+              "text": "جَزَآؤُهُمۡ عِندَ رَبِّهِمۡ جَنَّٰتُ عَدۡنٖ تَجۡرِي مِن تَحۡتِهَا ٱلۡأَنۡهَٰرُ خَٰلِدِينَ فِيهَآ أَبَدٗاۖ رَّضِيَ ٱللَّهُ عَنۡهُمۡ وَرَضُواْ عَنۡهُۚ ذَٰلِكَ لِمَنۡ خَشِيَ رَبَّهُۥ  <span>ﰇ</span>  ",
+              "ayah_ids": [
+                6138
+              ],
+              "ayah_to_number": null
+            }
+          ],
+          "websites": []
+        },
+        {
+          "notes": "(خالدين فيها أبداً)\nأتت (أبداً) في 11 موضع من القرآن فقط",
+          "images": [
+            {
+              "id": 21451,
+              "name": null,
+              "file_name": "attachments/images/AkRaDydVNwfyq3hpd00eZCdOCYL6foPDjLkewnlb.jpg",
+              "part": null,
+              "attachment_type_id": 3,
+              "attachmentable_id": 882,
+              "attachmentable_type": "App\\Models\\Note",
+              "downloads": 0,
+              "status": null,
+              "created_at": "2020-06-15T12:53:18.000000Z",
+              "updated_at": "2020-06-15T12:53:18.000000Z",
+              "deleted_at": null
+            }
+          ],
+          "youtube": [],
+          "ayahs": [
+            {
+              "info": {
+                "id": 550,
+                "number": 57,
+                "text": "﻿وَالَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ سَنُدْخِلُهُمْ جَنَّاتٍ تَجْرِي مِنْ تَحْتِهَا الْأَنْهَارُ خَالِدِينَ فِيهَا أَبَدًا ۖ لَهُمْ فِيهَا أَزْوَاجٌ مُطَهَّرَةٌ ۖ وَنُدْخِلُهُمْ ظِلًّا ظَلِيلًا",
+                "font": "page_87",
+                "surah_id": 4,
+                "surah": {
+                  "id": 4,
+                  "name": "سورة النساء",
+                  "coded_name": "ﮐ",
+                  "translated_name": "{\"ar\":\"\\u0627\\u0644\\u0646\\u0633\\u0627\\u0621\\r\\n\",\"en\":\"An-Nisa' \",\"bn\":\"\\u0986\\u09a8-\\u09a8\\u09bf\\u09b8\\u09be\",\"bs\":\"En-Nisa\",\"zh\":\"\\u5987\\u5973\\u7ae0\\r\\n\",\"de\":\"An-Nis\\u0101 - Die Frauen\\r\\n\",\"es\":\"Las Mujeres\\r\\n\",\"fa\":\"\\u0646\\u0633\\u0627\\u0621\",\"fr\":\"Les femmes\",\"ha\":\"An-Nisa'i\",\"id\":\"Surah An-Nisaa\\u2019\\u00a0(Wanita)\",\"ml\":\"\\u0d28\\u0d3f\\u0d38\\u0d3e\\u0d05\\u0d4d\",\"pt\":\"As Mulheres\",\"ru\":\"\\u0416\\u0435\\u043d\\u0449\\u0438\\u043d\\u044b (\\u0410\\u043d-\\u041d\\u0438\\u0441\\u0430)\\r\\n\",\"sw\":\"An-Nisa'i\",\"tg\":\"\\u041d\\u0418\\u0421\\u041e\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e31\\u0e19-\\u0e19\\u0e34\\u0e2a\\u0e32\\u0e2d\\u0e4c\",\"tl\":\"Ang Kababaihan\",\"tr\":\"Nisa Suresi\\r\\n\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u0646\\u0649\\u0633\\u0627 \",\"ur\":\"\\u0646\\u0633\\u0627\\u0621\\n\"}",
+                  "number_of_ayahs": 176,
+                  "revelation_type": "medinan",
+                  "first_page": 77,
+                  "last_page": 106,
+                  "first_juz": 4
+                },
+                "juz": 5,
+                "hizb": 34,
+                "page_number": 87,
+                "marker": "ﯘ"
+              },
+              "text": "وَٱلَّذِينَ ءَامَنُواْ وَعَمِلُواْ ٱلصَّٰلِحَٰتِ سَنُدۡخِلُهُمۡ جَنَّٰتٖ تَجۡرِي مِن تَحۡتِهَا ٱلۡأَنۡهَٰرُ خَٰلِدِينَ فِيهَآ أَبَدٗاۖ لَّهُمۡ فِيهَآ أَزۡوَٰجٞ مُّطَهَّرَةٞۖ وَنُدۡخِلُهُمۡ ظِلّٗا ظَلِيلًا  <span>ﰸ</span>  ",
+              "ayah_ids": [
+                550
+              ],
+              "ayah_to_number": null
+            },
+            {
+              "info": {
+                "id": 615,
+                "number": 122,
+                "text": "﻿وَالَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ سَنُدْخِلُهُمْ جَنَّاتٍ تَجْرِي مِنْ تَحْتِهَا الْأَنْهَارُ خَالِدِينَ فِيهَا أَبَدًا ۖ وَعْدَ اللَّهِ حَقًّا ۚ وَمَنْ أَصْدَقُ مِنَ اللَّهِ قِيلًا",
+                "font": "page_98",
+                "surah_id": 4,
+                "surah": {
+                  "id": 4,
+                  "name": "سورة النساء",
+                  "coded_name": "ﮐ",
+                  "translated_name": "{\"ar\":\"\\u0627\\u0644\\u0646\\u0633\\u0627\\u0621\\r\\n\",\"en\":\"An-Nisa' \",\"bn\":\"\\u0986\\u09a8-\\u09a8\\u09bf\\u09b8\\u09be\",\"bs\":\"En-Nisa\",\"zh\":\"\\u5987\\u5973\\u7ae0\\r\\n\",\"de\":\"An-Nis\\u0101 - Die Frauen\\r\\n\",\"es\":\"Las Mujeres\\r\\n\",\"fa\":\"\\u0646\\u0633\\u0627\\u0621\",\"fr\":\"Les femmes\",\"ha\":\"An-Nisa'i\",\"id\":\"Surah An-Nisaa\\u2019\\u00a0(Wanita)\",\"ml\":\"\\u0d28\\u0d3f\\u0d38\\u0d3e\\u0d05\\u0d4d\",\"pt\":\"As Mulheres\",\"ru\":\"\\u0416\\u0435\\u043d\\u0449\\u0438\\u043d\\u044b (\\u0410\\u043d-\\u041d\\u0438\\u0441\\u0430)\\r\\n\",\"sw\":\"An-Nisa'i\",\"tg\":\"\\u041d\\u0418\\u0421\\u041e\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e31\\u0e19-\\u0e19\\u0e34\\u0e2a\\u0e32\\u0e2d\\u0e4c\",\"tl\":\"Ang Kababaihan\",\"tr\":\"Nisa Suresi\\r\\n\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u0646\\u0649\\u0633\\u0627 \",\"ur\":\"\\u0646\\u0633\\u0627\\u0621\\n\"}",
+                  "number_of_ayahs": 176,
+                  "revelation_type": "medinan",
+                  "first_page": 77,
+                  "last_page": 106,
+                  "first_juz": 4
+                },
+                "juz": 5,
+                "hizb": 39,
+                "page_number": 98,
+                "marker": "ﭨ"
+              },
+              "text": "وَٱلَّذِينَ ءَامَنُواْ وَعَمِلُواْ ٱلصَّٰلِحَٰتِ سَنُدۡخِلُهُمۡ جَنَّٰتٖ تَجۡرِي مِن تَحۡتِهَا ٱلۡأَنۡهَٰرُ خَٰلِدِينَ فِيهَآ أَبَدٗاۖ وَعۡدَ ٱللَّهِ حَقّٗاۚ وَمَنۡ أَصۡدَقُ مِنَ ٱللَّهِ قِيلٗا  <span>ﱹ</span>  ",
+              "ayah_ids": [
+                615
+              ],
+              "ayah_to_number": null
+            },
+            {
+              "info": {
+                "id": 662,
+                "number": 169,
+                "text": "﻿إِلَّا طَرِيقَ جَهَنَّمَ خَالِدِينَ فِيهَا أَبَدًا ۚ وَكَانَ ذَٰلِكَ عَلَى اللَّهِ يَسِيرًا",
+                "font": "page_104",
+                "surah_id": 4,
+                "surah": {
+                  "id": 4,
+                  "name": "سورة النساء",
+                  "coded_name": "ﮐ",
+                  "translated_name": "{\"ar\":\"\\u0627\\u0644\\u0646\\u0633\\u0627\\u0621\\r\\n\",\"en\":\"An-Nisa' \",\"bn\":\"\\u0986\\u09a8-\\u09a8\\u09bf\\u09b8\\u09be\",\"bs\":\"En-Nisa\",\"zh\":\"\\u5987\\u5973\\u7ae0\\r\\n\",\"de\":\"An-Nis\\u0101 - Die Frauen\\r\\n\",\"es\":\"Las Mujeres\\r\\n\",\"fa\":\"\\u0646\\u0633\\u0627\\u0621\",\"fr\":\"Les femmes\",\"ha\":\"An-Nisa'i\",\"id\":\"Surah An-Nisaa\\u2019\\u00a0(Wanita)\",\"ml\":\"\\u0d28\\u0d3f\\u0d38\\u0d3e\\u0d05\\u0d4d\",\"pt\":\"As Mulheres\",\"ru\":\"\\u0416\\u0435\\u043d\\u0449\\u0438\\u043d\\u044b (\\u0410\\u043d-\\u041d\\u0438\\u0441\\u0430)\\r\\n\",\"sw\":\"An-Nisa'i\",\"tg\":\"\\u041d\\u0418\\u0421\\u041e\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e31\\u0e19-\\u0e19\\u0e34\\u0e2a\\u0e32\\u0e2d\\u0e4c\",\"tl\":\"Ang Kababaihan\",\"tr\":\"Nisa Suresi\\r\\n\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u0646\\u0649\\u0633\\u0627 \",\"ur\":\"\\u0646\\u0633\\u0627\\u0621\\n\"}",
+                  "number_of_ayahs": 176,
+                  "revelation_type": "medinan",
+                  "first_page": 77,
+                  "last_page": 106,
+                  "first_juz": 4
+                },
+                "juz": 6,
+                "hizb": 42,
+                "page_number": 104,
+                "marker": "ﯦ"
+              },
+              "text": "إِلَّا طَرِيقَ جَهَنَّمَ خَٰلِدِينَ فِيهَآ أَبَدٗاۚ وَكَانَ ذَٰلِكَ عَلَى ٱللَّهِ يَسِيرٗا  <span>ﲨ</span>  ",
+              "ayah_ids": [
+                662
+              ],
+              "ayah_to_number": null
+            },
+            {
+              "info": {
+                "id": 788,
+                "number": 119,
+                "text": "﻿قَالَ اللَّهُ هَٰذَا يَوْمُ يَنْفَعُ الصَّادِقِينَ صِدْقُهُمْ ۚ لَهُمْ جَنَّاتٌ تَجْرِي مِنْ تَحْتِهَا الْأَنْهَارُ خَالِدِينَ فِيهَا أَبَدًا ۚ رَضِيَ اللَّهُ عَنْهُمْ وَرَضُوا عَنْهُ ۚ ذَٰلِكَ الْفَوْزُ الْعَظِيمُ",
+                "font": "page_127",
+                "surah_id": 5,
+                "surah": {
+                  "id": 5,
+                  "name": "سورة المائدة",
+                  "coded_name": "ﮑ",
+                  "translated_name": "{\"ar\":\"\\u0627\\u0644\\u0645\\u0627\\u0626\\u062f\\u0629\\r\\n\",\"en\":\"Al-Ma'idah \",\"bn\":\"\\u0986\\u09b2-\\u09ae\\u09be\\u09df\\u09c7\\u09a6\\u09be\\u09b9\\u09cd\",\"bs\":\"El-Maide\",\"zh\":\"\\u5bb4\\u5e2d\\u7ae0\\r\\n\",\"de\":\"Al-M\\u0101ida - Der Tisch\\r\\n\",\"es\":\"La Mesa Servida\\r\\n\",\"fa\":\"\\u0645\\u0627\\u0626\\u062f\\u0647\",\"fr\":\"La table servie\",\"ha\":\"Al-Ma'idah\",\"id\":\"Surah Al-Maa\\u2019idah\\u00a0(Hidangan)\",\"ml\":\"\\u0d2e\\u0d3e\\u0d07\\u0d26\",\"pt\":\"A Mesa Servida\",\"ru\":\"\\u0422\\u0440\\u0430\\u043f\\u0435\\u0437\\u0430 (\\u0410\\u043b-\\u041c\\u0430\\u0438\\u0434\\u0430)\\r\\n\",\"sw\":\"Al-Ma'idah\",\"tg\":\"\\u041c\\u041e\\u0418\\u0414\\u0410\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e31\\u0e25-\\u0e21\\u0e32\\u0e2d\\u0e34\\u0e14\\u0e30\\u0e2e\\u0e3a\",\"tl\":\"Ang Hapag na may Pagkain\",\"tr\":\"Maide Suresi\\r\\n\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u0645\\u0627\\u0626\\u0649\\u062f\\u06d5\",\"ur\":\"\\u0645\\u0627\\u0626\\u062f\\u06c1\\n\"}",
+                  "number_of_ayahs": 120,
+                  "revelation_type": "medinan",
+                  "first_page": 106,
+                  "last_page": 127,
+                  "first_juz": 6
+                },
+                "juz": 7,
+                "hizb": 51,
+                "page_number": 127,
+                "marker": "ﰗ"
+              },
+              "text": "قَالَ ٱللَّهُ هَٰذَا يَوۡمُ يَنفَعُ ٱلصَّٰدِقِينَ صِدۡقُهُمۡۚ لَهُمۡ جَنَّٰتٞ تَجۡرِي مِن تَحۡتِهَا ٱلۡأَنۡهَٰرُ خَٰلِدِينَ فِيهَآ أَبَدٗاۖ رَّضِيَ ٱللَّهُ عَنۡهُمۡ وَرَضُواْ عَنۡهُۚ ذَٰلِكَ ٱلۡفَوۡزُ ٱلۡعَظِيمُ  <span>ﱶ</span>  ",
+              "ayah_ids": [
+                788
+              ],
+              "ayah_to_number": null
+            },
+            {
+              "info": {
+                "id": 1257,
+                "number": 22,
+                "text": "﻿خَالِدِينَ فِيهَا أَبَدًا ۚ إِنَّ اللَّهَ عِنْدَهُ أَجْرٌ عَظِيمٌ",
+                "font": "page_190",
+                "surah_id": 9,
+                "surah": {
+                  "id": 9,
+                  "name": "سورة التوبة",
+                  "coded_name": "ﮕ",
+                  "translated_name": "{\"ar\":\"\\u0627\\u0644\\u062a\\u0648\\u0628\\u0629\\r\\n\",\"en\":\"At-Taubah \",\"bn\":\"\\u0986\\u09a4-\\u09a4\\u09be\\u0993\\u09ac\\u09be\\u09b9\\u09cd\",\"bs\":\"Et-Tevbe\",\"zh\":\"\\u5fcf\\u6094\\u7ae0\\r\\n\",\"de\":\"At-Tauba - Die Reue\\r\\n\",\"es\":\"El Arrepentimiento\\r\\n\",\"fa\":\"\\u062a\\u0648\\u0628\\u0647\",\"fr\":\"Le repentir\",\"ha\":\"At-Taubah\",\"id\":\"Surah At-Taubah\\u00a0(Pengampunan)\",\"ml\":\"\\u0d24\\u0d4c\\u0d2c\",\"pt\":\"O Arrependimento\",\"ru\":\"\\u041f\\u043e\\u043a\\u0430\\u044f\\u043d\\u0438\\u0435(\\u0410\\u0442-\\u0422\\u0430\\u0443\\u0431\\u0430)\\r\\n\",\"sw\":\"At-Taubah\",\"tg\":\"\\u0422\\u0410\\u0412\\u0411\\u0410\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e31\\u0e15-\\u0e40\\u0e15\\u0e32\\u0e1a\\u0e30\\u0e2e\\u0e3a\",\"tl\":\"Ang Pagsisisi\",\"tr\":\"Tevbe Suresi\\r\\n\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u062a\\u06d5\\u06cb\\u0628\\u06d5\",\"ur\":\"\\u062a\\u0648\\u0628\\u06c1\\n\"}",
+                  "number_of_ayahs": 129,
+                  "revelation_type": "medinan",
+                  "first_page": 187,
+                  "last_page": 207,
+                  "first_juz": 10
+                },
+                "juz": 10,
+                "hizb": 76,
+                "page_number": 190,
+                "marker": "ﭥ"
+              },
+              "text": "خَٰلِدِينَ فِيهَآ أَبَدًاۚ إِنَّ ٱللَّهَ عِندَهُۥٓ أَجۡرٌ عَظِيمٞ  <span>ﰕ</span>  ",
+              "ayah_ids": [
+                1257
+              ],
+              "ayah_to_number": null
+            },
+            {
+              "info": {
+                "id": 1335,
+                "number": 100,
+                "text": "﻿وَالسَّابِقُونَ الْأَوَّلُونَ مِنَ الْمُهَاجِرِينَ وَالْأَنْصَارِ وَالَّذِينَ اتَّبَعُوهُمْ بِإِحْسَانٍ رَضِيَ اللَّهُ عَنْهُمْ وَرَضُوا عَنْهُ وَأَعَدَّ لَهُمْ جَنَّاتٍ تَجْرِي تَحْتَهَا الْأَنْهَارُ خَالِدِينَ فِيهَا أَبَدًا ۚ ذَٰلِكَ الْفَوْزُ الْعَظِيمُ",
+                "font": "page_203",
+                "surah_id": 9,
+                "surah": {
+                  "id": 9,
+                  "name": "سورة التوبة",
+                  "coded_name": "ﮕ",
+                  "translated_name": "{\"ar\":\"\\u0627\\u0644\\u062a\\u0648\\u0628\\u0629\\r\\n\",\"en\":\"At-Taubah \",\"bn\":\"\\u0986\\u09a4-\\u09a4\\u09be\\u0993\\u09ac\\u09be\\u09b9\\u09cd\",\"bs\":\"Et-Tevbe\",\"zh\":\"\\u5fcf\\u6094\\u7ae0\\r\\n\",\"de\":\"At-Tauba - Die Reue\\r\\n\",\"es\":\"El Arrepentimiento\\r\\n\",\"fa\":\"\\u062a\\u0648\\u0628\\u0647\",\"fr\":\"Le repentir\",\"ha\":\"At-Taubah\",\"id\":\"Surah At-Taubah\\u00a0(Pengampunan)\",\"ml\":\"\\u0d24\\u0d4c\\u0d2c\",\"pt\":\"O Arrependimento\",\"ru\":\"\\u041f\\u043e\\u043a\\u0430\\u044f\\u043d\\u0438\\u0435(\\u0410\\u0442-\\u0422\\u0430\\u0443\\u0431\\u0430)\\r\\n\",\"sw\":\"At-Taubah\",\"tg\":\"\\u0422\\u0410\\u0412\\u0411\\u0410\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e31\\u0e15-\\u0e40\\u0e15\\u0e32\\u0e1a\\u0e30\\u0e2e\\u0e3a\",\"tl\":\"Ang Pagsisisi\",\"tr\":\"Tevbe Suresi\\r\\n\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u062a\\u06d5\\u06cb\\u0628\\u06d5\",\"ur\":\"\\u062a\\u0648\\u0628\\u06c1\\n\"}",
+                  "number_of_ayahs": 129,
+                  "revelation_type": "medinan",
+                  "first_page": 187,
+                  "last_page": 207,
+                  "first_juz": 10
+                },
+                "juz": 11,
+                "hizb": 81,
+                "page_number": 203,
+                "marker": "ﭫ"
+              },
+              "text": "وَٱلسَّٰبِقُونَ ٱلۡأَوَّلُونَ مِنَ ٱلۡمُهَٰجِرِينَ وَٱلۡأَنصَارِ وَٱلَّذِينَ ٱتَّبَعُوهُم بِإِحۡسَٰنٖ رَّضِيَ ٱللَّهُ عَنۡهُمۡ وَرَضُواْ عَنۡهُ وَأَعَدَّ لَهُمۡ جَنَّٰتٖ تَجۡرِي تَحۡتَهَا ٱلۡأَنۡهَٰرُ خَٰلِدِينَ فِيهَآ أَبَدٗاۚ ذَٰلِكَ ٱلۡفَوۡزُ ٱلۡعَظِيمُ  <span>ﱣ</span>  ",
+              "ayah_ids": [
+                1335
+              ],
+              "ayah_to_number": null
+            },
+            {
+              "info": {
+                "id": 3598,
+                "number": 65,
+                "text": "﻿خَالِدِينَ فِيهَا أَبَدًا ۖ لَا يَجِدُونَ وَلِيًّا وَلَا نَصِيرًا",
+                "font": "page_427",
+                "surah_id": 33,
+                "surah": {
+                  "id": 33,
+                  "name": "سورة الأحزاب",
+                  "coded_name": "ﮭ",
+                  "translated_name": "{\"ar\":\"\\u0627\\u0644\\u0623\\u062d\\u0632\\u0627\\u0628\\r\\n\",\"en\":\"Al\\u00adAhzab \",\"bn\":\"\\u0986\\u09b2-\\u0986\\u09b9\\u09af\\u09be\\u09ac\",\"bs\":\"El-Ahzab\",\"zh\":\"\\u540c\\u76df\\u519b\\u7ae0\\r\\n\",\"de\":\"Al-Ahz\\u0101b - Die Gruppierungen\\r\\n\",\"es\":\"Los Aliados\\r\\n\",\"fa\":\"\\u0623\\u062d\\u0632\\u0627\\u0628\",\"fr\":\"Les coalis\\u00e9s\",\"ha\":\"Al-Ahzab\",\"id\":\"Surah Al-Ahzab\\u00a0(Golongan yang Bersekutu)\",\"ml\":\"\\u0d05\\u0d39\\u0d4d\\u0d38\\u0d3e\\u0d2c\\u0d4d\\u200c\",\"pt\":\"Os Partidos \",\"ru\":\"\\u0421\\u043e\\u043d\\u043c\\u044b (\\u0410\\u043b-\\u0410\\u0445\\u0437\\u0430\\u0431)\\r\\n\",\"sw\":\"Al-Ahzab\",\"tg\":\" \\u0410\\u04b2\\u0417\\u041e\\u0411\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e31\\u0e25-\\u0e2d\\u0e30\\u0e2b\\u0e4c\\u0e0b\\u0e32\\u0e1a\",\"tl\":\"Ang mga Magkakaanib\",\"tr\":\"Ahzab Suresi\\r\\n\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u0626\\u06d5\\u06be\\u0632\\u0627\\u0628\",\"ur\":\"\\u0627\\u062d\\u0632\\u0627\\u0628\\n\"}",
+                  "number_of_ayahs": 73,
+                  "revelation_type": "medinan",
+                  "first_page": 418,
+                  "last_page": 427,
+                  "first_juz": 21
+                },
+                "juz": 22,
+                "hizb": 171,
+                "page_number": 427,
+                "marker": "ﭴ"
+              },
+              "text": "خَٰلِدِينَ فِيهَآ أَبَدٗاۖ لَّا يَجِدُونَ وَلِيّٗا وَلَا نَصِيرٗا  <span>ﱀ</span>  ",
+              "ayah_ids": [
+                3598
+              ],
+              "ayah_to_number": null
+            },
+            {
+              "info": {
+                "id": 5208,
+                "number": 9,
+                "text": "﻿يَوْمَ يَجْمَعُكُمْ لِيَوْمِ الْجَمْعِ ۖ ذَٰلِكَ يَوْمُ التَّغَابُنِ ۗ وَمَنْ يُؤْمِنْ بِاللَّهِ وَيَعْمَلْ صَالِحًا يُكَفِّرْ عَنْهُ سَيِّئَاتِهِ وَيُدْخِلْهُ جَنَّاتٍ تَجْرِي مِنْ تَحْتِهَا الْأَنْهَارُ خَالِدِينَ فِيهَا أَبَدًا ۚ ذَٰلِكَ الْفَوْزُ الْعَظِيمُ",
+                "font": "page_556",
+                "surah_id": 64,
+                "surah": {
+                  "id": 64,
+                  "name": "سورة التغابن",
+                  "coded_name": "ﯭ",
+                  "translated_name": "{\"ar\":\"\\u0627\\u0644\\u062a\\u063a\\u0627\\u0628\\u0646\\r\\n\",\"en\":\"At-Taghabun \",\"bn\":\"\\u0986\\u09a4-\\u09a4\\u09be\\u0997\\u09be\\u09ac\\u09c1\\u09a8\",\"bs\":\"Et-Tegabun\",\"zh\":\"\\u76f8\\u6b3a\\u7ae0\\r\\n\",\"de\":\"At-Ta\\u0121\\u0101bun - Die \\u00dcbervorteilun\",\"es\":\"El Desenga\\u00f1o\\r\\n\",\"fa\":\"\\u062a\\u063a\\u0627\\u0628\\u0646\",\"fr\":\"La grande perte\",\"ha\":\"At-Taghabun\",\"id\":\"Surah At-Taghabun\\u00a0(Dinampakkan Kesalahan)\",\"ml\":\"\\u0d24\\u0d17\\u0d3e\\u0d2c\\u0d41\\u0d28\\u0d4d\",\"pt\":\"As Defrauda\\u00e7\\u00f5es Rec\\u00edprocas\",\"ru\":\"\\u0412\\u0437\\u0430\\u0438\\u043c\\u043d\\u043e\\u0435 \\u041e\\u0431\\u043c\\u0430\\u043d\\u044b\\u0432\\u0430\\u043d\\u0438\\u0435 (\\u0410\\u0442-\\u0422\\u0430\\u0433\\u0430\\u0431\",\"sw\":\"At-Taghabun\",\"tg\":\"\\u0422\\u0410\\u0492\\u041e\\u0411\\u0423\\u041d\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e31\\u0e15-\\u0e15\\u0e30\\u0e06\\u0e2d\\u0e1a\\u0e38\\u0e19\",\"tl\":\"Ang Kapwa Pagkatalo at Pagkapa\",\"tr\":\"Tegabun Suresi\\r\\n\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u062a\\u06d5\\u063a\\u0627\\u0628\\u06c7\\u0646\",\"ur\":\"\\u062a\\u063a\\u0627\\u0628\\u0646\\n\"}",
+                  "number_of_ayahs": 18,
+                  "revelation_type": "medinan",
+                  "first_page": 556,
+                  "last_page": 557,
+                  "first_juz": 28
+                },
+                "juz": 28,
+                "hizb": 222,
+                "page_number": 556,
+                "marker": "ﰎ"
+              },
+              "text": "يَوۡمَ يَجۡمَعُكُمۡ لِيَوۡمِ ٱلۡجَمۡعِۖ ذَٰلِكَ يَوۡمُ ٱلتَّغَابُنِۗ وَمَن يُؤۡمِنۢ بِٱللَّهِ وَيَعۡمَلۡ صَٰلِحٗا يُكَفِّرۡ عَنۡهُ سَيِّـَٔاتِهِۦ وَيُدۡخِلۡهُ جَنَّٰتٖ تَجۡرِي مِن تَحۡتِهَا ٱلۡأَنۡهَٰرُ خَٰلِدِينَ فِيهَآ أَبَدٗاۚ ذَٰلِكَ ٱلۡفَوۡزُ ٱلۡعَظِيمُ  <span>ﰈ</span>  ",
+              "ayah_ids": [
+                5208
+              ],
+              "ayah_to_number": null
+            },
+            {
+              "info": {
+                "id": 5228,
+                "number": 11,
+                "text": "﻿رَسُولًا يَتْلُو عَلَيْكُمْ آيَاتِ اللَّهِ مُبَيِّنَاتٍ لِيُخْرِجَ الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ مِنَ الظُّلُمَاتِ إِلَى النُّورِ ۚ وَمَنْ يُؤْمِنْ بِاللَّهِ وَيَعْمَلْ صَالِحًا يُدْخِلْهُ جَنَّاتٍ تَجْرِي مِنْ تَحْتِهَا الْأَنْهَارُ خَالِدِينَ فِيهَا أَبَدًا ۖ قَدْ أَحْسَنَ اللَّهُ لَهُ رِزْقًا",
+                "font": "page_559",
+                "surah_id": 65,
+                "surah": {
+                  "id": 65,
+                  "name": "سورة الطلاق",
+                  "coded_name": "ﯮ",
+                  "translated_name": "{\"ar\":\"\\u0627\\u0644\\u0637\\u0644\\u0627\\u0642\\r\\n\",\"en\":\"At-Talaq \",\"bn\":\"\\u0986\\u09a4-\\u09a4\\u09cd\\u09ac\\u09be\\u09b2\\u09be\\u0995\",\"bs\":\"Et-Talak\",\"zh\":\"\\u79bb\\u5a5a\\u7ae0\\r\\n\",\"de\":\"At-Tal\\u0101q - Die Scheidung\\r\\n\",\"es\":\"El Divorcio\\r\\n\",\"fa\":\"\\u0637\\u0644\\u0627\\u0642\",\"fr\":\"Le divorce\",\"ha\":\"At-Talak\",\"id\":\"Surah At-Talaq\\u00a0(Cerai \\/ Talak)\",\"ml\":\"\\u0d24\\u0d4d\\u0d35\\u0d32\\u0d3e\\u0d16\\u0d4d\",\"pt\":\"O Div\\u00f3rcio\",\"ru\":\"\\u0420\\u0430\\u0437\\u0432\\u043e\\u0434(\\u0410\\u0442-\\u0422\\u0430\\u043b\\u0430\\u043a)\\r\\n\",\"sw\":\"At-Talak\",\"tg\":\"\\u0422\\u0410\\u041b\\u041e\\u049a\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e31\\u0e0f-\\u0e40\\u0e0f\\u0e32\\u0e30\\u0e25\\u0e32\\u0e01\",\"tl\":\"Ang Diborsiyo\",\"tr\":\"Talak Suresi\\r\\n\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u062a\\u0627\\u0644\\u0627\\u0642\",\"ur\":\"\\u0637\\u0644\\u0627\\u0642\\n\"}",
+                  "number_of_ayahs": 12,
+                  "revelation_type": "medinan",
+                  "first_page": 558,
+                  "last_page": 559,
+                  "first_juz": 28
+                },
+                "juz": 28,
+                "hizb": 223,
+                "page_number": 559,
+                "marker": "ﰁ"
+              },
+              "text": "رَّسُولٗا يَتۡلُواْ عَلَيۡكُمۡ ءَايَٰتِ ٱللَّهِ مُبَيِّنَٰتٖ لِّيُخۡرِجَ ٱلَّذِينَ ءَامَنُواْ وَعَمِلُواْ ٱلصَّٰلِحَٰتِ مِنَ ٱلظُّلُمَٰتِ إِلَى ٱلنُّورِۚ وَمَن يُؤۡمِنۢ بِٱللَّهِ وَيَعۡمَلۡ صَٰلِحٗا يُدۡخِلۡهُ جَنَّٰتٖ تَجۡرِي مِن تَحۡتِهَا ٱلۡأَنۡهَٰرُ خَٰلِدِينَ فِيهَآ أَبَدٗاۖ قَدۡ أَحۡسَنَ ٱللَّهُ لَهُۥ رِزۡقًا  <span>ﰊ</span>  ",
+              "ayah_ids": [
+                5228
+              ],
+              "ayah_to_number": null
+            },
+            {
+              "info": {
+                "id": 5470,
+                "number": 23,
+                "text": "﻿إِلَّا بَلَاغًا مِنَ اللَّهِ وَرِسَالَاتِهِ ۚ وَمَنْ يَعْصِ اللَّهَ وَرَسُولَهُ فَإِنَّ لَهُ نَارَ جَهَنَّمَ خَالِدِينَ فِيهَا أَبَدًا",
+                "font": "page_573",
+                "surah_id": 72,
+                "surah": {
+                  "id": 72,
+                  "name": "سورة الجن",
+                  "coded_name": "ﯵ",
+                  "translated_name": "{\"ar\":\"\\u0627\\u0644\\u062c\\u0646\\r\\n\",\"en\":\"Al-Jinn \",\"bn\":\"\\u0986\\u09b2-\\u099c\\u09bf\\u09a8\\u09cd\\u09a8\",\"bs\":\"El-D\\u017einn\",\"zh\":\"\\u7cbe\\u7075\\u7ae0\\r\\n\",\"de\":\"Al-\\u011einn - Die \\u011einn\\r\\n\",\"es\":\"Los Genios\\r\\n\",\"fa\":\"\\u062c\\u0646\",\"fr\":\"Les djinns\",\"ha\":\"Al-Jinn\",\"id\":\"Surah A-Jin\\u00a0(Jin)\",\"ml\":\"\\u0d1c\\u0d3f\\u0d28\\u0d4d\\u0d28\\u0d4d\",\"pt\":\"Os G\\u00eanios\",\"ru\":\"\\u0414\\u0436\\u0438\\u043d\\u043d\\u044b(\\u0410\\u043b-\\u0436\\u0438\\u043d)\\r\\n\",\"sw\":\"Al-Jinn\",\"tg\":\"\\u04b6\\u0418\\u041d\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e31\\u0e25-\\u0e0d\\u0e34\\u0e19\",\"tl\":\"Ang Jinn\",\"tr\":\"Cin Suresi\\r\\n\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u062c\\u0649\\u0646\",\"ur\":\"\\u062c\\u0646\\u0651\\n\"}",
+                  "number_of_ayahs": 28,
+                  "revelation_type": "meccan",
+                  "first_page": 572,
+                  "last_page": 573,
+                  "first_juz": 29
+                },
+                "juz": 29,
+                "hizb": 229,
+                "page_number": 573,
+                "marker": "ﯜ"
+              },
+              "text": "إِلَّا بَلَٰغٗا مِّنَ ٱللَّهِ وَرِسَٰلَٰتِهِۦۚ وَمَن يَعۡصِ ٱللَّهَ وَرَسُولَهُۥ فَإِنَّ لَهُۥ نَارَ جَهَنَّمَ خَٰلِدِينَ فِيهَآ أَبَدًا  <span>ﰖ</span>  ",
+              "ayah_ids": [
+                5470
+              ],
+              "ayah_to_number": null
+            },
+            {
+              "info": {
+                "id": 6138,
+                "number": 8,
+                "text": "﻿جَزَاؤُهُمْ عِنْدَ رَبِّهِمْ جَنَّاتُ عَدْنٍ تَجْرِي مِنْ تَحْتِهَا الْأَنْهَارُ خَالِدِينَ فِيهَا أَبَدًا ۖ رَضِيَ اللَّهُ عَنْهُمْ وَرَضُوا عَنْهُ ۚ ذَٰلِكَ لِمَنْ خَشِيَ رَبَّهُ",
+                "font": "page_599",
+                "surah_id": 98,
+                "surah": {
+                  "id": 98,
+                  "name": "سورة البينة",
+                  "coded_name": "ﰏ",
+                  "translated_name": "{\"ar\":\"\\u0627\\u0644\\u0628\\u064a\\u0646\\u0629\\r\\n\",\"en\":\"Al-Baiyinah \",\"bn\":\"\\u0986\\u09b2-\\u09ac\\u09be\\u09df\\u09cd\\u09af\\u09bf\\u09a8\\u09be\\u09b9\\u09cd\",\"bs\":\"El-Bejjine\",\"zh\":\"\\u660e\\u8bc1\\u7ae0\\r\\n\",\"de\":\"Al-Bayyina - Der klare Beweis\\r\",\"es\":\"La Evidencia\\r\\n\",\"fa\":\"\\u0628\\u06cc\\u0646\\u0647\",\"fr\":\"La preuve\",\"ha\":\"Al-Bayyinah\",\"id\":\"Surah Al-Baiyinah\\u00a0(Bukti yang Nyata)\",\"ml\":\"\\u0d2c\\u0d2f\\u0d4d\\u0d2f\\u0d3f\\u0d28\",\"pt\":\"A Evid\\u00eancia\",\"ru\":\"\\u042f\\u0441\\u043d\\u043e\\u0435 \\u0417\\u043d\\u0430\\u043c\\u0435\\u043d\\u0438\\u0435(\\u0410\\u043b-\\u0411\\u0430\\u044f\\u0438\\u043d\\u0430)\\r\\n\",\"sw\":\"Al-Bayyinah\",\"tg\":\"\\u0411\\u0410\\u0419\\u0419\\u0418\\u041d\\u0410\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e31\\u0e25-\\u0e1a\\u0e31\\u0e22\\u0e22\\u0e34\\u0e19\\u0e30\\u0e2e\\u0e3a\",\"tl\":\"Ang Maliwanag na Katibayan\",\"tr\":\"Beyyine Suresi\\r\\n\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u0628\\u06d5\\u064a\\u064a\\u0649\\u0646\\u06d5\",\"ur\":\"\\u0628\\u06cc\\u0646\\u06c1\\n\"}",
+                  "number_of_ayahs": 8,
+                  "revelation_type": "medinan",
+                  "first_page": 598,
+                  "last_page": 599,
+                  "first_juz": 30
+                },
+                "juz": 30,
+                "hizb": 239,
+                "page_number": 599,
+                "marker": "ﮄ"
+              },
+              "text": "جَزَآؤُهُمۡ عِندَ رَبِّهِمۡ جَنَّٰتُ عَدۡنٖ تَجۡرِي مِن تَحۡتِهَا ٱلۡأَنۡهَٰرُ خَٰلِدِينَ فِيهَآ أَبَدٗاۖ رَّضِيَ ٱللَّهُ عَنۡهُمۡ وَرَضُواْ عَنۡهُۚ ذَٰلِكَ لِمَنۡ خَشِيَ رَبَّهُۥ  <span>ﰇ</span>  ",
+              "ayah_ids": [
+                6138
+              ],
+              "ayah_to_number": null
+            }
+          ],
+          "websites": []
+        }
+      ]
+    }
+  ]
+}

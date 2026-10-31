@@ -1,0 +1,483 @@
+{
+  "license": {
+    "source": "https://quranpedia.net",
+    "version": "2026-09-26",
+    "en": "Ownership: the classical works in this data (Quran text, canonical qira'at, classical tafsirs) are the shared heritage of the Muslim ummah. The digitization, structuring, verification, diacritical correction (dabt), linking, and metadata are the work of the Quranpedia.net team, compiled and continuously corrected over years; translations and contemporary works remain the property of their authors and publishers. License: free to use inside apps, websites, and research tools with no attribution required (a link is appreciated). Republishing this data — in full or in part — as a downloadable database/dataset requires crediting Quranpedia.net with a link and stating this dump's version. Content is continuously corrected: keep copies current via /api/v1/changes?since=<version>. Provided as-is, without warranty.",
+    "ar": "الملكية: النصوص التراثية المضمَّنة في هذه البيانات — من نصِّ القرآن الكريم بقراءاته المتواترة، وكتبِ التفسير — تراثٌ مشترك للأمة لا يدَّعي أحدٌ ملكيته، أما الرقمنة والهيكلة والتدقيق وضبط النص وربط البيانات وبياناتها الوصفية فهي عمل فريق «الموسوعة القرآنية»، جُمعت وصُحِّحت على مدى سنوات، وما تزال تُصحَّح باستمرار؛ وتبقى الترجمات والأعمال المعاصرة ملكًا لأصحابها وناشريها. الرخصة: يجوز استعمال البيانات داخل التطبيقات والمواقع والأدوات البحثية مجانًا من غير اشتراط ذكر المصدر (وذكرُه محلُّ تقدير)، أما نشرها نفسِها — كاملةً أو بعضَها — في صورة قاعدة بيانات قابلة للتنزيل فيلزم فيه ذكرُ «الموسوعة القرآنية quranpedia.net» مصدرًا، مع رابط الموقع وبيان تاريخ هذه النسخة. والمحتوى يخضع لتصحيح مستمر؛ فمَن نشر نسخةً، فعليه تحديثها عبر ‎/v1/changes، والعهدة في نشر نصٍّ قديم على ناشره. وتُقدَّم البيانات كما هي من غير ضمان، والتثبُّت واجبُ المستفيد.",
+    "sources": [
+      {
+        "fields": "word morphology — part of speech, root, lemma, case, mood, verb form",
+        "source": "Quranic Arabic Corpus, version 0.4 — Dr. Kais Dukes (may Allah have mercy on him), University of Leeds",
+        "url": "https://corpus.quran.com",
+        "license": "GNU General Public License",
+        "requires": "Any use must clearly indicate the Quranic Arabic Corpus as the source, with a link to https://corpus.quran.com."
+      },
+      {
+        "fields": "i'rab syntax — dependency relations, heads, constituents",
+        "source": "The Quranic Treebank (NoorBayan), building on the Quranic Arabic Corpus of Dr. Kais Dukes (may Allah have mercy on him)",
+        "url": "https://github.com/NoorBayan/Quranic",
+        "license": "MIT",
+        "requires": "The MIT copyright notice must accompany redistribution."
+      }
+    ],
+    "contact": "quranpedia.help@gmail.com",
+    "usage_policy": "https://quranpedia.net/api-docs#usage-policy",
+    "resync": "https://quranpedia.net/api/v1/changes?since=2026-09-26"
+  },
+  "schema": "/v1/ayah/{surah}/{ayah}/similar",
+  "surah": 95,
+  "data": [
+    {
+      "surah": 95,
+      "ayah": 6,
+      "similar": [
+        {
+          "notes": "ضبط الآية ( إلا الذين آمنوا وعملوا الصالحات )",
+          "images": [],
+          "youtube": [
+            {
+              "id": 20841,
+              "name": null,
+              "file_name": "https://www.youtube.com/embed/CCqnjIkeDrY?start=0",
+              "part": null,
+              "attachment_type_id": 4,
+              "attachmentable_id": 467,
+              "attachmentable_type": "App\\Models\\Note",
+              "downloads": 0,
+              "status": null,
+              "created_at": "2020-06-15T12:41:15.000000Z",
+              "updated_at": "2020-06-15T12:41:15.000000Z",
+              "deleted_at": null
+            }
+          ],
+          "ayahs": [
+            {
+              "info": {
+                "id": 3159,
+                "number": 227,
+                "text": "﻿إِلَّا الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ وَذَكَرُوا اللَّهَ كَثِيرًا وَانْتَصَرُوا مِنْ بَعْدِ مَا ظُلِمُوا ۗ وَسَيَعْلَمُ الَّذِينَ ظَلَمُوا أَيَّ مُنْقَلَبٍ يَنْقَلِبُونَ",
+                "font": "page_376",
+                "surah_id": 26,
+                "surah": {
+                  "id": 26,
+                  "name": "سورة الشعراء",
+                  "coded_name": "ﮦ",
+                  "translated_name": "{\"ar\":\"\\u0627\\u0644\\u0634\\u0639\\u0631\\u0627\\u0621\\r\\n\",\"en\":\"Ash-Shu'ara' \",\"bn\":\"\\u0986\\u09b6-\\u09b6\\u09c1\\u2018\\u0986\\u09b0\\u09be\",\"bs\":\"E\\u0161-\\u0160u'ara\",\"zh\":\"\\u4f17\\u8bd7\\u4eba\\u7ae0\\r\\n\",\"de\":\"A\\u0161-\\u0160u'ar\\u0101 - Die Dichter\",\"es\":\"Los Poetas\\r\\n\",\"fa\":\"\\u0634\\u0639\\u0631\\u0627\\u0621\",\"fr\":\"Les po\\u00e8tes\",\"ha\":\"As-Shu'ara\",\"id\":\"Surah Asy-Syu\\u2019araa\\u00a0(Para Penyair)\",\"ml\":\"\\u0d36\\u0d41\\u0d05\\u0d31\\u0d3e\",\"pt\":\"Os Poetas\",\"ru\":\"\\u041f\\u043e\\u044d\\u0442\\u044b(\\u0410\\u0448-\\u0448\\u0443\\u0430\\u0440\\u0430)\\r\\n\",\"sw\":\"As-Shu'ara\",\"tg\":\"\\u0428\\u0423\\u042a\\u0410\\u0420\\u041e\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e31\\u0e0a-\\u0e0a\\u0e38\\u0e2d\\u0e30\\u0e23\\u0e2d\\u0e2d\\u0e4c\",\"tl\":\"Ang mga Makata\",\"tr\":\"\\u015euara  Suresi\\r\\n\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u0634\\u06c7\\u0626\\u06d5\\u0631\\u0627\",\"ur\":\"\\u0634\\u0639\\u0631\\u0627\\u0621\\n\"}",
+                  "number_of_ayahs": 227,
+                  "revelation_type": "meccan",
+                  "first_page": 367,
+                  "last_page": 376,
+                  "first_juz": 19
+                },
+                "juz": 19,
+                "hizb": 150,
+                "page_number": 376,
+                "marker": "ﯾ"
+              },
+              "text": "إِلَّا ٱلَّذِينَ ءَامَنُواْ وَعَمِلُواْ ٱلصَّٰلِحَٰتِ وَذَكَرُواْ ٱللَّهَ كَثِيرٗا وَٱنتَصَرُواْ مِنۢ بَعۡدِ مَا ظُلِمُواْۗ وَسَيَعۡلَمُ ٱلَّذِينَ ظَلَمُوٓاْ أَيَّ مُنقَلَبٖ يَنقَلِبُونَ  <span>ﳢ</span>  ",
+              "ayah_ids": [
+                3159
+              ],
+              "ayah_to_number": null
+            },
+            {
+              "info": {
+                "id": 3994,
+                "number": 24,
+                "text": "﻿قَالَ لَقَدْ ظَلَمَكَ بِسُؤَالِ نَعْجَتِكَ إِلَىٰ نِعَاجِهِ ۖ وَإِنَّ كَثِيرًا مِنَ الْخُلَطَاءِ لَيَبْغِي بَعْضُهُمْ عَلَىٰ بَعْضٍ إِلَّا الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ وَقَلِيلٌ مَا هُمْ ۗ وَظَنَّ دَاوُودُ أَنَّمَا فَتَنَّاهُ فَاسْتَغْفَرَ رَبَّهُ وَخَرَّ رَاكِعًا وَأَنَابَ ۩",
+                "font": "page_454",
+                "surah_id": 38,
+                "surah": {
+                  "id": 38,
+                  "name": "سورة ص",
+                  "coded_name": "ﯓ",
+                  "translated_name": "{\"ar\":\"\\u0635\\r\\n\",\"en\":\"Sad \",\"bn\":\"\\u09b8\\u09a6\",\"bs\":\"Sad\",\"zh\":\"\\u8428\\u5fb7\\u7ae0\\r\\n\",\"de\":\"\\u015e\\u0101d\\r\\n\",\"es\":\"Sad\\r\\n\",\"fa\":\"\\u0635\",\"fr\":\"S\\u00e2d\",\"ha\":\"Sad\",\"id\":\"Surah Saad\",\"ml\":\"\\u0d38\\u0d4d\\u0d35\\u0d3e\\u0d26\\u0d4d\",\"pt\":\"A Letra Sad \",\"ru\":\"\\u0421\\u0430\\u0434\\r\\n\",\"sw\":\"Sad\",\"tg\":\"\\u0421\\u041e\\u0414\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e28\\u0e2d\\u0e14\",\"tl\":\"Sad\",\"tr\":\"Sad  Suresi\\r\\n\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u0633\\u0627\\u062f\",\"ur\":\"\\u0635 \\n\"}",
+                  "number_of_ayahs": 88,
+                  "revelation_type": "meccan",
+                  "first_page": 453,
+                  "last_page": 458,
+                  "first_juz": 23
+                },
+                "juz": 23,
+                "hizb": 182,
+                "page_number": 454,
+                "marker": "ﯫ"
+              },
+              "text": "قَالَ لَقَدۡ ظَلَمَكَ بِسُؤَالِ نَعۡجَتِكَ إِلَىٰ نِعَاجِهِۦۖ وَإِنَّ كَثِيرٗا مِّنَ ٱلۡخُلَطَآءِ لَيَبۡغِي بَعۡضُهُمۡ عَلَىٰ بَعۡضٍ إِلَّا ٱلَّذِينَ ءَامَنُواْ وَعَمِلُواْ ٱلصَّٰلِحَٰتِ وَقَلِيلٞ مَّا هُمۡۗ وَظَنَّ دَاوُۥدُ أَنَّمَا فَتَنَّٰهُ فَٱسۡتَغۡفَرَ رَبَّهُۥ وَخَرَّۤ رَاكِعٗاۤ وَأَنَابَ۩  <span>ﰗ</span>  ",
+              "ayah_ids": [
+                3994
+              ],
+              "ayah_to_number": null
+            },
+            {
+              "info": {
+                "id": 5909,
+                "number": 25,
+                "text": "﻿إِلَّا الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ لَهُمْ أَجْرٌ غَيْرُ مَمْنُونٍ",
+                "font": "page_590",
+                "surah_id": 84,
+                "surah": {
+                  "id": 84,
+                  "name": "سورة الإنشقاق",
+                  "coded_name": "ﰁ",
+                  "translated_name": "{\"ar\":\"\\u0627\\u0644\\u0625\\u0646\\u0634\\u0642\\u0627\\u0642\\r\\n\",\"en\":\"Al-Inshiqaq \",\"bn\":\"\\u0986\\u09b2-\\u0987\\u09a8\\u09b6\\u09bf\\u0995\\u09cd\\u09ac\\u09be\\u0995\",\"bs\":\"El-In\\u0161ikak\",\"zh\":\"\\u7efd\\u88c2\\u7ae0\\r\\n\",\"de\":\"Al-In\\u0161iq\\u0101q - Das Sichspalten\\r\\n\",\"es\":\"La Rasgadura\\r\\n\",\"fa\":\"\\u0627\\u0646\\u0634\\u0642\\u0627\\u0642\",\"fr\":\"La d\\u00e9chirure\",\"ha\":\"Al-Inshikak\",\"id\":\"Surah Al-Insyiqaaq\\u00a0(Terbelah)\",\"ml\":\"\\u0d07\\u0d28\\u0d4d\\u0d37\\u0d3f\\u0d16\\u0d3e\\u0d16\\u0d4d\",\"pt\":\"A Fenda\",\"ru\":\"\\u0420\\u0430\\u0437\\u0432\\u0435\\u0440\\u0437\\u043d\\u0435\\u0442\\u0441\\u044f(\\u0410\\u043b-\\u0418\\u043d\\u0448\\u0438\\u043a\\u0430\\u043a)\\r\\n\",\"sw\":\"Al-Inshikak\",\"tg\":\"\\u0418\\u041d\\u0428\\u0418\\u049a\\u041e\\u049a\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e31\\u0e25-\\u0e2d\\u0e34\\u0e19\\u0e0a\\u0e34\\u0e01\\u0e2d\\u0e01\",\"tl\":\"Ang Pagkalansag\",\"tr\":\"In\\u015fikak Suresi\\r\\n\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u0626\\u0649\\u0646\\u0634\\u0649\\u0642\\u0627\\u0642\",\"ur\":\"\\u0627\\u0646\\u0634\\u0642\\u0627\\u0642\\n\"}",
+                  "number_of_ayahs": 25,
+                  "revelation_type": "meccan",
+                  "first_page": 589,
+                  "last_page": 590,
+                  "first_juz": 30
+                },
+                "juz": 30,
+                "hizb": 236,
+                "page_number": 590,
+                "marker": "ﭚ"
+              },
+              "text": "إِلَّا ٱلَّذِينَ ءَامَنُواْ وَعَمِلُواْ ٱلصَّٰلِحَٰتِ لَهُمۡ أَجۡرٌ غَيۡرُ مَمۡنُونِۭ  <span>ﰘ</span>  ",
+              "ayah_ids": [
+                5909
+              ],
+              "ayah_to_number": null
+            },
+            {
+              "info": {
+                "id": 6179,
+                "number": 3,
+                "text": "﻿إِلَّا الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ وَتَوَاصَوْا بِالْحَقِّ وَتَوَاصَوْا بِالصَّبْرِ",
+                "font": "page_601",
+                "surah_id": 103,
+                "surah": {
+                  "id": 103,
+                  "name": "سورة العصر",
+                  "coded_name": "ﰔ",
+                  "translated_name": "{\"ar\":\"\\u0627\\u0644\\u0639\\u0635\\u0631\\r\\n\",\"en\":\"Al-'Asr \",\"bn\":\"\\u0986\\u09b2-\\u2018\\u0986\\u09b8\\u09b0\",\"bs\":\"El-'Asr\",\"zh\":\"\\u65f6\\u5149\\u7ae0\\r\\n\",\"de\":\"Al-'\\u0100sr - Das Zeitalter\",\"es\":\"El Transcurso del Tiempo\\r\\n\",\"fa\":\"\\u0639\\u0635\\u0631\",\"fr\":\"Le temps\",\"ha\":\"Al'asri\",\"id\":\"Surah Al-\\u2018Asr\\u00a0(Masa)\",\"ml\":\"\\u0d05\\u0d38\\u0d4d\\u0d35\\u0d4d \\u0d31\\u0d4d\",\"pt\":\"A Era\",\"ru\":\"\\u041f\\u0440\\u0435\\u0434\\u0432\\u0435\\u0447\\u0435\\u0440\\u043d\\u0435\\u0435 \\u0412\\u0440\\u0435\\u043c\\u044f(\\u0410\\u043b-\\u0410\\u0441\\u0440)\\r\\n\",\"sw\":\"Al'asri\",\"tg\":\"\\u0410\\u0421\\u0420\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e31\\u0e25-\\u0e2d\\u0e31\\u0e28\\u0e23\\u0e4c\",\"tl\":\"Ang Panahon\",\"tr\":\"Asr Suresi\\r\\n\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u0626\\u06d5\\u0633\\u0631\",\"ur\":\"\\u0639\\u0635\\u0631\\n\"}",
+                  "number_of_ayahs": 3,
+                  "revelation_type": "meccan",
+                  "first_page": 601,
+                  "last_page": 601,
+                  "first_juz": 30
+                },
+                "juz": 30,
+                "hizb": 240,
+                "page_number": 601,
+                "marker": "ﭡ"
+              },
+              "text": "إِلَّا ٱلَّذِينَ ءَامَنُواْ وَعَمِلُواْ ٱلصَّٰلِحَٰتِ وَتَوَاصَوۡاْ بِٱلۡحَقِّ وَتَوَاصَوۡاْ بِٱلصَّبۡرِ  <span>ﰂ</span>  ",
+              "ayah_ids": [
+                6179
+              ],
+              "ayah_to_number": null
+            },
+            {
+              "info": {
+                "id": 6104,
+                "number": 6,
+                "text": "﻿إِلَّا الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ فَلَهُمْ أَجْرٌ غَيْرُ مَمْنُونٍ",
+                "font": "page_597",
+                "surah_id": 95,
+                "surah": {
+                  "id": 95,
+                  "name": "سورة التين",
+                  "coded_name": "ﰌ",
+                  "translated_name": "{\"ar\":\"\\u0627\\u0644\\u062a\\u064a\\u0646\\r\\n\",\"en\":\"At-Tin \",\"bn\":\"\\u0986\\u09a4-\\u09a4\\u09c0\\u09a8\",\"bs\":\"Et-Tin\",\"zh\":\"\\u65e0\\u82b1\\u679c\\u7ae0\\r\\n\",\"de\":\"At-Tin - Die Feige\\r\\n\",\"es\":\"La Higuera\\r\\n\",\"fa\":\"\\u062a\\u06cc\\u0646\",\"fr\":\"Le figuier\",\"ha\":\"At-Tin\",\"id\":\"Surah At-Tin\\u00a0(Buah Tin \\/ Buah Ara)\",\"ml\":\"\\u0d24\\u0d40\\u0d28\\u0d4d\",\"pt\":\"O Figo\",\"ru\":\"\\u0421\\u043c\\u043e\\u043a\\u043e\\u0432\\u043d\\u0438\\u0446\\u0430(\\u0410\\u0442-\\u0422\\u0438\\u043d)\\r\\n\",\"sw\":\"At-Tin\",\"tg\":\"\\u0422\\u0418\\u041d\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e31\\u0e15-\\u0e15\\u0e35\\u0e19\",\"tl\":\"Ang Igos\",\"tr\":\"Tin Suresi\\r\\n\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u062a\\u0649\\u0646\",\"ur\":\"\\u062a\\u06cc\\u0646\\n\"}",
+                  "number_of_ayahs": 8,
+                  "revelation_type": "meccan",
+                  "first_page": 597,
+                  "last_page": 597,
+                  "first_juz": 30
+                },
+                "juz": 30,
+                "hizb": 239,
+                "page_number": 597,
+                "marker": "ﮊ"
+              },
+              "text": "إِلَّا ٱلَّذِينَ ءَامَنُواْ وَعَمِلُواْ ٱلصَّٰلِحَٰتِ فَلَهُمۡ أَجۡرٌ غَيۡرُ مَمۡنُونٖ  <span>ﰅ</span>  ",
+              "ayah_ids": [
+                6104
+              ],
+              "ayah_to_number": null
+            }
+          ],
+          "websites": []
+        },
+        {
+          "notes": "﴿إِلَّا الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ)",
+          "images": [
+            {
+              "id": 21383,
+              "name": null,
+              "file_name": "attachments/images/uSskegQ59FZjK0BzO65WmCKOp37iF78HwzZBdJzp.jpg",
+              "part": null,
+              "attachment_type_id": 3,
+              "attachmentable_id": 813,
+              "attachmentable_type": "App\\Models\\Note",
+              "downloads": 0,
+              "status": null,
+              "created_at": "2020-06-15T12:51:16.000000Z",
+              "updated_at": "2020-06-15T12:51:16.000000Z",
+              "deleted_at": null
+            }
+          ],
+          "youtube": [],
+          "ayahs": [
+            {
+              "info": {
+                "id": 5909,
+                "number": 25,
+                "text": "﻿إِلَّا الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ لَهُمْ أَجْرٌ غَيْرُ مَمْنُونٍ",
+                "font": "page_590",
+                "surah_id": 84,
+                "surah": {
+                  "id": 84,
+                  "name": "سورة الإنشقاق",
+                  "coded_name": "ﰁ",
+                  "translated_name": "{\"ar\":\"\\u0627\\u0644\\u0625\\u0646\\u0634\\u0642\\u0627\\u0642\\r\\n\",\"en\":\"Al-Inshiqaq \",\"bn\":\"\\u0986\\u09b2-\\u0987\\u09a8\\u09b6\\u09bf\\u0995\\u09cd\\u09ac\\u09be\\u0995\",\"bs\":\"El-In\\u0161ikak\",\"zh\":\"\\u7efd\\u88c2\\u7ae0\\r\\n\",\"de\":\"Al-In\\u0161iq\\u0101q - Das Sichspalten\\r\\n\",\"es\":\"La Rasgadura\\r\\n\",\"fa\":\"\\u0627\\u0646\\u0634\\u0642\\u0627\\u0642\",\"fr\":\"La d\\u00e9chirure\",\"ha\":\"Al-Inshikak\",\"id\":\"Surah Al-Insyiqaaq\\u00a0(Terbelah)\",\"ml\":\"\\u0d07\\u0d28\\u0d4d\\u0d37\\u0d3f\\u0d16\\u0d3e\\u0d16\\u0d4d\",\"pt\":\"A Fenda\",\"ru\":\"\\u0420\\u0430\\u0437\\u0432\\u0435\\u0440\\u0437\\u043d\\u0435\\u0442\\u0441\\u044f(\\u0410\\u043b-\\u0418\\u043d\\u0448\\u0438\\u043a\\u0430\\u043a)\\r\\n\",\"sw\":\"Al-Inshikak\",\"tg\":\"\\u0418\\u041d\\u0428\\u0418\\u049a\\u041e\\u049a\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e31\\u0e25-\\u0e2d\\u0e34\\u0e19\\u0e0a\\u0e34\\u0e01\\u0e2d\\u0e01\",\"tl\":\"Ang Pagkalansag\",\"tr\":\"In\\u015fikak Suresi\\r\\n\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u0626\\u0649\\u0646\\u0634\\u0649\\u0642\\u0627\\u0642\",\"ur\":\"\\u0627\\u0646\\u0634\\u0642\\u0627\\u0642\\n\"}",
+                  "number_of_ayahs": 25,
+                  "revelation_type": "meccan",
+                  "first_page": 589,
+                  "last_page": 590,
+                  "first_juz": 30
+                },
+                "juz": 30,
+                "hizb": 236,
+                "page_number": 590,
+                "marker": "ﭚ"
+              },
+              "text": "إِلَّا ٱلَّذِينَ ءَامَنُواْ وَعَمِلُواْ ٱلصَّٰلِحَٰتِ لَهُمۡ أَجۡرٌ غَيۡرُ مَمۡنُونِۭ  <span>ﰘ</span>  ",
+              "ayah_ids": [
+                5909
+              ],
+              "ayah_to_number": null
+            },
+            {
+              "info": {
+                "id": 6104,
+                "number": 6,
+                "text": "﻿إِلَّا الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ فَلَهُمْ أَجْرٌ غَيْرُ مَمْنُونٍ",
+                "font": "page_597",
+                "surah_id": 95,
+                "surah": {
+                  "id": 95,
+                  "name": "سورة التين",
+                  "coded_name": "ﰌ",
+                  "translated_name": "{\"ar\":\"\\u0627\\u0644\\u062a\\u064a\\u0646\\r\\n\",\"en\":\"At-Tin \",\"bn\":\"\\u0986\\u09a4-\\u09a4\\u09c0\\u09a8\",\"bs\":\"Et-Tin\",\"zh\":\"\\u65e0\\u82b1\\u679c\\u7ae0\\r\\n\",\"de\":\"At-Tin - Die Feige\\r\\n\",\"es\":\"La Higuera\\r\\n\",\"fa\":\"\\u062a\\u06cc\\u0646\",\"fr\":\"Le figuier\",\"ha\":\"At-Tin\",\"id\":\"Surah At-Tin\\u00a0(Buah Tin \\/ Buah Ara)\",\"ml\":\"\\u0d24\\u0d40\\u0d28\\u0d4d\",\"pt\":\"O Figo\",\"ru\":\"\\u0421\\u043c\\u043e\\u043a\\u043e\\u0432\\u043d\\u0438\\u0446\\u0430(\\u0410\\u0442-\\u0422\\u0438\\u043d)\\r\\n\",\"sw\":\"At-Tin\",\"tg\":\"\\u0422\\u0418\\u041d\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e31\\u0e15-\\u0e15\\u0e35\\u0e19\",\"tl\":\"Ang Igos\",\"tr\":\"Tin Suresi\\r\\n\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u062a\\u0649\\u0646\",\"ur\":\"\\u062a\\u06cc\\u0646\\n\"}",
+                  "number_of_ayahs": 8,
+                  "revelation_type": "meccan",
+                  "first_page": 597,
+                  "last_page": 597,
+                  "first_juz": 30
+                },
+                "juz": 30,
+                "hizb": 239,
+                "page_number": 597,
+                "marker": "ﮊ"
+              },
+              "text": "إِلَّا ٱلَّذِينَ ءَامَنُواْ وَعَمِلُواْ ٱلصَّٰلِحَٰتِ فَلَهُمۡ أَجۡرٌ غَيۡرُ مَمۡنُونٖ  <span>ﰅ</span>  ",
+              "ayah_ids": [
+                6104
+              ],
+              "ayah_to_number": null
+            }
+          ],
+          "websites": []
+        },
+        {
+          "notes": "﴿إِلَّا الَّذِينَ صَبَرُوا) هي الوحيدة في القرآن الكريم\nوالباقي ﴿إِلَّا الَّذِينَ آمَنُوا)",
+          "images": [
+            {
+              "id": 21479,
+              "name": null,
+              "file_name": "attachments/images/hMgI63GfVY5cv4tNxJAgYEklnnj2bVb2DgdVqC2z.jpg",
+              "part": null,
+              "attachment_type_id": 3,
+              "attachmentable_id": 910,
+              "attachmentable_type": "App\\Models\\Note",
+              "downloads": 0,
+              "status": null,
+              "created_at": "2020-06-15T12:54:11.000000Z",
+              "updated_at": "2020-06-15T12:54:11.000000Z",
+              "deleted_at": null
+            }
+          ],
+          "youtube": [],
+          "ayahs": [
+            {
+              "info": {
+                "id": 1484,
+                "number": 11,
+                "text": "﻿إِلَّا الَّذِينَ صَبَرُوا وَعَمِلُوا الصَّالِحَاتِ أُولَٰئِكَ لَهُمْ مَغْفِرَةٌ وَأَجْرٌ كَبِيرٌ",
+                "font": "page_222",
+                "surah_id": 11,
+                "surah": {
+                  "id": 11,
+                  "name": "سورة هود",
+                  "coded_name": "ﮗ",
+                  "translated_name": "{\"ar\":\"\\u0647\\u0648\\u062f\\r\\n\",\"en\":\"Hood \",\"bn\":\"\\u09b9\\u09c2\\u09a6\",\"bs\":\"Hud\",\"zh\":\"\\u547c\\u5fb7\\u7ae0\\r\\n\",\"de\":\"H\\u016bd\\r\\n\",\"es\":\"Hud\\r\\n\",\"fa\":\"\\u0647\\u0648\\u062f\",\"fr\":\"Hud\",\"ha\":\"Hud\",\"id\":\"Surah Hud\\u00a0(Nabi Hud a.s.)\",\"ml\":\"\\u0d39\\u0d42\\u0d26\\u0d4d\",\"pt\":\"Hud\",\"ru\":\"\\u0425\\u0443\\u0434\\r\\n\",\"sw\":\"Hud\",\"tg\":\"\\u04b2\\u0423\\u0414\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2e\\u0e39\\u0e14\",\"tl\":\"Si Propeta Hud\",\"tr\":\"Hud Suresi\\r\\n\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u06be\\u06c7\\u062f\",\"ur\":\"\\u06c1\\u0648\\u062f\\n\"}",
+                  "number_of_ayahs": 123,
+                  "revelation_type": "meccan",
+                  "first_page": 221,
+                  "last_page": 235,
+                  "first_juz": 11
+                },
+                "juz": 12,
+                "hizb": 89,
+                "page_number": 222,
+                "marker": "ﯣ"
+              },
+              "text": "إِلَّا ٱلَّذِينَ صَبَرُواْ وَعَمِلُواْ ٱلصَّٰلِحَٰتِ أُوْلَٰٓئِكَ لَهُم مَّغۡفِرَةٞ وَأَجۡرٞ كَبِيرٞ  <span>ﰊ</span>  ",
+              "ayah_ids": [
+                1484
+              ],
+              "ayah_to_number": null
+            },
+            {
+              "info": {
+                "id": 3159,
+                "number": 227,
+                "text": "﻿إِلَّا الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ وَذَكَرُوا اللَّهَ كَثِيرًا وَانْتَصَرُوا مِنْ بَعْدِ مَا ظُلِمُوا ۗ وَسَيَعْلَمُ الَّذِينَ ظَلَمُوا أَيَّ مُنْقَلَبٍ يَنْقَلِبُونَ",
+                "font": "page_376",
+                "surah_id": 26,
+                "surah": {
+                  "id": 26,
+                  "name": "سورة الشعراء",
+                  "coded_name": "ﮦ",
+                  "translated_name": "{\"ar\":\"\\u0627\\u0644\\u0634\\u0639\\u0631\\u0627\\u0621\\r\\n\",\"en\":\"Ash-Shu'ara' \",\"bn\":\"\\u0986\\u09b6-\\u09b6\\u09c1\\u2018\\u0986\\u09b0\\u09be\",\"bs\":\"E\\u0161-\\u0160u'ara\",\"zh\":\"\\u4f17\\u8bd7\\u4eba\\u7ae0\\r\\n\",\"de\":\"A\\u0161-\\u0160u'ar\\u0101 - Die Dichter\",\"es\":\"Los Poetas\\r\\n\",\"fa\":\"\\u0634\\u0639\\u0631\\u0627\\u0621\",\"fr\":\"Les po\\u00e8tes\",\"ha\":\"As-Shu'ara\",\"id\":\"Surah Asy-Syu\\u2019araa\\u00a0(Para Penyair)\",\"ml\":\"\\u0d36\\u0d41\\u0d05\\u0d31\\u0d3e\",\"pt\":\"Os Poetas\",\"ru\":\"\\u041f\\u043e\\u044d\\u0442\\u044b(\\u0410\\u0448-\\u0448\\u0443\\u0430\\u0440\\u0430)\\r\\n\",\"sw\":\"As-Shu'ara\",\"tg\":\"\\u0428\\u0423\\u042a\\u0410\\u0420\\u041e\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e31\\u0e0a-\\u0e0a\\u0e38\\u0e2d\\u0e30\\u0e23\\u0e2d\\u0e2d\\u0e4c\",\"tl\":\"Ang mga Makata\",\"tr\":\"\\u015euara  Suresi\\r\\n\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u0634\\u06c7\\u0626\\u06d5\\u0631\\u0627\",\"ur\":\"\\u0634\\u0639\\u0631\\u0627\\u0621\\n\"}",
+                  "number_of_ayahs": 227,
+                  "revelation_type": "meccan",
+                  "first_page": 367,
+                  "last_page": 376,
+                  "first_juz": 19
+                },
+                "juz": 19,
+                "hizb": 150,
+                "page_number": 376,
+                "marker": "ﯾ"
+              },
+              "text": "إِلَّا ٱلَّذِينَ ءَامَنُواْ وَعَمِلُواْ ٱلصَّٰلِحَٰتِ وَذَكَرُواْ ٱللَّهَ كَثِيرٗا وَٱنتَصَرُواْ مِنۢ بَعۡدِ مَا ظُلِمُواْۗ وَسَيَعۡلَمُ ٱلَّذِينَ ظَلَمُوٓاْ أَيَّ مُنقَلَبٖ يَنقَلِبُونَ  <span>ﳢ</span>  ",
+              "ayah_ids": [
+                3159
+              ],
+              "ayah_to_number": null
+            },
+            {
+              "info": {
+                "id": 3994,
+                "number": 24,
+                "text": "﻿قَالَ لَقَدْ ظَلَمَكَ بِسُؤَالِ نَعْجَتِكَ إِلَىٰ نِعَاجِهِ ۖ وَإِنَّ كَثِيرًا مِنَ الْخُلَطَاءِ لَيَبْغِي بَعْضُهُمْ عَلَىٰ بَعْضٍ إِلَّا الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ وَقَلِيلٌ مَا هُمْ ۗ وَظَنَّ دَاوُودُ أَنَّمَا فَتَنَّاهُ فَاسْتَغْفَرَ رَبَّهُ وَخَرَّ رَاكِعًا وَأَنَابَ ۩",
+                "font": "page_454",
+                "surah_id": 38,
+                "surah": {
+                  "id": 38,
+                  "name": "سورة ص",
+                  "coded_name": "ﯓ",
+                  "translated_name": "{\"ar\":\"\\u0635\\r\\n\",\"en\":\"Sad \",\"bn\":\"\\u09b8\\u09a6\",\"bs\":\"Sad\",\"zh\":\"\\u8428\\u5fb7\\u7ae0\\r\\n\",\"de\":\"\\u015e\\u0101d\\r\\n\",\"es\":\"Sad\\r\\n\",\"fa\":\"\\u0635\",\"fr\":\"S\\u00e2d\",\"ha\":\"Sad\",\"id\":\"Surah Saad\",\"ml\":\"\\u0d38\\u0d4d\\u0d35\\u0d3e\\u0d26\\u0d4d\",\"pt\":\"A Letra Sad \",\"ru\":\"\\u0421\\u0430\\u0434\\r\\n\",\"sw\":\"Sad\",\"tg\":\"\\u0421\\u041e\\u0414\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e28\\u0e2d\\u0e14\",\"tl\":\"Sad\",\"tr\":\"Sad  Suresi\\r\\n\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u0633\\u0627\\u062f\",\"ur\":\"\\u0635 \\n\"}",
+                  "number_of_ayahs": 88,
+                  "revelation_type": "meccan",
+                  "first_page": 453,
+                  "last_page": 458,
+                  "first_juz": 23
+                },
+                "juz": 23,
+                "hizb": 182,
+                "page_number": 454,
+                "marker": "ﯫ"
+              },
+              "text": "قَالَ لَقَدۡ ظَلَمَكَ بِسُؤَالِ نَعۡجَتِكَ إِلَىٰ نِعَاجِهِۦۖ وَإِنَّ كَثِيرٗا مِّنَ ٱلۡخُلَطَآءِ لَيَبۡغِي بَعۡضُهُمۡ عَلَىٰ بَعۡضٍ إِلَّا ٱلَّذِينَ ءَامَنُواْ وَعَمِلُواْ ٱلصَّٰلِحَٰتِ وَقَلِيلٞ مَّا هُمۡۗ وَظَنَّ دَاوُۥدُ أَنَّمَا فَتَنَّٰهُ فَٱسۡتَغۡفَرَ رَبَّهُۥ وَخَرَّۤ رَاكِعٗاۤ وَأَنَابَ۩  <span>ﰗ</span>  ",
+              "ayah_ids": [
+                3994
+              ],
+              "ayah_to_number": null
+            },
+            {
+              "info": {
+                "id": 5909,
+                "number": 25,
+                "text": "﻿إِلَّا الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ لَهُمْ أَجْرٌ غَيْرُ مَمْنُونٍ",
+                "font": "page_590",
+                "surah_id": 84,
+                "surah": {
+                  "id": 84,
+                  "name": "سورة الإنشقاق",
+                  "coded_name": "ﰁ",
+                  "translated_name": "{\"ar\":\"\\u0627\\u0644\\u0625\\u0646\\u0634\\u0642\\u0627\\u0642\\r\\n\",\"en\":\"Al-Inshiqaq \",\"bn\":\"\\u0986\\u09b2-\\u0987\\u09a8\\u09b6\\u09bf\\u0995\\u09cd\\u09ac\\u09be\\u0995\",\"bs\":\"El-In\\u0161ikak\",\"zh\":\"\\u7efd\\u88c2\\u7ae0\\r\\n\",\"de\":\"Al-In\\u0161iq\\u0101q - Das Sichspalten\\r\\n\",\"es\":\"La Rasgadura\\r\\n\",\"fa\":\"\\u0627\\u0646\\u0634\\u0642\\u0627\\u0642\",\"fr\":\"La d\\u00e9chirure\",\"ha\":\"Al-Inshikak\",\"id\":\"Surah Al-Insyiqaaq\\u00a0(Terbelah)\",\"ml\":\"\\u0d07\\u0d28\\u0d4d\\u0d37\\u0d3f\\u0d16\\u0d3e\\u0d16\\u0d4d\",\"pt\":\"A Fenda\",\"ru\":\"\\u0420\\u0430\\u0437\\u0432\\u0435\\u0440\\u0437\\u043d\\u0435\\u0442\\u0441\\u044f(\\u0410\\u043b-\\u0418\\u043d\\u0448\\u0438\\u043a\\u0430\\u043a)\\r\\n\",\"sw\":\"Al-Inshikak\",\"tg\":\"\\u0418\\u041d\\u0428\\u0418\\u049a\\u041e\\u049a\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e31\\u0e25-\\u0e2d\\u0e34\\u0e19\\u0e0a\\u0e34\\u0e01\\u0e2d\\u0e01\",\"tl\":\"Ang Pagkalansag\",\"tr\":\"In\\u015fikak Suresi\\r\\n\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u0626\\u0649\\u0646\\u0634\\u0649\\u0642\\u0627\\u0642\",\"ur\":\"\\u0627\\u0646\\u0634\\u0642\\u0627\\u0642\\n\"}",
+                  "number_of_ayahs": 25,
+                  "revelation_type": "meccan",
+                  "first_page": 589,
+                  "last_page": 590,
+                  "first_juz": 30
+                },
+                "juz": 30,
+                "hizb": 236,
+                "page_number": 590,
+                "marker": "ﭚ"
+              },
+              "text": "إِلَّا ٱلَّذِينَ ءَامَنُواْ وَعَمِلُواْ ٱلصَّٰلِحَٰتِ لَهُمۡ أَجۡرٌ غَيۡرُ مَمۡنُونِۭ  <span>ﰘ</span>  ",
+              "ayah_ids": [
+                5909
+              ],
+              "ayah_to_number": null
+            },
+            {
+              "info": {
+                "id": 6104,
+                "number": 6,
+                "text": "﻿إِلَّا الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ فَلَهُمْ أَجْرٌ غَيْرُ مَمْنُونٍ",
+                "font": "page_597",
+                "surah_id": 95,
+                "surah": {
+                  "id": 95,
+                  "name": "سورة التين",
+                  "coded_name": "ﰌ",
+                  "translated_name": "{\"ar\":\"\\u0627\\u0644\\u062a\\u064a\\u0646\\r\\n\",\"en\":\"At-Tin \",\"bn\":\"\\u0986\\u09a4-\\u09a4\\u09c0\\u09a8\",\"bs\":\"Et-Tin\",\"zh\":\"\\u65e0\\u82b1\\u679c\\u7ae0\\r\\n\",\"de\":\"At-Tin - Die Feige\\r\\n\",\"es\":\"La Higuera\\r\\n\",\"fa\":\"\\u062a\\u06cc\\u0646\",\"fr\":\"Le figuier\",\"ha\":\"At-Tin\",\"id\":\"Surah At-Tin\\u00a0(Buah Tin \\/ Buah Ara)\",\"ml\":\"\\u0d24\\u0d40\\u0d28\\u0d4d\",\"pt\":\"O Figo\",\"ru\":\"\\u0421\\u043c\\u043e\\u043a\\u043e\\u0432\\u043d\\u0438\\u0446\\u0430(\\u0410\\u0442-\\u0422\\u0438\\u043d)\\r\\n\",\"sw\":\"At-Tin\",\"tg\":\"\\u0422\\u0418\\u041d\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e31\\u0e15-\\u0e15\\u0e35\\u0e19\",\"tl\":\"Ang Igos\",\"tr\":\"Tin Suresi\\r\\n\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u062a\\u0649\\u0646\",\"ur\":\"\\u062a\\u06cc\\u0646\\n\"}",
+                  "number_of_ayahs": 8,
+                  "revelation_type": "meccan",
+                  "first_page": 597,
+                  "last_page": 597,
+                  "first_juz": 30
+                },
+                "juz": 30,
+                "hizb": 239,
+                "page_number": 597,
+                "marker": "ﮊ"
+              },
+              "text": "إِلَّا ٱلَّذِينَ ءَامَنُواْ وَعَمِلُواْ ٱلصَّٰلِحَٰتِ فَلَهُمۡ أَجۡرٌ غَيۡرُ مَمۡنُونٖ  <span>ﰅ</span>  ",
+              "ayah_ids": [
+                6104
+              ],
+              "ayah_to_number": null
+            },
+            {
+              "info": {
+                "id": 6179,
+                "number": 3,
+                "text": "﻿إِلَّا الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ وَتَوَاصَوْا بِالْحَقِّ وَتَوَاصَوْا بِالصَّبْرِ",
+                "font": "page_601",
+                "surah_id": 103,
+                "surah": {
+                  "id": 103,
+                  "name": "سورة العصر",
+                  "coded_name": "ﰔ",
+                  "translated_name": "{\"ar\":\"\\u0627\\u0644\\u0639\\u0635\\u0631\\r\\n\",\"en\":\"Al-'Asr \",\"bn\":\"\\u0986\\u09b2-\\u2018\\u0986\\u09b8\\u09b0\",\"bs\":\"El-'Asr\",\"zh\":\"\\u65f6\\u5149\\u7ae0\\r\\n\",\"de\":\"Al-'\\u0100sr - Das Zeitalter\",\"es\":\"El Transcurso del Tiempo\\r\\n\",\"fa\":\"\\u0639\\u0635\\u0631\",\"fr\":\"Le temps\",\"ha\":\"Al'asri\",\"id\":\"Surah Al-\\u2018Asr\\u00a0(Masa)\",\"ml\":\"\\u0d05\\u0d38\\u0d4d\\u0d35\\u0d4d \\u0d31\\u0d4d\",\"pt\":\"A Era\",\"ru\":\"\\u041f\\u0440\\u0435\\u0434\\u0432\\u0435\\u0447\\u0435\\u0440\\u043d\\u0435\\u0435 \\u0412\\u0440\\u0435\\u043c\\u044f(\\u0410\\u043b-\\u0410\\u0441\\u0440)\\r\\n\",\"sw\":\"Al'asri\",\"tg\":\"\\u0410\\u0421\\u0420\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e31\\u0e25-\\u0e2d\\u0e31\\u0e28\\u0e23\\u0e4c\",\"tl\":\"Ang Panahon\",\"tr\":\"Asr Suresi\\r\\n\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u0626\\u06d5\\u0633\\u0631\",\"ur\":\"\\u0639\\u0635\\u0631\\n\"}",
+                  "number_of_ayahs": 3,
+                  "revelation_type": "meccan",
+                  "first_page": 601,
+                  "last_page": 601,
+                  "first_juz": 30
+                },
+                "juz": 30,
+                "hizb": 240,
+                "page_number": 601,
+                "marker": "ﭡ"
+              },
+              "text": "إِلَّا ٱلَّذِينَ ءَامَنُواْ وَعَمِلُواْ ٱلصَّٰلِحَٰتِ وَتَوَاصَوۡاْ بِٱلۡحَقِّ وَتَوَاصَوۡاْ بِٱلصَّبۡرِ  <span>ﰂ</span>  ",
+              "ayah_ids": [
+                6179
+              ],
+              "ayah_to_number": null
+            }
+          ],
+          "websites": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "license": {
+    "source": "https://quranpedia.net",
+    "version": "2026-09-26",
+    "en": "Ownership: the classical works in this data (Quran text, canonical qira'at, classical tafsirs) are the shared heritage of the Muslim ummah. The digitization, structuring, verification, diacritical correction (dabt), linking, and metadata are the work of the Quranpedia.net team, compiled and continuously corrected over years; translations and contemporary works remain the property of their authors and publishers. License: free to use inside apps, websites, and research tools with no attribution required (a link is appreciated). Republishing this data — in full or in part — as a downloadable database/dataset requires crediting Quranpedia.net with a link and stating this dump's version. Content is continuously corrected: keep copies current via /api/v1/changes?since=<version>. Provided as-is, without warranty.",
+    "ar": "الملكية: النصوص التراثية المضمَّنة في هذه البيانات — من نصِّ القرآن الكريم بقراءاته المتواترة، وكتبِ التفسير — تراثٌ مشترك للأمة لا يدَّعي أحدٌ ملكيته، أما الرقمنة والهيكلة والتدقيق وضبط النص وربط البيانات وبياناتها الوصفية فهي عمل فريق «الموسوعة القرآنية»، جُمعت وصُحِّحت على مدى سنوات، وما تزال تُصحَّح باستمرار؛ وتبقى الترجمات والأعمال المعاصرة ملكًا لأصحابها وناشريها. الرخصة: يجوز استعمال البيانات داخل التطبيقات والمواقع والأدوات البحثية مجانًا من غير اشتراط ذكر المصدر (وذكرُه محلُّ تقدير)، أما نشرها نفسِها — كاملةً أو بعضَها — في صورة قاعدة بيانات قابلة للتنزيل فيلزم فيه ذكرُ «الموسوعة القرآنية quranpedia.net» مصدرًا، مع رابط الموقع وبيان تاريخ هذه النسخة. والمحتوى يخضع لتصحيح مستمر؛ فمَن نشر نسخةً، فعليه تحديثها عبر ‎/v1/changes، والعهدة في نشر نصٍّ قديم على ناشره. وتُقدَّم البيانات كما هي من غير ضمان، والتثبُّت واجبُ المستفيد.",
+    "sources": [
+      {
+        "fields": "word morphology — part of speech, root, lemma, case, mood, verb form",
+        "source": "Quranic Arabic Corpus, version 0.4 — Dr. Kais Dukes (may Allah have mercy on him), University of Leeds",
+        "url": "https://corpus.quran.com",
+        "license": "GNU General Public License",
+        "requires": "Any use must clearly indicate the Quranic Arabic Corpus as the source, with a link to https://corpus.quran.com."
+      },
+      {
+        "fields": "i'rab syntax — dependency relations, heads, constituents",
+        "source": "The Quranic Treebank (NoorBayan), building on the Quranic Arabic Corpus of Dr. Kais Dukes (may Allah have mercy on him)",
+        "url": "https://github.com/NoorBayan/Quranic",
+        "license": "MIT",
+        "requires": "The MIT copyright notice must accompany redistribution."
+      }
+    ],
+    "contact": "quranpedia.help@gmail.com",
+    "usage_policy": "https://quranpedia.net/api-docs#usage-policy",
+    "resync": "https://quranpedia.net/api/v1/changes?since=2026-09-26"
+  },
+  "schema": "/v1/ayah/{surah}/{ayah}/similar",
+  "surah": 101,
+  "data": [
+    {
+      "surah": 101,
+      "ayah": 6,
+      "similar": [
+        {
+          "notes": "\"فمن ثقلت موازينه \"جميع المواضع عدا القارعة\n \"وتكون الجبال كالعهن المنفوش فأما من ثقلت موازينه فهو في عيشة راضية\".",
+          "images": [
+            {
+              "id": 21782,
+              "name": null,
+              "file_name": "attachments/images/sk0FBQYT1rvX0ID6AXdjsO6bmrI5tSkm07IlCqq0.jpg",
+              "part": null,
+              "attachment_type_id": 3,
+              "attachmentable_id": 1204,
+              "attachmentable_type": "App\\Models\\Note",
+              "downloads": 0,
+              "status": null,
+              "created_at": "2020-06-15T13:03:17.000000Z",
+              "updated_at": "2020-06-15T13:03:17.000000Z",
+              "deleted_at": null
+            }
+          ],
+          "youtube": [],
+          "ayahs": [
+            {
+              "info": {
+                "id": 962,
+                "number": 8,
+                "text": "﻿وَالْوَزْنُ يَوْمَئِذٍ الْحَقُّ ۚ فَمَنْ ثَقُلَتْ مَوَازِينُهُ فَأُولَٰئِكَ هُمُ الْمُفْلِحُونَ",
+                "font": "page_151",
+                "surah_id": 7,
+                "surah": {
+                  "id": 7,
+                  "name": "سورة الأعراف",
+                  "coded_name": "ﮓ",
+                  "translated_name": "{\"ar\":\"\\u0627\\u0644\\u0623\\u0639\\u0631\\u0627\\u0641\\r\\n\",\"en\":\"Al-A'raf \",\"bn\":\"\\u0986\\u09b2-\\u0986\\u2018\\u09b0\\u09be\\u09ab\",\"bs\":\"El-A'raf\",\"zh\":\"\\u9ad8\\u5904\\u7ae0\\r\\n\",\"de\":\"Al-Ar\\u0101f - Die H\\u00f6hen\\r\\n\",\"es\":\"El Muro Divisorio\\r\\n\",\"fa\":\"\\u0623\\u0639\\u0631\\u0627\\u0641\",\"fr\":\"Al-A\\u2019raf\",\"ha\":\"Al-A'araf\",\"id\":\"Surah Al-A\\u2019raaf\\u00a0(Tempat Tertinggi)\",\"ml\":\"\\u0d05\\u0d05\\u0d4d\\u0d31\\u0d3e\\u0d2b\\u0d4d\",\"pt\":\"Os Cimos\",\"ru\":\"\\u041f\\u0440\\u0435\\u0433\\u0440\\u0430\\u0434\\u044b(\\u0410\\u043b-\\u0410a\\u0440\\u0430\\u0444)\\r\\n\",\"sw\":\"Al-A'araf\",\"tg\":\"\\u0410\\u042a\\u0420\\u041e\\u0424\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e31\\u0e25-\\u0e2d\\u0e30\\u0e2d\\u0e3a\\u0e23\\u0e2d\\u0e1f\",\"tl\":\"Ang mga Matatayog na Pader\",\"tr\":\"Araf Suresi\\r\\n\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u0626\\u06d5\\u0626\\u0631\\u0627\\u0641\",\"ur\":\"\\u0627\\u0639\\u0631\\u0627\\u0641\\n\"}",
+                  "number_of_ayahs": 206,
+                  "revelation_type": "meccan",
+                  "first_page": 151,
+                  "last_page": 176,
+                  "first_juz": 8
+                },
+                "juz": 8,
+                "hizb": 61,
+                "page_number": 151,
+                "marker": "ﮢ"
+              },
+              "text": "وَٱلۡوَزۡنُ يَوۡمَئِذٍ ٱلۡحَقُّۚ فَمَن ثَقُلَتۡ مَوَٰزِينُهُۥ فَأُوْلَٰٓئِكَ هُمُ ٱلۡمُفۡلِحُونَ  <span>ﰇ</span>  ",
+              "ayah_ids": [
+                962
+              ],
+              "ayah_to_number": null
+            },
+            {
+              "info": {
+                "id": 2775,
+                "number": 102,
+                "text": "﻿فَمَنْ ثَقُلَتْ مَوَازِينُهُ فَأُولَٰئِكَ هُمُ الْمُفْلِحُونَ",
+                "font": "page_348",
+                "surah_id": 23,
+                "surah": {
+                  "id": 23,
+                  "name": "سورة المؤمنون",
+                  "coded_name": "ﮣ",
+                  "translated_name": "{\"ar\":\"\\u0627\\u0644\\u0645\\u0624\\u0645\\u0646\\u0648\\u0646\\r\\n\",\"en\":\"Al-Mu'minun \",\"bn\":\"\\u0986\\u09b2-\\u09ae\\u09c1\\u2019\\u09ae\\u09bf\\u09a8\\u09c2\\u09a8\",\"bs\":\"El-Mu'minun\",\"zh\":\"\\u4fe1\\u58eb\\u7ae0\\r\\n\",\"de\":\"Al-Mu'min\\u016bn - Die Gl\\u00e4ubigen\",\"es\":\"Los Creyentes\\r\\n\",\"fa\":\"\\u0645\\u0624\\u0645\\u0646\\u0648\\u0646\",\"fr\":\"Les croyants\",\"ha\":\"Al-Muminu\",\"id\":\"Surah Al-Mu\\u2019minun\\u00a0(Golongan yang Beriman)\",\"ml\":\"\\u0d2e\\u0d41\\u0d05\\u0d4d\\u0d2e\\u0d3f\\u0d28\\u0d42\\u0d28\\u0d4d\",\"pt\":\"Os Crentes\",\"ru\":\"\\u0412\\u0435\\u0440\\u0443\\u044e\\u0449\\u0438\\u0435(\\u0410\\u043b-\\u041c\\u0443\\u044c\\u043c\\u0438\\u043d\\u043e\\u043e\\u043d)\\r\\n\",\"sw\":\"Al-Muminu\",\"tg\":\"\\u041c\\u0423\\u042a\\u041c\\u0418\\u041d\\u0423\\u041d\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e31\\u0e25-\\u0e21\\u0e38\\u0e2d\\u0e4c\\u0e21\\u0e34\\u0e19\\u0e39\\u0e19\",\"tl\":\"Ang mga Mananampalataya\",\"tr\":\"M\\u00fcminun  Suresi\\r\\n\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u0645\\u06c6\\u0626\\u0645\\u0649\\u0646\\u06c7\\u0646\",\"ur\":\"\\u0645\\u0624\\u0645\\u0646\\u0648\\u0646\\n\"}",
+                  "number_of_ayahs": 118,
+                  "revelation_type": "meccan",
+                  "first_page": 342,
+                  "last_page": 349,
+                  "first_juz": 18
+                },
+                "juz": 18,
+                "hizb": 139,
+                "page_number": 348,
+                "marker": "ﯷ"
+              },
+              "text": "فَمَن ثَقُلَتۡ مَوَٰزِينُهُۥ فَأُوْلَٰٓئِكَ هُمُ ٱلۡمُفۡلِحُونَ  <span>ﱥ</span>  ",
+              "ayah_ids": [
+                2775
+              ],
+              "ayah_to_number": null
+            },
+            {
+              "info": {
+                "id": 6163,
+                "number": 6,
+                "text": "﻿فَأَمَّا مَنْ ثَقُلَتْ مَوَازِينُهُ",
+                "font": "page_600",
+                "surah_id": 101,
+                "surah": {
+                  "id": 101,
+                  "name": "سورة القارعة",
+                  "coded_name": "ﰒ",
+                  "translated_name": "{\"ar\":\"\\u0627\\u0644\\u0642\\u0627\\u0631\\u0639\\u0629\\r\\n\",\"en\":\"Al-Qari'ah \",\"bn\":\"\\u0986\\u09b2-\\u0995\\u09cd\\u09ac\\u09be\\u09b0\\u09bf\\u2018\\u0986\\u09b9\\u09cd\",\"bs\":\"El-Kari'a\",\"zh\":\"\\u5927\\u96be\\u7ae0\\r\\n\",\"de\":\"Al-Q\\u0101ri'a - Das Verh\\u00e4ngnis\",\"es\":\"El D\\u00eda Aterrador\\r\\n\",\"fa\":\"\\u0642\\u0627\\u0631\\u0639\\u0647\",\"fr\":\"Le fracas\",\"ha\":\"Al-Kari'ah\",\"id\":\"Surah Al-Qari\\u2019ah\\u00a0(Hari Yang Hingar Bingar \\/ Kiamat)\",\"ml\":\"\\u0d16\\u0d3e\\u0d30\\u0d3f\\u0d05\",\"pt\":\"A Calamidade\",\"ru\":\"\\u041f\\u043e\\u0440\\u0430\\u0436\\u0430\\u044e\\u0449\\u0435\\u0435(\\u0410\\u043b-\\u041a\\u0430\\u0440\\u0438'\\u0430)\",\"sw\":\"Al-Kari'ah\",\"tg\":\"\\u049a\\u041e\\u0420\\u0418\\u042a\\u0410\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e31\\u0e25-\\u0e01\\u0e2d\\u0e23\\u0e34\\u0e2d\\u0e30\\u0e2e\\u0e3a\",\"tl\":\"Ang Araw ng Malakas na Hiyawan\",\"tr\":\"Karia Suresi\\r\\n\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u0642\\u0627\\u0631\\u0649\\u0626\\u06d5\",\"ur\":\"\\u0642\\u0627\\u0631\\u0639\\u06c1\\n\"}",
+                  "number_of_ayahs": 11,
+                  "revelation_type": "meccan",
+                  "first_page": 600,
+                  "last_page": 600,
+                  "first_juz": 30
+                },
+                "juz": 30,
+                "hizb": 240,
+                "page_number": 600,
+                "marker": "ﮍ"
+              },
+              "text": "فَأَمَّا مَن ثَقُلَتۡ مَوَٰزِينُهُۥ  <span>ﰅ</span>  ",
+              "ayah_ids": [
+                6163
+              ],
+              "ayah_to_number": null
+            }
+          ],
+          "websites": []
+        }
+      ]
+    }
+  ]
+}

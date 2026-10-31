@@ -1,0 +1,147 @@
+{
+  "license": {
+    "source": "https://quranpedia.net",
+    "version": "2026-09-26",
+    "en": "Ownership: the classical works in this data (Quran text, canonical qira'at, classical tafsirs) are the shared heritage of the Muslim ummah. The digitization, structuring, verification, diacritical correction (dabt), linking, and metadata are the work of the Quranpedia.net team, compiled and continuously corrected over years; translations and contemporary works remain the property of their authors and publishers. License: free to use inside apps, websites, and research tools with no attribution required (a link is appreciated). Republishing this data — in full or in part — as a downloadable database/dataset requires crediting Quranpedia.net with a link and stating this dump's version. Content is continuously corrected: keep copies current via /api/v1/changes?since=<version>. Provided as-is, without warranty.",
+    "ar": "الملكية: النصوص التراثية المضمَّنة في هذه البيانات — من نصِّ القرآن الكريم بقراءاته المتواترة، وكتبِ التفسير — تراثٌ مشترك للأمة لا يدَّعي أحدٌ ملكيته، أما الرقمنة والهيكلة والتدقيق وضبط النص وربط البيانات وبياناتها الوصفية فهي عمل فريق «الموسوعة القرآنية»، جُمعت وصُحِّحت على مدى سنوات، وما تزال تُصحَّح باستمرار؛ وتبقى الترجمات والأعمال المعاصرة ملكًا لأصحابها وناشريها. الرخصة: يجوز استعمال البيانات داخل التطبيقات والمواقع والأدوات البحثية مجانًا من غير اشتراط ذكر المصدر (وذكرُه محلُّ تقدير)، أما نشرها نفسِها — كاملةً أو بعضَها — في صورة قاعدة بيانات قابلة للتنزيل فيلزم فيه ذكرُ «الموسوعة القرآنية quranpedia.net» مصدرًا، مع رابط الموقع وبيان تاريخ هذه النسخة. والمحتوى يخضع لتصحيح مستمر؛ فمَن نشر نسخةً، فعليه تحديثها عبر ‎/v1/changes، والعهدة في نشر نصٍّ قديم على ناشره. وتُقدَّم البيانات كما هي من غير ضمان، والتثبُّت واجبُ المستفيد.",
+    "sources": [
+      {
+        "fields": "word morphology — part of speech, root, lemma, case, mood, verb form",
+        "source": "Quranic Arabic Corpus, version 0.4 — Dr. Kais Dukes (may Allah have mercy on him), University of Leeds",
+        "url": "https://corpus.quran.com",
+        "license": "GNU General Public License",
+        "requires": "Any use must clearly indicate the Quranic Arabic Corpus as the source, with a link to https://corpus.quran.com."
+      },
+      {
+        "fields": "i'rab syntax — dependency relations, heads, constituents",
+        "source": "The Quranic Treebank (NoorBayan), building on the Quranic Arabic Corpus of Dr. Kais Dukes (may Allah have mercy on him)",
+        "url": "https://github.com/NoorBayan/Quranic",
+        "license": "MIT",
+        "requires": "The MIT copyright notice must accompany redistribution."
+      }
+    ],
+    "contact": "quranpedia.help@gmail.com",
+    "usage_policy": "https://quranpedia.net/api-docs#usage-policy",
+    "resync": "https://quranpedia.net/api/v1/changes?since=2026-09-26"
+  },
+  "schema": "/v1/ayah/{surah}/{ayah}/similar",
+  "surah": 114,
+  "data": [
+    {
+      "surah": 114,
+      "ayah": 6,
+      "similar": [
+        {
+          "notes": "ما الفرق بين ( الجَنة والجِنة وجُنة )",
+          "images": [],
+          "youtube": [
+            {
+              "id": 20716,
+              "name": null,
+              "file_name": "https://www.youtube.com/embed/J2SdpFSyiOE?start=0",
+              "part": null,
+              "attachment_type_id": 4,
+              "attachmentable_id": 342,
+              "attachmentable_type": "App\\Models\\Note",
+              "downloads": 0,
+              "status": null,
+              "created_at": "2020-06-15T12:39:53.000000Z",
+              "updated_at": "2020-06-15T12:39:53.000000Z",
+              "deleted_at": null
+            }
+          ],
+          "ayahs": [
+            {
+              "info": {
+                "id": 89,
+                "number": 82,
+                "text": "﻿وَالَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ أُولَٰئِكَ أَصْحَابُ الْجَنَّةِ ۖ هُمْ فِيهَا خَالِدُونَ",
+                "font": "page_12",
+                "surah_id": 2,
+                "surah": {
+                  "id": 2,
+                  "name": "سورة البقرة",
+                  "coded_name": "ﮎ",
+                  "translated_name": "{\"ar\":\"\\u0627\\u0644\\u0628\\u0642\\u0631\\u0629\\r\\n\",\"en\":\"Al-Baqarah \",\"bn\":\"\\u0986\\u09b2-\\u09ac\\u09be\\u0995\\u09cd\\u09ac\\u09be\\u09b0\\u09be\\u09b9\\u09cd\",\"bs\":\"El-Bekara\",\"zh\":\"\\u9ec4\\u725b\\u7ae0\\r\\n\",\"de\":\"Al-Baqara - Die Kuh\\r\\n\",\"es\":\"La Vaca\\r\\n\",\"fa\":\"\\u0628\\u0642\\u0631\\u0647\",\"fr\":\"La g\\u00e9nisse\",\"ha\":\"Al-Bakarah\",\"id\":\"Surah Al-Baqarah\\u00a0(Lembu Betina)\",\"ml\":\"\\u0d2c\\u0d16\\u0d31\",\"pt\":\"A Vaca\",\"ru\":\"\\u041a\\u043e\\u0440\\u043e\\u0432\\u0430 (\\u0410\\u043b-\\u0411\\u0430\\u043a\\u0430\\u0440\\u0430)\\r\\n\",\"sw\":\"Al-Bakarah\",\"tg\":\"\\u0411\\u0410\\u049a\\u0410\\u0420\\u0410\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e31\\u0e25-\\u0e1a\\u0e30\\u0e40\\u0e01\\u0e32\\u0e30\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\",\"tl\":\"Ang Baka\",\"tr\":\"Bakara Suresi\\r\\n\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u0628\\u06d5\\u0642\\u06d5\\u0631\\u06d5 \",\"ur\":\"\\u0628\\u0642\\u0631\\u06c1\\n\"}",
+                  "number_of_ayahs": 286,
+                  "revelation_type": "medinan",
+                  "first_page": 2,
+                  "last_page": 49,
+                  "first_juz": 1
+                },
+                "juz": 1,
+                "hizb": 5,
+                "page_number": 12,
+                "marker": "ﯗ"
+              },
+              "text": "وَٱلَّذِينَ ءَامَنُواْ وَعَمِلُواْ ٱلصَّٰلِحَٰتِ أُوْلَٰٓئِكَ أَصۡحَٰبُ ٱلۡجَنَّةِۖ هُمۡ فِيهَا خَٰلِدُونَ  <span>ﱑ</span>  ",
+              "ayah_ids": [
+                89
+              ],
+              "ayah_to_number": null
+            },
+            {
+              "info": {
+                "id": 6236,
+                "number": 6,
+                "text": "﻿مِنَ الْجِنَّةِ وَالنَّاسِ",
+                "font": "page_604",
+                "surah_id": 114,
+                "surah": {
+                  "id": 114,
+                  "name": "سورة الناس",
+                  "coded_name": "ﰟ",
+                  "translated_name": "{\"ar\":\"\\u0627\\u0644\\u0646\\u0651\\u0627\\u0633\",\"en\":\"An-Nas\",\"bn\":\"\\u0986\\u09a8-\\u09a8\\u09be\\u09b8\",\"bs\":\"En-Nas\",\"zh\":\"\\u4e16\\u4eba\\u7ae0\",\"de\":\"An-N\\u0101s - Die Menschen\",\"es\":\"Los Hombres\",\"fa\":\"\\u0646\\u0627\\u0633\",\"fr\":\"Les hommes\",\"ha\":\"An-Nas\",\"id\":\"Surah An-Naas\\u00a0(Manusia)\",\"ml\":\"\\u0d28\\u0d3e\\u0d38\\u0d4d \",\"pt\":\"Os Humanos\",\"ru\":\"\\u041b\\u044e\\u0434\\u0438 (\\u0410\\u043d-\\u041d\\u0430\\u0441)\",\"sw\":\"An-Nas\",\"tg\":\"\\u041d\\u041e\\u0421\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e31\\u0e19-\\u0e19\\u0e32\\u0e2a\",\"tl\":\"Ang Sangkatauhan\",\"tr\":\"Nas Suresi\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u0646\\u0627\\u0633\",\"ur\":\"\\u0646\\u0627\\u0633\"}",
+                  "number_of_ayahs": 6,
+                  "revelation_type": "meccan",
+                  "first_page": 604,
+                  "last_page": 604,
+                  "first_juz": 30
+                },
+                "juz": 30,
+                "hizb": 240,
+                "page_number": 604,
+                "marker": "ﮙ"
+              },
+              "text": "مِنَ ٱلۡجِنَّةِ وَٱلنَّاسِ  <span>ﰅ</span>  ",
+              "ayah_ids": [
+                6236
+              ],
+              "ayah_to_number": null
+            },
+            {
+              "info": {
+                "id": 5190,
+                "number": 2,
+                "text": "﻿اتَّخَذُوا أَيْمَانَهُمْ جُنَّةً فَصَدُّوا عَنْ سَبِيلِ اللَّهِ ۚ إِنَّهُمْ سَاءَ مَا كَانُوا يَعْمَلُونَ",
+                "font": "page_554",
+                "surah_id": 63,
+                "surah": {
+                  "id": 63,
+                  "name": "سورة المنافقون",
+                  "coded_name": "ﯬ",
+                  "translated_name": "{\"ar\":\"\\u0627\\u0644\\u0645\\u0646\\u0627\\u0641\\u0642\\u0648\\u0646\\r\\n\",\"en\":\"Al-Munafiqun \",\"bn\":\"\\u0986\\u09b2-\\u09ae\\u09c1\\u09a8\\u09be\\u09ab\\u09bf\\u0995\\u09cd\\u09ac\\u09c2\\u09a8\",\"bs\":\"El-Munafikun\",\"zh\":\"\\u4f2a\\u4fe1\\u8005\\u7ae0\\r\\n\",\"de\":\"Al-Mun\\u0101fiq\\u016bn - Die Heuchler\\r\\n\",\"es\":\"Los Hip\\u00f3critas\\r\\n\",\"fa\":\"\\u0645\\u0646\\u0627\\u0641\\u0642\\u0648\\u0646\",\"fr\":\"Les hypocrites\",\"ha\":\"Al-Munafikun\",\"id\":\"Surah Al-Munafiquun\\u00a0(Golongan Munafik)\",\"ml\":\"\\u0d2e\\u0d41\\u0d28\\u0d3e\\u0d2b\\u0d3f\\u0d16\\u0d42\\u0d28\\u0d4d\",\"pt\":\"Os Hip\\u00f3critas\",\"ru\":\"\\u041b\\u0438\\u0446\\u0435\\u043c\\u0435\\u0440\\u044b(\\u0410\\u043b-\\u041c\\u0443\\u043d\\u0430\\u0444\\u0438\\u043a\\u043e\\u043e\\u043d)\\r\\n\",\"sw\":\"Al-Munafikun\",\"tg\":\"\\u041c\\u0423\\u041d\\u041e\\u0424\\u0418\\u049a\\u0418\\u041d\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e31\\u0e25-\\u0e21\\u0e38\\u0e19\\u0e32\\u0e1f\\u0e34\\u0e01\\u0e39\\u0e19\",\"tl\":\"Ang mga Mapagkunwari\",\"tr\":\"M\\u00fcnafikun Suresi\\r\\n\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u0645\\u06c7\\u0646\\u0627\\u067e\\u0649\\u0642\\u06c7\\u0646\",\"ur\":\"\\u0645\\u0646\\u0627\\u0641\\u0642\\u0648\\u0646\\n\"}",
+                  "number_of_ayahs": 11,
+                  "revelation_type": "medinan",
+                  "first_page": 554,
+                  "last_page": 555,
+                  "first_juz": 28
+                },
+                "juz": 28,
+                "hizb": 221,
+                "page_number": 554,
+                "marker": "ﮰ"
+              },
+              "text": "ٱتَّخَذُوٓاْ أَيۡمَٰنَهُمۡ جُنَّةٗ فَصَدُّواْ عَن سَبِيلِ ٱللَّهِۚ إِنَّهُمۡ سَآءَ مَا كَانُواْ يَعۡمَلُونَ  <span>ﰁ</span>  ",
+              "ayah_ids": [
+                5190
+              ],
+              "ayah_to_number": null
+            }
+          ],
+          "websites": []
+        }
+      ]
+    }
+  ]
+}

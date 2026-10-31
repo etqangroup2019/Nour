@@ -1,0 +1,147 @@
+{
+  "license": {
+    "source": "https://quranpedia.net",
+    "version": "2026-09-26",
+    "en": "Ownership: the classical works in this data (Quran text, canonical qira'at, classical tafsirs) are the shared heritage of the Muslim ummah. The digitization, structuring, verification, diacritical correction (dabt), linking, and metadata are the work of the Quranpedia.net team, compiled and continuously corrected over years; translations and contemporary works remain the property of their authors and publishers. License: free to use inside apps, websites, and research tools with no attribution required (a link is appreciated). Republishing this data — in full or in part — as a downloadable database/dataset requires crediting Quranpedia.net with a link and stating this dump's version. Content is continuously corrected: keep copies current via /api/v1/changes?since=<version>. Provided as-is, without warranty.",
+    "ar": "الملكية: النصوص التراثية المضمَّنة في هذه البيانات — من نصِّ القرآن الكريم بقراءاته المتواترة، وكتبِ التفسير — تراثٌ مشترك للأمة لا يدَّعي أحدٌ ملكيته، أما الرقمنة والهيكلة والتدقيق وضبط النص وربط البيانات وبياناتها الوصفية فهي عمل فريق «الموسوعة القرآنية»، جُمعت وصُحِّحت على مدى سنوات، وما تزال تُصحَّح باستمرار؛ وتبقى الترجمات والأعمال المعاصرة ملكًا لأصحابها وناشريها. الرخصة: يجوز استعمال البيانات داخل التطبيقات والمواقع والأدوات البحثية مجانًا من غير اشتراط ذكر المصدر (وذكرُه محلُّ تقدير)، أما نشرها نفسِها — كاملةً أو بعضَها — في صورة قاعدة بيانات قابلة للتنزيل فيلزم فيه ذكرُ «الموسوعة القرآنية quranpedia.net» مصدرًا، مع رابط الموقع وبيان تاريخ هذه النسخة. والمحتوى يخضع لتصحيح مستمر؛ فمَن نشر نسخةً، فعليه تحديثها عبر ‎/v1/changes، والعهدة في نشر نصٍّ قديم على ناشره. وتُقدَّم البيانات كما هي من غير ضمان، والتثبُّت واجبُ المستفيد.",
+    "sources": [
+      {
+        "fields": "word morphology — part of speech, root, lemma, case, mood, verb form",
+        "source": "Quranic Arabic Corpus, version 0.4 — Dr. Kais Dukes (may Allah have mercy on him), University of Leeds",
+        "url": "https://corpus.quran.com",
+        "license": "GNU General Public License",
+        "requires": "Any use must clearly indicate the Quranic Arabic Corpus as the source, with a link to https://corpus.quran.com."
+      },
+      {
+        "fields": "i'rab syntax — dependency relations, heads, constituents",
+        "source": "The Quranic Treebank (NoorBayan), building on the Quranic Arabic Corpus of Dr. Kais Dukes (may Allah have mercy on him)",
+        "url": "https://github.com/NoorBayan/Quranic",
+        "license": "MIT",
+        "requires": "The MIT copyright notice must accompany redistribution."
+      }
+    ],
+    "contact": "quranpedia.help@gmail.com",
+    "usage_policy": "https://quranpedia.net/api-docs#usage-policy",
+    "resync": "https://quranpedia.net/api/v1/changes?since=2026-09-26"
+  },
+  "schema": "/v1/ayah/{surah}/{ayah}/similar",
+  "surah": 92,
+  "data": [
+    {
+      "surah": 92,
+      "ayah": 11,
+      "similar": [
+        {
+          "notes": "ضبط كلمة ( مالُـهُ ) بالضم",
+          "images": [],
+          "youtube": [
+            {
+              "id": 20717,
+              "name": null,
+              "file_name": "https://www.youtube.com/embed/exQN2l6TXMQ?start=0",
+              "part": null,
+              "attachment_type_id": 4,
+              "attachmentable_id": 343,
+              "attachmentable_type": "App\\Models\\Note",
+              "downloads": 0,
+              "status": null,
+              "created_at": "2020-06-15T12:39:53.000000Z",
+              "updated_at": "2020-06-15T12:39:53.000000Z",
+              "deleted_at": null
+            }
+          ],
+          "ayahs": [
+            {
+              "info": {
+                "id": 5440,
+                "number": 21,
+                "text": "﻿قَالَ نُوحٌ رَبِّ إِنَّهُمْ عَصَوْنِي وَاتَّبَعُوا مَنْ لَمْ يَزِدْهُ مَالُهُ وَوَلَدُهُ إِلَّا خَسَارًا",
+                "font": "page_571",
+                "surah_id": 71,
+                "surah": {
+                  "id": 71,
+                  "name": "سورة نوح",
+                  "coded_name": "ﯴ",
+                  "translated_name": "{\"ar\":\"\\u0646\\u0648\\u062d\\r\\n\",\"en\":\"Nooh \",\"bn\":\"\\u09a8\\u09c2\\u09b9\",\"bs\":\"Nuh\",\"zh\":\"\\u52aa\\u54c8\\u7ae0\\r\\n\",\"de\":\"N\\u016bh\\r\\n\",\"es\":\"No\\u00e9\\r\\n\",\"fa\":\"\\u0646\\u0648\\u062d\",\"fr\":\"No\\u00e9\",\"ha\":\"Nouh\",\"id\":\"Surah Nuh\\u00a0(Nabi Nuh a.s.)\",\"ml\":\"\\u0d28\\u0d42\\u0d39\\u0d4d\",\"pt\":\"No\\u00e9\",\"ru\":\"\\u041d\\u0443x\\r\\n\",\"sw\":\"Nouh\",\"tg\":\"\\u041d\\u0423\\u04b2\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e19\\u0e39\\u0e2b\\u0e3a\",\"tl\":\"Si Propeta Noah\",\"tr\":\"Nuh Suresi\\r\\n\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u0646\\u06c7\\u06be\",\"ur\":\"\\u0646\\u0648\\u062d\\n\"}",
+                  "number_of_ayahs": 28,
+                  "revelation_type": "meccan",
+                  "first_page": 570,
+                  "last_page": 571,
+                  "first_juz": 29
+                },
+                "juz": 29,
+                "hizb": 228,
+                "page_number": 571,
+                "marker": "ﮠ"
+              },
+              "text": "قَالَ نُوحٞ رَّبِّ إِنَّهُمۡ عَصَوۡنِي وَٱتَّبَعُواْ مَن لَّمۡ يَزِدۡهُ مَالُهُۥ وَوَلَدُهُۥٓ إِلَّا خَسَارٗا  <span>ﰔ</span>  ",
+              "ayah_ids": [
+                5440
+              ],
+              "ayah_to_number": null
+            },
+            {
+              "info": {
+                "id": 6069,
+                "number": 11,
+                "text": "﻿وَمَا يُغْنِي عَنْهُ مَالُهُ إِذَا تَرَدَّىٰ",
+                "font": "page_596",
+                "surah_id": 92,
+                "surah": {
+                  "id": 92,
+                  "name": "سورة الليل",
+                  "coded_name": "ﰉ",
+                  "translated_name": "{\"ar\":\"\\u0627\\u0644\\u0644\\u064a\\u0644\\r\\n\",\"en\":\"Al-Lail \",\"bn\":\"\\u0986\\u09b2-\\u09b2\\u09be\\u0987\\u09b2\",\"bs\":\"El-Lejl\",\"zh\":\"\\u9ed1\\u591c\\u7ae0\\r\\n\",\"de\":\"Al-Lail - Die Nacht\\r\\n\",\"es\":\"La Noche\\r\\n\",\"fa\":\"\\u0644\\u06cc\\u0644\",\"fr\":\"La nuit\",\"ha\":\"Al-Lail\",\"id\":\"Surah Al-Lail\\u00a0(Malam)\",\"ml\":\"\\u0d32\\u0d48\\u0d32\\u0d4d\",\"pt\":\"A Noite\",\"ru\":\"\\u041d\\u043e\\u0447\\u044c(\\u0410\\u043b-\\u041b\\u044f\\u044b\\u043b)\\r\\n\",\"sw\":\"Al-Lail\",\"tg\":\"\\u041b\\u0410\\u0419\\u041b\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e31\\u0e25-\\u0e25\\u0e31\\u0e22\\u0e25\\u0e4c\",\"tl\":\"Ang Gabi\",\"tr\":\"Leyl Suresi\\r\\n\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u0644\\u06d5\\u064a\\u0644\",\"ur\":\"\\u0644\\u06cc\\u0644\\n\"}",
+                  "number_of_ayahs": 21,
+                  "revelation_type": "meccan",
+                  "first_page": 595,
+                  "last_page": 596,
+                  "first_juz": 30
+                },
+                "juz": 30,
+                "hizb": 238,
+                "page_number": 596,
+                "marker": "ﭚ"
+              },
+              "text": "وَمَا يُغۡنِي عَنۡهُ مَالُهُۥٓ إِذَا تَرَدَّىٰٓ  <span>ﰊ</span>  ",
+              "ayah_ids": [
+                6069
+              ],
+              "ayah_to_number": null
+            },
+            {
+              "info": {
+                "id": 6218,
+                "number": 2,
+                "text": "﻿مَا أَغْنَىٰ عَنْهُ مَالُهُ وَمَا كَسَبَ",
+                "font": "page_603",
+                "surah_id": 111,
+                "surah": {
+                  "id": 111,
+                  "name": "سورة المسد",
+                  "coded_name": "ﰜ",
+                  "translated_name": "{\"ar\":\"\\u0627\\u0644\\u0645\\u0633\\u062f\\r\\n\",\"en\":\"Al-Masad \",\"bn\":\"\\u0986\\u09b2-\\u09ae\\u09be\\u09b8\\u09be\\u09a6\",\"bs\":\"El-Mesed\",\"zh\":\"\\u706b\\u7130\\u7ae0\\r\\n\",\"de\":\"Al-Masad - Die Palmfasern\\r\\n\",\"es\":\"Las Fibras de Palmeras\\r\\n\",\"fa\":\"\\u0645\\u0633\\u062f\",\"fr\":\"Les fibres\",\"ha\":\"Al-Masad\",\"id\":\"Surah\\u00a0Al-Masad \\/\\u00a0Al-Lahab\\u00a0(Nyalaan Api)\",\"ml\":\"\\u0d2e\\u0d38\\u0d26\\u0d4d\",\"pt\":\"O Esparto\",\"ru\":\"\\u041f\\u0430\\u043b\\u044c\\u043c\\u043e\\u0432\\u044b\\u0435 \\u0412\\u043e\\u043b\\u043e\\u043a\\u043d\\u0430(\\u0410\\u043b-\\u041c\\u0430\\u0441\\u0430\\u0434)\\r\\n\",\"sw\":\"Al-Masad\",\"tg\":\"\\u041c\\u0410\\u0421\\u0410\\u0414\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e31\\u0e25-\\u0e21\\u0e30\\u0e2a\\u0e31\\u0e14\",\"tl\":\"Ang Apoy \\/ Ang Hibla\",\"tr\":\"Tebbet Suresi\\r\\n\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u0645\\u06d5\\u0633\\u06d5\\u062f\",\"ur\":\"\\u0645\\u0633\\u062f\\n\"}",
+                  "number_of_ayahs": 5,
+                  "revelation_type": "meccan",
+                  "first_page": 603,
+                  "last_page": 603,
+                  "first_juz": 30
+                },
+                "juz": 30,
+                "hizb": 240,
+                "page_number": 603,
+                "marker": "ﮔ"
+              },
+              "text": "مَآ أَغۡنَىٰ عَنۡهُ مَالُهُۥ وَمَا كَسَبَ  <span>ﰁ</span>  ",
+              "ayah_ids": [
+                6218
+              ],
+              "ayah_to_number": null
+            }
+          ],
+          "websites": []
+        }
+      ]
+    }
+  ]
+}

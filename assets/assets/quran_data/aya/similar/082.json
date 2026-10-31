@@ -1,0 +1,553 @@
+{
+  "license": {
+    "source": "https://quranpedia.net",
+    "version": "2026-09-26",
+    "en": "Ownership: the classical works in this data (Quran text, canonical qira'at, classical tafsirs) are the shared heritage of the Muslim ummah. The digitization, structuring, verification, diacritical correction (dabt), linking, and metadata are the work of the Quranpedia.net team, compiled and continuously corrected over years; translations and contemporary works remain the property of their authors and publishers. License: free to use inside apps, websites, and research tools with no attribution required (a link is appreciated). Republishing this data — in full or in part — as a downloadable database/dataset requires crediting Quranpedia.net with a link and stating this dump's version. Content is continuously corrected: keep copies current via /api/v1/changes?since=<version>. Provided as-is, without warranty.",
+    "ar": "الملكية: النصوص التراثية المضمَّنة في هذه البيانات — من نصِّ القرآن الكريم بقراءاته المتواترة، وكتبِ التفسير — تراثٌ مشترك للأمة لا يدَّعي أحدٌ ملكيته، أما الرقمنة والهيكلة والتدقيق وضبط النص وربط البيانات وبياناتها الوصفية فهي عمل فريق «الموسوعة القرآنية»، جُمعت وصُحِّحت على مدى سنوات، وما تزال تُصحَّح باستمرار؛ وتبقى الترجمات والأعمال المعاصرة ملكًا لأصحابها وناشريها. الرخصة: يجوز استعمال البيانات داخل التطبيقات والمواقع والأدوات البحثية مجانًا من غير اشتراط ذكر المصدر (وذكرُه محلُّ تقدير)، أما نشرها نفسِها — كاملةً أو بعضَها — في صورة قاعدة بيانات قابلة للتنزيل فيلزم فيه ذكرُ «الموسوعة القرآنية quranpedia.net» مصدرًا، مع رابط الموقع وبيان تاريخ هذه النسخة. والمحتوى يخضع لتصحيح مستمر؛ فمَن نشر نسخةً، فعليه تحديثها عبر ‎/v1/changes، والعهدة في نشر نصٍّ قديم على ناشره. وتُقدَّم البيانات كما هي من غير ضمان، والتثبُّت واجبُ المستفيد.",
+    "sources": [
+      {
+        "fields": "word morphology — part of speech, root, lemma, case, mood, verb form",
+        "source": "Quranic Arabic Corpus, version 0.4 — Dr. Kais Dukes (may Allah have mercy on him), University of Leeds",
+        "url": "https://corpus.quran.com",
+        "license": "GNU General Public License",
+        "requires": "Any use must clearly indicate the Quranic Arabic Corpus as the source, with a link to https://corpus.quran.com."
+      },
+      {
+        "fields": "i'rab syntax — dependency relations, heads, constituents",
+        "source": "The Quranic Treebank (NoorBayan), building on the Quranic Arabic Corpus of Dr. Kais Dukes (may Allah have mercy on him)",
+        "url": "https://github.com/NoorBayan/Quranic",
+        "license": "MIT",
+        "requires": "The MIT copyright notice must accompany redistribution."
+      }
+    ],
+    "contact": "quranpedia.help@gmail.com",
+    "usage_policy": "https://quranpedia.net/api-docs#usage-policy",
+    "resync": "https://quranpedia.net/api/v1/changes?since=2026-09-26"
+  },
+  "schema": "/v1/ayah/{surah}/{ayah}/similar",
+  "surah": 82,
+  "data": [
+    {
+      "surah": 82,
+      "ayah": 13,
+      "similar": [
+        {
+          "notes": "ضبط الآية ( إن الأبرار )",
+          "images": [],
+          "youtube": [
+            {
+              "id": 20771,
+              "name": null,
+              "file_name": "https://www.youtube.com/embed/AdqAyM3p3Cw?start=0",
+              "part": null,
+              "attachment_type_id": 4,
+              "attachmentable_id": 397,
+              "attachmentable_type": "App\\Models\\Note",
+              "downloads": 0,
+              "status": null,
+              "created_at": "2020-06-15T12:40:20.000000Z",
+              "updated_at": "2020-06-15T12:40:20.000000Z",
+              "deleted_at": null
+            }
+          ],
+          "ayahs": [
+            {
+              "info": {
+                "id": 5596,
+                "number": 5,
+                "text": "﻿إِنَّ الْأَبْرَارَ يَشْرَبُونَ مِنْ كَأْسٍ كَانَ مِزَاجُهَا كَافُورًا",
+                "font": "page_578",
+                "surah_id": 76,
+                "surah": {
+                  "id": 76,
+                  "name": "سورة الإنسان",
+                  "coded_name": "ﯹ",
+                  "translated_name": "{\"ar\":\"\\u0627\\u0644\\u0625\\u0646\\u0633\\u0627\\u0646\\r\\n\",\"en\":\"Al-Insan \",\"bn\":\"\\u0986\\u09b2-\\u0987\\u09a8\\u09b8\\u09be\\u09a8\",\"bs\":\"El-Insan\",\"zh\":\"\\u4eba\\u7ae0\\r\\n\",\"de\":\"Al-Ins\\u0101n - Der Mensch\\r\\n\",\"es\":\"El Hombre\\r\\n\",\"fa\":\"\\u0625\\u0646\\u0633\\u0627\\u0646\",\"fr\":\"L'homme\",\"ha\":\"Al-Insan\",\"id\":\"Surah Al-Insaan\\u00a0(Manusia)\",\"ml\":\"\\u0d07\\u0d28\\u0d4d\\u0d38\\u0d3e\\u0d28\\u0d4d\",\"pt\":\"O Homem\",\"ru\":\"\\u0427\\u0435\\u043b\\u043e\\u0432\\u0435\\u043a (\\u0410\\u043b-\\u0418\\u043d\\u0441\\u0430\\u043d)\\r\\n\",\"sw\":\"Al-Insan\",\"tg\":\"\\u0418\\u041d\\u0421\\u041e\\u041d\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e31\\u0e25-\\u0e2d\\u0e34\\u0e19\\u0e0b\\u0e32\\u0e19\",\"tl\":\"Ang Tao\",\"tr\":\"Insan Suresi\\r\\n\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u0626\\u0649\\u0646\\u0633\\u0627\\u0646\",\"ur\":\"\\u0627\\u0646\\u0633\\u0627\\u0646 (\\u062f\\u06c1\\u0631)\\n\"}",
+                  "number_of_ayahs": 31,
+                  "revelation_type": "medinan",
+                  "first_page": 578,
+                  "last_page": 580,
+                  "first_juz": 29
+                },
+                "juz": 29,
+                "hizb": 231,
+                "page_number": 578,
+                "marker": "ﰊ"
+              },
+              "text": "إِنَّ ٱلۡأَبۡرَارَ يَشۡرَبُونَ مِن كَأۡسٖ كَانَ مِزَاجُهَا كَافُورًا  <span>ﰄ</span>  ",
+              "ayah_ids": [
+                5596
+              ],
+              "ayah_to_number": null
+            },
+            {
+              "info": {
+                "id": 5870,
+                "number": 22,
+                "text": "﻿إِنَّ الْأَبْرَارَ لَفِي نَعِيمٍ",
+                "font": "page_588",
+                "surah_id": 83,
+                "surah": {
+                  "id": 83,
+                  "name": "سورة المطففين",
+                  "coded_name": "ﰀ",
+                  "translated_name": "{\"ar\":\"\\u0627\\u0644\\u0645\\u0637\\u0641\\u0651\\u0641\\u064a\\u0646\\r\\n\",\"en\":\"Al-Mutaffifin \",\"bn\":\"\\u0986\\u09b2-\\u09ae\\u09c1\\u09a4\\u09be\\u09ab\\u09ab\\u09bf\\u09ab\\u09c0\\u09a8\",\"bs\":\"El-Mutaffifin\",\"zh\":\"\\u79f0\\u91cf\\u4e0d\\u516c\\u7ae0\\r\\n\",\"de\":\"Al-Mutaffifin - Die das Ma\\u00df K\\u00fc\",\"es\":\"Los Defraudadores\\r\\n\",\"fa\":\"\\u0645\\u0637\\u0641\\u0641\\u06cc\\u0646\",\"fr\":\"Les fraudeurs\",\"ha\":\"Al-Mutaffifin\",\"id\":\"Surah Al-Mutaffifiin\\u00a0(Golongan yang Curang)\",\"ml\":\"\\u0d2e\\u0d41\\u0d24\\u0d2b\\u0d3f\\u0d2b\\u0d40\\u0d28\\u0d4d\",\"pt\":\"Os Fraudadores\",\"ru\":\"\\u041e\\u0431\\u0432\\u0435\\u0448\\u0438\\u0432\\u0430\\u044e\\u0449\\u0438\\u0435(\\u0410\\u043b-\\u041c\\u0443\\u0442\\u0430\\u0444\\u0444\\u0438\\u0444\\u0438\\u043d)\\r\\n\",\"sw\":\"Al-Mutaffifin\",\"tg\":\"\\u041c\\u0423\\u0422\\u0410\\u0424\\u0424\\u0418\\u0424\\u0418\\u041d\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e31\\u0e25-\\u0e21\\u0e38\\u0e0f\\u0e47\\u0e2d\\u0e1f\\u0e1f\\u0e34\\u0e1f\\u0e35\\u0e19\",\"tl\":\"Ang mga Mandaraya\",\"tr\":\"M\\u00fcteffifin Suresi\\r\\n\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u0645\\u06c7\\u062a\\u06d5\\u0641\\u0641\\u0649\\u0641\\u0649\\u0646\",\"ur\":\"\\u0645\\u0637\\u0641\\u0651\\u0641\\u06cc\\u0646\\n\"}",
+                  "number_of_ayahs": 36,
+                  "revelation_type": "meccan",
+                  "first_page": 587,
+                  "last_page": 589,
+                  "first_juz": 30
+                },
+                "juz": 30,
+                "hizb": 235,
+                "page_number": 588,
+                "marker": "ﯘ"
+              },
+              "text": "إِنَّ ٱلۡأَبۡرَارَ لَفِي نَعِيمٍ  <span>ﰕ</span>  ",
+              "ayah_ids": [
+                5870
+              ],
+              "ayah_to_number": null
+            },
+            {
+              "info": {
+                "id": 5842,
+                "number": 13,
+                "text": "﻿إِنَّ الْأَبْرَارَ لَفِي نَعِيمٍ",
+                "font": "page_587",
+                "surah_id": 82,
+                "surah": {
+                  "id": 82,
+                  "name": "سورة الإنفطار",
+                  "coded_name": "ﯿ",
+                  "translated_name": "{\"ar\":\"\\u0627\\u0644\\u0625\\u0646\\u0641\\u0637\\u0627\\u0631\\r\\n\",\"en\":\"Al-Infitar \",\"bn\":\"\\u0986\\u09b2-\\u0987\\u09a8\\u09ab\\u09bf\\u09a4\\u09be\\u09b0\",\"bs\":\"El-Infitar\",\"zh\":\"\\u7834\\u88c2\\u7ae0\\r\\n\",\"de\":\"Al-Infit\\u0101r - Das Zerbrechen\\r\\n\",\"es\":\"La Hendidura\\r\\n\",\"fa\":\"\\u0627\\u0646\\u0641\\u0637\\u0627\\u0631\",\"fr\":\"La rupture\",\"ha\":\"Al-Infitar\",\"id\":\"Surah Al-Infitar\\u00a0(Terpecah & Terbelah)\",\"ml\":\"\\u0d07\\u0d28\\u0d4d\\u0d2b\\u0d3f\\u0d24\\u0d4d\\u0d35\\u0d3e\\u0d30\\u0d4d\",\"pt\":\"O Fendimento\",\"ru\":\"\\u0420\\u0430\\u0441\\u043a\\u0430\\u043b\\u044b\\u0432\\u0430\\u043d\\u0438\\u0435(\\u0410\\u043b-\\u0418\\u043d\\u0444\\u0438\\u0442\\u0430\\u0440)\\r\\n\",\"sw\":\"Al-Infitar\",\"tg\":\"\\u0418\\u041d\\u0424\\u0418\\u0422\\u041e\\u0420\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e31\\u0e25-\\u0e2d\\u0e34\\u0e19\\u0e1f\\u0e34\\u0e0f\\u0e2d\\u0e23\",\"tl\":\"Ang Pagkabiyak\",\"tr\":\"Infitar Suresi\\r\\n\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u0626\\u0649\\u0646\\u0641\\u0649\\u062a\\u0627\\u0631\",\"ur\":\"\\u0627\\u0646\\u0641\\u0637\\u0627\\u0631\\n\"}",
+                  "number_of_ayahs": 19,
+                  "revelation_type": "meccan",
+                  "first_page": 587,
+                  "last_page": 587,
+                  "first_juz": 30
+                },
+                "juz": 30,
+                "hizb": 235,
+                "page_number": 587,
+                "marker": "ﮎ"
+              },
+              "text": "إِنَّ ٱلۡأَبۡرَارَ لَفِي نَعِيمٖ  <span>ﰌ</span>  ",
+              "ayah_ids": [
+                5842
+              ],
+              "ayah_to_number": null
+            }
+          ],
+          "websites": []
+        }
+      ]
+    },
+    {
+      "surah": 82,
+      "ayah": 15,
+      "similar": [
+        {
+          "notes": "( يوم الدين ) بالفتح",
+          "images": [],
+          "youtube": [
+            {
+              "id": 20900,
+              "name": null,
+              "file_name": "https://www.youtube.com/embed/qFgabq3Q4-8?start=0",
+              "part": null,
+              "attachment_type_id": 4,
+              "attachmentable_id": 525,
+              "attachmentable_type": "App\\Models\\Note",
+              "downloads": 0,
+              "status": null,
+              "created_at": "2020-06-15T12:41:50.000000Z",
+              "updated_at": "2020-06-15T12:41:50.000000Z",
+              "deleted_at": null
+            }
+          ],
+          "ayahs": [
+            {
+              "info": {
+                "id": 3014,
+                "number": 82,
+                "text": "﻿وَالَّذِي أَطْمَعُ أَنْ يَغْفِرَ لِي خَطِيئَتِي يَوْمَ الدِّينِ",
+                "font": "page_370",
+                "surah_id": 26,
+                "surah": {
+                  "id": 26,
+                  "name": "سورة الشعراء",
+                  "coded_name": "ﮦ",
+                  "translated_name": "{\"ar\":\"\\u0627\\u0644\\u0634\\u0639\\u0631\\u0627\\u0621\\r\\n\",\"en\":\"Ash-Shu'ara' \",\"bn\":\"\\u0986\\u09b6-\\u09b6\\u09c1\\u2018\\u0986\\u09b0\\u09be\",\"bs\":\"E\\u0161-\\u0160u'ara\",\"zh\":\"\\u4f17\\u8bd7\\u4eba\\u7ae0\\r\\n\",\"de\":\"A\\u0161-\\u0160u'ar\\u0101 - Die Dichter\",\"es\":\"Los Poetas\\r\\n\",\"fa\":\"\\u0634\\u0639\\u0631\\u0627\\u0621\",\"fr\":\"Les po\\u00e8tes\",\"ha\":\"As-Shu'ara\",\"id\":\"Surah Asy-Syu\\u2019araa\\u00a0(Para Penyair)\",\"ml\":\"\\u0d36\\u0d41\\u0d05\\u0d31\\u0d3e\",\"pt\":\"Os Poetas\",\"ru\":\"\\u041f\\u043e\\u044d\\u0442\\u044b(\\u0410\\u0448-\\u0448\\u0443\\u0430\\u0440\\u0430)\\r\\n\",\"sw\":\"As-Shu'ara\",\"tg\":\"\\u0428\\u0423\\u042a\\u0410\\u0420\\u041e\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e31\\u0e0a-\\u0e0a\\u0e38\\u0e2d\\u0e30\\u0e23\\u0e2d\\u0e2d\\u0e4c\",\"tl\":\"Ang mga Makata\",\"tr\":\"\\u015euara  Suresi\\r\\n\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u0634\\u06c7\\u0626\\u06d5\\u0631\\u0627\",\"ur\":\"\\u0634\\u0639\\u0631\\u0627\\u0621\\n\"}",
+                  "number_of_ayahs": 227,
+                  "revelation_type": "meccan",
+                  "first_page": 367,
+                  "last_page": 376,
+                  "first_juz": 19
+                },
+                "juz": 19,
+                "hizb": 148,
+                "page_number": 370,
+                "marker": "ﰂ"
+              },
+              "text": "وَٱلَّذِيٓ أَطۡمَعُ أَن يَغۡفِرَ لِي خَطِيٓـَٔتِي يَوۡمَ ٱلدِّينِ  <span>ﱑ</span>  ",
+              "ayah_ids": [
+                3014
+              ],
+              "ayah_to_number": null
+            },
+            {
+              "info": {
+                "id": 5035,
+                "number": 56,
+                "text": "﻿هَٰذَا نُزُلُهُمْ يَوْمَ الدِّينِ",
+                "font": "page_536",
+                "surah_id": 56,
+                "surah": {
+                  "id": 56,
+                  "name": "سورة الواقعة",
+                  "coded_name": "ﯥ",
+                  "translated_name": "{\"ar\":\"\\u0627\\u0644\\u0648\\u0627\\u0642\\u0639\\u0629\\r\\n\",\"en\":\"Al-Waqi'ah \",\"bn\":\"\\u0986\\u09b2-\\u0993\\u09df\\u09be\\u0995\\u09cd\\u09ac\\u09bf\\u2018\\u0986\\u09b9\",\"bs\":\"El-Vaki'a\",\"zh\":\"\\u5927\\u4e8b\\u7ae0\\r\\n\",\"de\":\"Al-W\\u0101qi'a - Die eintreffen wir\",\"es\":\"El Suceso\\r\\n\",\"fa\":\"\\u0648\\u0627\\u0642\\u0639\\u0647\",\"fr\":\"L'ev\\u00e9nement\",\"ha\":\"Al-Waki'ah\",\"id\":\"Surah Al-Waqi\\u2019ah\\u00a0(Peristiwa yang Tidak Dapat Dielakkan)\",\"ml\":\"\\u0d35\\u0d3e\\u0d16\\u0d3f\\u0d05\",\"pt\":\"O Evento Inevit\\u00e1vel\",\"ru\":\"\\u041f\\u0430\\u0434\\u0430\\u044e\\u0449\\u0435\\u0435(\\u0410\\u043b-\\u0443\\u0430\\u043a\\u0438\\u0430)\\r\\n\",\"sw\":\"Al-Waki'ah\",\"tg\":\"\\u0412\\u041e\\u049a\\u0418\\u0410\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e31\\u0e25-\\u0e27\\u0e32\\u0e01\\u0e34\\u0e2d\\u0e30\\u0e2e\\u0e3a\",\"tl\":\"Ang Pangyayari\",\"tr\":\"Vakia Suresi\\r\\n\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u06cb\\u0627\\u0642\\u0649\\u0626\\u06d5\",\"ur\":\"\\u0648\\u0627\\u0642\\u0639\\u06c1\\n\"}",
+                  "number_of_ayahs": 96,
+                  "revelation_type": "meccan",
+                  "first_page": 534,
+                  "last_page": 537,
+                  "first_juz": 27
+                },
+                "juz": 27,
+                "hizb": 214,
+                "page_number": 536,
+                "marker": "ﭮ"
+              },
+              "text": "هَٰذَا نُزُلُهُمۡ يَوۡمَ ٱلدِّينِ  <span>ﰷ</span>  ",
+              "ayah_ids": [
+                5035
+              ],
+              "ayah_to_number": null
+            },
+            {
+              "info": {
+                "id": 5844,
+                "number": 15,
+                "text": "﻿يَصْلَوْنَهَا يَوْمَ الدِّينِ",
+                "font": "page_587",
+                "surah_id": 82,
+                "surah": {
+                  "id": 82,
+                  "name": "سورة الإنفطار",
+                  "coded_name": "ﯿ",
+                  "translated_name": "{\"ar\":\"\\u0627\\u0644\\u0625\\u0646\\u0641\\u0637\\u0627\\u0631\\r\\n\",\"en\":\"Al-Infitar \",\"bn\":\"\\u0986\\u09b2-\\u0987\\u09a8\\u09ab\\u09bf\\u09a4\\u09be\\u09b0\",\"bs\":\"El-Infitar\",\"zh\":\"\\u7834\\u88c2\\u7ae0\\r\\n\",\"de\":\"Al-Infit\\u0101r - Das Zerbrechen\\r\\n\",\"es\":\"La Hendidura\\r\\n\",\"fa\":\"\\u0627\\u0646\\u0641\\u0637\\u0627\\u0631\",\"fr\":\"La rupture\",\"ha\":\"Al-Infitar\",\"id\":\"Surah Al-Infitar\\u00a0(Terpecah & Terbelah)\",\"ml\":\"\\u0d07\\u0d28\\u0d4d\\u0d2b\\u0d3f\\u0d24\\u0d4d\\u0d35\\u0d3e\\u0d30\\u0d4d\",\"pt\":\"O Fendimento\",\"ru\":\"\\u0420\\u0430\\u0441\\u043a\\u0430\\u043b\\u044b\\u0432\\u0430\\u043d\\u0438\\u0435(\\u0410\\u043b-\\u0418\\u043d\\u0444\\u0438\\u0442\\u0430\\u0440)\\r\\n\",\"sw\":\"Al-Infitar\",\"tg\":\"\\u0418\\u041d\\u0424\\u0418\\u0422\\u041e\\u0420\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e31\\u0e25-\\u0e2d\\u0e34\\u0e19\\u0e1f\\u0e34\\u0e0f\\u0e2d\\u0e23\",\"tl\":\"Ang Pagkabiyak\",\"tr\":\"Infitar Suresi\\r\\n\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u0626\\u0649\\u0646\\u0641\\u0649\\u062a\\u0627\\u0631\",\"ur\":\"\\u0627\\u0646\\u0641\\u0637\\u0627\\u0631\\n\"}",
+                  "number_of_ayahs": 19,
+                  "revelation_type": "meccan",
+                  "first_page": 587,
+                  "last_page": 587,
+                  "first_juz": 30
+                },
+                "juz": 30,
+                "hizb": 235,
+                "page_number": 587,
+                "marker": "ﮗ"
+              },
+              "text": "يَصۡلَوۡنَهَا يَوۡمَ ٱلدِّينِ  <span>ﰎ</span>  ",
+              "ayah_ids": [
+                5844
+              ],
+              "ayah_to_number": null
+            }
+          ],
+          "websites": []
+        }
+      ]
+    },
+    {
+      "surah": 82,
+      "ayah": 17,
+      "similar": [
+        {
+          "notes": "( يوم الدين ) بالرفع",
+          "images": [],
+          "youtube": [
+            {
+              "id": 20899,
+              "name": null,
+              "file_name": "https://www.youtube.com/embed/G-sr1OFOOpk?start=0",
+              "part": null,
+              "attachment_type_id": 4,
+              "attachmentable_id": 524,
+              "attachmentable_type": "App\\Models\\Note",
+              "downloads": 0,
+              "status": null,
+              "created_at": "2020-06-15T12:41:50.000000Z",
+              "updated_at": "2020-06-15T12:41:50.000000Z",
+              "deleted_at": null
+            }
+          ],
+          "ayahs": [
+            {
+              "info": {
+                "id": 3808,
+                "number": 20,
+                "text": "﻿وَقَالُوا يَا وَيْلَنَا هَٰذَا يَوْمُ الدِّينِ",
+                "font": "page_446",
+                "surah_id": 37,
+                "surah": {
+                  "id": 37,
+                  "name": "سورة الصافات",
+                  "coded_name": "ﮱ",
+                  "translated_name": "{\"ar\":\"\\u0627\\u0644\\u0635\\u0627\\u0641\\u0627\\u062a\\r\\n\",\"en\":\"As-Saffat \",\"bn\":\"\\u0986\\u09b8-\\u09b8\\u09be\\u09ab\\u09cd\\u200c\\u09ab\\u09be\\u09a4\",\"bs\":\"Es-Saffat\",\"zh\":\"\\u5217\\u73ed\\u8005\\u7ae0\\r\\n\",\"de\":\"As-S\\u0101ff\\u0101t - Die Sich Reihenden\",\"es\":\"Los Ordenados en Filas\\r\\n\",\"fa\":\"\\u0635\\u0627\\u0641\\u0627\\u062a\",\"fr\":\"Les rang\\u00e9s\",\"ha\":\"As-Saffat\",\"id\":\"Surah As-Saaffat\\u00a0(Yang Teratur Berbaris)\",\"ml\":\"\\u0d38\\u0d4d\\u0d35\\u0d3e\\u0d2b\\u0d3e\\u0d24\\u0d4d\\u0d24\\u0d4d\",\"pt\":\"Os Enfileirados \",\"ru\":\"\\u0421\\u0442\\u043e\\u044f\\u0449\\u0438\\u0435 \\u0412 \\u0420\\u044f\\u0434 (\\u0410\\u0441-\\u0421\\u0430\\u0430\\u0444\\u0444\\u0430\\u0442)\\r\\n\",\"sw\":\"As-Saffat\",\"tg\":\"\\u0421\\u041e\\u0424\\u0424\\u041e\\u0422\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e31\\u0e28-\\u0e28\\u0e2d\\u0e1f\\u0e1f\\u0e32\\u0e15\",\"tl\":\"Ang mga Inihanay sa mga Antas\",\"tr\":\"Saffet  Suresi\\r\\n\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u0633\\u0627\\u0641\\u0641\\u0627\\u062a\",\"ur\":\"\\u0635\\u0627\\u0641\\u0627\\u062a\\n\"}",
+                  "number_of_ayahs": 182,
+                  "revelation_type": "meccan",
+                  "first_page": 446,
+                  "last_page": 452,
+                  "first_juz": 23
+                },
+                "juz": 23,
+                "hizb": 178,
+                "page_number": 446,
+                "marker": "ﯬ"
+              },
+              "text": "وَقَالُواْ يَٰوَيۡلَنَا هَٰذَا يَوۡمُ ٱلدِّينِ  <span>ﰓ</span>  ",
+              "ayah_ids": [
+                3808
+              ],
+              "ayah_to_number": null
+            },
+            {
+              "info": {
+                "id": 4687,
+                "number": 12,
+                "text": "﻿يَسْأَلُونَ أَيَّانَ يَوْمُ الدِّينِ",
+                "font": "page_521",
+                "surah_id": 51,
+                "surah": {
+                  "id": 51,
+                  "name": "سورة الذاريات",
+                  "coded_name": "ﯠ",
+                  "translated_name": "{\"ar\":\"\\u0627\\u0644\\u0630\\u0627\\u0631\\u064a\\u0627\\u062a\\r\\n\",\"en\":\"Az-Zariyat \",\"bn\":\"\\u0986\\u09af-\\u09af\\u09be\\u09b0\\u09bf\\u09df\\u09be\\u09a4\",\"bs\":\"Ez-Zarijat\",\"zh\":\"\\u64ad\\u79cd\\u8005\\u7ae0\\r\\n\",\"de\":\"AD-D\\u0101riy\\u0101t - Die Zerstreuenden\",\"es\":\"Los Vientos\\r\\n\",\"fa\":\"\\u0630\\u0627\\u0631\\u06cc\\u0627\\u062a\",\"fr\":\"Qui \\u00e9parpillent\",\"ha\":\"Az-Zariyat\",\"id\":\"Surah Adz-Dzariyaat\\u00a0(Angin yang Menerbangkan)\",\"ml\":\"\\u0d26\\u0d4d\\u0d26\\u0d3e\\u0d30\\u0d3f\\u0d2f\\u0d3e\\u0d24\\u0d4d\\u0d24\\u0d4d\",\"pt\":\"Os Ventos Disseminadores\",\"ru\":\"\\u0420\\u0430\\u0441\\u0441\\u0435\\u0438\\u0432\\u0430\\u044e\\u0449\\u0438\\u0435(\\u0410\\u0437-\\u0417\\u0430\\u0440\\u0438\\u044f\\u0442)\\r\\n\",\"sw\":\"Az-Zariyat\",\"tg\":\"\\u0417\\u041e\\u0420\\u0418\\u0401\\u0422\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e31\\u0e0b-\\u0e0b\\u0e32\\u0e23\\u0e34\\u0e22\\u0e32\\u0e15\",\"tl\":\"Ang mga Hanging Nagkakalat\",\"tr\":\"Zariyat Suresi\\r\\n\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u0632\\u0627\\u0631\\u0649\\u064a\\u0627\\u062a\",\"ur\":\"\\u0630\\u0627\\u0631\\u06cc\\u0627\\u062a\\n\"}",
+                  "number_of_ayahs": 60,
+                  "revelation_type": "meccan",
+                  "first_page": 520,
+                  "last_page": 523,
+                  "first_juz": 26
+                },
+                "juz": 26,
+                "hizb": 208,
+                "page_number": 521,
+                "marker": "ﭬ"
+              },
+              "text": "يَسۡـَٔلُونَ أَيَّانَ يَوۡمُ ٱلدِّينِ  <span>ﰋ</span>  ",
+              "ayah_ids": [
+                4687
+              ],
+              "ayah_to_number": null
+            },
+            {
+              "info": {
+                "id": 5846,
+                "number": 17,
+                "text": "﻿وَمَا أَدْرَاكَ مَا يَوْمُ الدِّينِ",
+                "font": "page_587",
+                "surah_id": 82,
+                "surah": {
+                  "id": 82,
+                  "name": "سورة الإنفطار",
+                  "coded_name": "ﯿ",
+                  "translated_name": "{\"ar\":\"\\u0627\\u0644\\u0625\\u0646\\u0641\\u0637\\u0627\\u0631\\r\\n\",\"en\":\"Al-Infitar \",\"bn\":\"\\u0986\\u09b2-\\u0987\\u09a8\\u09ab\\u09bf\\u09a4\\u09be\\u09b0\",\"bs\":\"El-Infitar\",\"zh\":\"\\u7834\\u88c2\\u7ae0\\r\\n\",\"de\":\"Al-Infit\\u0101r - Das Zerbrechen\\r\\n\",\"es\":\"La Hendidura\\r\\n\",\"fa\":\"\\u0627\\u0646\\u0641\\u0637\\u0627\\u0631\",\"fr\":\"La rupture\",\"ha\":\"Al-Infitar\",\"id\":\"Surah Al-Infitar\\u00a0(Terpecah & Terbelah)\",\"ml\":\"\\u0d07\\u0d28\\u0d4d\\u0d2b\\u0d3f\\u0d24\\u0d4d\\u0d35\\u0d3e\\u0d30\\u0d4d\",\"pt\":\"O Fendimento\",\"ru\":\"\\u0420\\u0430\\u0441\\u043a\\u0430\\u043b\\u044b\\u0432\\u0430\\u043d\\u0438\\u0435(\\u0410\\u043b-\\u0418\\u043d\\u0444\\u0438\\u0442\\u0430\\u0440)\\r\\n\",\"sw\":\"Al-Infitar\",\"tg\":\"\\u0418\\u041d\\u0424\\u0418\\u0422\\u041e\\u0420\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e31\\u0e25-\\u0e2d\\u0e34\\u0e19\\u0e1f\\u0e34\\u0e0f\\u0e2d\\u0e23\",\"tl\":\"Ang Pagkabiyak\",\"tr\":\"Infitar Suresi\\r\\n\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u0626\\u0649\\u0646\\u0641\\u0649\\u062a\\u0627\\u0631\",\"ur\":\"\\u0627\\u0646\\u0641\\u0637\\u0627\\u0631\\n\"}",
+                  "number_of_ayahs": 19,
+                  "revelation_type": "meccan",
+                  "first_page": 587,
+                  "last_page": 587,
+                  "first_juz": 30
+                },
+                "juz": 30,
+                "hizb": 235,
+                "page_number": 587,
+                "marker": "ﮢ"
+              },
+              "text": "وَمَآ أَدۡرَىٰكَ مَا يَوۡمُ ٱلدِّينِ  <span>ﰐ</span>  ",
+              "ayah_ids": [
+                5846
+              ],
+              "ayah_to_number": null
+            },
+            {
+              "info": {
+                "id": 5847,
+                "number": 18,
+                "text": "﻿ثُمَّ مَا أَدْرَاكَ مَا يَوْمُ الدِّينِ",
+                "font": "page_587",
+                "surah_id": 82,
+                "surah": {
+                  "id": 82,
+                  "name": "سورة الإنفطار",
+                  "coded_name": "ﯿ",
+                  "translated_name": "{\"ar\":\"\\u0627\\u0644\\u0625\\u0646\\u0641\\u0637\\u0627\\u0631\\r\\n\",\"en\":\"Al-Infitar \",\"bn\":\"\\u0986\\u09b2-\\u0987\\u09a8\\u09ab\\u09bf\\u09a4\\u09be\\u09b0\",\"bs\":\"El-Infitar\",\"zh\":\"\\u7834\\u88c2\\u7ae0\\r\\n\",\"de\":\"Al-Infit\\u0101r - Das Zerbrechen\\r\\n\",\"es\":\"La Hendidura\\r\\n\",\"fa\":\"\\u0627\\u0646\\u0641\\u0637\\u0627\\u0631\",\"fr\":\"La rupture\",\"ha\":\"Al-Infitar\",\"id\":\"Surah Al-Infitar\\u00a0(Terpecah & Terbelah)\",\"ml\":\"\\u0d07\\u0d28\\u0d4d\\u0d2b\\u0d3f\\u0d24\\u0d4d\\u0d35\\u0d3e\\u0d30\\u0d4d\",\"pt\":\"O Fendimento\",\"ru\":\"\\u0420\\u0430\\u0441\\u043a\\u0430\\u043b\\u044b\\u0432\\u0430\\u043d\\u0438\\u0435(\\u0410\\u043b-\\u0418\\u043d\\u0444\\u0438\\u0442\\u0430\\u0440)\\r\\n\",\"sw\":\"Al-Infitar\",\"tg\":\"\\u0418\\u041d\\u0424\\u0418\\u0422\\u041e\\u0420\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e31\\u0e25-\\u0e2d\\u0e34\\u0e19\\u0e1f\\u0e34\\u0e0f\\u0e2d\\u0e23\",\"tl\":\"Ang Pagkabiyak\",\"tr\":\"Infitar Suresi\\r\\n\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u0626\\u0649\\u0646\\u0641\\u0649\\u062a\\u0627\\u0631\",\"ur\":\"\\u0627\\u0646\\u0641\\u0637\\u0627\\u0631\\n\"}",
+                  "number_of_ayahs": 19,
+                  "revelation_type": "meccan",
+                  "first_page": 587,
+                  "last_page": 587,
+                  "first_juz": 30
+                },
+                "juz": 30,
+                "hizb": 235,
+                "page_number": 587,
+                "marker": "ﮩ"
+              },
+              "text": "ثُمَّ مَآ أَدۡرَىٰكَ مَا يَوۡمُ ٱلدِّينِ  <span>ﰑ</span>  ",
+              "ayah_ids": [
+                5847
+              ],
+              "ayah_to_number": null
+            }
+          ],
+          "websites": []
+        }
+      ]
+    },
+    {
+      "surah": 82,
+      "ayah": 18,
+      "similar": [
+        {
+          "notes": "( يوم الدين ) بالرفع",
+          "images": [],
+          "youtube": [
+            {
+              "id": 20899,
+              "name": null,
+              "file_name": "https://www.youtube.com/embed/G-sr1OFOOpk?start=0",
+              "part": null,
+              "attachment_type_id": 4,
+              "attachmentable_id": 524,
+              "attachmentable_type": "App\\Models\\Note",
+              "downloads": 0,
+              "status": null,
+              "created_at": "2020-06-15T12:41:50.000000Z",
+              "updated_at": "2020-06-15T12:41:50.000000Z",
+              "deleted_at": null
+            }
+          ],
+          "ayahs": [
+            {
+              "info": {
+                "id": 3808,
+                "number": 20,
+                "text": "﻿وَقَالُوا يَا وَيْلَنَا هَٰذَا يَوْمُ الدِّينِ",
+                "font": "page_446",
+                "surah_id": 37,
+                "surah": {
+                  "id": 37,
+                  "name": "سورة الصافات",
+                  "coded_name": "ﮱ",
+                  "translated_name": "{\"ar\":\"\\u0627\\u0644\\u0635\\u0627\\u0641\\u0627\\u062a\\r\\n\",\"en\":\"As-Saffat \",\"bn\":\"\\u0986\\u09b8-\\u09b8\\u09be\\u09ab\\u09cd\\u200c\\u09ab\\u09be\\u09a4\",\"bs\":\"Es-Saffat\",\"zh\":\"\\u5217\\u73ed\\u8005\\u7ae0\\r\\n\",\"de\":\"As-S\\u0101ff\\u0101t - Die Sich Reihenden\",\"es\":\"Los Ordenados en Filas\\r\\n\",\"fa\":\"\\u0635\\u0627\\u0641\\u0627\\u062a\",\"fr\":\"Les rang\\u00e9s\",\"ha\":\"As-Saffat\",\"id\":\"Surah As-Saaffat\\u00a0(Yang Teratur Berbaris)\",\"ml\":\"\\u0d38\\u0d4d\\u0d35\\u0d3e\\u0d2b\\u0d3e\\u0d24\\u0d4d\\u0d24\\u0d4d\",\"pt\":\"Os Enfileirados \",\"ru\":\"\\u0421\\u0442\\u043e\\u044f\\u0449\\u0438\\u0435 \\u0412 \\u0420\\u044f\\u0434 (\\u0410\\u0441-\\u0421\\u0430\\u0430\\u0444\\u0444\\u0430\\u0442)\\r\\n\",\"sw\":\"As-Saffat\",\"tg\":\"\\u0421\\u041e\\u0424\\u0424\\u041e\\u0422\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e31\\u0e28-\\u0e28\\u0e2d\\u0e1f\\u0e1f\\u0e32\\u0e15\",\"tl\":\"Ang mga Inihanay sa mga Antas\",\"tr\":\"Saffet  Suresi\\r\\n\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u0633\\u0627\\u0641\\u0641\\u0627\\u062a\",\"ur\":\"\\u0635\\u0627\\u0641\\u0627\\u062a\\n\"}",
+                  "number_of_ayahs": 182,
+                  "revelation_type": "meccan",
+                  "first_page": 446,
+                  "last_page": 452,
+                  "first_juz": 23
+                },
+                "juz": 23,
+                "hizb": 178,
+                "page_number": 446,
+                "marker": "ﯬ"
+              },
+              "text": "وَقَالُواْ يَٰوَيۡلَنَا هَٰذَا يَوۡمُ ٱلدِّينِ  <span>ﰓ</span>  ",
+              "ayah_ids": [
+                3808
+              ],
+              "ayah_to_number": null
+            },
+            {
+              "info": {
+                "id": 4687,
+                "number": 12,
+                "text": "﻿يَسْأَلُونَ أَيَّانَ يَوْمُ الدِّينِ",
+                "font": "page_521",
+                "surah_id": 51,
+                "surah": {
+                  "id": 51,
+                  "name": "سورة الذاريات",
+                  "coded_name": "ﯠ",
+                  "translated_name": "{\"ar\":\"\\u0627\\u0644\\u0630\\u0627\\u0631\\u064a\\u0627\\u062a\\r\\n\",\"en\":\"Az-Zariyat \",\"bn\":\"\\u0986\\u09af-\\u09af\\u09be\\u09b0\\u09bf\\u09df\\u09be\\u09a4\",\"bs\":\"Ez-Zarijat\",\"zh\":\"\\u64ad\\u79cd\\u8005\\u7ae0\\r\\n\",\"de\":\"AD-D\\u0101riy\\u0101t - Die Zerstreuenden\",\"es\":\"Los Vientos\\r\\n\",\"fa\":\"\\u0630\\u0627\\u0631\\u06cc\\u0627\\u062a\",\"fr\":\"Qui \\u00e9parpillent\",\"ha\":\"Az-Zariyat\",\"id\":\"Surah Adz-Dzariyaat\\u00a0(Angin yang Menerbangkan)\",\"ml\":\"\\u0d26\\u0d4d\\u0d26\\u0d3e\\u0d30\\u0d3f\\u0d2f\\u0d3e\\u0d24\\u0d4d\\u0d24\\u0d4d\",\"pt\":\"Os Ventos Disseminadores\",\"ru\":\"\\u0420\\u0430\\u0441\\u0441\\u0435\\u0438\\u0432\\u0430\\u044e\\u0449\\u0438\\u0435(\\u0410\\u0437-\\u0417\\u0430\\u0440\\u0438\\u044f\\u0442)\\r\\n\",\"sw\":\"Az-Zariyat\",\"tg\":\"\\u0417\\u041e\\u0420\\u0418\\u0401\\u0422\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e31\\u0e0b-\\u0e0b\\u0e32\\u0e23\\u0e34\\u0e22\\u0e32\\u0e15\",\"tl\":\"Ang mga Hanging Nagkakalat\",\"tr\":\"Zariyat Suresi\\r\\n\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u0632\\u0627\\u0631\\u0649\\u064a\\u0627\\u062a\",\"ur\":\"\\u0630\\u0627\\u0631\\u06cc\\u0627\\u062a\\n\"}",
+                  "number_of_ayahs": 60,
+                  "revelation_type": "meccan",
+                  "first_page": 520,
+                  "last_page": 523,
+                  "first_juz": 26
+                },
+                "juz": 26,
+                "hizb": 208,
+                "page_number": 521,
+                "marker": "ﭬ"
+              },
+              "text": "يَسۡـَٔلُونَ أَيَّانَ يَوۡمُ ٱلدِّينِ  <span>ﰋ</span>  ",
+              "ayah_ids": [
+                4687
+              ],
+              "ayah_to_number": null
+            },
+            {
+              "info": {
+                "id": 5846,
+                "number": 17,
+                "text": "﻿وَمَا أَدْرَاكَ مَا يَوْمُ الدِّينِ",
+                "font": "page_587",
+                "surah_id": 82,
+                "surah": {
+                  "id": 82,
+                  "name": "سورة الإنفطار",
+                  "coded_name": "ﯿ",
+                  "translated_name": "{\"ar\":\"\\u0627\\u0644\\u0625\\u0646\\u0641\\u0637\\u0627\\u0631\\r\\n\",\"en\":\"Al-Infitar \",\"bn\":\"\\u0986\\u09b2-\\u0987\\u09a8\\u09ab\\u09bf\\u09a4\\u09be\\u09b0\",\"bs\":\"El-Infitar\",\"zh\":\"\\u7834\\u88c2\\u7ae0\\r\\n\",\"de\":\"Al-Infit\\u0101r - Das Zerbrechen\\r\\n\",\"es\":\"La Hendidura\\r\\n\",\"fa\":\"\\u0627\\u0646\\u0641\\u0637\\u0627\\u0631\",\"fr\":\"La rupture\",\"ha\":\"Al-Infitar\",\"id\":\"Surah Al-Infitar\\u00a0(Terpecah & Terbelah)\",\"ml\":\"\\u0d07\\u0d28\\u0d4d\\u0d2b\\u0d3f\\u0d24\\u0d4d\\u0d35\\u0d3e\\u0d30\\u0d4d\",\"pt\":\"O Fendimento\",\"ru\":\"\\u0420\\u0430\\u0441\\u043a\\u0430\\u043b\\u044b\\u0432\\u0430\\u043d\\u0438\\u0435(\\u0410\\u043b-\\u0418\\u043d\\u0444\\u0438\\u0442\\u0430\\u0440)\\r\\n\",\"sw\":\"Al-Infitar\",\"tg\":\"\\u0418\\u041d\\u0424\\u0418\\u0422\\u041e\\u0420\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e31\\u0e25-\\u0e2d\\u0e34\\u0e19\\u0e1f\\u0e34\\u0e0f\\u0e2d\\u0e23\",\"tl\":\"Ang Pagkabiyak\",\"tr\":\"Infitar Suresi\\r\\n\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u0626\\u0649\\u0646\\u0641\\u0649\\u062a\\u0627\\u0631\",\"ur\":\"\\u0627\\u0646\\u0641\\u0637\\u0627\\u0631\\n\"}",
+                  "number_of_ayahs": 19,
+                  "revelation_type": "meccan",
+                  "first_page": 587,
+                  "last_page": 587,
+                  "first_juz": 30
+                },
+                "juz": 30,
+                "hizb": 235,
+                "page_number": 587,
+                "marker": "ﮢ"
+              },
+              "text": "وَمَآ أَدۡرَىٰكَ مَا يَوۡمُ ٱلدِّينِ  <span>ﰐ</span>  ",
+              "ayah_ids": [
+                5846
+              ],
+              "ayah_to_number": null
+            },
+            {
+              "info": {
+                "id": 5847,
+                "number": 18,
+                "text": "﻿ثُمَّ مَا أَدْرَاكَ مَا يَوْمُ الدِّينِ",
+                "font": "page_587",
+                "surah_id": 82,
+                "surah": {
+                  "id": 82,
+                  "name": "سورة الإنفطار",
+                  "coded_name": "ﯿ",
+                  "translated_name": "{\"ar\":\"\\u0627\\u0644\\u0625\\u0646\\u0641\\u0637\\u0627\\u0631\\r\\n\",\"en\":\"Al-Infitar \",\"bn\":\"\\u0986\\u09b2-\\u0987\\u09a8\\u09ab\\u09bf\\u09a4\\u09be\\u09b0\",\"bs\":\"El-Infitar\",\"zh\":\"\\u7834\\u88c2\\u7ae0\\r\\n\",\"de\":\"Al-Infit\\u0101r - Das Zerbrechen\\r\\n\",\"es\":\"La Hendidura\\r\\n\",\"fa\":\"\\u0627\\u0646\\u0641\\u0637\\u0627\\u0631\",\"fr\":\"La rupture\",\"ha\":\"Al-Infitar\",\"id\":\"Surah Al-Infitar\\u00a0(Terpecah & Terbelah)\",\"ml\":\"\\u0d07\\u0d28\\u0d4d\\u0d2b\\u0d3f\\u0d24\\u0d4d\\u0d35\\u0d3e\\u0d30\\u0d4d\",\"pt\":\"O Fendimento\",\"ru\":\"\\u0420\\u0430\\u0441\\u043a\\u0430\\u043b\\u044b\\u0432\\u0430\\u043d\\u0438\\u0435(\\u0410\\u043b-\\u0418\\u043d\\u0444\\u0438\\u0442\\u0430\\u0440)\\r\\n\",\"sw\":\"Al-Infitar\",\"tg\":\"\\u0418\\u041d\\u0424\\u0418\\u0422\\u041e\\u0420\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e31\\u0e25-\\u0e2d\\u0e34\\u0e19\\u0e1f\\u0e34\\u0e0f\\u0e2d\\u0e23\",\"tl\":\"Ang Pagkabiyak\",\"tr\":\"Infitar Suresi\\r\\n\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u0626\\u0649\\u0646\\u0641\\u0649\\u062a\\u0627\\u0631\",\"ur\":\"\\u0627\\u0646\\u0641\\u0637\\u0627\\u0631\\n\"}",
+                  "number_of_ayahs": 19,
+                  "revelation_type": "meccan",
+                  "first_page": 587,
+                  "last_page": 587,
+                  "first_juz": 30
+                },
+                "juz": 30,
+                "hizb": 235,
+                "page_number": 587,
+                "marker": "ﮩ"
+              },
+              "text": "ثُمَّ مَآ أَدۡرَىٰكَ مَا يَوۡمُ ٱلدِّينِ  <span>ﰑ</span>  ",
+              "ayah_ids": [
+                5847
+              ],
+              "ayah_to_number": null
+            }
+          ],
+          "websites": []
+        }
+      ]
+    }
+  ]
+}

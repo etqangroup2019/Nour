@@ -1,0 +1,402 @@
+{
+  "license": {
+    "source": "https://quranpedia.net",
+    "version": "2026-09-26",
+    "en": "Ownership: the classical works in this data (Quran text, canonical qira'at, classical tafsirs) are the shared heritage of the Muslim ummah. The digitization, structuring, verification, diacritical correction (dabt), linking, and metadata are the work of the Quranpedia.net team, compiled and continuously corrected over years; translations and contemporary works remain the property of their authors and publishers. License: free to use inside apps, websites, and research tools with no attribution required (a link is appreciated). Republishing this data — in full or in part — as a downloadable database/dataset requires crediting Quranpedia.net with a link and stating this dump's version. Content is continuously corrected: keep copies current via /api/v1/changes?since=<version>. Provided as-is, without warranty.",
+    "ar": "الملكية: النصوص التراثية المضمَّنة في هذه البيانات — من نصِّ القرآن الكريم بقراءاته المتواترة، وكتبِ التفسير — تراثٌ مشترك للأمة لا يدَّعي أحدٌ ملكيته، أما الرقمنة والهيكلة والتدقيق وضبط النص وربط البيانات وبياناتها الوصفية فهي عمل فريق «الموسوعة القرآنية»، جُمعت وصُحِّحت على مدى سنوات، وما تزال تُصحَّح باستمرار؛ وتبقى الترجمات والأعمال المعاصرة ملكًا لأصحابها وناشريها. الرخصة: يجوز استعمال البيانات داخل التطبيقات والمواقع والأدوات البحثية مجانًا من غير اشتراط ذكر المصدر (وذكرُه محلُّ تقدير)، أما نشرها نفسِها — كاملةً أو بعضَها — في صورة قاعدة بيانات قابلة للتنزيل فيلزم فيه ذكرُ «الموسوعة القرآنية quranpedia.net» مصدرًا، مع رابط الموقع وبيان تاريخ هذه النسخة. والمحتوى يخضع لتصحيح مستمر؛ فمَن نشر نسخةً، فعليه تحديثها عبر ‎/v1/changes، والعهدة في نشر نصٍّ قديم على ناشره. وتُقدَّم البيانات كما هي من غير ضمان، والتثبُّت واجبُ المستفيد.",
+    "sources": [
+      {
+        "fields": "word morphology — part of speech, root, lemma, case, mood, verb form",
+        "source": "Quranic Arabic Corpus, version 0.4 — Dr. Kais Dukes (may Allah have mercy on him), University of Leeds",
+        "url": "https://corpus.quran.com",
+        "license": "GNU General Public License",
+        "requires": "Any use must clearly indicate the Quranic Arabic Corpus as the source, with a link to https://corpus.quran.com."
+      },
+      {
+        "fields": "i'rab syntax — dependency relations, heads, constituents",
+        "source": "The Quranic Treebank (NoorBayan), building on the Quranic Arabic Corpus of Dr. Kais Dukes (may Allah have mercy on him)",
+        "url": "https://github.com/NoorBayan/Quranic",
+        "license": "MIT",
+        "requires": "The MIT copyright notice must accompany redistribution."
+      }
+    ],
+    "contact": "quranpedia.help@gmail.com",
+    "usage_policy": "https://quranpedia.net/api-docs#usage-policy",
+    "resync": "https://quranpedia.net/api/v1/changes?since=2026-09-26"
+  },
+  "schema": "/v1/ayah/{surah}/{ayah}/similar",
+  "surah": 88,
+  "data": [
+    {
+      "surah": 88,
+      "ayah": 10,
+      "similar": [
+        {
+          "notes": "تشابه فى قوله تعالى ( فى جنة عالية )",
+          "images": [
+            {
+              "id": 20640,
+              "name": null,
+              "file_name": "attachments/images/ZcEAtal8PKsX2xOzbwkhGTjVOEBamW9D96fxu6AX.png",
+              "part": null,
+              "attachment_type_id": 3,
+              "attachmentable_id": 266,
+              "attachmentable_type": "App\\Models\\Note",
+              "downloads": 0,
+              "status": null,
+              "created_at": "2020-06-15T12:39:07.000000Z",
+              "updated_at": "2020-06-15T12:39:07.000000Z",
+              "deleted_at": null
+            }
+          ],
+          "youtube": [],
+          "ayahs": [
+            {
+              "info": {
+                "id": 5345,
+                "number": 22,
+                "text": "﻿فِي جَنَّةٍ عَالِيَةٍ",
+                "font": "page_567",
+                "surah_id": 69,
+                "surah": {
+                  "id": 69,
+                  "name": "سورة الحاقة",
+                  "coded_name": "ﯲ",
+                  "translated_name": "{\"ar\":\"\\u0627\\u0644\\u062d\\u0627\\u0642\\u0629\\r\\n\",\"en\":\"Al-Haqqah \",\"bn\":\"\\u0986\\u09b2-\\u09b9\\u09be\\u0995\\u09cd\\u0995\\u09be\\u09b9\\u09cd\",\"bs\":\"El-Hakka\",\"zh\":\"\\u771f\\u707e\\u7ae0\\r\\n\",\"de\":\"Al-H\\u0101qqa - Die f\\u00e4llig Werdende\",\"es\":\"La Verdad Inevitable\\r\\n\",\"fa\":\"\\u062d\\u0627\\u0642\\u0647\",\"fr\":\"Celle qui montre la v\\u00e9rit\\u00e9\",\"ha\":\"Al-Hakkah\",\"id\":\"Surah Al-Haaqqah\\u00a0(Keadaan Sebenar \\/ Hari Kiamat)\",\"ml\":\"\\u0d39\\u0d3e\\u0d16\",\"pt\":\"A Realidade\",\"ru\":\"\\u041d\\u0435\\u0438\\u0437\\u0431\\u0435\\u0436\\u043d\\u043e\\u0435 (\\u0410\\u043b-\\u0425\\u0430\\u0430\\u043a\\u043a\\u0430\\u0445)\\r\\n\",\"sw\":\"Al-Hakkah\",\"tg\":\"\\u04b2\\u041e\\u049a\\u049a\\u0410\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e31\\u0e25-\\u0e2b\\u0e4a\\u0e32\\u0e01\\u0e40\\u0e01\\u0e32\\u0e30\\u0e2e\\u0e3a\",\"tl\":\"Ang Tiyak na Mangyayari\",\"tr\":\"Hakka Suresi\\r\\n\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u06be\\u0627\\u0642\\u0642\\u06d5\",\"ur\":\"\\u062d\\u0627\\u0642\\u06c1\\n\"}",
+                  "number_of_ayahs": 52,
+                  "revelation_type": "meccan",
+                  "first_page": 566,
+                  "last_page": 568,
+                  "first_juz": 29
+                },
+                "juz": 29,
+                "hizb": 227,
+                "page_number": 567,
+                "marker": "ﮰ"
+              },
+              "text": "فِي جَنَّةٍ عَالِيَةٖ  <span>ﰕ</span>  ",
+              "ayah_ids": [
+                5345
+              ],
+              "ayah_to_number": null
+            },
+            {
+              "info": {
+                "id": 5977,
+                "number": 10,
+                "text": "﻿فِي جَنَّةٍ عَالِيَةٍ",
+                "font": "page_592",
+                "surah_id": 88,
+                "surah": {
+                  "id": 88,
+                  "name": "سورة الغاشية",
+                  "coded_name": "ﰅ",
+                  "translated_name": "{\"ar\":\"\\u0627\\u0644\\u063a\\u0627\\u0634\\u064a\\u0629\\r\\n\",\"en\":\"Al-Ghashiyah \",\"bn\":\"\\u0986\\u09b2-\\u0997\\u09be\\u09b6\\u09bf\\u09df\\u09be\\u09b9\\u09cd\",\"bs\":\"El-Ga\\u0161ije\",\"zh\":\"\\u5927\\u707e\\u7ae0\\r\\n\",\"de\":\"Al-\\u011e\\u0101\\u0161iya - Die \\u00dcberdeckende\\r\\n\",\"es\":\"El D\\u00eda Angustiante\\r\\n\",\"fa\":\"\\u063a\\u0627\\u0634\\u06cc\\u0647\",\"fr\":\"L'enveloppante\",\"ha\":\"Al-Ghashiyah\",\"id\":\"Surah Al-Ghaasyiah\\u00a0(Peristiwa Menggelisahkan\\/Hari Pembalasan)\",\"ml\":\"\\u0d17\\u0d3e\\u0d37\\u0d3f\\u0d2f\",\"pt\":\"O Evento Assolador\",\"ru\":\"\\u041f\\u043e\\u043a\\u0440\\u044b\\u0432\\u0430\\u044e\\u0449\\u0435\\u0435(\\u0410\\u043b-\\u0413\\u0430\\u0448\\u0438\\u044f)\\r\\n\",\"sw\":\"Al-Ghashiyah\",\"tg\":\"\\u0492\\u041e\\u0428\\u0418\\u042f\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e31\\u0e25-\\u0e06\\u0e2d\\u0e0a\\u0e34\\u0e22\\u0e30\\u0e2e\\u0e3a\",\"tl\":\"Ang Nakapananaig\",\"tr\":\"Ga\\u015fiye Suresi\\r\\n\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u063a\\u0627\\u0634\\u0649\\u064a\\u06d5\",\"ur\":\"\\u063a\\u0627\\u0634\\u06cc\\u06c1\\n\"}",
+                  "number_of_ayahs": 26,
+                  "revelation_type": "meccan",
+                  "first_page": 592,
+                  "last_page": 593,
+                  "first_juz": 30
+                },
+                "juz": 30,
+                "hizb": 237,
+                "page_number": 592,
+                "marker": "ﮪ"
+              },
+              "text": "فِي جَنَّةٍ عَالِيَةٖ  <span>ﰉ</span>  ",
+              "ayah_ids": [
+                5977
+              ],
+              "ayah_to_number": null
+            }
+          ],
+          "websites": []
+        },
+        {
+          "notes": "قل: من المواضع المتشابهة، الآية التي بعد (في جنة عالية) \nمن سورة الحاقة والغاشية:\nقال تعالى: (فِي جَنَّةٍ عَالِيَةٍ (23) قُطُوفُهَا دَانِيَةٌ) الحاقة: 23-22.\nمع قوله تعالى: (فِي جَنَّةٍ عَالِيَةٍ (10) لَّا تَسْمَعُ فِيهَا لَاغِيَةً) الغاشية:10-11.\nفاجمع الحرف الأول من (قطوفها)، والأول من (لا تسمع)، يخرج عندك (قل)، ولا شك أن هذا مما يعين على الضبط.",
+          "images": [
+            {
+              "id": 21155,
+              "name": null,
+              "file_name": "attachments/images/zRscnBxMYd7ph6NoFfbtfaeQ73LLn2a9Zyfepvfj.JPG",
+              "part": null,
+              "attachment_type_id": 3,
+              "attachmentable_id": 672,
+              "attachmentable_type": "App\\Models\\Note",
+              "downloads": 0,
+              "status": null,
+              "created_at": "2020-06-15T12:46:30.000000Z",
+              "updated_at": "2020-06-15T12:46:30.000000Z",
+              "deleted_at": null
+            }
+          ],
+          "youtube": [],
+          "ayahs": [
+            {
+              "info": {
+                "id": 5345,
+                "number": 22,
+                "text": "﻿فِي جَنَّةٍ عَالِيَةٍ",
+                "font": "page_567",
+                "surah_id": 69,
+                "surah": {
+                  "id": 69,
+                  "name": "سورة الحاقة",
+                  "coded_name": "ﯲ",
+                  "translated_name": "{\"ar\":\"\\u0627\\u0644\\u062d\\u0627\\u0642\\u0629\\r\\n\",\"en\":\"Al-Haqqah \",\"bn\":\"\\u0986\\u09b2-\\u09b9\\u09be\\u0995\\u09cd\\u0995\\u09be\\u09b9\\u09cd\",\"bs\":\"El-Hakka\",\"zh\":\"\\u771f\\u707e\\u7ae0\\r\\n\",\"de\":\"Al-H\\u0101qqa - Die f\\u00e4llig Werdende\",\"es\":\"La Verdad Inevitable\\r\\n\",\"fa\":\"\\u062d\\u0627\\u0642\\u0647\",\"fr\":\"Celle qui montre la v\\u00e9rit\\u00e9\",\"ha\":\"Al-Hakkah\",\"id\":\"Surah Al-Haaqqah\\u00a0(Keadaan Sebenar \\/ Hari Kiamat)\",\"ml\":\"\\u0d39\\u0d3e\\u0d16\",\"pt\":\"A Realidade\",\"ru\":\"\\u041d\\u0435\\u0438\\u0437\\u0431\\u0435\\u0436\\u043d\\u043e\\u0435 (\\u0410\\u043b-\\u0425\\u0430\\u0430\\u043a\\u043a\\u0430\\u0445)\\r\\n\",\"sw\":\"Al-Hakkah\",\"tg\":\"\\u04b2\\u041e\\u049a\\u049a\\u0410\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e31\\u0e25-\\u0e2b\\u0e4a\\u0e32\\u0e01\\u0e40\\u0e01\\u0e32\\u0e30\\u0e2e\\u0e3a\",\"tl\":\"Ang Tiyak na Mangyayari\",\"tr\":\"Hakka Suresi\\r\\n\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u06be\\u0627\\u0642\\u0642\\u06d5\",\"ur\":\"\\u062d\\u0627\\u0642\\u06c1\\n\"}",
+                  "number_of_ayahs": 52,
+                  "revelation_type": "meccan",
+                  "first_page": 566,
+                  "last_page": 568,
+                  "first_juz": 29
+                },
+                "juz": 29,
+                "hizb": 227,
+                "page_number": 567,
+                "marker": "ﮰ"
+              },
+              "text": "فِي جَنَّةٍ عَالِيَةٖ  <span>ﰕ</span>  ",
+              "ayah_ids": [
+                5345
+              ],
+              "ayah_to_number": null
+            },
+            {
+              "info": {
+                "id": 5346,
+                "number": 23,
+                "text": "﻿قُطُوفُهَا دَانِيَةٌ",
+                "font": "page_567",
+                "surah_id": 69,
+                "surah": {
+                  "id": 69,
+                  "name": "سورة الحاقة",
+                  "coded_name": "ﯲ",
+                  "translated_name": "{\"ar\":\"\\u0627\\u0644\\u062d\\u0627\\u0642\\u0629\\r\\n\",\"en\":\"Al-Haqqah \",\"bn\":\"\\u0986\\u09b2-\\u09b9\\u09be\\u0995\\u09cd\\u0995\\u09be\\u09b9\\u09cd\",\"bs\":\"El-Hakka\",\"zh\":\"\\u771f\\u707e\\u7ae0\\r\\n\",\"de\":\"Al-H\\u0101qqa - Die f\\u00e4llig Werdende\",\"es\":\"La Verdad Inevitable\\r\\n\",\"fa\":\"\\u062d\\u0627\\u0642\\u0647\",\"fr\":\"Celle qui montre la v\\u00e9rit\\u00e9\",\"ha\":\"Al-Hakkah\",\"id\":\"Surah Al-Haaqqah\\u00a0(Keadaan Sebenar \\/ Hari Kiamat)\",\"ml\":\"\\u0d39\\u0d3e\\u0d16\",\"pt\":\"A Realidade\",\"ru\":\"\\u041d\\u0435\\u0438\\u0437\\u0431\\u0435\\u0436\\u043d\\u043e\\u0435 (\\u0410\\u043b-\\u0425\\u0430\\u0430\\u043a\\u043a\\u0430\\u0445)\\r\\n\",\"sw\":\"Al-Hakkah\",\"tg\":\"\\u04b2\\u041e\\u049a\\u049a\\u0410\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e31\\u0e25-\\u0e2b\\u0e4a\\u0e32\\u0e01\\u0e40\\u0e01\\u0e32\\u0e30\\u0e2e\\u0e3a\",\"tl\":\"Ang Tiyak na Mangyayari\",\"tr\":\"Hakka Suresi\\r\\n\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u06be\\u0627\\u0642\\u0642\\u06d5\",\"ur\":\"\\u062d\\u0627\\u0642\\u06c1\\n\"}",
+                  "number_of_ayahs": 52,
+                  "revelation_type": "meccan",
+                  "first_page": 566,
+                  "last_page": 568,
+                  "first_juz": 29
+                },
+                "juz": 29,
+                "hizb": 227,
+                "page_number": 567,
+                "marker": "ﯔ"
+              },
+              "text": "قُطُوفُهَا دَانِيَةٞ  <span>ﰖ</span>  ",
+              "ayah_ids": [
+                5346
+              ],
+              "ayah_to_number": null
+            },
+            {
+              "info": {
+                "id": 5977,
+                "number": 10,
+                "text": "﻿فِي جَنَّةٍ عَالِيَةٍ",
+                "font": "page_592",
+                "surah_id": 88,
+                "surah": {
+                  "id": 88,
+                  "name": "سورة الغاشية",
+                  "coded_name": "ﰅ",
+                  "translated_name": "{\"ar\":\"\\u0627\\u0644\\u063a\\u0627\\u0634\\u064a\\u0629\\r\\n\",\"en\":\"Al-Ghashiyah \",\"bn\":\"\\u0986\\u09b2-\\u0997\\u09be\\u09b6\\u09bf\\u09df\\u09be\\u09b9\\u09cd\",\"bs\":\"El-Ga\\u0161ije\",\"zh\":\"\\u5927\\u707e\\u7ae0\\r\\n\",\"de\":\"Al-\\u011e\\u0101\\u0161iya - Die \\u00dcberdeckende\\r\\n\",\"es\":\"El D\\u00eda Angustiante\\r\\n\",\"fa\":\"\\u063a\\u0627\\u0634\\u06cc\\u0647\",\"fr\":\"L'enveloppante\",\"ha\":\"Al-Ghashiyah\",\"id\":\"Surah Al-Ghaasyiah\\u00a0(Peristiwa Menggelisahkan\\/Hari Pembalasan)\",\"ml\":\"\\u0d17\\u0d3e\\u0d37\\u0d3f\\u0d2f\",\"pt\":\"O Evento Assolador\",\"ru\":\"\\u041f\\u043e\\u043a\\u0440\\u044b\\u0432\\u0430\\u044e\\u0449\\u0435\\u0435(\\u0410\\u043b-\\u0413\\u0430\\u0448\\u0438\\u044f)\\r\\n\",\"sw\":\"Al-Ghashiyah\",\"tg\":\"\\u0492\\u041e\\u0428\\u0418\\u042f\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e31\\u0e25-\\u0e06\\u0e2d\\u0e0a\\u0e34\\u0e22\\u0e30\\u0e2e\\u0e3a\",\"tl\":\"Ang Nakapananaig\",\"tr\":\"Ga\\u015fiye Suresi\\r\\n\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u063a\\u0627\\u0634\\u0649\\u064a\\u06d5\",\"ur\":\"\\u063a\\u0627\\u0634\\u06cc\\u06c1\\n\"}",
+                  "number_of_ayahs": 26,
+                  "revelation_type": "meccan",
+                  "first_page": 592,
+                  "last_page": 593,
+                  "first_juz": 30
+                },
+                "juz": 30,
+                "hizb": 237,
+                "page_number": 592,
+                "marker": "ﮪ"
+              },
+              "text": "فِي جَنَّةٍ عَالِيَةٖ  <span>ﰉ</span>  ",
+              "ayah_ids": [
+                5977
+              ],
+              "ayah_to_number": null
+            },
+            {
+              "info": {
+                "id": 5978,
+                "number": 11,
+                "text": "﻿لَا تَسْمَعُ فِيهَا لَاغِيَةً",
+                "font": "page_592",
+                "surah_id": 88,
+                "surah": {
+                  "id": 88,
+                  "name": "سورة الغاشية",
+                  "coded_name": "ﰅ",
+                  "translated_name": "{\"ar\":\"\\u0627\\u0644\\u063a\\u0627\\u0634\\u064a\\u0629\\r\\n\",\"en\":\"Al-Ghashiyah \",\"bn\":\"\\u0986\\u09b2-\\u0997\\u09be\\u09b6\\u09bf\\u09df\\u09be\\u09b9\\u09cd\",\"bs\":\"El-Ga\\u0161ije\",\"zh\":\"\\u5927\\u707e\\u7ae0\\r\\n\",\"de\":\"Al-\\u011e\\u0101\\u0161iya - Die \\u00dcberdeckende\\r\\n\",\"es\":\"El D\\u00eda Angustiante\\r\\n\",\"fa\":\"\\u063a\\u0627\\u0634\\u06cc\\u0647\",\"fr\":\"L'enveloppante\",\"ha\":\"Al-Ghashiyah\",\"id\":\"Surah Al-Ghaasyiah\\u00a0(Peristiwa Menggelisahkan\\/Hari Pembalasan)\",\"ml\":\"\\u0d17\\u0d3e\\u0d37\\u0d3f\\u0d2f\",\"pt\":\"O Evento Assolador\",\"ru\":\"\\u041f\\u043e\\u043a\\u0440\\u044b\\u0432\\u0430\\u044e\\u0449\\u0435\\u0435(\\u0410\\u043b-\\u0413\\u0430\\u0448\\u0438\\u044f)\\r\\n\",\"sw\":\"Al-Ghashiyah\",\"tg\":\"\\u0492\\u041e\\u0428\\u0418\\u042f\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e31\\u0e25-\\u0e06\\u0e2d\\u0e0a\\u0e34\\u0e22\\u0e30\\u0e2e\\u0e3a\",\"tl\":\"Ang Nakapananaig\",\"tr\":\"Ga\\u015fiye Suresi\\r\\n\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u063a\\u0627\\u0634\\u0649\\u064a\\u06d5\",\"ur\":\"\\u063a\\u0627\\u0634\\u06cc\\u06c1\\n\"}",
+                  "number_of_ayahs": 26,
+                  "revelation_type": "meccan",
+                  "first_page": 592,
+                  "last_page": 593,
+                  "first_juz": 30
+                },
+                "juz": 30,
+                "hizb": 237,
+                "page_number": 592,
+                "marker": "ﮯ"
+              },
+              "text": "لَّا تَسۡمَعُ فِيهَا لَٰغِيَةٗ  <span>ﰊ</span>  ",
+              "ayah_ids": [
+                5978
+              ],
+              "ayah_to_number": null
+            }
+          ],
+          "websites": []
+        }
+      ]
+    },
+    {
+      "surah": 88,
+      "ayah": 11,
+      "similar": [
+        {
+          "notes": "قل: من المواضع المتشابهة، الآية التي بعد (في جنة عالية) \nمن سورة الحاقة والغاشية:\nقال تعالى: (فِي جَنَّةٍ عَالِيَةٍ (23) قُطُوفُهَا دَانِيَةٌ) الحاقة: 23-22.\nمع قوله تعالى: (فِي جَنَّةٍ عَالِيَةٍ (10) لَّا تَسْمَعُ فِيهَا لَاغِيَةً) الغاشية:10-11.\nفاجمع الحرف الأول من (قطوفها)، والأول من (لا تسمع)، يخرج عندك (قل)، ولا شك أن هذا مما يعين على الضبط.",
+          "images": [
+            {
+              "id": 21155,
+              "name": null,
+              "file_name": "attachments/images/zRscnBxMYd7ph6NoFfbtfaeQ73LLn2a9Zyfepvfj.JPG",
+              "part": null,
+              "attachment_type_id": 3,
+              "attachmentable_id": 672,
+              "attachmentable_type": "App\\Models\\Note",
+              "downloads": 0,
+              "status": null,
+              "created_at": "2020-06-15T12:46:30.000000Z",
+              "updated_at": "2020-06-15T12:46:30.000000Z",
+              "deleted_at": null
+            }
+          ],
+          "youtube": [],
+          "ayahs": [
+            {
+              "info": {
+                "id": 5345,
+                "number": 22,
+                "text": "﻿فِي جَنَّةٍ عَالِيَةٍ",
+                "font": "page_567",
+                "surah_id": 69,
+                "surah": {
+                  "id": 69,
+                  "name": "سورة الحاقة",
+                  "coded_name": "ﯲ",
+                  "translated_name": "{\"ar\":\"\\u0627\\u0644\\u062d\\u0627\\u0642\\u0629\\r\\n\",\"en\":\"Al-Haqqah \",\"bn\":\"\\u0986\\u09b2-\\u09b9\\u09be\\u0995\\u09cd\\u0995\\u09be\\u09b9\\u09cd\",\"bs\":\"El-Hakka\",\"zh\":\"\\u771f\\u707e\\u7ae0\\r\\n\",\"de\":\"Al-H\\u0101qqa - Die f\\u00e4llig Werdende\",\"es\":\"La Verdad Inevitable\\r\\n\",\"fa\":\"\\u062d\\u0627\\u0642\\u0647\",\"fr\":\"Celle qui montre la v\\u00e9rit\\u00e9\",\"ha\":\"Al-Hakkah\",\"id\":\"Surah Al-Haaqqah\\u00a0(Keadaan Sebenar \\/ Hari Kiamat)\",\"ml\":\"\\u0d39\\u0d3e\\u0d16\",\"pt\":\"A Realidade\",\"ru\":\"\\u041d\\u0435\\u0438\\u0437\\u0431\\u0435\\u0436\\u043d\\u043e\\u0435 (\\u0410\\u043b-\\u0425\\u0430\\u0430\\u043a\\u043a\\u0430\\u0445)\\r\\n\",\"sw\":\"Al-Hakkah\",\"tg\":\"\\u04b2\\u041e\\u049a\\u049a\\u0410\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e31\\u0e25-\\u0e2b\\u0e4a\\u0e32\\u0e01\\u0e40\\u0e01\\u0e32\\u0e30\\u0e2e\\u0e3a\",\"tl\":\"Ang Tiyak na Mangyayari\",\"tr\":\"Hakka Suresi\\r\\n\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u06be\\u0627\\u0642\\u0642\\u06d5\",\"ur\":\"\\u062d\\u0627\\u0642\\u06c1\\n\"}",
+                  "number_of_ayahs": 52,
+                  "revelation_type": "meccan",
+                  "first_page": 566,
+                  "last_page": 568,
+                  "first_juz": 29
+                },
+                "juz": 29,
+                "hizb": 227,
+                "page_number": 567,
+                "marker": "ﮰ"
+              },
+              "text": "فِي جَنَّةٍ عَالِيَةٖ  <span>ﰕ</span>  ",
+              "ayah_ids": [
+                5345
+              ],
+              "ayah_to_number": null
+            },
+            {
+              "info": {
+                "id": 5346,
+                "number": 23,
+                "text": "﻿قُطُوفُهَا دَانِيَةٌ",
+                "font": "page_567",
+                "surah_id": 69,
+                "surah": {
+                  "id": 69,
+                  "name": "سورة الحاقة",
+                  "coded_name": "ﯲ",
+                  "translated_name": "{\"ar\":\"\\u0627\\u0644\\u062d\\u0627\\u0642\\u0629\\r\\n\",\"en\":\"Al-Haqqah \",\"bn\":\"\\u0986\\u09b2-\\u09b9\\u09be\\u0995\\u09cd\\u0995\\u09be\\u09b9\\u09cd\",\"bs\":\"El-Hakka\",\"zh\":\"\\u771f\\u707e\\u7ae0\\r\\n\",\"de\":\"Al-H\\u0101qqa - Die f\\u00e4llig Werdende\",\"es\":\"La Verdad Inevitable\\r\\n\",\"fa\":\"\\u062d\\u0627\\u0642\\u0647\",\"fr\":\"Celle qui montre la v\\u00e9rit\\u00e9\",\"ha\":\"Al-Hakkah\",\"id\":\"Surah Al-Haaqqah\\u00a0(Keadaan Sebenar \\/ Hari Kiamat)\",\"ml\":\"\\u0d39\\u0d3e\\u0d16\",\"pt\":\"A Realidade\",\"ru\":\"\\u041d\\u0435\\u0438\\u0437\\u0431\\u0435\\u0436\\u043d\\u043e\\u0435 (\\u0410\\u043b-\\u0425\\u0430\\u0430\\u043a\\u043a\\u0430\\u0445)\\r\\n\",\"sw\":\"Al-Hakkah\",\"tg\":\"\\u04b2\\u041e\\u049a\\u049a\\u0410\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e31\\u0e25-\\u0e2b\\u0e4a\\u0e32\\u0e01\\u0e40\\u0e01\\u0e32\\u0e30\\u0e2e\\u0e3a\",\"tl\":\"Ang Tiyak na Mangyayari\",\"tr\":\"Hakka Suresi\\r\\n\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u06be\\u0627\\u0642\\u0642\\u06d5\",\"ur\":\"\\u062d\\u0627\\u0642\\u06c1\\n\"}",
+                  "number_of_ayahs": 52,
+                  "revelation_type": "meccan",
+                  "first_page": 566,
+                  "last_page": 568,
+                  "first_juz": 29
+                },
+                "juz": 29,
+                "hizb": 227,
+                "page_number": 567,
+                "marker": "ﯔ"
+              },
+              "text": "قُطُوفُهَا دَانِيَةٞ  <span>ﰖ</span>  ",
+              "ayah_ids": [
+                5346
+              ],
+              "ayah_to_number": null
+            },
+            {
+              "info": {
+                "id": 5977,
+                "number": 10,
+                "text": "﻿فِي جَنَّةٍ عَالِيَةٍ",
+                "font": "page_592",
+                "surah_id": 88,
+                "surah": {
+                  "id": 88,
+                  "name": "سورة الغاشية",
+                  "coded_name": "ﰅ",
+                  "translated_name": "{\"ar\":\"\\u0627\\u0644\\u063a\\u0627\\u0634\\u064a\\u0629\\r\\n\",\"en\":\"Al-Ghashiyah \",\"bn\":\"\\u0986\\u09b2-\\u0997\\u09be\\u09b6\\u09bf\\u09df\\u09be\\u09b9\\u09cd\",\"bs\":\"El-Ga\\u0161ije\",\"zh\":\"\\u5927\\u707e\\u7ae0\\r\\n\",\"de\":\"Al-\\u011e\\u0101\\u0161iya - Die \\u00dcberdeckende\\r\\n\",\"es\":\"El D\\u00eda Angustiante\\r\\n\",\"fa\":\"\\u063a\\u0627\\u0634\\u06cc\\u0647\",\"fr\":\"L'enveloppante\",\"ha\":\"Al-Ghashiyah\",\"id\":\"Surah Al-Ghaasyiah\\u00a0(Peristiwa Menggelisahkan\\/Hari Pembalasan)\",\"ml\":\"\\u0d17\\u0d3e\\u0d37\\u0d3f\\u0d2f\",\"pt\":\"O Evento Assolador\",\"ru\":\"\\u041f\\u043e\\u043a\\u0440\\u044b\\u0432\\u0430\\u044e\\u0449\\u0435\\u0435(\\u0410\\u043b-\\u0413\\u0430\\u0448\\u0438\\u044f)\\r\\n\",\"sw\":\"Al-Ghashiyah\",\"tg\":\"\\u0492\\u041e\\u0428\\u0418\\u042f\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e31\\u0e25-\\u0e06\\u0e2d\\u0e0a\\u0e34\\u0e22\\u0e30\\u0e2e\\u0e3a\",\"tl\":\"Ang Nakapananaig\",\"tr\":\"Ga\\u015fiye Suresi\\r\\n\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u063a\\u0627\\u0634\\u0649\\u064a\\u06d5\",\"ur\":\"\\u063a\\u0627\\u0634\\u06cc\\u06c1\\n\"}",
+                  "number_of_ayahs": 26,
+                  "revelation_type": "meccan",
+                  "first_page": 592,
+                  "last_page": 593,
+                  "first_juz": 30
+                },
+                "juz": 30,
+                "hizb": 237,
+                "page_number": 592,
+                "marker": "ﮪ"
+              },
+              "text": "فِي جَنَّةٍ عَالِيَةٖ  <span>ﰉ</span>  ",
+              "ayah_ids": [
+                5977
+              ],
+              "ayah_to_number": null
+            },
+            {
+              "info": {
+                "id": 5978,
+                "number": 11,
+                "text": "﻿لَا تَسْمَعُ فِيهَا لَاغِيَةً",
+                "font": "page_592",
+                "surah_id": 88,
+                "surah": {
+                  "id": 88,
+                  "name": "سورة الغاشية",
+                  "coded_name": "ﰅ",
+                  "translated_name": "{\"ar\":\"\\u0627\\u0644\\u063a\\u0627\\u0634\\u064a\\u0629\\r\\n\",\"en\":\"Al-Ghashiyah \",\"bn\":\"\\u0986\\u09b2-\\u0997\\u09be\\u09b6\\u09bf\\u09df\\u09be\\u09b9\\u09cd\",\"bs\":\"El-Ga\\u0161ije\",\"zh\":\"\\u5927\\u707e\\u7ae0\\r\\n\",\"de\":\"Al-\\u011e\\u0101\\u0161iya - Die \\u00dcberdeckende\\r\\n\",\"es\":\"El D\\u00eda Angustiante\\r\\n\",\"fa\":\"\\u063a\\u0627\\u0634\\u06cc\\u0647\",\"fr\":\"L'enveloppante\",\"ha\":\"Al-Ghashiyah\",\"id\":\"Surah Al-Ghaasyiah\\u00a0(Peristiwa Menggelisahkan\\/Hari Pembalasan)\",\"ml\":\"\\u0d17\\u0d3e\\u0d37\\u0d3f\\u0d2f\",\"pt\":\"O Evento Assolador\",\"ru\":\"\\u041f\\u043e\\u043a\\u0440\\u044b\\u0432\\u0430\\u044e\\u0449\\u0435\\u0435(\\u0410\\u043b-\\u0413\\u0430\\u0448\\u0438\\u044f)\\r\\n\",\"sw\":\"Al-Ghashiyah\",\"tg\":\"\\u0492\\u041e\\u0428\\u0418\\u042f\",\"th\":\"\\u0e2a\\u0e39\\u0e40\\u0e23\\u0e32\\u0e30\\u0e2e\\u0e3a \\u0e2d\\u0e31\\u0e25-\\u0e06\\u0e2d\\u0e0a\\u0e34\\u0e22\\u0e30\\u0e2e\\u0e3a\",\"tl\":\"Ang Nakapananaig\",\"tr\":\"Ga\\u015fiye Suresi\\r\\n\",\"ug\":\"\\u0633\\u06c8\\u0631\\u06d5 \\u063a\\u0627\\u0634\\u0649\\u064a\\u06d5\",\"ur\":\"\\u063a\\u0627\\u0634\\u06cc\\u06c1\\n\"}",
+                  "number_of_ayahs": 26,
+                  "revelation_type": "meccan",
+                  "first_page": 592,
+                  "last_page": 593,
+                  "first_juz": 30
+                },
+                "juz": 30,
+                "hizb": 237,
+                "page_number": 592,
+                "marker": "ﮯ"
+              },
+              "text": "لَّا تَسۡمَعُ فِيهَا لَٰغِيَةٗ  <span>ﰊ</span>  ",
+              "ayah_ids": [
+                5978
+              ],
+              "ayah_to_number": null
+            }
+          ],
+          "websites": []
+        }
+      ]
+    }
+  ]
+}
